@@ -1,0 +1,1 @@
+Es un input de html basico para olocar informacion

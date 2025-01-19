@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"8d2f1f243d9935c1","type":"text","text":"Logica de compra","x":-245,"y":-124,"width":250,"height":60},
+		{"id":"49a5d302ddb8f270","x":124,"y":-320,"width":356,"height":153,"type":"text","text":"Genera una nueva compra con coste total de todo y la fecha mas el  di"},
+		{"id":"71f25a8f57cec9bd","x":124,"y":40,"width":556,"height":280,"type":"text","text":"En el form debe mostrar\nlos productos elejidos con su precio indivual\ny su cantidad y su total indivual y la suma de todos los totales completo\n\n\n\n"},
+		{"id":"8899fb6257eabdec","x":108,"y":-124,"width":452,"height":124,"type":"text","text":"Genera todos los detalles producto con su precio de ese mismo dia con su total indiviudal y cantidadd con el id de la comrpa que pertenece y el id del produco que se haga mas la cantidad de cada producto pedido"}
+	],
+	"edges":[]
+}
