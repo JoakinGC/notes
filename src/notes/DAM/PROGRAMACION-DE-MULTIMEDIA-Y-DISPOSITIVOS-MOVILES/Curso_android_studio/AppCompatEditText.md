@@ -1,0 +1,1 @@
+Componte parecido a [[editText]], cuenta con las mismas propiedades 

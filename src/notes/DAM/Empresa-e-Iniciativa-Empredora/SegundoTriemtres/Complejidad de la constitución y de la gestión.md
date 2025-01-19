@@ -1,0 +1,2 @@
+
+Aparte de [[Los criterios para elegir la forma jurídica]] debemos tener en cuenta que existe otros factores como los de los costos que a veces los tramites sale prácticamente gratis, sin necesidad de llamar a una gestora, aparte tenemos que algunas formas jurídicas son obligatorias(Hoteles, agencias de viaje) y que solo tienen una forma, además de que no debemos elegir solo porque uno tiene menos burocracia o no normalmente conduce al fallo.

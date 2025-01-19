@@ -1,0 +1,2 @@
+Cuando ocurren [[Commit]] simultaneos
+

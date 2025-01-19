@@ -1,0 +1,1 @@
+Es un componente que usa para cuando uan [[View]] o vista necesita scroll lo cual si es un elementos muy basico  se usa [[FlatList]] porque consume menos recursos
