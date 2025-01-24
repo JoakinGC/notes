@@ -2,37 +2,26 @@ name: Export Obsidian
 
 on:
   push:
-    branches: [ "master" ]  # O "main", según la rama que uses
+    branches: [ "master" ]  # tu rama
 
 jobs:
   export:
     runs-on: ubuntu-latest
-
     steps:
-      # 1. Descarga tu repositorio (donde está "vault/FEMPA")
       - uses: actions/checkout@v3
 
-      # 2. Descarga el binario precompilado de obsidian-export (v0.6.0 para Linux 64 bits)
       - name: Download obsidian-export
         run: |
-          curl -L \
-            https://github.com/zoni/obsidian-export/releases/download/v0.6.0/obsidian-export_linux_amd64 \
-            -o obsidian-export
+          curl -L https://github.com/zoni/obsidian-export/releases/download/v0.6.0/obsidian-export_linux_amd64 -o obsidian-export
           chmod +x obsidian-export
-          # (Opcional) Verifica que sea un binario ELF y no un archivo HTML
           file obsidian-export
           head -n 5 obsidian-export
 
-      # 3. Ejecuta obsidian-export
       - name: Run obsidian-export
         run: |
           mkdir -p export
-          # Ajusta la ruta de entrada si tu vault se llama diferente
-          # "vault/FEMPA" es la carpeta de entrada
-          # "export" es la carpeta de salida
           ./obsidian-export "vault/FEMPA" "export"
 
-      # 4. (Opcional) Subir la carpeta "export" al mismo repo
       - name: Commit cleaned notes
         run: |
           git config --global user.name "GitHub Action"
