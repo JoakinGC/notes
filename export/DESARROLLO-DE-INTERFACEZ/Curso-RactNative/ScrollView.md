@@ -1,0 +1,1 @@
+Es un componente que usa para cuando uan [View](../../PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/View.md) o vista necesita scroll lo cual si es un elementos muy basico  se usa [FlatList](FlatList.md) porque consume menos recursos
