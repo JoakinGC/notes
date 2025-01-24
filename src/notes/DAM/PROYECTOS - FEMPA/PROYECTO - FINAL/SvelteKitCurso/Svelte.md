@@ -1,1 +1,1 @@
-Svelte es un [[Framework]] y a la vez un compilador directo que NO usa DOM para trasncopilar como [[React]], Vuet.
+Svelte es un [Framework](..\..\..\ACCESO-A-DATOS\Curso-spring\Framework.md) y a la vez un compilador directo que NO usa DOM para trasncopilar como [React](..\..\..\DESARROLLO-DE-INTERFACEZ\Curso_React\React.md), Vuet.

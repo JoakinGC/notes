@@ -1,1 +1,1 @@
-A veces se junt acon departamento [[Comercial]]
+A veces se junt acon departamento *Comercial*

@@ -1,0 +1,1 @@
+datos heterogeneos y homofoecios

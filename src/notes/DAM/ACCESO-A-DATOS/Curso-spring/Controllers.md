@@ -1,8 +1,8 @@
 Los controllers sirven para controlar las direcciones de url y añade una capa mas a nuestro proyecyto de Spring
 
-Ademas utiliza la [[Anotaciones]]  @RestController:
+Ademas utiliza la [Anotaciones](Anotaciones.md)  @RestController:
 
-```java
+````java
 package curso.spring.Curso.controllers;  
   
 import org.springframework.web.bind.annotation.RestController;  
@@ -12,13 +12,11 @@ public class usuarioController {
   
   
 }
-```
-
+````
 
 Metodos que controlan una URL:
 
-
-```java
+````java
 package curso.spring.Curso.controllers;  
   
 import curso.spring.Curso.Models.Usuario;  
@@ -78,9 +76,9 @@ public class usuarioController {
     }  
 }
 
-```
+````
 
 Notaciones:
 
-- @PathVariable: pasar una vairable en la URL
-- @RequestMapping: Buscar el metodo y lo asocia con la ruta de url que le pasamos
+* @PathVariable: pasar una vairable en la URL
+* @RequestMapping: Buscar el metodo y lo asocia con la ruta de url que le pasamos

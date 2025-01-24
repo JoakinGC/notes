@@ -1,4 +1,4 @@
-Es un marco de trabajo en donde aplicamos los patrones de  arquitectura como el [[MVC]]
+Es un marco de trabajo en donde aplicamos los patrones de  arquitectura como el [MVC](MVC.md)
 
 Ejemplos:
 

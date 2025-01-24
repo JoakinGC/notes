@@ -1,1 +1,1 @@
-Compontene parecido a [[Boton]] pero de forma circular
+Compontene parecido a *Boton* pero de forma circular

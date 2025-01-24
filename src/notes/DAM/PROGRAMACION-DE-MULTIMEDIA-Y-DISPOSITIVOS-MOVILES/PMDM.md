@@ -4,20 +4,20 @@
 
 ### Primer Trimestre:
 
-1. [[Kolvin]]
-2. [[Java vs Kolvin]]
-3. [[Variables_kolvinn]]
-4. [[Clase]]
-5. [[DataClass]]
-6. [[Listas]]
-7. [[Sets]]
-8. [[Component]]
-9. [[Metodos]]
-10. [[Init]]
-11. [[Activiti]]
-12. [[Recicly View]]
-13. [[Vistas]]
-14. [[Adapter]]
-15. [[Lista API]]
-16. [[JerarquiDeCarpetas]]
-17. [[AplicacionBasica]]
+1. [Kolvin](Kolvin.md)
+1. [Java vs Kolvin](Java%20vs%20Kolvin.md)
+1. [Variables_kolvinn](Variables_kolvinn.md)
+1. [Clase](Clase.md)
+1. *DataClass*
+1. [Listas](Listas.md)
+1. [Sets](Sets.md)
+1. [Component](Component.md)
+1. [Metodos](Metodos.md)
+1. [Init](Init.md)
+1. [Activiti](Activiti.md)
+1. [Recicly View](Recicly%20View.md)
+1. *Vistas*
+1. [Adapter](Adapter.md)
+1. [Lista API](Lista%20API.md)
+1. [JerarquiDeCarpetas](JerarquiDeCarpetas.md)
+1. [AplicacionBasica](AplicacionBasica.md)

@@ -1,2 +1,1 @@
-Cuando ocurren [[Commit]] simultaneos
-
+Cuando ocurren [Commit](Commit.md) simultaneos

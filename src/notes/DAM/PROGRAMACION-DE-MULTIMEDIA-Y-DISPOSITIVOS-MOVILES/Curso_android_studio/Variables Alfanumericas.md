@@ -1,4 +1,5 @@
-`````Kotlin
+
+````Kotlin
  /**
      * Variables Alfanuméricas
      */
@@ -21,9 +22,8 @@
     print(stringConcatenada)
     val example123: String = age.toString()
 
-``````
+````
 
 Se puede concatenar con $nombre de variable en strings y igua que tipos numericos ya que los pasa a string
 
-
-[[Booleanos]]
+[Booleanos](Booleanos.md)

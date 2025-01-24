@@ -1,7 +1,6 @@
-Es la mejora de [[FindViewByID]] ya que este tiene el fallo que si en varios [[Activity]] hay el mismo a id se romperá la aplicación y no sabrá cual es cual
+Es la mejora de [FindViewByID](FindViewByID.md) ya que este tiene el fallo que si en varios [Activity](Activity.md) hay el mismo a id se romperá la aplicación y no sabrá cual es cual
 
-
-Primero debemos ir a build.gradle de nuestra [[EstructuraDeUnProyecto]] fuera de app y debemos colocar dentro de androi:
+Primero debemos ir a build.gradle de nuestra [EstructuraDeUnProyecto](EstructuraDeUnProyecto.md) fuera de app y debemos colocar dentro de androi:
 
 ````grandle
 android{
@@ -21,13 +20,11 @@ android{
 
 ````
 
-Comprobar la versión de android studio ([[EstructuraDeUnProyecto]]) y luego sincronizar 
-
+Comprobar la versión de android studio ([EstructuraDeUnProyecto](EstructuraDeUnProyecto.md)) y luego sincronizar
 
 ## ¿Como usarlo?
 
 Creamos una variable llamada binding:
-
 
 ````kotlin
 
@@ -42,12 +39,11 @@ override fun onCreate(savedInstancesState: Bundle?){
 
 }
 
-`````
+````
 
 Inicializamos y en oncreate le colocamos el inflate y luego setContent()
 
 Binding en framgent:
-
 
 ````kotlin
 

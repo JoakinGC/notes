@@ -1,22 +1,22 @@
-El atributo Style permite pasarle un objecto de JavaScript con propiedades css con [[CamelCase]]
+El atributo Style permite pasarle un objecto de JavaScript con propiedades css con *CamelCase*
 
 Ej:
 
-```css
+````css
 background-color:red;
 font-family
-```
+````
 
-en [[JSX]]: 
+en [JSX](JSX.md):
 
-```jsx
+````jsx
 backgroundColor
 fontFamily
-```
+````
 
-Ejeplo de un objecto en [[JSX]] con estilos:
+Ejeplo de un objecto en [JSX](JSX.md) con estilos:
 
-```jsx
+````jsx
 //DEfiniendo el estilo
 const estiloDiv = {
 	color:'yellow',
@@ -29,7 +29,6 @@ const estiloDiv = {
 
 //Usar estilo especifico:
 <div style={/*Aqui va JS*/{/*El objecto con estilos*/color: 'yellow'}}>¡Hola ,Mundo!<div>
-```
+````
 
-
-El style forma parte de los [[Atributos React]]
+El style forma parte de los [Atributos React](Atributos%20React.md)

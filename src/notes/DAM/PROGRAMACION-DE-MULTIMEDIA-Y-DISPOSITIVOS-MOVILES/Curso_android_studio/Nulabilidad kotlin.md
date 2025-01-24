@@ -1,4 +1,4 @@
-En Android o kotlin las variables pueden ser  [[Null]]
+En Android o kotlin las variables pueden ser  *Null*
 
 No se puede asignar una variable null:
 

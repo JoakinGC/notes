@@ -2,15 +2,15 @@ Son un nodo o unidad basica que cuenta con enrtadas y este devuelve un resultado
 
 Tambien llamados Neuronas
 
-Estas se puede relacionar con otras de dos formas![[Estructura-Red-neuronal-Densa-Cuenta-con-la-primera-capa-de-entrada-dos-capas-ocultas.png]]
+Estas se puede relacionar con otras de dos formas![Estructura-Red-neuronal-Densa-Cuenta-con-la-primera-capa-de-entrada-dos-capas-ocultas.png](Estructura-Red-neuronal-Densa-Cuenta-con-la-primera-capa-de-entrada-dos-capas-ocultas.png)
 
 Red neoronal densa con 3 entradas y una salida
-![[neural-net.png]]
+![neural-net.png](neural-net.png)
 Red neuronal simple
 
-
 Ejemplo de red neuronal simple:
-```Python
+
+````Python
 
 import tensorflow as tf
 import numpy as np
@@ -42,9 +42,8 @@ print("El resultado es " + str(resultado) + "fahreint")
 
 print("Variables internas del modelo")
 print(capa.get_weights())
-```
+````
 
-Esto seria un ejemplo básico de una red nerounal basica  
+Esto seria un ejemplo básico de una red nerounal basica
 
 Ahora si usamos mas capas generalmente hace el proceso de nrtenamiento mas rapido pero no necesariamente es siempre asi en ejemplo anteroior se calcula solo con los valores de fareheint y y celsius como ya lo sabemos que muetesre o saque su propio algoritmo para poedr calcularlo
-

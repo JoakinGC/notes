@@ -1,4 +1,4 @@
-Iniciativa para unir emojis con los [[Commit]]
+Iniciativa para unir emojis con los [Commit](Commit.md)
 
 Proporciona una forma fácil de identificarlos
 

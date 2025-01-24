@@ -1,4 +1,4 @@
-[[Variables Kotvin]] solo pueden ser true o false:
+[Variables Kotvin](Variables%20Kotvin.md) solo pueden ser true o false:
 
 ````kotlin
 
@@ -12,7 +12,6 @@
     val booleanExample3 = false
 
 
-`````
+````
 
-
-Funcion [[Print]]
+Funcion [Print](Print.md)

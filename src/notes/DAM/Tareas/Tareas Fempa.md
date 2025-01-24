@@ -1,10 +1,10 @@
+[Indice](..\Indice.md)
 
-[[Indice]]
 # Tareas:
 
 graficas de las tareas
 
 ### Estudio:
 
-- Reat
-- 
+* Reat
+* 

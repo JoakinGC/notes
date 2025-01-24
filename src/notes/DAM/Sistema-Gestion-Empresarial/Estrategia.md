@@ -1,4 +1,1 @@
-La anera o operacion para llegar a un [[Objectivo]]
-
-
-
+La anera o operacion para llegar a un [Objectivo](Objectivo.md)

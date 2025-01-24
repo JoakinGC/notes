@@ -5,8 +5,8 @@ Vocabulary:
 Close:
 copy:
 cut:
-delete: 
-edit: 
+delete:
+edit:
 open:
 paste:
 redo:

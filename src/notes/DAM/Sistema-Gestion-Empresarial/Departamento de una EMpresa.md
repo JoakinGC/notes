@@ -1,17 +1,17 @@
 # Que es?
 
-
 ### Tipos
-- [[Comercial]]
-- [[IT]]
-- [[Financiero]]
-- [[RRHH]]
-- [[Logistica]]
-- [[Juridico]]
-- [[Compras]]
-- [[Marketing]]
-- [[Cajas]]
-- [[Inovacion]]
+
+* *Comercial*
+* *IT*
+* *Financiero*
+* *RRHH*
+* [Logistica](Logistica.md)
+* *Juridico*
+* [Compras](Compras.md)
+* [Marketing](Marketing.md)
+* [Cajas](Cajas.md)
+* *Inovacion*
 
 ## Estructura
 

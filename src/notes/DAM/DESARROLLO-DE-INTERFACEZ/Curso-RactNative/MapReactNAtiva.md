@@ -1,6 +1,6 @@
 Para usar la funcion de React native se usa la funcion map pero la funcion fecha en debe usar{} se usa ():
 
-```javascript
+````javascript
 return(
 
         <View>
@@ -32,4 +32,4 @@ return(
         </View>
 
     );
-```
+````

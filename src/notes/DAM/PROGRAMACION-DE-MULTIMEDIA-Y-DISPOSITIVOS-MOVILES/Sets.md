@@ -5,15 +5,14 @@ En un conjunto, los elementos no están indexados y no se garantiza un orden esp
 En muchos lenguajes de programación, incluyendo Kotlin, Java, Python y otros, los conjuntos se implementan como colecciones de elementos únicos. Algunas operaciones comunes en un conjunto incluyen:
 
 1. **Agregar un elemento**: Agregar un elemento único al conjunto.
-    
-2. **Eliminar un elemento**: Eliminar un elemento específico del conjunto.
-    
-3. **Verificar la existencia de un elemento**: Comprobar si un elemento está presente en el conjunto.
-    
-4. **Tamaño del conjunto**: Obtener el número de elementos únicos en el conjunto.
-    
-5. **Iterar sobre elementos**: Recorrer los elementos del conjunto (aunque no en un orden específico).
-    
+
+1. **Eliminar un elemento**: Eliminar un elemento específico del conjunto.
+
+1. **Verificar la existencia de un elemento**: Comprobar si un elemento está presente en el conjunto.
+
+1. **Tamaño del conjunto**: Obtener el número de elementos únicos en el conjunto.
+
+1. **Iterar sobre elementos**: Recorrer los elementos del conjunto (aunque no en un orden específico).
 
 Un ejemplo de cómo se puede usar un conjunto en Kotlin:
 

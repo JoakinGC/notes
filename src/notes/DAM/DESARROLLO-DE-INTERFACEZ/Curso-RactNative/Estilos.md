@@ -1,9 +1,8 @@
 Se puede dar estilos con la propiedad style se puede pasar un objecto nuevo ahi mismo con propiedades de csss en camelCase o otro objectivo difnido por nosotrosos
 
-
 Usando StyleSheet:
 
-```javascript
+````javascript
 import { View,Text,StyleSheet } from "react-native";
 import React from "react";
 
@@ -44,12 +43,11 @@ const RepositoryItem =  (props) =>{
 
   
 export default RepositoryItem;
-```
-
+````
 
 Una forma para reutilizar los estilos y crear componentes que generen diseño del mismo y que si queremos que use una propiedad o no se crear componentes pesonalizables:
 
-```javascript
+````javascript
 import React from "react";
 import { Text,View,StyleSheet } from "react-native";
 
@@ -96,11 +94,11 @@ export default function StyleText({blue,bold,children,big,small}){
     );
 
 };
-```
+````
 
 Cone sto definimos diferetes propeidades la propeidad style.text siempre saldra pero si las otras no son agregadas entonces no se agregaran:
 
-```javascript
+````javascript
 import { View,Text,StyleSheet } from "react-native";
 import React from "react";
 import StyleText from "./StyleText";
@@ -143,10 +141,9 @@ const RepositoryItem =  (props) =>{
   
 
 export default RepositoryItem;
-```
-
+````
 
 Para darle borde a un elemento se usa:
 
 1. overFlow: hide
-2. y despues borderRadius
+1. y despues borderRadius

@@ -4,7 +4,7 @@ Ej:
 
 Sin flalist:
 
-```javascript
+````javascript
 const RepositoryList = () =>{
 
     return(
@@ -40,11 +40,11 @@ const RepositoryList = () =>{
     );
 
 };
-```
+````
 
 Con flat list:
 
-```javascript
+````javascript
 const RepositoryList = () =>{
 
     return(
@@ -68,4 +68,4 @@ const RepositoryList = () =>{
         </FlatList>
         );
 	};
-```
+````

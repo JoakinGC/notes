@@ -6,16 +6,15 @@
 
 ### Primer Trimestre:
 
-1. [[Acceso a ficheros]].
+1. [Acceso a ficheros](Acceso%20a%20ficheros.md).
 
 ### Segundo Trimestre:
 
-1. [[Acceso a Bases de Datos Relacionales]].
-2. [[Mapeo Objeto-Relacional. Hibernate]].
-3. [[Acceso a Bases de Datos NoSQL. MongoDB]].
-4. [[Creación de servicios web. Spring]].
-5. [[Despliegue de servicios web]].
-6. [[Creación de una API]].
+1. *Acceso a Bases de Datos Relacionales*.
+1. *Mapeo Objeto-Relacional. Hibernate*.
+1. *Acceso a Bases de Datos NoSQL. MongoDB*.
+1. *Creación de servicios web. Spring*.
+1. *Despliegue de servicios web*.
+1. *Creación de una API*.
 
-
-#Acceso_a_datos
+\#Acceso_a_datos

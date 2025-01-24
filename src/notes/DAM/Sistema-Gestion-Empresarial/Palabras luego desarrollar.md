@@ -1,5 +1,4 @@
-[[Trazabilidad]]
-
+*Trazabilidad*
 
 EAN13
 QR

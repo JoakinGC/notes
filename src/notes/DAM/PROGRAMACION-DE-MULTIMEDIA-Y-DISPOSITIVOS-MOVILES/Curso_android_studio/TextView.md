@@ -8,9 +8,9 @@ android:layout_gravity="center"
 
 Otras propiedades:
 
-- android:textSize:Tamaño de la letra Se puede colcoar dos valores a la vez ej: "top|center"
-- android:text: El texto que contiene
-- andorsStyle: el tipo de letra cursiva o demás
+* android:textSize:Tamaño de la letra Se puede colcoar dos valores a la vez ej: "top|center"
+* android:text: El texto que contiene
+* andorsStyle: el tipo de letra cursiva o demás
 
 Dependiendo del componete padre que sea ya sea  FremeLayout, innerLayout o contraint Layout capa componete tendra diferentes formas de centrarlo lo recomendado es mejor usar contrsinaLayout
 
@@ -36,6 +36,4 @@ Si lo que queremos es que no se muestre el contenido del texto usamos tools:
 </FrameLayout>
 ````
 
-
 En el código de la activyty podemos usar nombreDeTextView.text = "Texto que queramos"
-

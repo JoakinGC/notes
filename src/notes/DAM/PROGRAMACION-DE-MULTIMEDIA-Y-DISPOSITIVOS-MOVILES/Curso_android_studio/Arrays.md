@@ -1,6 +1,5 @@
-
-Las arrays son secuencias de datos, sabiendo las [[Variables Kotvin]] , [[Variables Alfanumericas]]
- y [[Nulabilidad kotlin]]
+Las arrays son secuencias de datos, sabiendo las [Variables Kotvin](Variables%20Kotvin.md) , [Variables Alfanumericas](Variables%20Alfanumericas.md)
+y [Nulabilidad kotlin](Nulabilidad%20kotlin.md)
 
 ````kotlin
 
@@ -58,7 +57,6 @@ La posición 4, contiene Viernes
 La posición 5, contiene Sabado
 La posición 6, contiene Domingo
 
-
 Si solo nos interesa el valor:
 
 ````kotlin
@@ -69,4 +67,4 @@ for(weekDay in weekDays){
 
 ````
 
-Los arrays son muy buenos pero tiene muchas restricciones que no permiten mucha flexibildiad por eso se crearon las [[Listas kotvin]]
+Los arrays son muy buenos pero tiene muchas restricciones que no permiten mucha flexibildiad por eso se crearon las [Listas kotvin](Listas%20kotvin.md)

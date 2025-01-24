@@ -1,3 +1,3 @@
 Líneas separadas de desarrollo
 
-TU [[Reposotiro Servidor]] y copias y creas una nueva versión
+TU [Reposotiro Servidor](Reposotiro%20Servidor.md) y copias y creas una nueva versión

@@ -2,14 +2,15 @@ Debemos ser muy cuidadosos con esto ya que el uso de un navegador como Google Ch
 
 web gl usa tensoflow
 
-Por eso se creo una funciones ([[tf]])para poder manejar la memoria o los tensores:
+Por eso se creo una funciones ([tf](tf.md))para poder manejar la memoria o los tensores:
 
-- tf.memory().numTensors: Muestra el numero de [[Tensores]] que se usan en nuestro programa
-- .dispose(): Detienen un tensor de tipo inmutable de tipo variable no funciona
-- .tidy(): todos los tensores hecho dentro de este se ejecutan el método dispose() autmaticamnte.
+* tf.memory().numTensors: Muestra el numero de [Tensores](Tensores.md) que se usan en nuestro programa
+* .dispose(): Detienen un tensor de tipo inmutable de tipo variable no funciona
+* .tidy(): todos los tensores hecho dentro de este se ejecutan el método dispose() autmaticamnte.
 
 Código de ejemplo de uso con una libreria externa:
-```javascript
+
+````javascript
 //Ejemplo de uso de memoria usando  p5 .js
 
     function  draw(){
@@ -79,5 +80,4 @@ Código de ejemplo de uso con una libreria externa:
         console.log(tf.memory().numTensors);
 
     }
-```
-
+````

@@ -1,5 +1,4 @@
-import { BrowserRouter, Route, RouterProvider, Routes } from 'react-router'
-import './App.css'
+import { BrowserRouter, Route,  Routes } from 'react-router'
 import Home from './home'
 
 function App() {

@@ -1,13 +1,10 @@
-Es el que estrae los datos y dice donde van, que se van usar en el [[Recicly View]]
+Es el que estrae los datos y dice donde van, que se van usar en el [Recicly View](Recicly%20View.md)
 
-
-
-Para usarlo extendemos de RecyclerView,Adapter < NombreDeLaClaseHolder>
+Para usarlo extendemos de RecyclerView,Adapter \< NombreDeLaClaseHolder>
 
 Ejemplo:
 
-
-```kotlin
+````kotlin
 package com.example.estudioandroid.todoapp  
   
 import android.view.ViewGroup  
@@ -26,29 +23,28 @@ class CategoryAdapter (private val categies:List<TaskCategory>):RecyclerView.Ada
   
   
 }
-```
+````
 
 Antes de crear viewHolder debemos tener el layout del item
 
 Por lo que debemos crear un xml con el diseño del ítem que va repetir
 
-```kotlin
+````kotlin
 
 override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CatagoryViewholder {  
     val view = LayoutInflater.from(parent.context).inflate(R.layout.item_task_category,parent,false)  
     return CatagoryViewholder(view)  
 }  
-```
+````
 
 En este devemos incializar una view que le pasaremos de parametro a nuestro holder para que la pinte
 
 Layput Infalte busacr xml con item que allamaos creado como estamos en otro contexto no podemos usar this debemos decir contexto padre y R en debe busacr por id buscamos por layout, entrando en el directorio layout y buscando el nombre que le digmos
 
-
-```kotlin
+````kotlin
 override fun onBindViewHolder(holder: CatagoryViewholder, position: Int) {  
     holder.render(categories[position])  
 }
-```
+````
 
-Este recorre dentro de nuestra lista por detrás y ira pintando con la función render que nosotros creamos en nuestro [[holder]]
+Este recorre dentro de nuestra lista por detrás y ira pintando con la función render que nosotros creamos en nuestro [holder](holder.md)

@@ -50,8 +50,7 @@ fun getSemestre(month:Int){
 }
 
 
-`````
-
+````
 
 Any es un clase que sinifica que puede ser cualquiera tipo de dato pero no se puede usar para sumar ya que al no saber que tipo de dato va ahacer no puedes sumar un tru con un true.
 
@@ -65,10 +64,9 @@ fun getSemestre(value:Any){
 	}
 
 }
-`````
+````
 
 Gracias a when podemos controlar el tipo de dato que puede llegar a ser y si es un tipo podemos hacer una cosa o otra
-
 
 ## Guardar un resultado de when en una vairable:
 
@@ -113,4 +111,4 @@ fun getSemestre(month:Int) = when(month){
 
 ````
 
-[[Nulabilidad kotlin]]
+[Nulabilidad kotlin](Nulabilidad%20kotlin.md)

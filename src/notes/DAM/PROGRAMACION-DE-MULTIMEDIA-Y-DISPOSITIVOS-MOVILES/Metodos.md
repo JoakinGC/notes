@@ -1,10 +1,10 @@
 # ¿ Qué son los métodos?
 
-Los métodos son acciones que pueden realizar nuestro [[obejcto ]]que son definidos ya sea en un interfaz o clase o por herencia.
+Los métodos son acciones que pueden realizar nuestro *obejcto*que son definidos ya sea en un interfaz o clase o por herencia.
 
-## Declaración en [[Kolvin]].
+## Declaración en [Kolvin](Kolvin.md).
 
-```
+````
 class Supervisor(var nombre:String, var apellido:String){
 	var nombre:String
 	var apellido: String
@@ -23,4 +23,4 @@ class Supervisor(var nombre:String, var apellido:String){
 	}
 
 }
-```
+````

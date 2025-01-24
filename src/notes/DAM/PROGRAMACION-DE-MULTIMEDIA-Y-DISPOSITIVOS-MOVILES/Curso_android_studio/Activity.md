@@ -1,7 +1,5 @@
 Es el intermediario entre la parte logica y la pantalla que ve el usuario, por cada activty tenemos un xml con su deiseño
 
-
-
 ### ¿Cómo pasar información entre actvity?
 
 Usamos Intent, seguramente allá otra forma la mas básica es con la clase Intent()
@@ -9,7 +7,6 @@ Usamos Intent, seguramente allá otra forma la mas básica es con la clase Inten
 Toma dos valores como parámetro:
 1- El primero es el contexto, osea al activity con el que vamoas a trabajar si se coloca this es en contexto actual de la activyty si se coloca la ruta absolutta de otra activty es otro activty
 2- El segundo parámetro es el actibty que deseamos abrir en pantalla
-
 
 Pero esto solo lo crea debemos llamar a una funcion llamada startActibvty(Content):
 
@@ -77,7 +74,7 @@ class FirstAppActivity : AppCompatActivity() {
 }
 ````
 
-En el segundo activyt podemos acceder al "EXTRANAME" solo con las llaves [posicion] o dicnedo en tipo d dato que debemos recibir pero incluso con esto fallaria ya que no sabemos de ante mano si lo que le pasamos no es null.
+En el segundo activyt podemos acceder al "EXTRANAME" solo con las llaves \[posicion\] o dicnedo en tipo d dato que debemos recibir pero incluso con esto fallaria ya que no sabemos de ante mano si lo que le pasamos no es null.
 
 Entonces usamos:
 
@@ -104,12 +101,9 @@ class ResultActivity : AppCompatActivity() {
 }
 ````
 
-
 Siempre es recomcable crear diferentes funciones para todo lo que hagamos ademas tambien es bueno hacer una funcion que inice todo los componetnet y otras que eschuce los listeners
 
-
 ### ¿Como obtengo el color para cambiar el fondo de un componente ?
-
 
 Se hace con ConxtCompart.getColor(referencia de color) Primero ya deberia tener el color en el xml de colors
 
@@ -134,18 +128,19 @@ viewMale.setOnClickListener{//listener que ejecuta cuando se clickea compente
 
 ### Listeners de algunos de componentes:
 
-Para el compontente de tipo [[RangeSlider]]  usamos el listener:
+Para el compontente de tipo [RangeSlider](RangeSlider.md)  usamos el listener:
 
-- addOnChangeListener{-,value,-} (averiguar ams de ele en futuro): el values el valor edl rango que cambia.
-- setOnClickListener{}: Se usa cualndo se clickea ese componete
-- onBackPressed(): metodode deprecado ya no se usa pero se usa para volver a la pantalla anterior o activity
+* addOnChangeListener{-,value,-} (averiguar ams de ele en futuro): el values el valor edl rango que cambia.
+* setOnClickListener{}: Se usa cualndo se clickea ese componete
+* onBackPressed(): metodode deprecado ya no se usa pero se usa para volver a la pantalla anterior o activity
+
 ### Acceso a diferentes componetens de nuestro xml
 
-Tenemos una funcion basica llamada [[FindViewByID]] pero esta ya esta deprecada ahora se usa [[bind.idCoompete]] que depende de una dependicna para poder funcina pero es mucho mas sencillo y como se usa ahora
+Tenemos una funcion basica llamada [FindViewByID](FindViewByID.md) pero esta ya esta deprecada ahora se usa *bind.idCoompete* que depende de una dependicna para poder funcina pero es mucho mas sencillo y como se usa ahora
 
-Esta te permite entrar en cualquier componete que tenga un id en nuestro xml en el activtyt([[TextView]],[[AppCompatButton]],etc)
+Esta te permite entrar en cualquier componete que tenga un id en nuestro xml en el activtyt([TextView](TextView.md),[AppCompatButton](AppCompatButton.md),etc)
 
-La forma de entrar a nuestro xml que contiene las string que usamos en nuestro activtuy (explicado en [[EstructuraDeUnProyecto]]) es con el metodo:
+La forma de entrar a nuestro xml que contiene las string que usamos en nuestro activtuy (explicado en [EstructuraDeUnProyecto](EstructuraDeUnProyecto.md)) es con el metodo:
 
 ````kotlin
 
@@ -156,7 +151,6 @@ tvIbm.text = getString(R.string.error)//Se puede usar para msotrar un error
 
 ````
 
-
 ## ¿Que sigue?
 
-Pues depesue entendeor lo basico hay que mejorar y sar a depndencia ademas de que empezar a cargar [[Listas]]  usando [[Recicly View]]
+Pues depesue entendeor lo basico hay que mejorar y sar a depndencia ademas de que empezar a cargar [Listas](..\Listas.md)  usando [Recicly View](..\Recicly%20View.md)

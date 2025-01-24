@@ -1,2 +1,1 @@
-Forma de pasar datos mas moderna y ligera que el [[ACCESO-A-DATOS/Curso-spring/XML|XML]]
-
+Forma de pasar datos mas moderna y ligera que el [XML](XML.md)

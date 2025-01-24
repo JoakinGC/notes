@@ -8,7 +8,6 @@ Application Context
 
 Spirng ofrce varias herramientas:
 
-- Springf framework
-- Spring boot
-- Spring API
-
+* Springf framework
+* Spring boot
+* Spring API

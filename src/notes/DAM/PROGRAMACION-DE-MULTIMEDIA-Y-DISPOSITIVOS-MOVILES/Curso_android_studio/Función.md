@@ -1,20 +1,19 @@
 Una función es un contenedor de operaciones.
 
-Tenemos funciones que ya vienen de ante mano en [[Kolvin]] algunas de ellas son:
+Tenemos funciones que ya vienen de ante mano en [Kolvin](..\Kolvin.md) algunas de ellas son:
 
-- [[Print]]
-- [[ToString]]
-- [[main()]]
+* [Print](Print.md)
+* *ToString*
+* *main()*
 
-
-Y después la que podemos crear dentro de una clase de kotvin 
+Y después la que podemos crear dentro de una clase de kotvin
 
 ````kotlin
 fun nombreDeFuncion( para1:String,  para2:Int){
 	//Alcance y desarrollo de operaciones
 }
 
-`````
+````
 
 Los parámetros o variables que creamos dentro de una función solo puede quedar ahí dentro salvo que lo coloquemos como una propiedad de la clase que contiene esa función y el main que llama a la funcion.
 
@@ -34,14 +33,11 @@ class Pepe(){
 
 }
 
-`````
-
+````
 
 ### Tipos de Funciones:
 
-
 Tenemos funciones con parametros normales, una funcion con parametros de salida y mixtas:.
-
 
 ````kotlin
 // funcion de salida
@@ -66,7 +62,6 @@ fun salida ( nom:String):String{
 	return mensaje
 }
 
-`````
+````
 
-
-[[When]]
+[When](When.md)

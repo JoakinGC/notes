@@ -1,8 +1,8 @@
-Podemos usar [[tf]]  para crear tensores por defecto una vez asignado estos no cambian de valor en nuestro codigo
+Podemos usar [tf](tf.md)  para crear tensores por defecto una vez asignado estos no cambian de valor en nuestro codigo
 
 Pero tambien tenemos una variante que es costosa en cuanto recrusos lo mejor es que sea fija pero se puede usar:
 
-```javascript
+````javascript
 const tens = tf.tensor3d(val,[5,3,2],"int32"); //un tensor inmutable que no cambia
 
  ens.print();
@@ -15,5 +15,4 @@ x.assign(tf.tensor([4,5,6]));
 //Es mas costoso en cuanto recursos los vaiable
 
 x.print();
-```
-
+````

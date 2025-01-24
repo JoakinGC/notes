@@ -1,9 +1,8 @@
+Para acceder a un tensor creado por el mudolo de [tf](tf.md) tenemos el método:
 
+* .data(): Este devuelve una promesa por lo debemos usar los metodos de la asincorniaz de js para poder usarlo ej:
 
-Para acceder a un tensor creado por el mudolo de [[tf]] tenemos el método:
-
-- .data(): Este devuelve una promesa por lo debemos usar los metodos de la asincorniaz de js para poder usarlo ej:
-```javascript
+````javascript
 const val = [];
 
 for(i = 0;i<30;i++){
@@ -32,4 +31,4 @@ console.log(
 tens
 .data()
 .then(res => console.log(res[2]));
-```
+````

@@ -4,7 +4,7 @@ Para poder renderizar un elemento se usa:
 
 Para renderizar un elemento padre se usa el:
 
-```jsx
+````jsx
 import ReactDom from 'react-dom';//importacion de React DOM siempre para renderizar
 
 const elemento = <h1>Hola</h1>;//elemento
@@ -14,4 +14,4 @@ ReactDOM.render(
 	document.getElementById('root')
 );
 	  
-```
+````

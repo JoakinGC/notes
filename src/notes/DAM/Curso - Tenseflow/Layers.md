@@ -10,7 +10,8 @@ Por detrás tenemos diferentes números de redes neuronales para poder trabajar 
 la ultima de salida que son los valores que devuelve
 
 Ejemplo en código de entrada:
-```javascript
+
+````javascript
 const modelo = tf.sequencial();//Declaramos neustro modelo        
 
 //Entrada de 4 nodos con 2 entradas(inputs) y activacion sigmod
@@ -21,11 +22,11 @@ const oculta = tf.layers.dense({
 });
 
 modelo.add(oculta);//agregamos la entrada a nuestro modelo
-```
+````
 
 Código de salida:
 
-```javascript
+````javascript
 //Salida
 const salida = tf.layers.dense({
 	units:1,
@@ -34,11 +35,11 @@ const salida = tf.layers.dense({
 });
 
 modelo.add(salida);//agregamos la salida a nuestro modelo
-```
+````
 
 Con esto tenemos agregado todo a nuestro modelo con 2 input y cuatro de salida, pero hace falta un optimizar para poder ayudar el desempeño de nuestro modelo:
 
-```javascript
+````javascript
 //Optimizador
 const sgdOpciones = tf.train.sgd(0.1);
 
@@ -46,12 +47,13 @@ modelo.compile({
 	optimizer:sgdOpciones,
 	loss:tf.losses.meanSquaredError
 });
-```
+````
 
 Hay mas opciones de nosotros usamos sgd y le pasamos a nuestro modelo una funcion de perdida
 
 Quedando con todo el codigo asi:
-```javascript
+
+````javascript
 const modelo = tf.sequencial();//Declaramos neustro modelo        
 
 //Entrada de 4 nodos con 2 entradas(inputs) y activacion sigmod
@@ -80,11 +82,11 @@ modelo.compile({
 	loss:tf.losses.meanSquaredError
 });
 
-```
+````
 
-Pero esto no es suficiente ya que no le pasamos datos para que muestre algo, usando [[Tensores]]  pasamos datos de entrada y datos que no estan completos peor basandose en el primer tensor puede sacar el segundo tensor:
+Pero esto no es suficiente ya que no le pasamos datos para que muestre algo, usando [Tensores](Tensores.md)  pasamos datos de entrada y datos que no estan completos peor basandose en el primer tensor puede sacar el segundo tensor:
 
-```javascript
+````javascript
 //Cracion de datos que conocemos:
 const x1 = tf.tensor2d([
 	[0,0],
@@ -112,4 +114,4 @@ intento()
 	const salida = modelo.predict(x1);
 	salida.print();
 });
-```
+````

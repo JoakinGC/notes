@@ -1,7 +1,5 @@
 
-
-
-`````Kotlin
+````Kotlin
 
 
 /**
@@ -39,6 +37,6 @@
 
     var exampleSuma = age + floatExample
 
-`````
+````
 
-[[Variables Alfanumericas]]
+[Variables Alfanumericas](Variables%20Alfanumericas.md)

@@ -1,27 +1,26 @@
 Es una lbireria gratuita que ayuda crear formularios facilmente
 
-Formik se importa 
+Formik se importa
 
 primero debemos decirle nuestro valores iniciales:
 
-```javascript
+````javascript
 
 const initialValues = {
     email:'',
     password:''
 };
-```
-
+````
 
 Importamos Formik después de instalarlo en nuestro proyecto con NPM
 
-```javascript
+````javascript
 import {Formik} from 'formik';
-```
+````
 
 Nosotros no podemos usar muchos componentes que ya viene  en base en Formik por qué te falla al hechos con HTML pero si podemos usar la forma de gestion por detras que tiene formik para usarlo en React Native:
 
-```javascript
+````javascript
 import React from "react";
 import {Formik} from 'formik';
 import {  Button, View,StyleSheet } from "react-native";
@@ -65,8 +64,8 @@ const styles = StyleSheet.create({
        margin:12
     }
 });
-```
+````
 
-Creamos un componente personalizado que adentro contiene estilos nuestro y input, además colocamos Formik y dentro del mismo devolvemos una función con todo el cuerpo de nuestro formulario ya que antes de los [[Hooks]]  se realiza de esta manera.
+Creamos un componente personalizado que adentro contiene estilos nuestro y input, además colocamos Formik y dentro del mismo devolvemos una función con todo el cuerpo de nuestro formulario ya que antes de los [Hooks](..\Curso_React\Hooks.md)  se realiza de esta manera.
 
-Otras nuevas formas de hacer esto es con hoks nuevo [[useForm]] o para ahorrar rendimiento [[DESARROLLO-DE-INTERFACEZ/Curso_React/useState]].
+Otras nuevas formas de hacer esto es con hoks nuevo *useForm* o para ahorrar rendimiento [DESARROLLO-DE-INTERFACEZ/Curso_React/useState](..\Curso_React\useState.md).

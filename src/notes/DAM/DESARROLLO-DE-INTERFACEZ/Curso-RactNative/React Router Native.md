@@ -1,4 +1,5 @@
-```javascript
+
+````javascript
 //App
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
@@ -42,4 +43,4 @@ const Main = () => {
   
 
 export default Main; // Cambia a export default Main;
-```
+````

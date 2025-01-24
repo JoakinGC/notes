@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"6b27d963784a3762","type":"text","text":"Criterios básicos de Eleccion Juridca","x":-480,"y":-80,"width":250,"height":60},
+		{"id":"a2d379b0f9a4defd","type":"text","text":"Constitucion y gestion","x":-160,"y":-280,"width":250,"height":60},
+		{"id":"16e4c12943d9e384","type":"text","text":"Numero de socios","x":-160,"y":-180,"width":250,"height":60},
+		{"id":"29cbcacaaff894d7","type":"text","text":"Tipo de fiscalia","x":-160,"y":-80,"width":250,"height":60},
+		{"id":"bc4c6b582c3f25d6","type":"text","text":"Responsalidad patrimonial","x":-160,"y":40,"width":250,"height":60},
+		{"id":"8d1b2da4d581a794","type":"text","text":"Capital Social","x":-160,"y":160,"width":250,"height":60},
+		{"id":"615e390f59d1c7f4","x":160,"y":-200,"width":248,"height":50,"type":"text","text":"Unico Socio"},
+		{"id":"7fc74fcc054fc898","x":159,"y":-145,"width":250,"height":50,"type":"text","text":"Varios Promotes"},
+		{"id":"916db400a4ea1077","x":158,"y":-34,"width":250,"height":50,"type":"text","text":"IS"},
+		{"id":"e95539d945d0f68e","type":"text","text":"IRPF","x":160,"y":-84,"width":250,"height":50},
+		{"id":"89e7729f06908ef9","x":158,"y":40,"width":250,"height":60,"type":"text","text":"Responsabilidadad Ilimitada o limitada"},
+		{"id":"22df7c64ef40c65c","x":158,"y":160,"width":250,"height":60,"type":"text","text":"Aportaciones iniciales de capital(capital o bienes)"},
+		{"id":"a96e5573fe940bda","x":158,"y":-280,"width":250,"height":60,"type":"text","text":"Gestion, tramites, costes"}
+	],
+	"edges":[
+		{"id":"a03c9db345cf82fb","fromNode":"6b27d963784a3762","fromSide":"right","toNode":"29cbcacaaff894d7","toSide":"left"},
+		{"id":"34da246ccd9e1d36","fromNode":"6b27d963784a3762","fromSide":"top","toNode":"16e4c12943d9e384","toSide":"left"},
+		{"id":"f596636993b47da6","fromNode":"6b27d963784a3762","fromSide":"top","toNode":"a2d379b0f9a4defd","toSide":"left"},
+		{"id":"b9402746a2e00a9e","fromNode":"6b27d963784a3762","fromSide":"bottom","toNode":"bc4c6b582c3f25d6","toSide":"left"},
+		{"id":"1c7915fd7abe6256","fromNode":"6b27d963784a3762","fromSide":"bottom","toNode":"8d1b2da4d581a794","toSide":"left"},
+		{"id":"ef093ca647fe8c9d","fromNode":"a2d379b0f9a4defd","fromSide":"right","toNode":"a96e5573fe940bda","toSide":"left"},
+		{"id":"d8cfd93a185d2b10","fromNode":"16e4c12943d9e384","fromSide":"right","toNode":"615e390f59d1c7f4","toSide":"left"},
+		{"id":"f7b0e1e6242ca251","fromNode":"16e4c12943d9e384","fromSide":"right","toNode":"7fc74fcc054fc898","toSide":"left"},
+		{"id":"87c831454c36da6e","fromNode":"29cbcacaaff894d7","fromSide":"right","toNode":"e95539d945d0f68e","toSide":"left"},
+		{"id":"cf2f2594260ffd7e","fromNode":"29cbcacaaff894d7","fromSide":"right","toNode":"916db400a4ea1077","toSide":"left"},
+		{"id":"25fee81b30448894","fromNode":"bc4c6b582c3f25d6","fromSide":"right","toNode":"89e7729f06908ef9","toSide":"left"},
+		{"id":"9e264364a890e123","fromNode":"8d1b2da4d581a794","fromSide":"right","toNode":"22df7c64ef40c65c","toSide":"left"}
+	]
+}

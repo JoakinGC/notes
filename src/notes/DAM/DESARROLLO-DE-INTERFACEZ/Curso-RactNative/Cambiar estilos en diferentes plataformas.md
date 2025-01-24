@@ -1,6 +1,6 @@
-Para poedr dar [[Estilos]] en diferentes [[React Router Native]] o rutas se puede usar:
+Para poedr dar [Estilos](Estilos.md) en diferentes [React Router Native](React%20Router%20Native.md) o rutas se puede usar:
 
-```javascript
+````javascript
 import { Platform } from "react-native";
 
   
@@ -36,17 +36,15 @@ const theme = {
 
 
 export default theme;
-```
+````
 
 En el theme en Reac Native viene por defecto Platfom que es un objeto que guarda en que sistema estamos actualmente.
-
 
 Ahora imaginemos que tenemos un nav bar que contiene varias opciones y queremos que su diseño sea diferentes en casi todo en cada plataforma
 
 Podemos hacerlo y tambien dar uno por defecto creando componentes específicos para cada uno y usando Plataform de React Native podemos conseguirlo:
 
-
-```javascript
+````javascript
 //App bar
 import React from "react";
 import {View,StyleSheet, ScrollView} from 'react-native';
@@ -124,11 +122,11 @@ const styles = StyleSheet.create({
   
 
 export default AppBar;
-```
+````
 
 La unica diferencia que tiene con ANDROIDAppBar es el color por lo que solo podnre esa pequeña diferencia y no todo el código:
 
-```javascript
+````javascript
 //ANDROIDAppBar
 
 
@@ -157,11 +155,11 @@ const styles = StyleSheet.create({
   
 
 export default AppBar;
-```
+````
 
 Quedando en main de las igueitne manera usando Plataform:
 
-```javascript
+````javascript
 import React from "react";
 import { Platform, Text, View } from "react-native";
 import RepositoryList from "./RepositoryList";
@@ -192,4 +190,4 @@ const Main = () => {
 
 
 export default Main; // Cambia a export default Main;
-```
+````

@@ -1,5 +1,5 @@
-Automatixaciojd erecusrsoso o robotizacion 
+Automatixaciojd erecusrsoso o robotizacion
 
-[[Proceso]] 
+*Proceso*
 
-[[Procedimiento]] instrucción  para realizar algo una accion
+*Procedimiento* instrucción  para realizar algo una accion

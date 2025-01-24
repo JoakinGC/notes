@@ -1,10 +1,10 @@
 Objecto de tenseflow que cuenta con varios metodos pero los que veremos son:
 
-- .tensor: Es la manera que tenemos para trabajar con [[Tensores]], el primer argumento es para pasar los datos y dependiendo de cuantas arrays pasamos es nuestra matriz debe ser de la misma dimensión o misma cantidad de elementos si no este fallarra, después tenemos form  o el argumento que le da nuestra forma a nuestro tensor le indicamos o forzamos a nuestros datos a que se muestren de una forma, y el ultimo argumento toma el tipo de dato que queremos guardar pero no son los usados en JS, por ejemplo el valor de entero seria "int32".
+* .tensor: Es la manera que tenemos para trabajar con [Tensores](Tensores.md), el primer argumento es para pasar los datos y dependiendo de cuantas arrays pasamos es nuestra matriz debe ser de la misma dimensión o misma cantidad de elementos si no este fallarra, después tenemos form  o el argumento que le da nuestra forma a nuestro tensor le indicamos o forzamos a nuestros datos a que se muestren de una forma, y el ultimo argumento toma el tipo de dato que queremos guardar pero no son los usados en JS, por ejemplo el valor de entero seria "int32".
 
 ## Ejemplo de Uso:
 
-```JavaScript
+````JavaScript
 //tensor(shape es la dimension denuestro array, typo de array)
 
         tf.tensor([1,2,3,4]).print() // tensor peude recibir valores, formula y tipo;
@@ -31,21 +31,20 @@ Objecto de tenseflow que cuenta con varios metodos pero los que veremos son:
         //tf.tensor([[1,2,3,4,5],[2,2]]) Error ya que le mencionamos en el segundo arrray que es una matriz de 2 x 2 y hay 3 x 2
 
 
-```
+````
 
+* .scalar: Es un numero del 1 al infinito. Solo trabajan con un valor:
 
-- .scalar: Es un numero del 1 al infinito. Solo trabajan con un valor:
-```javascript
+````javascript
 console.log(tf.scalar(3.14));//Se puede usar tambien tensor pero para mas leible se usa scalar para un solo valor
 console.log(tf.tensor(3.14));//Hace lo lo mismo pero mala practica.
-```
-
+````
 
 ## Tensores y sus dimensiones:
 
 Debemos colocar la dimension con la que trabjamao cuando usamos tensores para que sea ñas legible y saber con cual dimension  trabajamos:
 
-```javascript
+````javascript
 //tensores y sus dimensiones:
 
   
@@ -119,6 +118,6 @@ Debemos colocar la dimension con la que trabjamao cuando usamos tensores para qu
   
 
         tf.tensor3d(val,[5,3,2]).print();
-```
+````
 
 El maximo es de 6 dimensiones

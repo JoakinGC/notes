@@ -1,16 +1,12 @@
 Siempre tenemos la vista Android es la mas sencilla
 
-
-
-
 Cuando creamos una aplicación depende de dos partes una visual y tora lógica que es la que interactúa
 
 Una activity es la unión entre la parte lógica y visual
 
-Cuando creamos un nuevo new > activity empty te pregunata el nombre del activty que tiene el nombre y el nombre del [[PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/xml]] te saldrá un campo para clickear llamado lauche app que le decimos a android que es la pantalla principal
+Cuando creamos un nuevo new > activity empty te pregunata el nombre del activty que tiene el nombre y el nombre del [PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/xml](xml.md) te saldrá un campo para clickear llamado lauche app que le decimos a android que es la pantalla principal
 
-
-Una clase es un contenedor de [[Función]]es (es mucho mas obviamente).
+Una clase es un contenedor de [Función](Funci%C3%B3n.md)es (es mucho mas obviamente).
 
 El onCreate es la funciona que siempre se llama al inicio arrancar la pantalla
 
@@ -23,17 +19,15 @@ override fun onCreate(savedInstanceState: Bundle?) {
 }
 ````
 
-Cada activity tiene su función lógica  setContentView es para cargar el diseño que tenemos del xml 
+Cada activity tiene su función lógica  setContentView es para cargar el diseño que tenemos del xml
 
-Siempre el [[PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/xml]] esta en res/layout
+Siempre el [PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/xml](xml.md) esta en res/layout
 
 Podemos configurar nuestro emulador de Android en la esquina superior y te permitirá decirle a Android studio cuanto ram quieres que tenga, espacio interno y dependiendo de la versión de Android y el modelo te dirá si tiene los google service(maps, google, youtube, etc).
 
+Tenemos el [Android Manifest](Android%20Manifest.md)
 
-
-Tenemos el [[Android Manifest]]
-
-Desde el actibuty podemos acceder a cualquier componente del [[PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/xml]]
+Desde el actibuty podemos acceder a cualquier componente del [PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/xml](xml.md)
 
 Ya sea en la función onCreate o onResume() tenemos otros:
 
@@ -84,8 +78,7 @@ class FirstAppActivity : AppCompatActivity() {
 
 ````
 
-Para msotrar el contenido de un [[editText]].
-
+Para msotrar el contenido de un [editText](editText.md).
 
 ````kotlin
 
@@ -117,25 +110,20 @@ class FirstAppActivity : AppCompatActivity() {
 }
 ````
 
-
 En las lista de carpetas el res es la parte de diseño:
 
 Dentro del mismo tenemos values: en values muestra los colores que trabajamos en el .xml podemos agregar ahí todos los colores que queramos usar
 
 Dentro de res también tenemos drawable, este contiene todas las imágenes y debemos cargar las imágenes nuevas ahí cuando queramos agregar una nueva
 
-
 Para formatear el codigo tenemos el atajo ctrl + alt + l
 
-
-En res / values además de los colores tenemos los srings que ahí se coloca todos los strings que se usan nuestro [[TextView]] 
+En res / values además de los colores tenemos los srings que ahí se coloca todos los strings que se usan nuestro [TextView](TextView.md)
 y no usando la propiedad text ya que si tenemos varios strings de diferentes idiomas y seria mas difícil si uso
 
 ### ¿Como comprobar la version de android studio?
 
 Llendo a help>about muestra la version
-
-
 
 ### Controlar los estilos de tu aplicacion y el modo oscuro:
 
