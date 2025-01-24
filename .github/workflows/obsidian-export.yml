@@ -12,25 +12,23 @@ jobs:
       # 1) Descarga el repositorio con tu vault
       - uses: actions/checkout@v3
 
-      # 2) Instala Go (por ejemplo, versión 1.20)
-      - name: Set up Go
-        uses: actions/setup-go@v4
-        with:
-          go-version: '1.20'
+      # 2) Descarga un release precompilado de obsidian-export (v0.6.0)
+      - name: Download obsidian-export
+        run: |
+          curl -L \
+            https://github.com/zoni/obsidian-export/releases/download/v0.6.0/obsidian-export_linux_amd64 \
+            -o obsidian-export
+          chmod +x obsidian-export
 
-      # 3) Instala obsidian-export desde GitHub con go install
-      - name: Install obsidian-export
-        run: go install github.com/zoni/obsidian-export@latest
-
-      # 4) Ejecuta obsidian-export
+      # 3) Ejecuta obsidian-export
       - name: Run obsidian-export
         run: |
           mkdir -p export
-          # "obsidian-export" estará en tu GOPATH/bin. Normalmente en ~/go/bin/
-          # A menudo basta con llamarlo directamente (Go lo añade al PATH en tiempo de ejecución)
-          obsidian-export vault export
+          # Se asume que la carpeta "vault" está en la raíz del repo;
+          # ajusta si tu vault se llama distinto o está en otra carpeta
+          ./obsidian-export vault export
 
-      # 5) Si quieres commitear la carpeta export/ al repo
+      # 4) Commit de la carpeta "export" (si quieres guardar el resultado en el repo)
       - name: Commit cleaned notes
         run: |
           git config --global user.name "GitHub Action"
