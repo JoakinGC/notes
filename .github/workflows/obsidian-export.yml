@@ -7,28 +7,22 @@ on:
 jobs:
   export:
     runs-on: ubuntu-latest
-
     steps:
-      # 1) Descarga el repositorio con tu vault
       - uses: actions/checkout@v3
 
-      # 2) Descarga un release precompilado de obsidian-export (v0.6.0)
       - name: Download obsidian-export
         run: |
           curl -L \
             https://github.com/zoni/obsidian-export/releases/download/v0.6.0/obsidian-export_linux_amd64 \
             -o obsidian-export
           chmod +x obsidian-export
+          file obsidian-export   # (opcional) para comprobar que es un binario Linux
 
-      # 3) Ejecuta obsidian-export
       - name: Run obsidian-export
         run: |
           mkdir -p export
-          # Se asume que la carpeta "vault" está en la raíz del repo;
-          # ajusta si tu vault se llama distinto o está en otra carpeta
           ./obsidian-export vault export
 
-      # 4) Commit de la carpeta "export" (si quieres guardar el resultado en el repo)
       - name: Commit cleaned notes
         run: |
           git config --global user.name "GitHub Action"
