@@ -1,0 +1,36 @@
+name: Obsidian Export
+
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v2
+      
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.10"
+
+      
+      - name: Install obsidian-export
+        run: |
+          pip install --upgrade pip
+          pip install git+https://github.com/zoni/obsidian-export
+
+      - name: Run obsidian-export
+        run: |
+          mkdir -p export
+          obsidian-export vault export
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "actions@github.com"
+          git add export
+          git commit -m "Automated export" || echo "No changes to commit"
+          git push

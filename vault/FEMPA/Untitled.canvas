@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"d14be9a3e3e3ecdd","type":"text","text":"contador 60","x":-300,"y":-160,"width":250,"height":60},
+		{"id":"918df85c2496f93d","type":"text","text":"componente tiempo","x":-200,"y":-40,"width":250,"height":60},
+		{"id":"a61be30a8e015d1c","type":"text","text":"le pasas el tiempo y pinta horas:minutos:segundos","x":-297,"y":95,"width":250,"height":60},
+		{"id":"7a52a4435b90c7a8","type":"text","text":"llevo la cuenta y la muestra de forma local ","x":20,"y":65,"width":250,"height":60},
+		{"id":"efae2a1e5a869ac3","type":"text","text":"le pasas el tiempo lo pinta","x":-325,"y":227,"width":250,"height":60},
+		{"id":"232c6b2fd73b36b1","type":"text","text":"en el local pasa el tiempo y cambia el estado de completo","x":-373,"y":293,"width":250,"height":60},
+		{"id":"e6f3c7c7d21b452f","type":"text","text":"{\ntiempoDeRound: number,\ntiempoDeDescanso: Number,\nroudns: [\n\testado: (in/completo)\n\ttiempo: number.\n],\ndescansos:[\n\testado:Boolean,\n\t tiempo:number\n\n],\ntiempoTotal:Number\n}","x":-25,"y":207,"width":425,"height":413},
+		{"id":"7dd3ec958b24e4b8","type":"text","text":"componets/\n\t\ttimer\n\t\twatchTimer\ntypes\n\ttimer.ts\nIndex or Main.tsx","x":-443,"y":400,"width":250,"height":127},
+		{"id":"e9a6aca0b4859aa2","x":-449,"y":622,"width":250,"height":60,"type":"text","text":"le paso el tiempo "}
+	],
+	"edges":[]
+}

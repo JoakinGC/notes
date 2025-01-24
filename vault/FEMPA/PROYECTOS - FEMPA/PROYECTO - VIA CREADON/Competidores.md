@@ -1,0 +1,24 @@
+# Competidores:
+
+- qvet
+- MyVete
+- Smart Vet
+- IDEXX Laboratories
+- AVImark (APP)
+- ezyVet (APP)
+- Vetstar (APP)
+- ImproMed
+- Intravet
+- VIA Information Systems (APP)
+- DVMAX (APP)
+- Vetter Software (APP)
+- Animal Intelligence Software (APP)
+- Cornerstone (APP)
+- ARK
+- Gestor Vet
+- Iverter
+- WinVet
+- ZooVet
+- System Animal (APP)
+- Okvet (gratuitio)
+- System Pet
