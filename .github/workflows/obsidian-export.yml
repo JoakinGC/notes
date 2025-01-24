@@ -1,4 +1,4 @@
-name: Obsidian Export
+name: Export Obsidian
 
 on:
   push:
@@ -7,27 +7,31 @@ on:
 jobs:
   export:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Check out repo
-        uses: actions/checkout@v2
-      
-      - name: Set up Python
-        uses: actions/setup-python@v2
+      # 1) Descarga el repositorio con tu vault
+      - uses: actions/checkout@v3
+
+      # 2) Instala Go (por ejemplo, versión 1.20)
+      - name: Set up Go
+        uses: actions/setup-go@v4
         with:
-          python-version: "3.10"
+          go-version: '1.20'
 
-      
+      # 3) Instala obsidian-export desde GitHub con go install
       - name: Install obsidian-export
-        run: |
-          pip install --upgrade pip
-          pip install git+https://github.com/zoni/obsidian-export
+        run: go install github.com/zoni/obsidian-export@latest
 
+      # 4) Ejecuta obsidian-export
       - name: Run obsidian-export
         run: |
           mkdir -p export
+          # "obsidian-export" estará en tu GOPATH/bin. Normalmente en ~/go/bin/
+          # A menudo basta con llamarlo directamente (Go lo añade al PATH en tiempo de ejecución)
           obsidian-export vault export
 
-      - name: Commit and push changes
+      # 5) Si quieres commitear la carpeta export/ al repo
+      - name: Commit cleaned notes
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "actions@github.com"
