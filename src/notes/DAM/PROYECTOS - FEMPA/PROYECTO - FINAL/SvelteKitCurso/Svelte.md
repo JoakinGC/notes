@@ -1,1 +1,0 @@
-Svelte es un [[Framework]] y a la vez un compilador directo que NO usa DOM para trasncopilar como [[React]], Vuet.

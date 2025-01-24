@@ -1,1 +1,0 @@
-MEdida usada para texto usada con [[TextView]].

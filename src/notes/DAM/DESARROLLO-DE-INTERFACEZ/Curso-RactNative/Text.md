@@ -1,1 +1,0 @@
-COmponente de react basico para texto no se peude colcaor texto directo

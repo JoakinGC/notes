@@ -1,1 +1,0 @@
-Es un método de kotlin que busca el id del view en nuestro [[PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/xml]] para usarla en nuetrsa [[Activity]] , pero es una forma que ya no se usa

@@ -1,1 +1,0 @@
-Primero para poder  saber los ejemplos debemos tener la resoluion de l apantalla si usamos 28 x 28 = 72

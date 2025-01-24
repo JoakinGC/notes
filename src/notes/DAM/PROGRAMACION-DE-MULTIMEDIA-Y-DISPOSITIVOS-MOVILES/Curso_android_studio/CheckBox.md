@@ -1,1 +1,0 @@
-Componte para verificar si fue cliqueado o no

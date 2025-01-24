@@ -1,1 +1,0 @@
-Existen Otros aspecos 
