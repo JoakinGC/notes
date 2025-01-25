@@ -1,0 +1,1 @@
+Es la manera que tenemos para acceder a la API y devolver los objetos o lista de objetos en el orden que queramos para mostrar
