@@ -37,6 +37,6 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "actions@github.com"
-          git add export
+          git add .
           git commit -m "Automated export" || echo "No changes to commit"
           git push
