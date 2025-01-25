@@ -4,3 +4,6 @@ baseurl: "/notes"
 theme: minima 
 markdown: kramdown 
 permalink: pretty 
+kramdown:
+  parse_block_html: true
+liquid: false
