@@ -1,0 +1,6 @@
+title: "Notas"
+description: "Notas convertidas desde Obsidian"
+baseurl: "/notes" 
+theme: minima 
+markdown: kramdown 
+permalink: pretty 
