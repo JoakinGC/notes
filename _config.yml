@@ -1,8 +1,13 @@
 title: "Notas"
 description: "Notas convertidas desde Obsidian"
-baseurl: "/notes"
+baseurl: "/notes" 
 theme: minima
 markdown: kramdown
 permalink: pretty
-liquid:
-  error_mode: warn
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      escape_liquid: true 
