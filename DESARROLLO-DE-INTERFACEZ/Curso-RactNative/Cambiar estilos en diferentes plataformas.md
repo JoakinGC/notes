@@ -45,7 +45,6 @@ Ahora imaginemos que tenemos un nav bar que contiene varias opciones y queremos 
 Podemos hacerlo y tambien dar uno por defecto creando componentes específicos para cada uno y usando Plataform de React Native podemos conseguirlo:
 
 ````javascript
-{% raw %}
 //App bar
 import React from "react";
 import {View,StyleSheet, ScrollView} from 'react-native';
@@ -123,13 +122,11 @@ const styles = StyleSheet.create({
   
 
 export default AppBar;
-{% endraw %}
 ````
 
 La unica diferencia que tiene con ANDROIDAppBar es el color por lo que solo podnre esa pequeña diferencia y no todo el código:
 
 ````javascript
-
 //ANDROIDAppBar
 
 
@@ -158,13 +155,11 @@ const styles = StyleSheet.create({
   
 
 export default AppBar;
-
 ````
 
 Quedando en main de las igueitne manera usando Plataform:
 
 ````javascript
-{% raw %}
 import React from "react";
 import { Platform, Text, View } from "react-native";
 import RepositoryList from "./RepositoryList";
@@ -195,5 +190,4 @@ const Main = () => {
 
 
 export default Main; // Cambia a export default Main;
-{% endraw %}
 ````
