@@ -4,7 +4,6 @@ Para poedr dar [Estilos](Estilos.md) en diferentes [React Router Native](React%2
 import { Platform } from "react-native";
 
   
-
 const theme = {
     appBar:{
         primary:'#24292e',

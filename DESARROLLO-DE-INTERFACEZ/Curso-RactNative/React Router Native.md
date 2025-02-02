@@ -29,7 +29,9 @@ import { Routes, Route, Navigate } from "react-router-native";
 
 const Main = () => {
   return (
+    {% raw %}
     <View style={{ flex: 1 }}>
+    {% endraw %}
       <AppBar />
         <Routes>
             <Route path="/" element={<RepositoryList />}/>

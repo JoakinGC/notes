@@ -177,7 +177,9 @@ const AppBar = Platform.select({
 
 const Main = () => {
   return (
+    {% raw %}
     <View style={{ flex: 1 }}>
+    {% endraw %}
       <AppBar />
         <Routes>
             <Route path="/" element={<RepositoryList />}/>
