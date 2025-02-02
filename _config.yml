@@ -4,10 +4,11 @@ baseurl: "/notes"
 theme: minima
 markdown: kramdown
 permalink: pretty
+render_liquid: false
 
 defaults:
   - scope:
       path: ""
-      type: "pages"
     values:
-      escape_liquid: true 
+      escape_liquid: true
+ 
