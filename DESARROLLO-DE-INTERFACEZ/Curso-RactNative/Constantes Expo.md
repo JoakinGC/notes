@@ -3,6 +3,7 @@ Son contantes de difenrtes tamaños de pantalla que combinados con los *estilos 
 Por ejemplo
 
 ````JavaScript
+{% raw %}
 import Constants from "expo-constants";
 
 
@@ -14,5 +15,5 @@ import Constants from "expo-constants";
 
         </View>
 
-
+{% endraw %}
 ````
