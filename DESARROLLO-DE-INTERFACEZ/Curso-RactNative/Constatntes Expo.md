@@ -1,3 +1,7 @@
+---
+liquid: false
+---
+
 Son contantes de difenrtes tamaños de pantalla que combinados con los *estilos en React NAtive* permite dar estilos
 
 Por ejemplo
