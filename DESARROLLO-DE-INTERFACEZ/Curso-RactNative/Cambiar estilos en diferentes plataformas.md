@@ -1,7 +1,3 @@
----
-liquid: false
----
-
 Para poedr dar [Estilos](Estilos.md) en diferentes [React Router Native](React%20Router%20Native.md) o rutas se puede usar:
 
 ````javascript
