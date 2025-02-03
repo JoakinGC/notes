@@ -1,4 +1,6 @@
-
+---
+liquid: false
+---
 ````javascript
 //App
 import React from 'react';
