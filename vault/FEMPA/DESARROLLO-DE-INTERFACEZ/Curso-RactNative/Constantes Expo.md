@@ -5,7 +5,12 @@ Por ejemplo
 import Constants from "expo-constants";
 
 
-<View style={{marginTop:Constants.statusBarHeight,flexGrow:1}}>
+<View style={
+                {
+                    marginTop:Constants.statusBarHeight,
+                    flexGrow:1
+                }
+            }>
 
             <Text>Rate Repository Application</Text>
 
