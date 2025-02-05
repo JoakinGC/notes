@@ -1,1 +1,0 @@
-[[Departamento de una EMpresa]] encargador de comprar a los prevedores

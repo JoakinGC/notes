@@ -1,3 +1,0 @@
-Propiedad para centrar cuando se coloca parent 
-
-Ademas de parent tenemos que podemos colcoar el id de algun otro componeten entonces seguiria al lado de ese componenet
