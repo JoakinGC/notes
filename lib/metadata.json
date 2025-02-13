@@ -1,6 +1,6 @@
 {
   "vaultName": "FEMPA",
-  "lastExport": 1738754047873,
+  "lastExport": 1739449316640,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -41,8 +41,12 @@
     "ACCESO-A-DATOS/Curso-spring/Json.md",
     "ACCESO-A-DATOS/Curso-spring/Maven or Graveld.md",
     "ACCESO-A-DATOS/Curso-spring/Métodos HHTTP.md",
+    "ACCESO-A-DATOS/Curso-spring/mVC.jpg",
     "ACCESO-A-DATOS/Curso-spring/MVC.md",
     "ACCESO-A-DATOS/Curso-spring/MVC con REST.md",
+    "ACCESO-A-DATOS/Curso-spring/mvc-rest.png",
+    "ACCESO-A-DATOS/Curso-spring/ogx43rq.png",
+    "ACCESO-A-DATOS/Curso-spring/original.png",
     "ACCESO-A-DATOS/Curso-spring/URL.md",
     "ACCESO-A-DATOS/Curso-spring/XML.md",
     "ACCESO-A-DATOS/Acceso a Datos.md",
@@ -52,6 +56,7 @@
     "ACCESO-A-DATOS/Buffer.md",
     "ACCESO-A-DATOS/Clases para trabajar con ficheros.canvas",
     "ACCESO-A-DATOS/direccion absolucta.md",
+    "ACCESO-A-DATOS/objecto.md",
     "ACCESO-A-DATOS/Offset.md",
     "ACCESO-A-DATOS/primerTema",
     "ACCESO-A-DATOS/Spring Framework.md",
@@ -113,12 +118,22 @@
     "DESARROLLO-DE-INTERFACEZ/Curso-RactNative/TextInput.md",
     "DESARROLLO-DE-INTERFACEZ/Curso-RactNative/Touchable.md",
     "DESARROLLO-DE-INTERFACEZ/Curso-RactNative/ViewReact.md",
-    "DESARROLLO-DE-INTERFACEZ/COdigo gratuito.md",
+    "DESARROLLO-DE-INTERFACEZ/Next.js/Casos de uso de Next.js.md",
+    "DESARROLLO-DE-INTERFACEZ/Next.js/Casos de uso y mejores prácticas en Next.js.md",
+    "DESARROLLO-DE-INTERFACEZ/Next.js/Comparación entre Next.js 14 y 15.md",
+    "DESARROLLO-DE-INTERFACEZ/Next.js/Comparación entre Next.js y React puro.md",
+    "DESARROLLO-DE-INTERFACEZ/Next.js/Indice.md",
+    "DESARROLLO-DE-INTERFACEZ/Next.js/Introducción a Next.js.md",
+    "DESARROLLO-DE-INTERFACEZ/Next.js/Novedades en Next.js 14.md",
+    "DESARROLLO-DE-INTERFACEZ/Next.js/Novedades en Next.js 15.md",
+    "DESARROLLO-DE-INTERFACEZ/Next.js/Recursos y documentación adicional.md",
+    "DESARROLLO-DE-INTERFACEZ/Next.js/Ventajas de Next.js sobre React.md",
+    "DESARROLLO-DE-INTERFACEZ/Código gratuito.md",
     "DESARROLLO-DE-INTERFACEZ/Comandos - FLujo de Trabajo.canvas",
     "DESARROLLO-DE-INTERFACEZ/Commit.md",
     "DESARROLLO-DE-INTERFACEZ/componente_declase.png",
     "DESARROLLO-DE-INTERFACEZ/componente_funcional.png",
-    "DESARROLLO-DE-INTERFACEZ/COnflicto.md",
+    "DESARROLLO-DE-INTERFACEZ/Conflicto.md",
     "DESARROLLO-DE-INTERFACEZ/Dasarrollo De Interfcez.md",
     "DESARROLLO-DE-INTERFACEZ/Diseño de interfaces.md",
     "DESARROLLO-DE-INTERFACEZ/Flujo de  trabajo de Git.md",
@@ -132,7 +147,7 @@
     "DESARROLLO-DE-INTERFACEZ/Ramas.md",
     "DESARROLLO-DE-INTERFACEZ/Repositiorio Local.md",
     "DESARROLLO-DE-INTERFACEZ/Reposotiro Servidor.md",
-    "DESARROLLO-DE-INTERFACEZ/Usabilidad y ASecciblidad.md",
+    "DESARROLLO-DE-INTERFACEZ/Usabilidad y accesibilidad.md",
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Aspectos Fiscales.md",
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Complejidad de la constitución y de la gestión.md",
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Criterios Fiscalia.canvas",
@@ -143,7 +158,7 @@
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/La responsabilidad patrimonial de los promotores.md",
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Las necesidades económicas de un proyecto.md",
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Los criterios para elegir la forma jurídica.md",
-    "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Otrsos ASpectos.md",
+    "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Otros Aspectos.md",
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Tema Nº6.md",
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Tramites según su forma jurídica.md",
     "Empresa-e-Iniciativa-Empredora/Eleccion Electiva.md",
@@ -152,7 +167,6 @@
     "Empresa-e-Iniciativa-Empredora/Politico Cambios en una escuesla.md",
     "Empresa-e-Iniciativa-Empredora/Resumen.md",
     "Empresa-e-Iniciativa-Empredora/Resumen 2.md",
-    "Ingles/GUION - Primera presentacion.md",
     "Ingles/Ingles.md",
     "Ingles/Tema 1.md",
     "Ingles/Tema 2.md",
@@ -176,7 +190,7 @@
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/layout_constraitBottom_toBottomof.md",
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/layout_contraitsTop_toTopOf.md",
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/LinearLayout.md",
-    "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Listas kotvin.md",
+    "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Listas kotlin.md",
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Navigation Component.md",
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Nulabilidad kotlin.md",
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Print.md",
@@ -188,7 +202,7 @@
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Theme.md",
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Top_toTopOf.md",
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Variables Alfanumericas.md",
-    "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Variables Kotvin.md",
+    "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Variables Kotlin.md",
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Variables Numericas.md",
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/View.md",
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/View Binding.md",
@@ -205,10 +219,10 @@
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Java vs Kolvin.md",
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/JerarquiDeCarpetas.md",
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/JetPack Compose.md",
-    "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Kolvin.md",
+    "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Kotlin.md",
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Lista API.md",
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Listas.md",
-    "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Metodos.md",
+    "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Métodos.md",
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/PMDM.md",
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Recicly View.md",
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Sets.md",
@@ -232,8 +246,9 @@
     "PROYECTOS - FEMPA/PROYECTO - FINAL/CasosDe Uso.md",
     "PROYECTOS - FEMPA/PROYECTO - FINAL/Comandos para crear proyecto.md",
     "PROYECTOS - FEMPA/PROYECTO - FINAL/Entidad Relación.md",
+    "PROYECTOS - FEMPA/PROYECTO - FINAL/entidad_relacion.drawio",
+    "PROYECTOS - FEMPA/PROYECTO - FINAL/entidad_relacion.png",
     "PROYECTOS - FEMPA/PROYECTO - FINAL/Etapas PFC.md",
-    "PROYECTOS - FEMPA/PROYECTO - FINAL/Logica de compra.md",
     "PROYECTOS - FEMPA/PROYECTO - FINAL/Requistos Funcionales.md",
     "PROYECTOS - FEMPA/PROYECTO - FINAL/Untitled.canvas",
     "PROYECTOS - FEMPA/PROYECTO - VIA CREADON/Clientes - Compradores.md",
@@ -271,285 +286,9 @@
     "Sistema-Gestion-Empresarial/Software vertical.md",
     "Sistema-Gestion-Empresarial/Sueldo.md",
     "Sistema-Gestion-Empresarial/variable sueldo.md",
-    "Tareas/Registros_tareas/2023-09-28.md",
-    "Tareas/Registros_tareas/2023-09-29.md",
-    "Tareas/Registros_tareas/2023-09-30.md",
-    "Tareas/Registros_tareas/2023-10-06.md",
-    "Tareas/Registros_tareas/2023-10-12.md",
-    "Tareas/Registros_tareas/2023-10-14.md",
-    "Tareas/Registros_tareas/2023-10-23.md",
-    "Tareas/Registros_tareas/2023-10-30.md",
-    "Tareas/Registros_tareas/2023-10-31.md",
-    "Tareas/Registros_tareas/2023-11-01.md",
-    "Tareas/Registros_tareas/2023-11-02.md",
-    "Tareas/Registros_tareas/2023-11-05.md",
-    "Tareas/Registros_tareas/2023-11-06.md",
-    "Tareas/Registros_tareas/2023-11-07.md",
-    "Tareas/Registros_tareas/2023-11-08.md",
-    "Tareas/Registros_tareas/2023-11-09.md",
-    "Tareas/Registros_tareas/2023-11-10.md",
-    "Tareas/Registros_tareas/2023-11-11.md",
-    "Tareas/Registros_tareas/2023-11-12.md",
-    "Tareas/Registros_tareas/2023-11-13.md",
-    "Tareas/Registros_tareas/2023-11-14.md",
-    "Tareas/Registros_tareas/2023-11-16.md",
-    "Tareas/Registros_tareas/2023-11-20.md",
-    "Tareas/Registros_tareas/2023-11-21.md",
-    "Tareas/Registros_tareas/2023-12-07.md",
-    "Tareas/Registros_tareas/2023-12-09.md",
-    "Tareas/Registros_tareas/2023-12-10.md",
-    "Tareas/Registros_tareas/2023-12-11.md",
-    "Tareas/Registros_tareas/2023-12-12.md",
-    "Tareas/Registros_tareas/2023-12-14.md",
-    "Tareas/Registros_tareas/2023-12-18.md",
-    "Tareas/Registros_tareas/2023-12-19.md",
-    "Tareas/Registros_tareas/2023-12-20.md",
-    "Tareas/Registros_tareas/2023-12-21.md",
-    "Tareas/Registros_tareas/2023-12-22.md",
-    "Tareas/Registros_tareas/2023-12-23.md",
-    "Tareas/Registros_tareas/2023-12-25.md",
-    "Tareas/Registros_tareas/2023-12-26.md",
-    "Tareas/Registros_tareas/2023-12-27.md",
-    "Tareas/Registros_tareas/2023-12-28.md",
-    "Tareas/Registros_tareas/2023-12-29.md",
-    "Tareas/Registros_tareas/2024-01-03.md",
-    "Tareas/Registros_tareas/2024-01-08.md",
-    "Tareas/Registros_tareas/2024-01-12.md",
-    "Tareas/Registros_tareas/2024-01-16.md",
-    "Tareas/Registros_tareas/2024-01-17.md",
-    "Tareas/Registros_tareas/2024-01-18.md",
-    "Tareas/Registros_tareas/2024-01-19.md",
-    "Tareas/Registros_tareas/2024-01-20.md",
-    "Tareas/Registros_tareas/2024-01-21.md",
-    "Tareas/Registros_tareas/2024-01-22.md",
-    "Tareas/Registros_tareas/2024-01-23.md",
-    "Tareas/Registros_tareas/2024-01-24.md",
-    "Tareas/Registros_tareas/2024-01-25.md",
-    "Tareas/Registros_tareas/2024-01-26.md",
-    "Tareas/Registros_tareas/2024-01-29.md",
-    "Tareas/Registros_tareas/2024-01-30.md",
-    "Tareas/Registros_tareas/2024-01-31.md",
-    "Tareas/Registros_tareas/2024-02-01.md",
-    "Tareas/Registros_tareas/2024-02-03.md",
-    "Tareas/Registros_tareas/2024-02-05.md",
-    "Tareas/Registros_tareas/2024-02-06.md",
-    "Tareas/Registros_tareas/2024-02-07.md",
-    "Tareas/Registros_tareas/2024-02-08.md",
-    "Tareas/Registros_tareas/2024-02-09.md",
-    "Tareas/Registros_tareas/2024-02-10.md",
-    "Tareas/Registros_tareas/2024-02-12.md",
-    "Tareas/Registros_tareas/2024-02-16.md",
-    "Tareas/Registros_tareas/2024-02-19.md",
-    "Tareas/Registros_tareas/2024-02-23.md",
-    "Tareas/Registros_tareas/2024-03-03.md",
-    "Tareas/Registros_tareas/2024-03-04.md",
-    "Tareas/Registros_tareas/2024-03-07.md",
-    "Tareas/Registros_tareas/2024-03-08.md",
-    "Tareas/Registros_tareas/2024-03-09.md",
-    "Tareas/Registros_tareas/2024-03-10.md",
-    "Tareas/Registros_tareas/2024-03-11.md",
-    "Tareas/Registros_tareas/2024-03-12.md",
-    "Tareas/Registros_tareas/2024-03-13.md",
-    "Tareas/Registros_tareas/2024-03-14.md",
-    "Tareas/Registros_tareas/2024-03-17.md",
-    "Tareas/Registros_tareas/2024-03-18.md",
-    "Tareas/Registros_tareas/2024-03-19.md",
-    "Tareas/Registros_tareas/2024-03-20.md",
-    "Tareas/Registros_tareas/2024-03-22.md",
-    "Tareas/Registros_tareas/2024-03-23.md",
-    "Tareas/Registros_tareas/2024-03-24.md",
-    "Tareas/Registros_tareas/2024-03-25.md",
-    "Tareas/Registros_tareas/2024-03-29.md",
-    "Tareas/Registros_tareas/2024-03-30.md",
-    "Tareas/Registros_tareas/2024-03-31.md",
-    "Tareas/Registros_tareas/2024-04-01.md",
-    "Tareas/Registros_tareas/2024-04-02.md",
-    "Tareas/Registros_tareas/2024-04-03.md",
-    "Tareas/Registros_tareas/2024-04-04.md",
-    "Tareas/Registros_tareas/2024-04-05.md",
-    "Tareas/Registros_tareas/2024-04-06.md",
-    "Tareas/Registros_tareas/2024-04-07.md",
-    "Tareas/Registros_tareas/2024-04-08.md",
-    "Tareas/Registros_tareas/2024-04-09.md",
-    "Tareas/Registros_tareas/2024-04-10.md",
-    "Tareas/Registros_tareas/2024-04-11.md",
-    "Tareas/Registros_tareas/2024-04-12.md",
-    "Tareas/Registros_tareas/2024-04-13.md",
-    "Tareas/Registros_tareas/2024-04-14.md",
-    "Tareas/Registros_tareas/2024-04-15.md",
-    "Tareas/Registros_tareas/2024-04-16.md",
-    "Tareas/Registros_tareas/2024-04-17.md",
-    "Tareas/Registros_tareas/2024-04-18.md",
-    "Tareas/Registros_tareas/2024-04-19.md",
-    "Tareas/Registros_tareas/2024-04-20.md",
-    "Tareas/Registros_tareas/2024-04-21.md",
-    "Tareas/Registros_tareas/2024-04-22.md",
-    "Tareas/Registros_tareas/2024-04-23.md",
-    "Tareas/Registros_tareas/2024-04-24.md",
-    "Tareas/Registros_tareas/2024-04-25.md",
-    "Tareas/Registros_tareas/2024-04-26.md",
-    "Tareas/Registros_tareas/2024-04-27.md",
-    "Tareas/Registros_tareas/2024-04-28.md",
-    "Tareas/Registros_tareas/2024-04-29.md",
-    "Tareas/Registros_tareas/2024-04-30.md",
-    "Tareas/Registros_tareas/2024-05-01.md",
-    "Tareas/Registros_tareas/2024-05-02.md",
-    "Tareas/Registros_tareas/2024-05-03.md",
-    "Tareas/Registros_tareas/2024-05-04.md",
-    "Tareas/Registros_tareas/2024-05-05.md",
-    "Tareas/Registros_tareas/2024-05-06.md",
-    "Tareas/Registros_tareas/2024-05-07.md",
-    "Tareas/Registros_tareas/2024-05-09.md",
-    "Tareas/Registros_tareas/2024-05-10.md",
-    "Tareas/Registros_tareas/2024-05-11.md",
-    "Tareas/Registros_tareas/2024-05-12.md",
-    "Tareas/Registros_tareas/2024-05-13.md",
-    "Tareas/Registros_tareas/2024-05-14.md",
-    "Tareas/Registros_tareas/2024-05-15.md",
-    "Tareas/Registros_tareas/2024-05-16.md",
-    "Tareas/Registros_tareas/2024-05-17.md",
-    "Tareas/Registros_tareas/2024-05-18.md",
-    "Tareas/Registros_tareas/2024-05-19.md",
-    "Tareas/Registros_tareas/2024-05-20.md",
-    "Tareas/Registros_tareas/2024-05-21.md",
-    "Tareas/Registros_tareas/2024-05-22.md",
-    "Tareas/Registros_tareas/2024-05-23.md",
-    "Tareas/Registros_tareas/2024-05-24.md",
-    "Tareas/Registros_tareas/2024-05-25.md",
-    "Tareas/Registros_tareas/2024-05-26.md",
-    "Tareas/Registros_tareas/2024-05-27.md",
-    "Tareas/Registros_tareas/2024-05-28.md",
-    "Tareas/Registros_tareas/2024-05-29.md",
-    "Tareas/Registros_tareas/2024-06-07.md",
-    "Tareas/Registros_tareas/2024-06-08.md",
-    "Tareas/Registros_tareas/2024-06-09.md",
-    "Tareas/Registros_tareas/2024-06-10.md",
-    "Tareas/Registros_tareas/2024-06-11.md",
-    "Tareas/Registros_tareas/2024-07-08.md",
-    "Tareas/Registros_tareas/2024-07-12.md",
-    "Tareas/Registros_tareas/2024-07-13.md",
-    "Tareas/Registros_tareas/2024-07-15.md",
-    "Tareas/Registros_tareas/2024-07-16.md",
-    "Tareas/Registros_tareas/2024-07-17.md",
-    "Tareas/Registros_tareas/2024-07-18.md",
-    "Tareas/Registros_tareas/2024-07-19.md",
-    "Tareas/Registros_tareas/2024-07-20.md",
-    "Tareas/Registros_tareas/2024-09-10.md",
-    "Tareas/Registros_tareas/2024-09-11.md",
-    "Tareas/Registros_tareas/2024-09-12.md",
-    "Tareas/Registros_tareas/2024-09-14.md",
-    "Tareas/Registros_tareas/2024-09-15.md",
-    "Tareas/Registros_tareas/2024-09-16.md",
-    "Tareas/Registros_tareas/2024-09-17.md",
-    "Tareas/Registros_tareas/2024-09-18.md",
-    "Tareas/Registros_tareas/2024-09-19.md",
-    "Tareas/Registros_tareas/2024-09-20.md",
-    "Tareas/Registros_tareas/2024-09-21.md",
-    "Tareas/Registros_tareas/2024-09-22.md",
-    "Tareas/Registros_tareas/2024-09-26.md",
-    "Tareas/Registros_tareas/2024-09-27.md",
-    "Tareas/Registros_tareas/2024-09-28.md",
-    "Tareas/Registros_tareas/2024-09-29.md",
-    "Tareas/Registros_tareas/2024-09-30.md",
-    "Tareas/Registros_tareas/2024-10-01.md",
-    "Tareas/Registros_tareas/2024-10-02.md",
-    "Tareas/Registros_tareas/2024-10-04.md",
-    "Tareas/Registros_tareas/2024-10-05.md",
-    "Tareas/Registros_tareas/2024-10-18.md",
-    "Tareas/Registros_tareas/2024-10-19.md",
-    "Tareas/Registros_tareas/2024-10-20.md",
-    "Tareas/Registros_tareas/2024-10-21.md",
-    "Tareas/Registros_tareas/2024-10-23.md",
-    "Tareas/Registros_tareas/2024-10-26.md",
-    "Tareas/Registros_tareas/2024-10-27.md",
-    "Tareas/Registros_tareas/2024-10-28.md",
-    "Tareas/Registros_tareas/2024-10-29.md",
-    "Tareas/Registros_tareas/2024-10-30.md",
-    "Tareas/Registros_tareas/2024-10-31.md",
-    "Tareas/Registros_tareas/2024-11-01.md",
-    "Tareas/Registros_tareas/2024-11-06.md",
-    "Tareas/Registros_tareas/2024-11-07.md",
-    "Tareas/Registros_tareas/2024-11-08.md",
-    "Tareas/Registros_tareas/2024-11-09.md",
-    "Tareas/Registros_tareas/2024-11-10.md",
-    "Tareas/Registros_tareas/2024-11-11.md",
-    "Tareas/Registros_tareas/2024-11-12.md",
-    "Tareas/Registros_tareas/2024-11-13.md",
-    "Tareas/Registros_tareas/2024-11-14.md",
-    "Tareas/Registros_tareas/2024-11-15.md",
-    "Tareas/Registros_tareas/2024-11-16.md",
-    "Tareas/Registros_tareas/2024-11-17.md",
-    "Tareas/Registros_tareas/2024-11-18.md",
-    "Tareas/Registros_tareas/2024-11-19.md",
-    "Tareas/Registros_tareas/2024-11-20.md",
-    "Tareas/Registros_tareas/2024-11-21.md",
-    "Tareas/Registros_tareas/2024-11-22.md",
-    "Tareas/Registros_tareas/2024-11-23.md",
-    "Tareas/Registros_tareas/2024-11-24.md",
-    "Tareas/Registros_tareas/2024-11-30.md",
-    "Tareas/Registros_tareas/2024-12-01.md",
-    "Tareas/Registros_tareas/2024-12-02.md",
-    "Tareas/Registros_tareas/2024-12-04.md",
-    "Tareas/Registros_tareas/2024-12-06.md",
-    "Tareas/Registros_tareas/2024-12-07.md",
-    "Tareas/Registros_tareas/2024-12-08.md",
-    "Tareas/Registros_tareas/2024-12-09.md",
-    "Tareas/Registros_tareas/2024-12-10.md",
-    "Tareas/Registros_tareas/2024-12-14.md",
-    "Tareas/Registros_tareas/2024-12-15.md",
-    "Tareas/Registros_tareas/2024-12-16.md",
-    "Tareas/Registros_tareas/2024-12-17.md",
-    "Tareas/Registros_tareas/2024-12-19.md",
-    "Tareas/Registros_tareas/2024-12-21.md",
-    "Tareas/Registros_tareas/2024-12-22.md",
-    "Tareas/Registros_tareas/2024-12-23.md",
-    "Tareas/Registros_tareas/2024-12-24.md",
-    "Tareas/Registros_tareas/2024-12-25.md",
-    "Tareas/Registros_tareas/2024-12-26.md",
-    "Tareas/Registros_tareas/2024-12-27.md",
-    "Tareas/Registros_tareas/2025-01-07.md",
-    "Tareas/Registros_tareas/2025-01-14.md",
-    "Tareas/Registros_tareas/2025-01-15.md",
-    "Tareas/Registros_tareas/2025-01-16.md",
-    "Tareas/Registros_tareas/2025-01-17.md",
-    "Tareas/Registros_tareas/2025-01-18.md",
-    "Tareas/Registros_tareas/2025-01-19.md",
-    "Tareas/Registros_tareas/2025-01-20.md",
-    "Tareas/Registros_tareas/2025-01-21.md",
-    "Tareas/Registros_tareas/2025-01-22.md",
-    "Tareas/Registros_tareas/2025-01-23.md",
-    "Tareas/Registros_tareas/2025-01-24.md",
-    "Tareas/Registros_tareas/2025-01-25.md",
-    "Tareas/Registros_tareas/2025-01-26.md",
-    "Tareas/Registros_tareas/2025-01-27.md",
-    "Tareas/Registros_tareas/2025-01-28.md",
-    "Tareas/Registros_tareas/2025-01-29.md",
-    "Tareas/Registros_tareas/2025-01-30.md",
-    "Tareas/Registros_tareas/2025-01-31.md",
-    "Tareas/Registros_tareas/2025-02-01.md",
-    "Tareas/Registros_tareas/2025-02-02.md",
-    "Tareas/Registros_tareas/2025-02-03.md",
-    "Tareas/Registros_tareas/2025-02-04.md",
-    "Tareas/Registros_tareas/2025-02-05.md",
-    "Tareas/tamplate_tarea.md",
-    "Tareas/Tareas Fempa.md",
-    "Archivo.md",
-    "entidad_relacion.png",
-    "entidad_relacion.drawio",
     "Indice.md",
-    "mVC.jpg",
-    "mvc-rest.png",
-    "ogx43rq.png",
-    "original.png",
-    "Tema-1.md",
-    "Untitled.canvas",
-    "lib/media/mvc.jpg",
-    "lib/media/mvc-rest.png",
-    "lib/media/original.png",
-    "lib/media/ogx43rq.png",
     "lib/media/componente_declase.png",
     "lib/media/componente_funcional.png",
-    "lib/media/entidad_relacion.png",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -611,326 +350,356 @@
   ],
   "fileInfo": {
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/1 Casos prácticos (elegir uno).md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 2538,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/1-casos-prácticos-(elegir-uno).html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2 Aspectos técnicos.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 3547,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2-aspectos-técnicos.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.1 Análisis y Planificación de Requerimientos.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 2835,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.1-análisis-y-planificación-de-requerimientos.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.2 Diseño de la Arquitectura.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 7309,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.2-diseño-de-la-arquitectura.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.3 Modelo de datos.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 3278,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.3-modelo-de-datos.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.4 Seguridad.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 3051,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.4-seguridad.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.5 Interfaz de Usuario y Experiencia del Usuario.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 3577,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.5-interfaz-de-usuario-y-experiencia-del-usuario.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.6 APIs y Integraciones.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 3314,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.6-apis-y-integraciones.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.7  Testing y Aseguramiento de la Calidad.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 3576,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.7-testing-y-aseguramiento-de-la-calidad.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.8 Logging y Monitorización.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 3033,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.8-logging-y-monitorización.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.9 Manejo de Errores y Excepciones.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 3785,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.9-manejo-de-errores-y-excepciones.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.10 Documentación.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 3290,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.10-documentación.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.11 Despliegue y Mantenimiento.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 3708,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.11-despliegue-y-mantenimiento.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.12 Accesibilidad y Localización.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 2713,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.12-accesibilidad-y-localización.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.13 Aspectos Legales y Conformidad.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 2978,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.13-aspectos-legales-y-conformidad.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.14 Gestión de Cambios y Versiones.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 3108,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.14-gestión-de-cambios-y-versiones.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Tema 1 - Archivos/Tema1-Archivos.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 61913,
       "exportedPath": "acceso-a-datos/acd-main/tema-1-archivos/tema1-archivos.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Tema 2 - Bases de Datos Relacionales/JDBC/DAO/Justificación DAO. Alta Cohesión y bajo Acoplamiento..md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 2840,
       "exportedPath": "acceso-a-datos/acd-main/tema-2-bases-de-datos-relacionales/jdbc/dao/justificación-dao.-alta-cohesión-y-bajo-acoplamiento..html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Tema 2 - Bases de Datos Relacionales/JDBC/SERVICE/1. Introducción Capa Service.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 2747,
       "exportedPath": "acceso-a-datos/acd-main/tema-2-bases-de-datos-relacionales/jdbc/service/1.-introducción-capa-service.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Tema 2 - Bases de Datos Relacionales/JDBC/SERVICE/2. DAO + Service.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 5653,
       "exportedPath": "acceso-a-datos/acd-main/tema-2-bases-de-datos-relacionales/jdbc/service/2.-dao-+-service.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Tema 2 - Bases de Datos Relacionales/JDBC/SERVICE/3. Operaciones en capa Service.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 3141,
       "exportedPath": "acceso-a-datos/acd-main/tema-2-bases-de-datos-relacionales/jdbc/service/3.-operaciones-en-capa-service.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Tema 4 - Spring/0. Índice contenidos Framework Spring.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 3334,
       "exportedPath": "acceso-a-datos/acd-main/tema-4-spring/0.-índice-contenidos-framework-spring.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Tema 4 - Spring/1. Clase Introducción al Framework Spring.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 11864,
       "exportedPath": "acceso-a-datos/acd-main/tema-4-spring/1.-clase-introducción-al-framework-spring.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Tema 4 - Spring/2 Clase Spring Core y Spring MVC.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 9095,
       "exportedPath": "acceso-a-datos/acd-main/tema-4-spring/2-clase-spring-core-y-spring-mvc.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Tema 4 - Spring/2.1 Introducción Thymleaf.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 3276,
       "exportedPath": "acceso-a-datos/acd-main/tema-4-spring/2.1-introducción-thymleaf.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Tema 4 - Spring/3 Clase Acceso a Datos con Spring.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 3922,
       "exportedPath": "acceso-a-datos/acd-main/tema-4-spring/3-clase-acceso-a-datos-con-spring.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Tema 4 - Spring/4 Clase Spring Boot y Microservicios.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 3121,
       "exportedPath": "acceso-a-datos/acd-main/tema-4-spring/4-clase-spring-boot-y-microservicios.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Tema 4 - Spring/5 Clase Seguridad y Testing en Spring.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 11391,
       "exportedPath": "acceso-a-datos/acd-main/tema-4-spring/5-clase-seguridad-y-testing-en-spring.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Tema 4 - Spring/6 Clase Temas Avanzados y Proyecto Final.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 19407,
       "exportedPath": "acceso-a-datos/acd-main/tema-4-spring/6-clase-temas-avanzados-y-proyecto-final.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Curso-spring/Anotaciones.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 153,
       "exportedPath": "acceso-a-datos/curso-spring/anotaciones.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Curso-spring/Controllers.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 2282,
       "exportedPath": "acceso-a-datos/curso-spring/controllers.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Curso-spring/Framework.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 162,
       "exportedPath": "acceso-a-datos/curso-spring/framework.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Curso-spring/Json.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 90,
       "exportedPath": "acceso-a-datos/curso-spring/json.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Curso-spring/Maven or Graveld.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 239,
       "exportedPath": "acceso-a-datos/curso-spring/maven-or-graveld.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Curso-spring/Métodos HHTTP.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 204,
       "exportedPath": "acceso-a-datos/curso-spring/métodos-hhttp.html",
       "dependencies": []
     },
+    "ACCESO-A-DATOS/Curso-spring/mVC.jpg": {
+      "modifiedTime": 1739449316640,
+      "sourceSize": 49965,
+      "exportedPath": "acceso-a-datos/curso-spring/mvc.jpg",
+      "dependencies": []
+    },
     "ACCESO-A-DATOS/Curso-spring/MVC.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 61,
       "exportedPath": "acceso-a-datos/curso-spring/mvc.html",
       "dependencies": [
-        "lib/media/mvc.jpg"
+        "acceso-a-datos/curso-spring/mvc.jpg"
       ]
     },
     "ACCESO-A-DATOS/Curso-spring/MVC con REST.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 753,
       "exportedPath": "acceso-a-datos/curso-spring/mvc-con-rest.html",
       "dependencies": [
-        "lib/media/mvc-rest.png"
+        "acceso-a-datos/curso-spring/mvc-rest.png"
       ]
     },
+    "ACCESO-A-DATOS/Curso-spring/mvc-rest.png": {
+      "modifiedTime": 1739449316640,
+      "sourceSize": 356937,
+      "exportedPath": "acceso-a-datos/curso-spring/mvc-rest.png",
+      "dependencies": []
+    },
+    "ACCESO-A-DATOS/Curso-spring/ogx43rq.png": {
+      "modifiedTime": 1739449316640,
+      "sourceSize": 21893,
+      "exportedPath": "acceso-a-datos/curso-spring/ogx43rq.png",
+      "dependencies": []
+    },
+    "ACCESO-A-DATOS/Curso-spring/original.png": {
+      "modifiedTime": 1739449316640,
+      "sourceSize": 163458,
+      "exportedPath": "acceso-a-datos/curso-spring/original.png",
+      "dependencies": []
+    },
     "ACCESO-A-DATOS/Curso-spring/URL.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 314,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 351,
       "exportedPath": "acceso-a-datos/curso-spring/url.html",
       "dependencies": [
-        "lib/media/original.png",
-        "lib/media/ogx43rq.png"
+        "acceso-a-datos/curso-spring/original.png",
+        "acceso-a-datos/curso-spring/ogx43rq.png"
       ]
     },
     "ACCESO-A-DATOS/Curso-spring/XML.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 230,
       "exportedPath": "acceso-a-datos/curso-spring/xml.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Acceso a Datos.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 541,
       "exportedPath": "acceso-a-datos/acceso-a-datos.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Acceso a ficheros.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 3586,
       "exportedPath": "acceso-a-datos/acceso-a-ficheros.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main.zip": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 87397,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 440047,
       "exportedPath": "acceso-a-datos/acd-main.zip",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Archivo.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 101,
       "exportedPath": "acceso-a-datos/archivo.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Buffer.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 116,
       "exportedPath": "acceso-a-datos/buffer.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Clases para trabajar con ficheros.canvas": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 3242,
       "exportedPath": "acceso-a-datos/clases-para-trabajar-con-ficheros.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/direccion absolucta.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 65,
       "exportedPath": "acceso-a-datos/direccion-absolucta.html",
       "dependencies": []
     },
+    "ACCESO-A-DATOS/objecto.md": {
+      "modifiedTime": 1739449316640,
+      "sourceSize": 0,
+      "exportedPath": "acceso-a-datos/objecto.html",
+      "dependencies": []
+    },
     "ACCESO-A-DATOS/Offset.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 126,
       "exportedPath": "acceso-a-datos/offset.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/primerTema": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 61913,
       "exportedPath": "acceso-a-datos/primertema/primertema.",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Spring Framework.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 296,
       "exportedPath": "acceso-a-datos/spring-framework.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Stream.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 58,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 56,
       "exportedPath": "acceso-a-datos/stream.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Tema-1.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 61913,
       "exportedPath": "acceso-a-datos/tema-1.html",
       "dependencies": []
     },
     "BOOSTRAP - Curso/soruces/breakpoints.png": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 28602,
       "exportedPath": "boostrap-curso/soruces/breakpoints.png",
       "dependencies": []
     },
     "BOOSTRAP - Curso/grid.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 3290,
       "exportedPath": "boostrap-curso/grid.html",
       "dependencies": [
@@ -938,31 +707,31 @@
       ]
     },
     "Curso - Tenseflow/Accesos a datos de un tensor.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 908,
       "exportedPath": "curso-tenseflow/accesos-a-datos-de-un-tensor.html",
       "dependencies": []
     },
     "Curso - Tenseflow/Ejecutar proyecto TS.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 205,
       "exportedPath": "curso-tenseflow/ejecutar-proyecto-ts.html",
       "dependencies": []
     },
     "Curso - Tenseflow/Estructura-Red-neuronal-Densa-Cuenta-con-la-primera-capa-de-entrada-dos-capas-ocultas.png": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 135089,
       "exportedPath": "curso-tenseflow/estructura-red-neuronal-densa-cuenta-con-la-primera-capa-de-entrada-dos-capas-ocultas.png",
       "dependencies": []
     },
     "Curso - Tenseflow/Exportacion de modelos.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 151,
       "exportedPath": "curso-tenseflow/exportacion-de-modelos.html",
       "dependencies": []
     },
     "Curso - Tenseflow/Funciones de Activacion.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 394,
       "exportedPath": "curso-tenseflow/funciones-de-activacion.html",
       "dependencies": [
@@ -970,37 +739,37 @@
       ]
     },
     "Curso - Tenseflow/FuncionRELU.png": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 59257,
       "exportedPath": "curso-tenseflow/funcionrelu.png",
       "dependencies": []
     },
     "Curso - Tenseflow/Identificador Imagenes.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 103,
       "exportedPath": "curso-tenseflow/identificador-imagenes.html",
       "dependencies": []
     },
     "Curso - Tenseflow/Layers.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 3267,
       "exportedPath": "curso-tenseflow/layers.html",
       "dependencies": []
     },
     "Curso - Tenseflow/Multiplicar tensores.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 251,
       "exportedPath": "curso-tenseflow/multiplicar-tensores.html",
       "dependencies": []
     },
     "Curso - Tenseflow/neural-net.png": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 55443,
       "exportedPath": "curso-tenseflow/neural-net.png",
       "dependencies": []
     },
     "Curso - Tenseflow/Perceptrones.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 1955,
       "exportedPath": "curso-tenseflow/perceptrones.html",
       "dependencies": [
@@ -1009,117 +778,117 @@
       ]
     },
     "Curso - Tenseflow/Redes neoruronales.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 87,
       "exportedPath": "curso-tenseflow/redes-neoruronales.html",
       "dependencies": []
     },
     "Curso - Tenseflow/Redes Neuronales Convulsionales.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 250,
       "exportedPath": "curso-tenseflow/redes-neuronales-convulsionales.html",
       "dependencies": []
     },
     "Curso - Tenseflow/Tensores.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 283,
       "exportedPath": "curso-tenseflow/tensores.html",
       "dependencies": []
     },
     "Curso - Tenseflow/tf.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 3025,
       "exportedPath": "curso-tenseflow/tf.html",
       "dependencies": []
     },
     "Curso - Tenseflow/Tipos de problemas.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 748,
       "exportedPath": "curso-tenseflow/tipos-de-problemas.html",
       "dependencies": []
     },
     "Curso - Tenseflow/Tipos de Redes Neorunales.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 228,
       "exportedPath": "curso-tenseflow/tipos-de-redes-neorunales.html",
       "dependencies": []
     },
     "Curso - Tenseflow/Uso de memoria.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 1872,
       "exportedPath": "curso-tenseflow/uso-de-memoria.html",
       "dependencies": []
     },
     "Curso - Tenseflow/Variables - Imutables.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 589,
       "exportedPath": "curso-tenseflow/variables-imutables.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso_React/hoks/useCallBack.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 0,
       "exportedPath": "desarrollo-de-interfacez/curso_react/hoks/usecallback.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso_React/hoks/useContext.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 0,
       "exportedPath": "desarrollo-de-interfacez/curso_react/hoks/usecontext.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso_React/hoks/useEffect.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 2654,
       "exportedPath": "desarrollo-de-interfacez/curso_react/hoks/useeffect.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso_React/hoks/useId.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 0,
       "exportedPath": "desarrollo-de-interfacez/curso_react/hoks/useid.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso_React/hoks/useMemo.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 0,
       "exportedPath": "desarrollo-de-interfacez/curso_react/hoks/usememo.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso_React/hoks/useReductor.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 0,
       "exportedPath": "desarrollo-de-interfacez/curso_react/hoks/usereductor.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso_React/hoks/useRef.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 667,
       "exportedPath": "desarrollo-de-interfacez/curso_react/hoks/useref.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso_React/hoks/useState.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 0,
       "exportedPath": "desarrollo-de-interfacez/curso_react/hoks/usestate.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso_React/Atributos React.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 317,
       "exportedPath": "desarrollo-de-interfacez/curso_react/atributos-react.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso_React/Componente de Clase.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 791,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 795,
       "exportedPath": "desarrollo-de-interfacez/curso_react/componente-de-clase.html",
       "dependencies": [
         "lib/media/componente_declase.png"
       ]
     },
     "DESARROLLO-DE-INTERFACEZ/Curso_React/Componente Funcional.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 599,
       "exportedPath": "desarrollo-de-interfacez/curso_react/componente-funcional.html",
       "dependencies": [
@@ -1127,157 +896,217 @@
       ]
     },
     "DESARROLLO-DE-INTERFACEZ/Curso_React/Elemento.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 1439,
       "exportedPath": "desarrollo-de-interfacez/curso_react/elemento.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso_React/Estado.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 350,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 523,
       "exportedPath": "desarrollo-de-interfacez/curso_react/estado.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso_React/Event listener.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 137,
       "exportedPath": "desarrollo-de-interfacez/curso_react/event-listener.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso_React/Hooks.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 286,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 655,
       "exportedPath": "desarrollo-de-interfacez/curso_react/hooks.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso_React/JSX.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1079,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 1078,
       "exportedPath": "desarrollo-de-interfacez/curso_react/jsx.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso_React/React.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 553,
       "exportedPath": "desarrollo-de-interfacez/curso_react/react.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso_React/React DOM.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 377,
       "exportedPath": "desarrollo-de-interfacez/curso_react/react-dom.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso_React/Self Cloasing Tag.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 243,
       "exportedPath": "desarrollo-de-interfacez/curso_react/self-cloasing-tag.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso_React/State-Estado.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 314,
       "exportedPath": "desarrollo-de-interfacez/curso_react/state-estado.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso_React/Style.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 582,
       "exportedPath": "desarrollo-de-interfacez/curso_react/style.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso_React/useState.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 365,
       "exportedPath": "desarrollo-de-interfacez/curso_react/usestate.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso-RactNative/Cambiar estilos en diferentes plataformas.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 4332,
       "exportedPath": "desarrollo-de-interfacez/curso-ractnative/cambiar-estilos-en-diferentes-plataformas.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso-RactNative/Componentes y combatibilidad.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 517,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 518,
       "exportedPath": "desarrollo-de-interfacez/curso-ractnative/componentes-y-combatibilidad.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso-RactNative/Constatntes Expo.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 375,
       "exportedPath": "desarrollo-de-interfacez/curso-ractnative/constatntes-expo.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso-RactNative/Estilos.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 3843,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 3844,
       "exportedPath": "desarrollo-de-interfacez/curso-ractnative/estilos.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso-RactNative/FlatList.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1943,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 1948,
       "exportedPath": "desarrollo-de-interfacez/curso-ractnative/flatlist.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso-RactNative/Formik.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 2405,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 2407,
       "exportedPath": "desarrollo-de-interfacez/curso-ractnative/formik.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso-RactNative/MapReactNAtiva.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 893,
       "exportedPath": "desarrollo-de-interfacez/curso-ractnative/mapreactnativa.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso-RactNative/React Router Native.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 1088,
       "exportedPath": "desarrollo-de-interfacez/curso-ractnative/react-router-native.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso-RactNative/ScrollView.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 162,
       "exportedPath": "desarrollo-de-interfacez/curso-ractnative/scrollview.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso-RactNative/Text.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 71,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 72,
       "exportedPath": "desarrollo-de-interfacez/curso-ractnative/text.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso-RactNative/TextInput.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 50,
       "exportedPath": "desarrollo-de-interfacez/curso-ractnative/textinput.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso-RactNative/Touchable.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 209,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 210,
       "exportedPath": "desarrollo-de-interfacez/curso-ractnative/touchable.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Curso-RactNative/ViewReact.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 120,
       "exportedPath": "desarrollo-de-interfacez/curso-ractnative/viewreact.html",
       "dependencies": []
     },
-    "DESARROLLO-DE-INTERFACEZ/COdigo gratuito.md": {
-      "modifiedTime": 1738754047873,
+    "DESARROLLO-DE-INTERFACEZ/Next.js/Casos de uso de Next.js.md": {
+      "modifiedTime": 1739449316640,
+      "sourceSize": 482,
+      "exportedPath": "desarrollo-de-interfacez/next.js/casos-de-uso-de-next.js.html",
+      "dependencies": []
+    },
+    "DESARROLLO-DE-INTERFACEZ/Next.js/Casos de uso y mejores prácticas en Next.js.md": {
+      "modifiedTime": 1739449316640,
+      "sourceSize": 0,
+      "exportedPath": "desarrollo-de-interfacez/next.js/casos-de-uso-y-mejores-prácticas-en-next.js.html",
+      "dependencies": []
+    },
+    "DESARROLLO-DE-INTERFACEZ/Next.js/Comparación entre Next.js 14 y 15.md": {
+      "modifiedTime": 1739449316640,
+      "sourceSize": 254,
+      "exportedPath": "desarrollo-de-interfacez/next.js/comparación-entre-next.js-14-y-15.html",
+      "dependencies": []
+    },
+    "DESARROLLO-DE-INTERFACEZ/Next.js/Comparación entre Next.js y React puro.md": {
+      "modifiedTime": 1739449316640,
+      "sourceSize": 726,
+      "exportedPath": "desarrollo-de-interfacez/next.js/comparación-entre-next.js-y-react-puro.html",
+      "dependencies": []
+    },
+    "DESARROLLO-DE-INTERFACEZ/Next.js/Indice.md": {
+      "modifiedTime": 1739449316640,
+      "sourceSize": 588,
+      "exportedPath": "desarrollo-de-interfacez/next.js/indice.html",
+      "dependencies": []
+    },
+    "DESARROLLO-DE-INTERFACEZ/Next.js/Introducción a Next.js.md": {
+      "modifiedTime": 1739449316640,
+      "sourceSize": 347,
+      "exportedPath": "desarrollo-de-interfacez/next.js/introducción-a-next.js.html",
+      "dependencies": []
+    },
+    "DESARROLLO-DE-INTERFACEZ/Next.js/Novedades en Next.js 14.md": {
+      "modifiedTime": 1739449316640,
+      "sourceSize": 363,
+      "exportedPath": "desarrollo-de-interfacez/next.js/novedades-en-next.js-14.html",
+      "dependencies": []
+    },
+    "DESARROLLO-DE-INTERFACEZ/Next.js/Novedades en Next.js 15.md": {
+      "modifiedTime": 1739449316640,
+      "sourceSize": 276,
+      "exportedPath": "desarrollo-de-interfacez/next.js/novedades-en-next.js-15.html",
+      "dependencies": []
+    },
+    "DESARROLLO-DE-INTERFACEZ/Next.js/Recursos y documentación adicional.md": {
+      "modifiedTime": 1739449316640,
+      "sourceSize": 219,
+      "exportedPath": "desarrollo-de-interfacez/next.js/recursos-y-documentación-adicional.html",
+      "dependencies": []
+    },
+    "DESARROLLO-DE-INTERFACEZ/Next.js/Ventajas de Next.js sobre React.md": {
+      "modifiedTime": 1739449316640,
+      "sourceSize": 984,
+      "exportedPath": "desarrollo-de-interfacez/next.js/ventajas-de-next.js-sobre-react.html",
+      "dependencies": []
+    },
+    "DESARROLLO-DE-INTERFACEZ/Código gratuito.md": {
+      "modifiedTime": 1739449316640,
       "sourceSize": 43,
-      "exportedPath": "desarrollo-de-interfacez/codigo-gratuito.html",
+      "exportedPath": "desarrollo-de-interfacez/código-gratuito.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Comandos - FLujo de Trabajo.canvas": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 5443,
       "exportedPath": "desarrollo-de-interfacez/comandos-flujo-de-trabajo.html",
       "dependencies": [
@@ -1285,2811 +1114,1185 @@
       ]
     },
     "DESARROLLO-DE-INTERFACEZ/Commit.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 45,
       "exportedPath": "desarrollo-de-interfacez/commit.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/componente_declase.png": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 96887,
       "exportedPath": "desarrollo-de-interfacez/componente_declase.png",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/componente_funcional.png": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 6967,
       "exportedPath": "desarrollo-de-interfacez/componente_funcional.png",
       "dependencies": []
     },
-    "DESARROLLO-DE-INTERFACEZ/COnflicto.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 39,
+    "DESARROLLO-DE-INTERFACEZ/Conflicto.md": {
+      "modifiedTime": 1739449316640,
+      "sourceSize": 40,
       "exportedPath": "desarrollo-de-interfacez/conflicto.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Dasarrollo De Interfcez.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 883,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 884,
       "exportedPath": "desarrollo-de-interfacez/dasarrollo-de-interfcez.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Diseño de interfaces.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 50,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 51,
       "exportedPath": "desarrollo-de-interfacez/diseño-de-interfaces.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Flujo de  trabajo de Git.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 25,
       "exportedPath": "desarrollo-de-interfacez/flujo-de-trabajo-de-git.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Git.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 196,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 197,
       "exportedPath": "desarrollo-de-interfacez/git.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Git Emoji.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 201,
       "exportedPath": "desarrollo-de-interfacez/git-emoji.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Git Hub - Sistema de Control de Versiones.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 201,
       "exportedPath": "desarrollo-de-interfacez/git-hub-sistema-de-control-de-versiones.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Imagen1.png": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 67372,
       "exportedPath": "desarrollo-de-interfacez/imagen1.png",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Interface de usuario (UI).md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 158,
       "exportedPath": "desarrollo-de-interfacez/interface-de-usuario-(ui).html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Interfaz Grafica de Usuario (GUI).md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 257,
       "exportedPath": "desarrollo-de-interfacez/interfaz-grafica-de-usuario-(gui).html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/No me hagas pensar.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 15,
       "exportedPath": "desarrollo-de-interfacez/no-me-hagas-pensar.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Ramas.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 95,
       "exportedPath": "desarrollo-de-interfacez/ramas.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Repositiorio Local.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 38,
       "exportedPath": "desarrollo-de-interfacez/repositiorio-local.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Reposotiro Servidor.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 44,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 45,
       "exportedPath": "desarrollo-de-interfacez/reposotiro-servidor.html",
       "dependencies": []
     },
-    "DESARROLLO-DE-INTERFACEZ/Usabilidad y ASecciblidad.md": {
-      "modifiedTime": 1738754047873,
+    "DESARROLLO-DE-INTERFACEZ/Usabilidad y accesibilidad.md": {
+      "modifiedTime": 1739449316640,
       "sourceSize": 263,
-      "exportedPath": "desarrollo-de-interfacez/usabilidad-y-asecciblidad.html",
+      "exportedPath": "desarrollo-de-interfacez/usabilidad-y-accesibilidad.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Aspectos Fiscales.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 450,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 451,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/aspectos-fiscales.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Complejidad de la constitución y de la gestión.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 450,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/complejidad-de-la-constitución-y-de-la-gestión.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Criterios Fiscalia.canvas": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 2987,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/criterios-fiscalia.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/El concepto de forma juridica.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 180,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/el-concepto-de-forma-juridica.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/El numero de socios.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 779,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/el-numero-de-socios.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Empresario Indiviual.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 301,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 302,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/empresario-indiviual.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/La forma jurídicas individuales y las colectividades sin personalidades jurídica propia.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 123,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 122,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/la-forma-jurídicas-individuales-y-las-colectividades-sin-personalidades-jurídica-propia.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/La responsabilidad patrimonial de los promotores.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 961,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/la-responsabilidad-patrimonial-de-los-promotores.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Las necesidades económicas de un proyecto.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 837,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/las-necesidades-económicas-de-un-proyecto.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Los criterios para elegir la forma jurídica.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 83,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 84,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/los-criterios-para-elegir-la-forma-jurídica.html",
       "dependencies": []
     },
-    "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Otrsos ASpectos.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 22,
-      "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/otrsos-aspectos.html",
+    "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Otros Aspectos.md": {
+      "modifiedTime": 1739449316640,
+      "sourceSize": 23,
+      "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/otros-aspectos.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Tema Nº6.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 773,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 772,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/tema-nº6.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Tramites según su forma jurídica.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 896,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/tramites-según-su-forma-jurídica.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/Eleccion Electiva.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 0,
       "exportedPath": "empresa-e-iniciativa-empredora/eleccion-electiva.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/Empresa e inicitiva emprededora.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 0,
       "exportedPath": "empresa-e-iniciativa-empredora/empresa-e-inicitiva-emprededora.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/Empresas de forma juridica.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 135,
       "exportedPath": "empresa-e-iniciativa-empredora/empresas-de-forma-juridica.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/Politico Cambios en una escuesla.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 2228,
       "exportedPath": "empresa-e-iniciativa-empredora/politico-cambios-en-una-escuesla.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/Resumen.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 3176,
       "exportedPath": "empresa-e-iniciativa-empredora/resumen.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/Resumen 2.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 2459,
       "exportedPath": "empresa-e-iniciativa-empredora/resumen-2.html",
       "dependencies": []
     },
-    "Ingles/GUION - Primera presentacion.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 69,
-      "exportedPath": "ingles/guion-primera-presentacion.html",
-      "dependencies": []
-    },
     "Ingles/Ingles.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 115,
       "exportedPath": "ingles/ingles.html",
       "dependencies": []
     },
     "Ingles/Tema 1.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 3037,
       "exportedPath": "ingles/tema-1.html",
       "dependencies": []
     },
     "Ingles/Tema 2.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 131,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 4237,
       "exportedPath": "ingles/tema-2.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Activity.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 5273,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 5276,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/activity.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Android Manifest.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 82,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/android-manifest.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/AppCompatButton.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 71,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 72,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/appcompatbutton.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/AppCompatEditText.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 68,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/appcompatedittext.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Arrays.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1464,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 1465,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/arrays.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Booleanos.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 258,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/booleanos.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/CardView.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 67,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 69,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/cardview.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/CheckBox.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 45,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/checkbox.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/CompanionObjecto.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 639,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/companionobjecto.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/ConstransLayout.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 66,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/constranslayout.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Dialog.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 957,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/dialog.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/editText.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 357,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/edittext.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/EstructuraDeUnProyecto.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 4956,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/estructuradeunproyecto.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/FindViewByID.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 211,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/findviewbyid.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/FloatingActionButon.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 54,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/floatingactionbuton.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Fragment.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 3206,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 3209,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/fragment.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Función.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 1335,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/función.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/layout_constraitBottom_toBottomof.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 248,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/layout_constraitbottom_tobottomof.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/layout_contraitsTop_toTopOf.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 359,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/layout_contraitstop_totopof.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/LinearLayout.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 122,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/linearlayout.html",
       "dependencies": []
     },
-    "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Listas kotvin.md": {
-      "modifiedTime": 1738754047873,
+    "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Listas kotlin.md": {
+      "modifiedTime": 1739449316640,
       "sourceSize": 1474,
-      "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/listas-kotvin.html",
+      "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/listas-kotlin.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Navigation Component.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 6685,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/navigation-component.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Nulabilidad kotlin.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 369,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/nulabilidad-kotlin.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Print.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 351,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/print.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/RadioButton.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 266,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/radiobutton.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/RangeSlider.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 268,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/rangeslider.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/SealedClass.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 114,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/sealedclass.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Start_toStartOf.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 163,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/start_tostartof.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/TextView.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 1451,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/textview.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Theme.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 734,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/theme.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Top_toTopOf.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 168,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/top_totopof.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Variables Alfanumericas.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 681,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/variables-alfanumericas.html",
       "dependencies": []
     },
-    "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Variables Kotvin.md": {
-      "modifiedTime": 1738754047873,
+    "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Variables Kotlin.md": {
+      "modifiedTime": 1739449316640,
       "sourceSize": 488,
-      "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/variables-kotvin.html",
+      "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/variables-kotlin.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Variables Numericas.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 688,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/variables-numericas.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/View.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 552,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/view.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/View Binding.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 1714,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/view-binding.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/When.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 2327,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/when.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/xml.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 1191,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/curso_android_studio/xml.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Activiti.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 0,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/activiti.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Adapter.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 1859,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/adapter.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/AplicacionBasica.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 822,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/aplicacionbasica.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Clase.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1544,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 1549,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/clase.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Component.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 1478,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/component.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/dp.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 19,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/dp.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/holder.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 508,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/holder.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Init.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 2507,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/init.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Java vs Kolvin.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 5703,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/java-vs-kolvin.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/JerarquiDeCarpetas.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 747,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/jerarquidecarpetas.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/JetPack Compose.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 342,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/jetpack-compose.html",
       "dependencies": []
     },
-    "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Kolvin.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 399,
-      "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/kolvin.html",
+    "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Kotlin.md": {
+      "modifiedTime": 1739449316640,
+      "sourceSize": 398,
+      "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/kotlin.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Lista API.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 126,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/lista-api.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Listas.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 0,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/listas.html",
       "dependencies": []
     },
-    "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Metodos.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 483,
-      "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/metodos.html",
+    "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Métodos.md": {
+      "modifiedTime": 1739449316640,
+      "sourceSize": 482,
+      "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/métodos.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/PMDM.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 377,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 378,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/pmdm.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Recicly View.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 960,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/recicly-view.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Sets.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 2115,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/sets.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/SP.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 47,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/sp.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Temas que ver segundo tirmestre.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 172,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/temas-que-ver-segundo-tirmestre.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Variables_kolvinn.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 2052,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/variables_kolvinn.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-SERVICIOS-Y-PROCESOS/PSP.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 692,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 693,
       "exportedPath": "programacion-de-servicios-y-procesos/psp.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/DockerCurso/Comandos de Contenedores.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 2101,
       "exportedPath": "proyectos-fempa/proyecto-final/dockercurso/comandos-de-contenedores.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/DockerCurso/Comandos de imagenes.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 850,
       "exportedPath": "proyectos-fempa/proyecto-final/dockercurso/comandos-de-imagenes.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/DockerCurso/Conectar un contenedor a nuestra app.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 869,
       "exportedPath": "proyectos-fempa/proyecto-final/dockercurso/conectar-un-contenedor-a-nuestra-app.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/DockerCurso/Contenedores.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 0,
       "exportedPath": "proyectos-fempa/proyecto-final/dockercurso/contenedores.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/DockerCurso/Docker Compose.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 1412,
       "exportedPath": "proyectos-fempa/proyecto-final/dockercurso/docker-compose.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/DockerCurso/Docker Network.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 272,
       "exportedPath": "proyectos-fempa/proyecto-final/dockercurso/docker-network.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/DockerCurso/Imagenes.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 0,
       "exportedPath": "proyectos-fempa/proyecto-final/dockercurso/imagenes.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/DockerCurso/Port Mapping.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 345,
       "exportedPath": "proyectos-fempa/proyecto-final/dockercurso/port-mapping.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/DockerCurso/Virtualizacion SO y aplicaciones.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 0,
       "exportedPath": "proyectos-fempa/proyecto-final/dockercurso/virtualizacion-so-y-aplicaciones.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/DockerCurso/Volumes.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 440,
       "exportedPath": "proyectos-fempa/proyecto-final/dockercurso/volumes.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/SvelteKitCurso/Svelte.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 114,
       "exportedPath": "proyectos-fempa/proyecto-final/sveltekitcurso/svelte.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/API.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 3547,
       "exportedPath": "proyectos-fempa/proyecto-final/api.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/Arquitectura Limpia.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1128,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 1135,
       "exportedPath": "proyectos-fempa/proyecto-final/arquitectura-limpia.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/CasosDe Uso.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 0,
       "exportedPath": "proyectos-fempa/proyecto-final/casosde-uso.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/Comandos para crear proyecto.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 103,
       "exportedPath": "proyectos-fempa/proyecto-final/comandos-para-crear-proyecto.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/Entidad Relación.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 5767,
       "exportedPath": "proyectos-fempa/proyecto-final/entidad-relación.html",
       "dependencies": [
-        "lib/media/entidad_relacion.png"
+        "proyectos-fempa/proyecto-final/entidad_relacion.png"
       ]
     },
+    "PROYECTOS - FEMPA/PROYECTO - FINAL/entidad_relacion.drawio": {
+      "modifiedTime": 1739449316640,
+      "sourceSize": 72394,
+      "exportedPath": "proyectos-fempa/proyecto-final/entidad_relacion.drawio",
+      "dependencies": []
+    },
+    "PROYECTOS - FEMPA/PROYECTO - FINAL/entidad_relacion.png": {
+      "modifiedTime": 1739449316640,
+      "sourceSize": 288302,
+      "exportedPath": "proyectos-fempa/proyecto-final/entidad_relacion.png",
+      "dependencies": []
+    },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/Etapas PFC.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 344,
       "exportedPath": "proyectos-fempa/proyecto-final/etapas-pfc.html",
       "dependencies": []
     },
-    "PROYECTOS - FEMPA/PROYECTO - FINAL/Logica de compra.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 0,
-      "exportedPath": "proyectos-fempa/proyecto-final/logica-de-compra.html",
-      "dependencies": []
-    },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/Requistos Funcionales.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 1002,
       "exportedPath": "proyectos-fempa/proyecto-final/requistos-funcionales.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/Untitled.canvas": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 855,
       "exportedPath": "proyectos-fempa/proyecto-final/untitled.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - VIA CREADON/Clientes - Compradores.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 1241,
       "exportedPath": "proyectos-fempa/proyecto-via-creadon/clientes-compradores.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - VIA CREADON/Competidores.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 363,
       "exportedPath": "proyectos-fempa/proyecto-via-creadon/competidores.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - VIA CREADON/Listas de propuestas.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 1731,
       "exportedPath": "proyectos-fempa/proyecto-via-creadon/listas-de-propuestas.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - VIA CREADON/Ofertas Sustitutivas.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 163,
       "exportedPath": "proyectos-fempa/proyecto-via-creadon/ofertas-sustitutivas.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - VIA CREADON/Potenciales.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 226,
       "exportedPath": "proyectos-fempa/proyecto-via-creadon/potenciales.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Block Chain.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 0,
       "exportedPath": "sistema-gestion-empresarial/block-chain.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Bruto.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 76,
       "exportedPath": "sistema-gestion-empresarial/bruto.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Caja ciega.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 115,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 116,
       "exportedPath": "sistema-gestion-empresarial/caja-ciega.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Cajas.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 176,
       "exportedPath": "sistema-gestion-empresarial/cajas.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/CFDP.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 33,
       "exportedPath": "sistema-gestion-empresarial/cfdp.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Compras.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 70,
       "exportedPath": "sistema-gestion-empresarial/compras.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/CRP.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 74,
       "exportedPath": "sistema-gestion-empresarial/crp.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Datos.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 32,
       "exportedPath": "sistema-gestion-empresarial/datos.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Departamento de una EMpresa.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 412,
       "exportedPath": "sistema-gestion-empresarial/departamento-de-una-empresa.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Empresa.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 142,
       "exportedPath": "sistema-gestion-empresarial/empresa.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Empresas Privadas.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 0,
       "exportedPath": "sistema-gestion-empresarial/empresas-privadas.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Empresas Publicas.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 0,
       "exportedPath": "sistema-gestion-empresarial/empresas-publicas.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/ERP.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 230,
       "exportedPath": "sistema-gestion-empresarial/erp.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/ERP vs SAAS.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 60,
       "exportedPath": "sistema-gestion-empresarial/erp-vs-saas.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Estrategia.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 55,
       "exportedPath": "sistema-gestion-empresarial/estrategia.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/fijo sueldo.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 53,
       "exportedPath": "sistema-gestion-empresarial/fijo-sueldo.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Logistica.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 61,
       "exportedPath": "sistema-gestion-empresarial/logistica.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Marketing.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 47,
       "exportedPath": "sistema-gestion-empresarial/marketing.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Neto.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 48,
       "exportedPath": "sistema-gestion-empresarial/neto.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Objectivo.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 208,
       "exportedPath": "sistema-gestion-empresarial/objectivo.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Palabras luego desarrollar.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 32,
       "exportedPath": "sistema-gestion-empresarial/palabras-luego-desarrollar.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Programa Z.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 92,
       "exportedPath": "sistema-gestion-empresarial/programa-z.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Puertos Virtuales.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 0,
       "exportedPath": "sistema-gestion-empresarial/puertos-virtuales.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/RPA.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 120,
       "exportedPath": "sistema-gestion-empresarial/rpa.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/SAAS.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 66,
       "exportedPath": "sistema-gestion-empresarial/saas.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/scrapping.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 0,
       "exportedPath": "sistema-gestion-empresarial/scrapping.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Sistema de Gestión Empresarial.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 0,
       "exportedPath": "sistema-gestion-empresarial/sistema-de-gestión-empresarial.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Software vertical.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 194,
       "exportedPath": "sistema-gestion-empresarial/software-vertical.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Sueldo.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 85,
       "exportedPath": "sistema-gestion-empresarial/sueldo.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/variable sueldo.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 59,
       "exportedPath": "sistema-gestion-empresarial/variable-sueldo.html",
       "dependencies": []
     },
-    "Tareas/Registros_tareas/2023-09-28.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 0,
-      "exportedPath": "tareas/registros_tareas/2023-09-28.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-09-29.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 839,
-      "exportedPath": "tareas/registros_tareas/2023-09-29.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-09-30.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 814,
-      "exportedPath": "tareas/registros_tareas/2023-09-30.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-10-06.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 839,
-      "exportedPath": "tareas/registros_tareas/2023-10-06.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-10-12.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 882,
-      "exportedPath": "tareas/registros_tareas/2023-10-12.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-10-14.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 882,
-      "exportedPath": "tareas/registros_tareas/2023-10-14.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-10-23.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 882,
-      "exportedPath": "tareas/registros_tareas/2023-10-23.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-10-30.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 882,
-      "exportedPath": "tareas/registros_tareas/2023-10-30.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-10-31.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 973,
-      "exportedPath": "tareas/registros_tareas/2023-10-31.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-11-01.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 973,
-      "exportedPath": "tareas/registros_tareas/2023-11-01.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-11-02.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 987,
-      "exportedPath": "tareas/registros_tareas/2023-11-02.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-11-05.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 973,
-      "exportedPath": "tareas/registros_tareas/2023-11-05.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-11-06.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 973,
-      "exportedPath": "tareas/registros_tareas/2023-11-06.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-11-07.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1084,
-      "exportedPath": "tareas/registros_tareas/2023-11-07.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-11-08.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1084,
-      "exportedPath": "tareas/registros_tareas/2023-11-08.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-11-09.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1084,
-      "exportedPath": "tareas/registros_tareas/2023-11-09.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-11-10.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1084,
-      "exportedPath": "tareas/registros_tareas/2023-11-10.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-11-11.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1084,
-      "exportedPath": "tareas/registros_tareas/2023-11-11.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-11-12.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1084,
-      "exportedPath": "tareas/registros_tareas/2023-11-12.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-11-13.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1084,
-      "exportedPath": "tareas/registros_tareas/2023-11-13.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-11-14.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1107,
-      "exportedPath": "tareas/registros_tareas/2023-11-14.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-11-16.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1084,
-      "exportedPath": "tareas/registros_tareas/2023-11-16.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-11-20.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1084,
-      "exportedPath": "tareas/registros_tareas/2023-11-20.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-11-21.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1084,
-      "exportedPath": "tareas/registros_tareas/2023-11-21.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-12-07.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1084,
-      "exportedPath": "tareas/registros_tareas/2023-12-07.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-12-09.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1084,
-      "exportedPath": "tareas/registros_tareas/2023-12-09.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-12-10.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1084,
-      "exportedPath": "tareas/registros_tareas/2023-12-10.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-12-11.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 537,
-      "exportedPath": "tareas/registros_tareas/2023-12-11.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-12-12.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 589,
-      "exportedPath": "tareas/registros_tareas/2023-12-12.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-12-14.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 589,
-      "exportedPath": "tareas/registros_tareas/2023-12-14.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-12-18.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 582,
-      "exportedPath": "tareas/registros_tareas/2023-12-18.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-12-19.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 582,
-      "exportedPath": "tareas/registros_tareas/2023-12-19.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-12-20.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 758,
-      "exportedPath": "tareas/registros_tareas/2023-12-20.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-12-21.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 721,
-      "exportedPath": "tareas/registros_tareas/2023-12-21.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-12-22.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 776,
-      "exportedPath": "tareas/registros_tareas/2023-12-22.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-12-23.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 721,
-      "exportedPath": "tareas/registros_tareas/2023-12-23.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-12-25.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 721,
-      "exportedPath": "tareas/registros_tareas/2023-12-25.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-12-26.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 769,
-      "exportedPath": "tareas/registros_tareas/2023-12-26.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-12-27.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 769,
-      "exportedPath": "tareas/registros_tareas/2023-12-27.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-12-28.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 800,
-      "exportedPath": "tareas/registros_tareas/2023-12-28.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2023-12-29.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 800,
-      "exportedPath": "tareas/registros_tareas/2023-12-29.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-01-03.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 800,
-      "exportedPath": "tareas/registros_tareas/2024-01-03.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-01-08.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 800,
-      "exportedPath": "tareas/registros_tareas/2024-01-08.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-01-12.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 800,
-      "exportedPath": "tareas/registros_tareas/2024-01-12.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-01-16.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 801,
-      "exportedPath": "tareas/registros_tareas/2024-01-16.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-01-17.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 889,
-      "exportedPath": "tareas/registros_tareas/2024-01-17.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-01-18.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 889,
-      "exportedPath": "tareas/registros_tareas/2024-01-18.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-01-19.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 889,
-      "exportedPath": "tareas/registros_tareas/2024-01-19.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-01-20.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1240,
-      "exportedPath": "tareas/registros_tareas/2024-01-20.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-01-21.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1240,
-      "exportedPath": "tareas/registros_tareas/2024-01-21.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-01-22.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1241,
-      "exportedPath": "tareas/registros_tareas/2024-01-22.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-01-23.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1283,
-      "exportedPath": "tareas/registros_tareas/2024-01-23.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-01-24.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1283,
-      "exportedPath": "tareas/registros_tareas/2024-01-24.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-01-25.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1283,
-      "exportedPath": "tareas/registros_tareas/2024-01-25.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-01-26.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1283,
-      "exportedPath": "tareas/registros_tareas/2024-01-26.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-01-29.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1281,
-      "exportedPath": "tareas/registros_tareas/2024-01-29.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-01-30.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1301,
-      "exportedPath": "tareas/registros_tareas/2024-01-30.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-01-31.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1301,
-      "exportedPath": "tareas/registros_tareas/2024-01-31.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-02-01.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1207,
-      "exportedPath": "tareas/registros_tareas/2024-02-01.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-02-03.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1171,
-      "exportedPath": "tareas/registros_tareas/2024-02-03.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-02-05.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1171,
-      "exportedPath": "tareas/registros_tareas/2024-02-05.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-02-06.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1171,
-      "exportedPath": "tareas/registros_tareas/2024-02-06.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-02-07.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1171,
-      "exportedPath": "tareas/registros_tareas/2024-02-07.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-02-08.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1006,
-      "exportedPath": "tareas/registros_tareas/2024-02-08.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-02-09.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1006,
-      "exportedPath": "tareas/registros_tareas/2024-02-09.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-02-10.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1006,
-      "exportedPath": "tareas/registros_tareas/2024-02-10.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-02-12.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1006,
-      "exportedPath": "tareas/registros_tareas/2024-02-12.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-02-16.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1014,
-      "exportedPath": "tareas/registros_tareas/2024-02-16.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-02-19.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1207,
-      "exportedPath": "tareas/registros_tareas/2024-02-19.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-02-23.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 845,
-      "exportedPath": "tareas/registros_tareas/2024-02-23.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-03-03.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1207,
-      "exportedPath": "tareas/registros_tareas/2024-03-03.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-03-04.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 845,
-      "exportedPath": "tareas/registros_tareas/2024-03-04.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-03-07.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 846,
-      "exportedPath": "tareas/registros_tareas/2024-03-07.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-03-08.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 887,
-      "exportedPath": "tareas/registros_tareas/2024-03-08.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-03-09.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 887,
-      "exportedPath": "tareas/registros_tareas/2024-03-09.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-03-10.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 887,
-      "exportedPath": "tareas/registros_tareas/2024-03-10.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-03-11.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 887,
-      "exportedPath": "tareas/registros_tareas/2024-03-11.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-03-12.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 887,
-      "exportedPath": "tareas/registros_tareas/2024-03-12.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-03-13.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 887,
-      "exportedPath": "tareas/registros_tareas/2024-03-13.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-03-14.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 887,
-      "exportedPath": "tareas/registros_tareas/2024-03-14.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-03-17.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 887,
-      "exportedPath": "tareas/registros_tareas/2024-03-17.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-03-18.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 884,
-      "exportedPath": "tareas/registros_tareas/2024-03-18.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-03-19.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 887,
-      "exportedPath": "tareas/registros_tareas/2024-03-19.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-03-20.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 887,
-      "exportedPath": "tareas/registros_tareas/2024-03-20.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-03-22.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 887,
-      "exportedPath": "tareas/registros_tareas/2024-03-22.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-03-23.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 887,
-      "exportedPath": "tareas/registros_tareas/2024-03-23.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-03-24.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 887,
-      "exportedPath": "tareas/registros_tareas/2024-03-24.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-03-25.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 887,
-      "exportedPath": "tareas/registros_tareas/2024-03-25.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-03-29.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 887,
-      "exportedPath": "tareas/registros_tareas/2024-03-29.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-03-30.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 887,
-      "exportedPath": "tareas/registros_tareas/2024-03-30.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-03-31.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 887,
-      "exportedPath": "tareas/registros_tareas/2024-03-31.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-01.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 888,
-      "exportedPath": "tareas/registros_tareas/2024-04-01.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-02.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 887,
-      "exportedPath": "tareas/registros_tareas/2024-04-02.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-03.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 888,
-      "exportedPath": "tareas/registros_tareas/2024-04-03.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-04.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 888,
-      "exportedPath": "tareas/registros_tareas/2024-04-04.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-05.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 888,
-      "exportedPath": "tareas/registros_tareas/2024-04-05.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-06.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1655,
-      "exportedPath": "tareas/registros_tareas/2024-04-06.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-07.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1601,
-      "exportedPath": "tareas/registros_tareas/2024-04-07.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-08.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1602,
-      "exportedPath": "tareas/registros_tareas/2024-04-08.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-09.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1602,
-      "exportedPath": "tareas/registros_tareas/2024-04-09.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-10.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1601,
-      "exportedPath": "tareas/registros_tareas/2024-04-10.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-11.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1601,
-      "exportedPath": "tareas/registros_tareas/2024-04-11.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-12.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1601,
-      "exportedPath": "tareas/registros_tareas/2024-04-12.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-13.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1601,
-      "exportedPath": "tareas/registros_tareas/2024-04-13.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-14.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1601,
-      "exportedPath": "tareas/registros_tareas/2024-04-14.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-15.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1601,
-      "exportedPath": "tareas/registros_tareas/2024-04-15.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-16.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1601,
-      "exportedPath": "tareas/registros_tareas/2024-04-16.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-17.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1601,
-      "exportedPath": "tareas/registros_tareas/2024-04-17.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-18.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1660,
-      "exportedPath": "tareas/registros_tareas/2024-04-18.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-19.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1660,
-      "exportedPath": "tareas/registros_tareas/2024-04-19.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-20.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1660,
-      "exportedPath": "tareas/registros_tareas/2024-04-20.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-21.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1660,
-      "exportedPath": "tareas/registros_tareas/2024-04-21.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-22.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1660,
-      "exportedPath": "tareas/registros_tareas/2024-04-22.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-23.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1342,
-      "exportedPath": "tareas/registros_tareas/2024-04-23.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-24.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1342,
-      "exportedPath": "tareas/registros_tareas/2024-04-24.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-25.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1342,
-      "exportedPath": "tareas/registros_tareas/2024-04-25.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-26.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1357,
-      "exportedPath": "tareas/registros_tareas/2024-04-26.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-27.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1357,
-      "exportedPath": "tareas/registros_tareas/2024-04-27.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-28.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1357,
-      "exportedPath": "tareas/registros_tareas/2024-04-28.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-29.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1357,
-      "exportedPath": "tareas/registros_tareas/2024-04-29.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-04-30.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1357,
-      "exportedPath": "tareas/registros_tareas/2024-04-30.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-01.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1357,
-      "exportedPath": "tareas/registros_tareas/2024-05-01.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-02.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1782,
-      "exportedPath": "tareas/registros_tareas/2024-05-02.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-03.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1601,
-      "exportedPath": "tareas/registros_tareas/2024-05-03.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-04.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1804,
-      "exportedPath": "tareas/registros_tareas/2024-05-04.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-05.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1904,
-      "exportedPath": "tareas/registros_tareas/2024-05-05.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-06.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 2138,
-      "exportedPath": "tareas/registros_tareas/2024-05-06.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-07.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1904,
-      "exportedPath": "tareas/registros_tareas/2024-05-07.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-09.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1904,
-      "exportedPath": "tareas/registros_tareas/2024-05-09.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-10.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1904,
-      "exportedPath": "tareas/registros_tareas/2024-05-10.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-11.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1904,
-      "exportedPath": "tareas/registros_tareas/2024-05-11.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-12.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1904,
-      "exportedPath": "tareas/registros_tareas/2024-05-12.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-13.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1904,
-      "exportedPath": "tareas/registros_tareas/2024-05-13.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-14.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1904,
-      "exportedPath": "tareas/registros_tareas/2024-05-14.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-15.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1904,
-      "exportedPath": "tareas/registros_tareas/2024-05-15.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-16.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1904,
-      "exportedPath": "tareas/registros_tareas/2024-05-16.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-17.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1904,
-      "exportedPath": "tareas/registros_tareas/2024-05-17.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-18.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1904,
-      "exportedPath": "tareas/registros_tareas/2024-05-18.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-19.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1904,
-      "exportedPath": "tareas/registros_tareas/2024-05-19.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-20.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1904,
-      "exportedPath": "tareas/registros_tareas/2024-05-20.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-21.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1904,
-      "exportedPath": "tareas/registros_tareas/2024-05-21.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-22.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1904,
-      "exportedPath": "tareas/registros_tareas/2024-05-22.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-23.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-05-23.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-24.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-05-24.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-25.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-05-25.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-26.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-05-26.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-27.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-05-27.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-28.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-05-28.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-05-29.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-05-29.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-06-07.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-06-07.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-06-08.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-06-08.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-06-09.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-06-09.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-06-10.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-06-10.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-06-11.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-06-11.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-07-08.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-07-08.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-07-12.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-07-12.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-07-13.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-07-13.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-07-15.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-07-15.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-07-16.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-07-16.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-07-17.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-07-17.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-07-18.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-07-18.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-07-19.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-07-19.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-07-20.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-07-20.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-09-10.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-09-10.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-09-11.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-09-11.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-09-12.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-09-12.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-09-14.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-09-14.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-09-15.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-09-15.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-09-16.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-09-16.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-09-17.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-09-17.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-09-18.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-09-18.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-09-19.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-09-19.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-09-20.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-09-20.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-09-21.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-09-21.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-09-22.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-09-22.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-09-26.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-09-26.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-09-27.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-09-27.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-09-28.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-09-28.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-09-29.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-09-29.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-09-30.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-09-30.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-10-01.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-10-01.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-10-02.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-10-02.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-10-04.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-10-04.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-10-05.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-10-05.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-10-18.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-10-18.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-10-19.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-10-19.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-10-20.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-10-20.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-10-21.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-10-21.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-10-23.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-10-23.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-10-26.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-10-26.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-10-27.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-10-27.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-10-28.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-10-28.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-10-29.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-10-29.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-10-30.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-10-30.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-10-31.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-10-31.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-11-01.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-11-01.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-11-06.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-11-06.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-11-07.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-11-07.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-11-08.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-11-08.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-11-09.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-11-09.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-11-10.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-11-10.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-11-11.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-11-11.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-11-12.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-11-12.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-11-13.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-11-13.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-11-14.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-11-14.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-11-15.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-11-15.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-11-16.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-11-16.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-11-17.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-11-17.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-11-18.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-11-18.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-11-19.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-11-19.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-11-20.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-11-20.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-11-21.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-11-21.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-11-22.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-11-22.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-11-23.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-11-23.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-11-24.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-11-24.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-11-30.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-11-30.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-12-01.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-12-01.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-12-02.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-12-02.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-12-04.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-12-04.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-12-06.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-12-06.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-12-07.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-12-07.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-12-08.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-12-08.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-12-09.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-12-09.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-12-10.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-12-10.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-12-14.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-12-14.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-12-15.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-12-15.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-12-16.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-12-16.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-12-17.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-12-17.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-12-19.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-12-19.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-12-21.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-12-21.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-12-22.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-12-22.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-12-23.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-12-23.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-12-24.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-12-24.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-12-25.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-12-25.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-12-26.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-12-26.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2024-12-27.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2024-12-27.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2025-01-07.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2025-01-07.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2025-01-14.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2025-01-14.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2025-01-15.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2025-01-15.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2025-01-16.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2025-01-16.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2025-01-17.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2025-01-17.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2025-01-18.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2025-01-18.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2025-01-19.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2025-01-19.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2025-01-20.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2025-01-20.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2025-01-21.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2025-01-21.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2025-01-22.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2025-01-22.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2025-01-23.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2025-01-23.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2025-01-24.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2025-01-24.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2025-01-25.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2025-01-25.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2025-01-26.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2025-01-26.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2025-01-27.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2025-01-27.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2025-01-28.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2025-01-28.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2025-01-29.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2025-01-29.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2025-01-30.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2025-01-30.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2025-01-31.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2025-01-31.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2025-02-01.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2025-02-01.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2025-02-02.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2025-02-02.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2025-02-03.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2025-02-03.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2025-02-04.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2025-02-04.html",
-      "dependencies": []
-    },
-    "Tareas/Registros_tareas/2025-02-05.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/registros_tareas/2025-02-05.html",
-      "dependencies": []
-    },
-    "Tareas/tamplate_tarea.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1907,
-      "exportedPath": "tareas/tamplate_tarea.html",
-      "dependencies": []
-    },
-    "Tareas/Tareas Fempa.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 71,
-      "exportedPath": "tareas/tareas-fempa.html",
-      "dependencies": []
-    },
-    "Archivo.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 101,
-      "exportedPath": "archivo.html",
-      "dependencies": []
-    },
-    "entidad_relacion.png": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 288302,
-      "exportedPath": "entidad_relacion.png",
-      "dependencies": []
-    },
-    "entidad_relacion.drawio": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 72394,
-      "exportedPath": "entidad_relacion.drawio",
-      "dependencies": []
-    },
     "Indice.md": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 311,
       "exportedPath": "indice.html",
       "dependencies": []
     },
-    "mVC.jpg": {
-      "modifiedTime": 1738754047873,
+    "acceso-a-datos/curso-spring/mvc.jpg": {
+      "modifiedTime": 1739449316640,
       "sourceSize": 49965,
-      "exportedPath": "mvc.jpg",
+      "exportedPath": "acceso-a-datos/curso-spring/mvc.jpg",
       "dependencies": []
     },
-    "mvc-rest.png": {
-      "modifiedTime": 1738754047873,
+    "acceso-a-datos/curso-spring/mvc-rest.png": {
+      "modifiedTime": 1739449316640,
       "sourceSize": 356937,
-      "exportedPath": "mvc-rest.png",
+      "exportedPath": "acceso-a-datos/curso-spring/mvc-rest.png",
       "dependencies": []
     },
-    "ogx43rq.png": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 21893,
-      "exportedPath": "ogx43rq.png",
-      "dependencies": []
-    },
-    "original.png": {
-      "modifiedTime": 1738754047873,
+    "acceso-a-datos/curso-spring/original.png": {
+      "modifiedTime": 1739449316640,
       "sourceSize": 163458,
-      "exportedPath": "original.png",
+      "exportedPath": "acceso-a-datos/curso-spring/original.png",
       "dependencies": []
     },
-    "Tema-1.md": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 61913,
-      "exportedPath": "tema-1.html",
-      "dependencies": []
-    },
-    "Untitled.canvas": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 1361,
-      "exportedPath": "untitled.html",
-      "dependencies": []
-    },
-    "lib/media/mvc.jpg": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 49965,
-      "exportedPath": "lib/media/mvc.jpg",
-      "dependencies": []
-    },
-    "lib/media/mvc-rest.png": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 356937,
-      "exportedPath": "lib/media/mvc-rest.png",
-      "dependencies": []
-    },
-    "lib/media/original.png": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 163458,
-      "exportedPath": "lib/media/original.png",
-      "dependencies": []
-    },
-    "lib/media/ogx43rq.png": {
-      "modifiedTime": 1738754047873,
+    "acceso-a-datos/curso-spring/ogx43rq.png": {
+      "modifiedTime": 1739449316640,
       "sourceSize": 21893,
-      "exportedPath": "lib/media/ogx43rq.png",
+      "exportedPath": "acceso-a-datos/curso-spring/ogx43rq.png",
       "dependencies": []
     },
     "boostrap-curso/soruces/breakpoints.png": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 28602,
       "exportedPath": "boostrap-curso/soruces/breakpoints.png",
       "dependencies": []
     },
     "curso-tenseflow/funcionrelu.png": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 59257,
       "exportedPath": "curso-tenseflow/funcionrelu.png",
       "dependencies": []
     },
     "curso-tenseflow/estructura-red-neuronal-densa-cuenta-con-la-primera-capa-de-entrada-dos-capas-ocultas.png": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 135089,
       "exportedPath": "curso-tenseflow/estructura-red-neuronal-densa-cuenta-con-la-primera-capa-de-entrada-dos-capas-ocultas.png",
       "dependencies": []
     },
     "curso-tenseflow/neural-net.png": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 55443,
       "exportedPath": "curso-tenseflow/neural-net.png",
       "dependencies": []
     },
     "lib/media/componente_declase.png": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 96887,
       "exportedPath": "lib/media/componente_declase.png",
       "dependencies": []
     },
     "lib/media/componente_funcional.png": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 6967,
       "exportedPath": "lib/media/componente_funcional.png",
       "dependencies": []
     },
     "desarrollo-de-interfacez/imagen1.png": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 67372,
       "exportedPath": "desarrollo-de-interfacez/imagen1.png",
       "dependencies": []
     },
-    "lib/media/entidad_relacion.png": {
-      "modifiedTime": 1738754047873,
+    "proyectos-fempa/proyecto-final/entidad_relacion.png": {
+      "modifiedTime": 1739449316640,
       "sourceSize": 288302,
-      "exportedPath": "lib/media/entidad_relacion.png",
+      "exportedPath": "proyectos-fempa/proyecto-final/entidad_relacion.png",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 209001,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 122981,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1738754047873,
-      "sourceSize": 42441,
+      "modifiedTime": 1739449316640,
+      "sourceSize": 28134,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 137229,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 262,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1738754047873,
+      "modifiedTime": 1739449316640,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []

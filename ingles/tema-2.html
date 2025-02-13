@@ -11,20 +11,552 @@
 		<meta property="og:url" content="ingles/tema-2.html">
 		<meta property="og:image" content="undefined">
 		<meta property="og:site_name" content="FEMPA">
-		<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.4.0/pixi.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript></head><body class="publish css-settings-manager theme-dark show-inline-title show-ribbon"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="Tema 2">Tema 2</h1><div class="el-p"><p dir="auto">Seungod tema Word procesing actions</p></div><div class="el-p"><p dir="auto">Vocabulary:</p></div><div class="el-p"><p dir="auto">Close:<br>
-copy:<br>
-cut:<br>
-delete:<br>
-edit:<br>
-open:<br>
-paste:<br>
-redo:<br>
-save:<br>
-save as:<br>
-select:<br>
-undo:</p></div><div class="mod-footer mod-ui"></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
+		<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.4.0/pixi.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript></head><body class="publish css-settings-manager theme-dark show-inline-title show-ribbon"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="Tema 2">Tema 2</h1><div class="el-p"><p dir="auto">Segundo tema Word procesing actions</p></div><div class="el-hr"><hr></div><div class="el-h4 heading-wrapper"><h4 data-heading="**📂 Acciones Básicas**" dir="auto" class="heading" id="**📂_Acciones_Básicas**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>📂 Acciones Básicas</strong></h4><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Inglés</th>
+<th dir="ltr">Español</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Close</strong></td>
+<td dir="ltr">Cerrar</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Copy</strong></td>
+<td dir="ltr">Copiar</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Cut</strong></td>
+<td dir="ltr">Cortar</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Delete</strong></td>
+<td dir="ltr">Eliminar, Borrar</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Edit</strong></td>
+<td dir="ltr">Editar</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Open</strong></td>
+<td dir="ltr">Abrir</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Paste</strong></td>
+<td dir="ltr">Pegar</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Redo</strong></td>
+<td dir="ltr">Rehacer</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Save</strong></td>
+<td dir="ltr">Guardar</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Save As</strong></td>
+<td dir="ltr">Guardar como</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Select</strong></td>
+<td dir="ltr">Seleccionar</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Undo</strong></td>
+<td dir="ltr">Deshacer</td>
+</tr>
+</tbody>
+</table></div><div class="el-hr"><hr></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="**📝 Formato de Texto**" dir="auto" class="heading" id="**📝_Formato_de_Texto**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>📝 Formato de Texto</strong></h4><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Inglés</th>
+<th dir="ltr">Español</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Bold</strong></td>
+<td dir="ltr">Negrita</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Italic</strong></td>
+<td dir="ltr">Cursiva</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Underline</strong></td>
+<td dir="ltr">Subrayado</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Strikethrough</strong></td>
+<td dir="ltr">Tachado</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Superscript</strong></td>
+<td dir="ltr">Superíndice</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Subscript</strong></td>
+<td dir="ltr">Subíndice</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Highlight</strong></td>
+<td dir="ltr">Resaltar</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Font</strong></td>
+<td dir="ltr">Fuente, Tipografía</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Font Size</strong></td>
+<td dir="ltr">Tamaño de fuente</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Font Style</strong></td>
+<td dir="ltr">Estilo de fuente</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Font Color</strong></td>
+<td dir="ltr">Color de fuente</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Text Alignment</strong></td>
+<td dir="ltr">Alineación de texto</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Justify</strong></td>
+<td dir="ltr">Justificar</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Left Align</strong></td>
+<td dir="ltr">Alinear a la izquierda</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Right Align</strong></td>
+<td dir="ltr">Alinear a la derecha</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Center Align</strong></td>
+<td dir="ltr">Alinear al centro</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Line Spacing</strong></td>
+<td dir="ltr">Espaciado entre líneas</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Paragraph Spacing</strong></td>
+<td dir="ltr">Espaciado entre párrafos</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Indentation</strong></td>
+<td dir="ltr">Sangría</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Bullet Points</strong></td>
+<td dir="ltr">Viñetas</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Numbered List</strong></td>
+<td dir="ltr">Lista numerada</td>
+</tr>
+</tbody>
+</table></div><div class="el-hr"><hr></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="**📊 Elementos y Objetos**" dir="auto" class="heading" id="**📊_Elementos_y_Objetos**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>📊 Elementos y Objetos</strong></h4><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Inglés</th>
+<th dir="ltr">Español</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Header</strong></td>
+<td dir="ltr">Encabezado</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Footer</strong></td>
+<td dir="ltr">Pie de página</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Title</strong></td>
+<td dir="ltr">Título</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Subtitle</strong></td>
+<td dir="ltr">Subtítulo</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Page Number</strong></td>
+<td dir="ltr">Número de página</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Table</strong></td>
+<td dir="ltr">Tabla</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Row</strong></td>
+<td dir="ltr">Fila</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Column</strong></td>
+<td dir="ltr">Columna</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Cell</strong></td>
+<td dir="ltr">Celda</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Chart</strong></td>
+<td dir="ltr">Gráfico</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Diagram</strong></td>
+<td dir="ltr">Diagrama</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Image</strong></td>
+<td dir="ltr">Imagen</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Picture</strong></td>
+<td dir="ltr">Fotografía</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Text Box</strong></td>
+<td dir="ltr">Cuadro de texto</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Hyperlink</strong></td>
+<td dir="ltr">Hipervínculo</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Bookmark</strong></td>
+<td dir="ltr">Marcador</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Table of Contents</strong></td>
+<td dir="ltr">Tabla de contenidos</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Index</strong></td>
+<td dir="ltr">Índice</td>
+</tr>
+</tbody>
+</table></div><div class="el-hr"><hr></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="**🖥️ Funciones y Herramientas**" dir="auto" class="heading" id="**🖥️_Funciones_y_Herramientas**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>🖥️ Funciones y Herramientas</strong></h4><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Inglés</th>
+<th dir="ltr">Español</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Find</strong></td>
+<td dir="ltr">Buscar</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Find and Replace</strong></td>
+<td dir="ltr">Buscar y reemplazar</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Spell Check</strong></td>
+<td dir="ltr">Revisión ortográfica</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Grammar Check</strong></td>
+<td dir="ltr">Revisión gramatical</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Word Count</strong></td>
+<td dir="ltr">Contador de palabras</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Character Count</strong></td>
+<td dir="ltr">Contador de caracteres</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>AutoCorrect</strong></td>
+<td dir="ltr">Autocorrección</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Thesaurus</strong></td>
+<td dir="ltr">Tesauro</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Insert</strong></td>
+<td dir="ltr">Insertar</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Delete Row</strong></td>
+<td dir="ltr">Eliminar fila</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Delete Column</strong></td>
+<td dir="ltr">Eliminar columna</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Merge Cells</strong></td>
+<td dir="ltr">Combinar celdas</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Split Cells</strong></td>
+<td dir="ltr">Dividir celdas</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Print</strong></td>
+<td dir="ltr">Imprimir</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Print Preview</strong></td>
+<td dir="ltr">Vista previa de impresión</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Page Setup</strong></td>
+<td dir="ltr">Configuración de página</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Margins</strong></td>
+<td dir="ltr">Márgenes</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Orientation</strong></td>
+<td dir="ltr">Orientación</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Portrait Mode</strong></td>
+<td dir="ltr">Modo vertical</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Landscape Mode</strong></td>
+<td dir="ltr">Modo horizontal</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Header and Footer</strong></td>
+<td dir="ltr">Encabezado y pie de página</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Track Changes</strong></td>
+<td dir="ltr">Control de cambios</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Comment</strong></td>
+<td dir="ltr">Comentario</td>
+</tr>
+</tbody>
+</table></div><div class="el-hr"><hr></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="**📎 Atajos de Teclado (Keyboard Shortcuts)**" dir="auto" class="heading" id="**📎_Atajos_de_Teclado_(Keyboard_Shortcuts)**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>📎 Atajos de Teclado (Keyboard Shortcuts)</strong></h4><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Inglés</th>
+<th dir="ltr">Español</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Ctrl + C</strong></td>
+<td dir="ltr">Copiar</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Ctrl + V</strong></td>
+<td dir="ltr">Pegar</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Ctrl + X</strong></td>
+<td dir="ltr">Cortar</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Ctrl + Z</strong></td>
+<td dir="ltr">Deshacer</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Ctrl + Y</strong></td>
+<td dir="ltr">Rehacer</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Ctrl + S</strong></td>
+<td dir="ltr">Guardar</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Ctrl + P</strong></td>
+<td dir="ltr">Imprimir</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Ctrl + A</strong></td>
+<td dir="ltr">Seleccionar todo</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Ctrl + B</strong></td>
+<td dir="ltr">Negrita</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Ctrl + I</strong></td>
+<td dir="ltr">Cursiva</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Ctrl + U</strong></td>
+<td dir="ltr">Subrayado</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Ctrl + F</strong></td>
+<td dir="ltr">Buscar</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Ctrl + H</strong></td>
+<td dir="ltr">Buscar y reemplazar</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Ctrl + N</strong></td>
+<td dir="ltr">Nuevo documento</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Ctrl + O</strong></td>
+<td dir="ltr">Abrir documento</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Ctrl + L</strong></td>
+<td dir="ltr">Alinear a la izquierda</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Ctrl + R</strong></td>
+<td dir="ltr">Alinear a la derecha</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Ctrl + E</strong></td>
+<td dir="ltr">Alinear al centro</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Ctrl + J</strong></td>
+<td dir="ltr">Justificar</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Ctrl + Shift + N</strong></td>
+<td dir="ltr">Aplicar estilo normal</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Ctrl + Shift + L</strong></td>
+<td dir="ltr">Aplicar lista con viñetas</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Ctrl + Shift + &gt;</strong></td>
+<td dir="ltr">Aumentar tamaño de fuente</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Ctrl + Shift + &lt;</strong></td>
+<td dir="ltr">Disminuir tamaño de fuente</td>
+</tr>
+</tbody>
+</table></div><div class="el-hr"><hr></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="**📂 Archivos y Formatos**" dir="auto" class="heading" id="**📂_Archivos_y_Formatos**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>📂 Archivos y Formatos</strong></h4><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Inglés</th>
+<th dir="ltr">Español</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>File</strong></td>
+<td dir="ltr">Archivo</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Document</strong></td>
+<td dir="ltr">Documento</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Template</strong></td>
+<td dir="ltr">Plantilla</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Draft</strong></td>
+<td dir="ltr">Borrador</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Version History</strong></td>
+<td dir="ltr">Historial de versiones</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Export</strong></td>
+<td dir="ltr">Exportar</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Import</strong></td>
+<td dir="ltr">Importar</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>PDF File</strong></td>
+<td dir="ltr">Archivo PDF</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Word Document</strong></td>
+<td dir="ltr">Documento de Word</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Text File (TXT)</strong></td>
+<td dir="ltr">Archivo de texto</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Rich Text Format (RTF)</strong></td>
+<td dir="ltr">Formato de texto enriquecido</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Print Settings</strong></td>
+<td dir="ltr">Configuración de impresión</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>File Properties</strong></td>
+<td dir="ltr">Propiedades del archivo</td>
+</tr>
+</tbody>
+</table></div><div class="el-hr"><hr></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="**⚙️ Configuración y Personalización**" dir="auto" class="heading" id="**⚙️_Configuración_y_Personalización**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>⚙️ Configuración y Personalización</strong></h4><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Inglés</th>
+<th dir="ltr">Español</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Settings</strong></td>
+<td dir="ltr">Configuración</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Preferences</strong></td>
+<td dir="ltr">Preferencias</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Toolbar</strong></td>
+<td dir="ltr">Barra de herramientas</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Ribbon</strong></td>
+<td dir="ltr">Cinta de opciones</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Sidebar</strong></td>
+<td dir="ltr">Barra lateral</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Customize Toolbar</strong></td>
+<td dir="ltr">Personalizar barra de herramientas</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Default Settings</strong></td>
+<td dir="ltr">Configuración predeterminada</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Autosave</strong></td>
+<td dir="ltr">Guardado automático</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Dark Mode</strong></td>
+<td dir="ltr">Modo oscuro</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Light Mode</strong></td>
+<td dir="ltr">Modo claro</td>
+</tr>
+</tbody>
+</table></div><div class="el-hr"><hr></div><div class="mod-footer mod-ui"></div></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
 		<div class="graph-view-container">
 			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
 			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
 		</div>
-		</div></div><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="ingles\tema-2.html#Tema 2"><div class="tree-item-contents heading-link" heading-name="Tema 2"><span class="tree-item-title">Tema 2</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>
+		</div></div><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="ingles\tema-2.html#Tema 2"><div class="tree-item-contents heading-link" heading-name="Tema 2"><span class="tree-item-title">Tema 2</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="4"><a class="tree-link" href="ingles\tema-2.html#**📂_Acciones_Básicas**"><div class="tree-item-contents heading-link" heading-name="**📂 Acciones Básicas**"><span class="tree-item-title"><strong>📂 Acciones Básicas</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="ingles\tema-2.html#**📝_Formato_de_Texto**"><div class="tree-item-contents heading-link" heading-name="**📝 Formato de Texto**"><span class="tree-item-title"><strong>📝 Formato de Texto</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="ingles\tema-2.html#**📊_Elementos_y_Objetos**"><div class="tree-item-contents heading-link" heading-name="**📊 Elementos y Objetos**"><span class="tree-item-title"><strong>📊 Elementos y Objetos</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="ingles\tema-2.html#**🖥️_Funciones_y_Herramientas**"><div class="tree-item-contents heading-link" heading-name="**🖥️ Funciones y Herramientas**"><span class="tree-item-title"><strong>🖥️ Funciones y Herramientas</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="ingles\tema-2.html#**📎_Atajos_de_Teclado_(Keyboard_Shortcuts)**"><div class="tree-item-contents heading-link" heading-name="**📎 Atajos de Teclado (Keyboard Shortcuts)**"><span class="tree-item-title"><strong>📎 Atajos de Teclado (Keyboard Shortcuts)</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="ingles\tema-2.html#**📂_Archivos_y_Formatos**"><div class="tree-item-contents heading-link" heading-name="**📂 Archivos y Formatos**"><span class="tree-item-title"><strong>📂 Archivos y Formatos</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="ingles\tema-2.html#**⚙️_Configuración_y_Personalización**"><div class="tree-item-contents heading-link" heading-name="**⚙️ Configuración y Personalización**"><span class="tree-item-title"><strong>⚙️ Configuración y Personalización</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>
