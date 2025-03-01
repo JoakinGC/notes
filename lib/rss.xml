@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[FEMPA]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>FEMPA</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 28 Feb 2025 11:50:56 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 28 Feb 2025 11:50:06 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[1 Casos prácticos (elegir uno)]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[FEMPA]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>FEMPA</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 01 Mar 2025 12:27:56 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 01 Mar 2025 12:27:03 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[1 Casos prácticos (elegir uno)]]></title><description><![CDATA[ 
  <br>Ejemplos de proyectos que incluirán elementos de persistencia, servicios, controladores, relaciones entre entidades, APIs, e interfaces web. <br>
 <br>
 Sistema de Reservas para un Hotel (ejemplo, no elegir): Gestiona reservas de habitaciones, clientes y servicios del hotel. Las habitaciones pueden tener múltiples reservas (OneToMany) y los clientes pueden tener múltiples reservas (OneToMany).
@@ -4399,7 +4399,23 @@ Distribución y escalabilidad
 <br>Optimizado para producción: Escalable y eficiente en entornos empresariales.
 <br>Comunidad activa: Soporte de una gran comunidad de desarrolladores y recursos educativos.
 <br>Ecosistema completo: Desde la investigación hasta la implementación en producción.
-]]></description><link>curso-tenseflow\tensorflow.html</link><guid isPermaLink="false">Curso - Tenseflow/Tensorflow.md</guid><pubDate>Fri, 28 Feb 2025 10:17:20 GMT</pubDate></item><item><title><![CDATA[tf]]></title><description><![CDATA[ 
+<br>Indice:<br>
+<br><a data-href="Tensores" href="\curso-tenseflow\tensores.html" class="internal-link" target="_self" rel="noopener nofollow">Tensores</a>
+<br><a data-href="tf" href="\curso-tenseflow\tf.html" class="internal-link" target="_self" rel="noopener nofollow">tf</a>
+<br><a data-href="Accesos a datos de un tensor" href="\curso-tenseflow\accesos-a-datos-de-un-tensor.html" class="internal-link" target="_self" rel="noopener nofollow">Accesos a datos de un tensor</a>
+<br><a data-href="Layers" href="\curso-tenseflow\layers.html" class="internal-link" target="_self" rel="noopener nofollow">Layers</a>
+<br><a data-href="Perceptrones" href="\curso-tenseflow\perceptrones.html" class="internal-link" target="_self" rel="noopener nofollow">Perceptrones</a>
+<br><a data-href="Redes neoruronales" href="\curso-tenseflow\redes-neoruronales.html" class="internal-link" target="_self" rel="noopener nofollow">Redes neoruronales</a>
+<br><a data-href="Redes Neuronales Convulsionales" href="\curso-tenseflow\redes-neuronales-convulsionales.html" class="internal-link" target="_self" rel="noopener nofollow">Redes Neuronales Convulsionales</a>
+<br><a data-href="Tipos de problemas" href="\curso-tenseflow\tipos-de-problemas.html" class="internal-link" target="_self" rel="noopener nofollow">Tipos de problemas</a>
+<br><a data-href="Tipos de Redes Neorunales" href="\curso-tenseflow\tipos-de-redes-neorunales.html" class="internal-link" target="_self" rel="noopener nofollow">Tipos de Redes Neorunales</a>
+<br><a data-href="Variables - Imutables" href="\curso-tenseflow\variables-imutables.html" class="internal-link" target="_self" rel="noopener nofollow">Variables - Imutables</a>
+<br><a data-href="Multiplicar tensores" href="\curso-tenseflow\multiplicar-tensores.html" class="internal-link" target="_self" rel="noopener nofollow">Multiplicar tensores</a>
+<br><a data-href="Uso de memoria" href="\curso-tenseflow\uso-de-memoria.html" class="internal-link" target="_self" rel="noopener nofollow">Uso de memoria</a>
+<br><a data-href="Funciones de Activacion" href="\curso-tenseflow\funciones-de-activacion.html" class="internal-link" target="_self" rel="noopener nofollow">Funciones de Activacion</a>
+<br><a data-href="Identificador Imagenes" href="\curso-tenseflow\identificador-imagenes.html" class="internal-link" target="_self" rel="noopener nofollow">Identificador Imagenes</a>
+<br><a data-href="Exportacion de modelos" href="\curso-tenseflow\exportacion-de-modelos.html" class="internal-link" target="_self" rel="noopener nofollow">Exportacion de modelos</a>
+]]></description><link>curso-tenseflow\tensorflow.html</link><guid isPermaLink="false">Curso - Tenseflow/Tensorflow.md</guid><pubDate>Sat, 01 Mar 2025 09:55:26 GMT</pubDate></item><item><title><![CDATA[tf]]></title><description><![CDATA[ 
  <br>Objecto de tenseflow que cuenta con varios metodos pero los que veremos son:<br>
 <br>.tensor: Es la manera que tenemos para trabajar con <a data-href="Tensores" href="\curso-tenseflow\tensores.html" class="internal-link" target="_self" rel="noopener nofollow">Tensores</a>, el primer argumento es para pasar los datos y dependiendo de cuantas arrays pasamos es nuestra matriz debe ser de la misma dimensión o misma cantidad de elementos si no este fallarra, después tenemos form  o el argumento que le da nuestra forma a nuestro tensor le indicamos o forzamos a nuestros datos a que se muestren de una forma, y el ultimo argumento toma el tipo de dato que queremos guardar pero no son los usados en JS, por ejemplo el valor de entero seria "int32".
 <br><br>//tensor(shape es la dimension denuestro array, typo de array)
@@ -5460,7 +5476,1109 @@ PHP -&gt; Laravel]]></description><link>curso-spring\framework.html</link><guid 
 ]]></description><link>curso-spring\spring.html</link><guid isPermaLink="false">Curso-spring/Spring.md</guid><pubDate>Fri, 28 Feb 2025 10:14:53 GMT</pubDate></item><item><title><![CDATA[URL]]></title><description><![CDATA[ 
  <br>La dirección que asocia a un numero pero hacerlo mas fácil de leer se usan palabras que representan un grupo de números:<br>1.199.19.9<br>
 <a data-tooltip-position="top" aria-label="http://www.google.com" rel="noopener nofollow" class="external-link" href="http://www.google.com" target="_blank">www.google.com</a><br><img alt="original.png" src="\curso-spring\original.png"><img alt="ogx43rq.png" src="\curso-spring\ogx43rq.png"><br>La url llega hasta el recurso, la URI todo y la urn todo menos el protocolo<br>Las siglas URN, es Uniform Resource Name<br>Las siglas URI, es Uniform Resource Identifier]]></description><link>curso-spring\url.html</link><guid isPermaLink="false">Curso-spring/URL.md</guid><pubDate>Fri, 14 Feb 2025 21:41:44 GMT</pubDate><enclosure url="curso-spring\original.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;curso-spring\original.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[XML]]></title><description><![CDATA[ 
- <br>Es una forma mas antigua de pasar datos, es un "lenguaje de marcado extensible".<br>Si bien es mas legible es mas pesado por tener mas sobrecarga de datos en camnio el <a data-href="Json" href="\curso-spring\json.html" class="internal-link" target="_self" rel="noopener nofollow">Json</a> es mas liviano y es por eso que empieza atomar fuerzar]]></description><link>curso-spring\xml.html</link><guid isPermaLink="false">Curso-spring/XML.md</guid><pubDate>Tue, 06 Feb 2024 08:20:10 GMT</pubDate></item><item><title><![CDATA[Arquitectura MVC]]></title><description><![CDATA[ 
+ <br>Es una forma mas antigua de pasar datos, es un "lenguaje de marcado extensible".<br>Si bien es mas legible es mas pesado por tener mas sobrecarga de datos en camnio el <a data-href="Json" href="\curso-spring\json.html" class="internal-link" target="_self" rel="noopener nofollow">Json</a> es mas liviano y es por eso que empieza atomar fuerzar]]></description><link>curso-spring\xml.html</link><guid isPermaLink="false">Curso-spring/XML.md</guid><pubDate>Tue, 06 Feb 2024 08:20:10 GMT</pubDate></item><item><title><![CDATA[Testing Automatizado]]></title><description><![CDATA[ 
+ <br><br>El testing automatizado es el proceso de ejecución de pruebas de software mediante herramientas y scripts que validan automáticamente el funcionamiento de un sistema. Su objetivo es reducir la intervención manual, acelerar el proceso de prueba y mejorar la precisión en la detección de errores.<br><br>
+<br>Ejecución sin intervención humana
+
+<br>Las pruebas se ejecutan automáticamente con scripts predefinidos.
+
+
+<br>Repetible y escalable
+
+<br>Permite realizar pruebas en diferentes entornos y múltiples veces sin esfuerzo adicional.
+
+
+<br>Mayor eficiencia y precisión
+
+<br>Reduce el error humano y acelera la validación del software.
+
+
+<br>Integración con CI/CD
+
+<br>Se puede incorporar en pipelines de desarrollo para pruebas continuas.
+
+
+<br><br>
+<br>
+Testing Unitario
+
+<br>Prueba funciones y métodos individuales.
+<br>Herramientas: JUnit (Java), PyTest (Python).
+
+
+<br>
+Testing de Integración
+
+<br>Verifica la interacción entre módulos del sistema.
+<br>Herramientas: Selenium, Postman.
+
+
+<br>
+Testing de Regresión
+
+<br>Asegura que nuevas modificaciones no afecten funcionalidades previas.
+<br>Herramientas: Cypress, TestNG.
+
+
+<br>
+Testing Funcional
+
+<br>Valida que el sistema cumpla con los requisitos esperados.
+<br>Herramientas: Selenium, Cucumber.
+
+
+<br>
+Testing de Rendimiento
+
+<br>Evalúa la respuesta y estabilidad del sistema bajo carga.
+<br>Herramientas: JMeter, LoadRunner.
+
+
+<br>
+Testing de Seguridad
+
+<br>Identifica vulnerabilidades y amenazas en el sistema.
+<br>Herramientas: OWASP ZAP, Burp Suite.
+
+
+<br><br>
+<br>Selenium → Pruebas de UI en aplicaciones web.
+<br>JUnit / TestNG → Testing unitario en Java.
+<br>Cypress → Pruebas automatizadas en frontend.
+<br>JMeter → Pruebas de carga y rendimiento.
+<br>Postman → Testing de APIs.
+<br>Appium → Pruebas automatizadas en dispositivos móviles.
+<br><br>from selenium import webdriver
+
+def test_login():
+    driver = webdriver.Chrome()
+    driver.get("https://ejemplo.com/login")
+    user_input = driver.find_element("name", "usuario")
+    password_input = driver.find_element("name", "password")
+    user_input.send_keys("testuser")
+    password_input.send_keys("password123")
+    driver.find_element("id", "btn-login").click()
+    assert "Dashboard" in driver.title
+    driver.quit()
+<br>Ejecutar la prueba:<br>pytest test_automatizado.py
+<br><br>
+<br>Reduce el tiempo de ejecución de pruebas.
+<br>Permite detectar errores antes del despliegue.
+<br>Minimiza errores humanos.
+<br>Facilita la ejecución de pruebas en múltiples entornos.
+<br>Optimiza la integración en CI/CD.
+<br><br>
+<br>Mayor tiempo inicial de configuración y desarrollo de scripts.
+<br>Requiere mantenimiento constante en cambios de UI o código.
+<br>No es ideal para pruebas exploratorias o de usabilidad.
+]]></description><link>desarrollo-de-interfacez\testnotas\testing-automatizado.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/testNotas/Testing Automatizado.md</guid><pubDate>Sat, 01 Mar 2025 12:02:39 GMT</pubDate></item><item><title><![CDATA[Testing de Aceptación]]></title><description><![CDATA[ 
+ <br><br>El testing de aceptación es una fase del proceso de pruebas de software en la que se valida si el sistema cumple con los requisitos y expectativas del usuario final. Su objetivo es asegurar que el software es funcional, usable y está listo para ser desplegado en producción.<br><br>
+<br>Basado en requisitos del usuario
+
+<br>Evalúa si el sistema satisface las necesidades y expectativas del cliente.
+
+
+<br>Simula escenarios del mundo real
+
+<br>Se prueba el software en condiciones similares a su uso final.
+
+
+<br>Involucra a usuarios finales o stakeholders
+
+<br>Las pruebas pueden ser ejecutadas por clientes, testers especializados o partes interesadas.
+
+
+<br>Determina si el software está listo para producción
+
+<br>Si las pruebas son exitosas, el sistema puede implementarse.
+
+
+<br><br>
+<br>
+Pruebas de Aceptación del Usuario (UAT - User Acceptance Testing)
+
+<br>Los usuarios finales prueban el sistema antes de su lanzamiento.
+<br>Ejemplo: Un cliente prueba una plataforma de comercio electrónico antes de su puesta en producción.
+
+
+<br>
+Pruebas de Aceptación del Negocio (BAT - Business Acceptance Testing)
+
+<br>Verifica que el software cumple con los objetivos de negocio.
+<br>Ejemplo: Un software de gestión contable es probado para validar que cumple con las normativas fiscales.
+
+
+<br>
+Pruebas de Regulación y Cumplimiento
+
+<br>Evalúa si el sistema cumple con normativas legales y estándares de la industria.
+<br>Ejemplo: Un sistema bancario es probado para verificar que cumple con regulaciones de seguridad.
+
+
+<br>
+Pruebas Alfa
+
+<br>Se realizan internamente por el equipo de desarrollo antes de liberar el software a usuarios externos.
+<br>Ejemplo: Una nueva aplicación móvil es probada en un entorno de pruebas por el equipo de QA.
+
+
+<br>
+Pruebas Beta
+
+<br>Se realizan con usuarios reales en un entorno de producción limitado.
+<br>Ejemplo: Un grupo de usuarios seleccionados prueba una nueva función de una red social antes de su lanzamiento global.
+
+
+<br><br>
+<br>TestRail → Gestión de pruebas de aceptación.
+<br>Cucumber → Pruebas automatizadas basadas en criterios de aceptación.
+<br>JIRA → Seguimiento de pruebas y aprobación de requisitos.
+<br>Selenium → Pruebas de UI para aceptación en aplicaciones web.
+<br>Postman → Validación de APIs en entornos de aceptación.
+<br><br>Feature: Login de usuario
+  Scenario: Usuario ingresa credenciales válidas
+    Given el usuario está en la página de login
+    When ingresa "usuario123" y "contraseñaSegura"
+    Then debería acceder al panel de control
+<br>Ejecutar las pruebas:<br>mvn test
+<br><br>
+<br>Garantiza que el software cumple con los requisitos del cliente.
+<br>Reduce riesgos antes del despliegue en producción.
+<br>Mejora la satisfacción del usuario final.
+<br>Detecta posibles fallos en escenarios reales.
+<br>Facilita la toma de decisiones antes del lanzamiento del producto.
+]]></description><link>desarrollo-de-interfacez\testnotas\testing-de-aceptación.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/testNotas/Testing de Aceptación.md</guid><pubDate>Sat, 01 Mar 2025 11:43:40 GMT</pubDate></item><item><title><![CDATA[Testing de Caja Blanca]]></title><description><![CDATA[ 
+ <br><br>El testing de caja blanca es una técnica de pruebas de software que evalúa la estructura interna, la lógica y el flujo del código fuente de una aplicación. A diferencia del testing de caja negra, que se centra en la funcionalidad sin conocer la implementación, el testing de caja blanca requiere acceso al código y conocimientos de programación.<br><br>
+<br>Basado en el código fuente
+
+<br>Analiza la estructura y flujo lógico del programa.
+
+
+<br>Ejecutado por desarrolladores o testers técnicos
+
+<br>Requiere conocimientos en programación para evaluar el código.
+
+
+<br>Detecta errores en la lógica interna
+
+<br>Permite encontrar problemas como bucles infinitos, condiciones incorrectas o código no alcanzable.
+
+
+<br>Mejora la eficiencia del software
+
+<br>Optimiza el rendimiento y la calidad del código.
+
+
+<br><br>
+<br>
+Cobertura de Sentencias
+
+<br>Garantiza que cada línea de código se ejecute al menos una vez.
+
+
+<br>
+Cobertura de Decisiones
+
+<br>Evalúa todas las condiciones en estructuras de control (if, while, for).
+
+
+<br>
+Cobertura de Condiciones
+
+<br>Verifica todas las posibles combinaciones de condiciones en expresiones booleanas.
+
+
+<br>
+Cobertura de Caminos
+
+<br>Asegura que todas las rutas posibles dentro del código se ejecuten.
+
+
+<br><br>
+<br>JUnit → Pruebas unitarias en Java.
+<br>PyTest → Testing de código en Python.
+<br>JaCoCo → Análisis de cobertura en Java.
+<br>Coverage.py → Medición de cobertura en Python.
+<br>CppUnit → Testing de código en C++.
+<br><br>import unittest
+
+def sumar(a, b):
+    return a + b
+
+class TestSumar(unittest.TestCase):
+    def test_suma_positiva(self):
+        self.assertEqual(sumar(2, 3), 5)
+    def test_suma_negativa(self):
+        self.assertEqual(sumar(-2, -3), -5)
+
+if __name__ == '__main__':
+    unittest.main()
+<br>Ejecutar la prueba:<br>python -m unittest test_caja_blanca.py
+<br><br>
+<br>Detecta errores en el código antes de la integración.
+<br>Mejora la seguridad y eficiencia del software.
+<br>Permite optimizar el rendimiento y eliminar código innecesario.
+<br>Asegura una alta cobertura del código y reduce fallos en producción.
+<br><br>
+<br>Requiere tiempo y conocimientos técnicos avanzados.
+<br>No es eficiente para probar sistemas grandes y complejos en su totalidad.
+<br>Puede no detectar errores en la experiencia de usuario o flujo funcional.
+]]></description><link>desarrollo-de-interfacez\testnotas\testing-de-caja-blanca.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/testNotas/Testing de Caja Blanca.md</guid><pubDate>Sat, 01 Mar 2025 12:04:05 GMT</pubDate></item><item><title><![CDATA[Testing de Caja Gris]]></title><description><![CDATA[ 
+ <br><br>El testing de caja gris es una técnica de prueba de software que combina elementos del testing de caja blanca (evaluación del código interno) y del testing de caja negra (evaluación de la funcionalidad sin conocer la implementación interna). Su objetivo es validar el comportamiento del sistema con un conocimiento parcial de su estructura interna.<br><br>
+<br>
+Conocimiento parcial del código fuente
+
+<br>A diferencia del testing de caja negra, el tester tiene acceso limitado a la estructura interna del sistema.
+
+
+<br>
+Combina pruebas funcionales y estructurales
+
+<br>Se evalúa la funcionalidad del software, pero también se analizan ciertos aspectos internos como consultas a bases de datos y flujos lógicos.
+
+
+<br>
+Identifica fallos en la interacción entre módulos
+
+<br>Se enfoca en probar la comunicación entre diferentes componentes del sistema.
+
+
+<br>
+Útil para evaluar seguridad y rendimiento
+
+<br>Puede detectar vulnerabilidades y problemas de optimización en el software.
+
+
+<br><br>
+<br>
+Pruebas Basadas en Matrices de Datos
+
+<br>Se analizan estructuras de datos internas y su procesamiento.
+<br>Ejemplo: Verificar cómo una API gestiona y almacena información en la base de datos.
+
+
+<br>
+Pruebas de Regresión con Conocimiento del Sistema
+
+<br>Se identifican módulos críticos donde pueden presentarse fallos tras actualizaciones.
+<br>Ejemplo: Evaluar cómo afecta una nueva función al rendimiento del sistema.
+
+
+<br>
+Pruebas de Integración de Servicios y APIs
+
+<br>Se validan las conexiones entre módulos internos y servicios externos.
+<br>Ejemplo: Probar la comunicación entre un frontend y una base de datos.
+
+
+<br>
+Pruebas de Seguridad y Vulnerabilidad
+
+<br>Se detectan riesgos mediante un análisis parcial del código fuente.
+<br>Ejemplo: Identificar fallos en consultas SQL inyectables.
+
+
+<br><br>
+<br>Selenium → Pruebas de UI automatizadas.
+<br>Postman → Testing de APIs y comunicación entre servicios.
+<br>JMeter → Evaluación del rendimiento del sistema.
+<br>Wireshark → Análisis de tráfico de red.
+<br>OWASP ZAP → Detección de vulnerabilidades de seguridad.
+<br><br>{
+  "method": "POST",
+  "url": "https://api.ejemplo.com/login",
+  "body": {
+    "usuario": "testuser",
+    "password": "password123"
+  }
+}
+<br>Prueba esperada:<br>
+<br>Código de respuesta 200 OK si las credenciales son correctas.
+<br>Código 401 Unauthorized si las credenciales son incorrectas.
+<br><br>
+<br>Detecta fallos en la integración de componentes.
+<br>Optimiza el rendimiento del software con pruebas detalladas.
+<br>Mejora la seguridad al analizar posibles vulnerabilidades.
+<br>Equilibra pruebas funcionales y estructurales para mayor cobertura.
+<br><br>
+<br>Requiere conocimientos tanto de desarrollo como de pruebas funcionales.
+<br>Puede ser más complejo de implementar que las pruebas de caja negra.
+<br>No ofrece una revisión completa del código como el testing de caja blanca.
+]]></description><link>desarrollo-de-interfacez\testnotas\testing-de-caja-gris.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/testNotas/Testing de Caja Gris.md</guid><pubDate>Sat, 01 Mar 2025 12:15:13 GMT</pubDate></item><item><title><![CDATA[Testing de Caja Negra]]></title><description><![CDATA[ 
+ <br><br>El testing de caja negra es una técnica de pruebas de software que evalúa la funcionalidad del sistema sin necesidad de conocer su implementación interna o el código fuente. Se basa en la entrada y salida del sistema para verificar que se comporta según los requisitos especificados.<br><br>
+<br>Basado en los requisitos del software
+
+<br>Evalúa si el sistema responde correctamente a distintas entradas.
+
+
+<br>No requiere acceso al código fuente
+
+<br>Se enfoca en la funcionalidad y el comportamiento externo del software.
+
+
+<br>Ejecutado por testers funcionales
+
+<br>No es necesario que el tester tenga conocimientos de programación.
+
+
+<br>Detecta errores en la funcionalidad del sistema
+
+<br>Identifica fallos en la interfaz, la entrada/salida de datos y el procesamiento de información.
+
+
+<br><br>
+<br>
+Equivalencia de Clases
+
+<br>Divide las entradas en grupos equivalentes para reducir la cantidad de pruebas necesarias.
+<br>Ejemplo: Si un campo de edad acepta valores entre 18 y 60, se prueban valores dentro y fuera de ese rango.
+
+
+<br>
+Análisis de Valores Límite
+
+<br>Evalúa los valores en los extremos de los rangos permitidos.
+<br>Ejemplo: Si un formulario acepta números del 1 al 100, se prueban valores como 0, 1, 100 y 101.
+
+
+<br>
+Tabla de Decisión
+
+<br>Define combinaciones de entradas y sus respuestas esperadas.
+<br>Útil cuando hay reglas de negocio complejas.
+
+
+<br>
+Pruebas de Transición de Estados
+
+<br>Evalúa cómo cambia el sistema dependiendo del estado anterior.
+<br>Ejemplo: Un sistema de autenticación con intentos fallidos bloquea la cuenta tras 3 intentos.
+
+
+<br>
+Pruebas de Caso de Uso
+
+<br>Simula escenarios reales de uso del sistema.
+<br>Ejemplo: Validar que un usuario pueda completar una compra en un e-commerce.
+
+
+<br><br>
+<br>Selenium → Pruebas automatizadas de interfaz.
+<br>JUnit → Testing funcional en Java.
+<br>Cypress → Pruebas de frontend.
+<br>Postman → Testing de APIs.
+<br>TestComplete → Pruebas automatizadas sin necesidad de código.
+<br><br>from selenium import webdriver
+
+def test_login():
+    driver = webdriver.Chrome()
+    driver.get("https://ejemplo.com/login")
+    driver.find_element("name", "usuario").send_keys("usuario123")
+    driver.find_element("name", "password").send_keys("contraseña123")
+    driver.find_element("id", "btn-login").click()
+    assert "Dashboard" in driver.title
+    driver.quit()
+<br>Ejecutar la prueba:<br>pytest test_caja_negra.py
+<br><br>
+<br>Permite detectar errores sin conocer el código fuente.
+<br>Simula el uso real del sistema desde la perspectiva del usuario.
+<br>Puede aplicarse en cualquier nivel de prueba (unitaria, integración, sistema).
+<br>Facilita la automatización de pruebas funcionales.
+<br><br>
+<br>No identifica errores en la estructura interna del software.
+<br>Puede ser difícil determinar la causa exacta de un fallo.
+<br>Requiere muchas pruebas para garantizar una cobertura completa.
+]]></description><link>desarrollo-de-interfacez\testnotas\testing-de-caja-negra.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/testNotas/Testing de Caja Negra.md</guid><pubDate>Sat, 01 Mar 2025 12:11:56 GMT</pubDate></item><item><title><![CDATA[Testing de Compatibilidad]]></title><description><![CDATA[ 
+ <br><br>El testing de compatibilidad es un proceso de evaluación de software que verifica si una aplicación funciona correctamente en diferentes entornos, dispositivos, navegadores y sistemas operativos. Su objetivo es asegurar una experiencia uniforme y sin errores para todos los usuarios.<br><br>
+<br>Evalúa el comportamiento del software en distintos entornos
+
+<br>Analiza si la aplicación mantiene su funcionalidad y apariencia en diferentes dispositivos y sistemas operativos.
+
+
+<br>Verifica la compatibilidad con hardware y software
+
+<br>Comprueba si el sistema se ejecuta correctamente con distintas configuraciones.
+
+
+<br>Identifica problemas de interoperabilidad
+
+<br>Detecta fallos en la comunicación con otros sistemas o plataformas.
+
+
+<br>Mejora la accesibilidad y la experiencia del usuario
+
+<br>Asegura que la aplicación sea utilizable para una mayor cantidad de usuarios.
+
+
+<br><br>
+<br>
+Compatibilidad con Sistemas Operativos
+
+<br>Verifica si el software funciona en Windows, macOS, Linux, Android, iOS, etc.
+<br>Ejemplo: Comprobar que una aplicación móvil se ejecuta correctamente en Android y iPhone.
+
+
+<br>
+Compatibilidad con Navegadores (Cross-Browser Testing)
+
+<br>Evalúa el rendimiento en distintos navegadores web (Chrome, Firefox, Safari, Edge).
+<br>Ejemplo: Verificar que una página web se visualice correctamente en diferentes navegadores.
+
+
+<br>
+Compatibilidad con Dispositivos
+
+<br>Asegura que el software funcione en distintos tamaños de pantalla y tipos de hardware.
+<br>Ejemplo: Probar una app en teléfonos, tablets y monitores de escritorio.
+
+
+<br>
+Compatibilidad con Red
+
+<br>Evalúa el comportamiento de la aplicación en diferentes condiciones de conectividad (Wi-Fi, 3G, 5G, redes limitadas).
+<br>Ejemplo: Comprobar si una aplicación de streaming se adapta a conexiones lentas.
+
+
+<br>
+Compatibilidad con Software de Terceros
+
+<br>Verifica si el sistema es compatible con APIs, plugins y otras aplicaciones externas.
+<br>Ejemplo: Evaluar la integración de un CRM con herramientas de facturación.
+
+
+<br><br>
+<br>BrowserStack → Pruebas en múltiples navegadores y dispositivos.
+<br>Sauce Labs → Simulación de entornos de prueba en la nube.
+<br>CrossBrowserTesting → Validación de compatibilidad en navegadores.
+<br>LambdaTest → Pruebas automatizadas y en tiempo real en distintos entornos.
+<br>Perfecto Mobile → Testing en dispositivos móviles reales.
+<br><br>from selenium import webdriver
+
+browsers = ["chrome", "firefox", "edge"]
+
+for browser in browsers:
+    if browser == "chrome":
+        driver = webdriver.Chrome()
+    elif browser == "firefox":
+        driver = webdriver.Firefox()
+    elif browser == "edge":
+        driver = webdriver.Edge()
+    
+    driver.get("https://ejemplo.com")
+    print(f"Probando en {browser}:", driver.title)
+    driver.quit()
+<br>Ejecutar la prueba para verificar compatibilidad en múltiples navegadores.<br><br>
+<br>Asegura una experiencia de usuario uniforme en distintos entornos.
+<br>Evita problemas de visualización y funcionamiento en ciertos dispositivos.
+<br>Permite llegar a una audiencia más amplia sin restricciones tecnológicas.
+<br>Reduce errores relacionados con la interoperabilidad de software.
+<br><br>
+<br>Requiere pruebas en múltiples dispositivos y configuraciones.
+<br>Puede ser costoso si se realizan pruebas en hardware real.
+<br>Las diferencias entre sistemas operativos pueden generar inconsistencias difíciles de corregir.
+]]></description><link>desarrollo-de-interfacez\testnotas\testing-de-compatibilidad.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/testNotas/Testing de Compatibilidad.md</guid><pubDate>Sat, 01 Mar 2025 12:20:12 GMT</pubDate></item><item><title><![CDATA[Testing de Integración]]></title><description><![CDATA[ 
+ <br><br>El testing de integración es una fase del proceso de pruebas de software que verifica la correcta interacción entre múltiples módulos o componentes de un sistema. Su objetivo es identificar fallos en la comunicación entre las distintas partes del software.<br><br>
+<br>Verifica la comunicación entre módulos
+
+<br>Asegura que los datos se transfieran correctamente entre diferentes componentes del sistema.
+
+
+<br>Detecta problemas de compatibilidad
+
+<br>Encuentra errores en la interacción de APIs, bases de datos, servicios web, entre otros.
+
+
+<br>Evalúa el flujo del sistema
+
+<br>Comprueba que el comportamiento global del software sea consistente.
+
+
+<br>Puede ser automatizado o manual
+
+<br>Se pueden usar herramientas para ejecutar pruebas automáticamente o realizar pruebas exploratorias manuales.
+
+
+<br><br>
+<br>
+Testing de Integración Big Bang
+
+<br>Se prueban todos los módulos juntos después de su desarrollo.
+<br>Ventaja: Rápida verificación global del sistema.
+<br>Desventaja: Difícil identificar errores individuales.
+
+
+<br>
+Testing de Integración Incremental
+
+<br>Se prueban los módulos de manera progresiva, combinándolos poco a poco.
+<br>Tipos:
+
+<br>Ascendente: Se prueban primero los módulos de bajo nivel y se integran gradualmente los de nivel superior.
+<br>Descendente: Se comienzan las pruebas desde los módulos de alto nivel y se integran los de nivel inferior.
+<br>Mixto: Combinación de los enfoques ascendente y descendente.
+
+
+
+
+<br>
+Testing de Integración Continua
+
+<br>Se automatizan pruebas para ejecutarse cada vez que se hace un cambio en el código (usado en CI/CD).
+
+
+<br><br>
+<br>Identifica errores en la interacción entre módulos antes de llegar a producción.
+<br>Mejora la calidad del software, asegurando compatibilidad entre componentes.
+<br>Facilita la detección de errores tempranos, reduciendo costos de corrección.
+<br>Garantiza que los sistemas externos (APIs, bases de datos) funcionen correctamente con el software.
+<br><br>
+<br>JUnit (Java) → Para pruebas de integración en aplicaciones Java.
+<br>Postman → Pruebas de integración en APIs.
+<br>Selenium → Pruebas en aplicaciones web.
+<br>PyTest (Python) → Testing de integración en sistemas Python.
+<br>Cypress → Para pruebas de frontend con integración de backend.
+<br><br>import requests
+
+def test_api_responde_correctamente():
+    response = requests.get("https://api.ejemplo.com/datos")
+    assert response.status_code == 200
+    assert "usuario" in response.json()
+<br>Ejecutar las pruebas con:<br>pytest test_integracion.py
+<br><br>
+<br>Definir escenarios de prueba realistas.
+<br>Automatizar las pruebas en pipelines de CI/CD.
+<br>Simular respuestas de servicios externos con mocks o stubs.
+<br>Asegurar cobertura de pruebas en todas las interacciones críticas.
+<br>Ejecutar pruebas con diferentes volúmenes de datos para verificar escalabilidad.
+]]></description><link>desarrollo-de-interfacez\testnotas\testing-de-integración.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/testNotas/Testing de Integración.md</guid><pubDate>Sat, 01 Mar 2025 11:41:06 GMT</pubDate></item><item><title><![CDATA[Testing de Regresión]]></title><description><![CDATA[ 
+ <br><br>El testing de regresión es un proceso de prueba de software que verifica que las nuevas modificaciones en el código no hayan afectado funcionalidades existentes. Se ejecuta después de realizar cambios en la aplicación para asegurar que todo sigue funcionando correctamente.<br><br>
+<br>Se ejecuta después de cambios en el código
+
+<br>Valida que nuevas actualizaciones no introduzcan errores en módulos previamente funcionales.
+
+
+<br>Puede ser manual o automatizado
+
+<br>Se puede realizar con pruebas manuales o mediante herramientas automatizadas.
+
+
+<br>Asegura la estabilidad del software
+
+<br>Garantiza que las funcionalidades previas siguen operando correctamente.
+
+
+<br>Se usa en ciclos de desarrollo continuo
+
+<br>Es fundamental en metodologías ágiles y en CI/CD para evitar errores en cada versión.
+
+
+<br><br>
+<br>
+Regresión Completa
+
+<br>Se prueban todas las funcionalidades de la aplicación después de un cambio importante.
+<br>Ejemplo: Tras una gran actualización, se validan todas las funciones críticas del sistema.
+
+
+<br>
+Regresión Parcial
+
+<br>Solo se prueban las áreas afectadas por las modificaciones recientes.
+<br>Ejemplo: Si se actualiza el sistema de pagos, se revisa solo esa parte sin afectar otras áreas.
+
+
+<br>
+Regresión Selectiva
+
+<br>Se ejecutan solo los casos de prueba más relevantes para los cambios realizados.
+<br>Ejemplo: Se seleccionan pruebas clave relacionadas con una nueva función añadida.
+
+
+<br>
+Regresión en Cascada
+
+<br>Se prueban módulos dependientes para detectar efectos secundarios.
+<br>Ejemplo: Un cambio en la autenticación puede afectar el acceso a otros módulos de la aplicación.
+
+
+<br><br>
+<br>Selenium → Pruebas automatizadas en aplicaciones web.
+<br>JUnit/TestNG → Testing de regresión en Java.
+<br>Cypress → Automatización de pruebas en frontend.
+<br>Postman → Pruebas de regresión en APIs.
+<br>Katalon Studio → Plataforma para pruebas automatizadas.
+<br><br>from selenium import webdriver
+
+def test_regresion():
+    driver = webdriver.Chrome()
+    driver.get("https://ejemplo.com/login")
+    driver.find_element("name", "usuario").send_keys("usuario123")
+    driver.find_element("name", "password").send_keys("password123")
+    driver.find_element("id", "btn-login").click()
+    assert "Dashboard" in driver.title
+    driver.quit()
+<br>Ejecutar la prueba:<br>pytest test_regresion.py
+<br><br>
+<br>Evita que nuevas funciones rompan el sistema.
+<br>Asegura la estabilidad del software después de cada actualización.
+<br>Optimiza la calidad y confiabilidad del producto.
+<br>Facilita la integración continua en entornos de desarrollo ágil.
+<br><br>
+<br>Puede ser costoso en tiempo si se realiza manualmente.
+<br>Necesita automatización para ser eficiente en grandes proyectos.
+<br>Debe ejecutarse constantemente para detectar errores en cada versión.
+]]></description><link>desarrollo-de-interfacez\testnotas\testing-de-regresión.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/testNotas/Testing de Regresión.md</guid><pubDate>Sat, 01 Mar 2025 12:22:26 GMT</pubDate></item><item><title><![CDATA[Testing de Rendimiento]]></title><description><![CDATA[ 
+ <br><br>El testing de rendimiento es un tipo de prueba de software que evalúa la velocidad, estabilidad y escalabilidad de un sistema bajo diferentes condiciones de carga. Su objetivo es detectar cuellos de botella, mejorar la eficiencia y garantizar que la aplicación funcione correctamente bajo estrés.<br><br>
+<br>Evalúa la velocidad y capacidad de respuesta
+
+<br>Mide el tiempo de carga y la ejecución de operaciones críticas.
+
+
+<br>Prueba la estabilidad del sistema
+
+<br>Verifica cómo se comporta la aplicación durante períodos prolongados de uso.
+
+
+<br>Detecta cuellos de botella y problemas de optimización
+
+<br>Ayuda a identificar elementos que ralentizan el sistema.
+
+
+<br>Simula distintos niveles de carga
+
+<br>Prueba el software con diferentes volúmenes de usuarios y transacciones simultáneas.
+
+
+<br><br>
+<br>
+Pruebas de Carga
+
+<br>Evalúa cómo responde el sistema ante una cantidad específica de usuarios simultáneos.
+<br>Ejemplo: Simular 1000 usuarios accediendo a una página web al mismo tiempo.
+
+
+<br>
+Pruebas de Estrés
+
+<br>Mide el comportamiento del sistema cuando se somete a una carga extrema.
+<br>Ejemplo: Aumentar progresivamente el tráfico hasta que el sistema colapse.
+
+
+<br>
+Pruebas de Escalabilidad
+
+<br>Determina si el sistema puede manejar un aumento de usuarios sin degradar el rendimiento.
+<br>Ejemplo: Probar cómo responde una API cuando el tráfico se duplica.
+
+
+<br>
+Pruebas de Estabilidad (Soak Testing)
+
+<br>Analiza el rendimiento del sistema bajo una carga sostenida durante un largo período.
+<br>Ejemplo: Ejecutar una aplicación web continuamente durante 48 horas para detectar fugas de memoria.
+
+
+<br>
+Pruebas de Concurrencia
+
+<br>Evalúa el impacto de múltiples transacciones ejecutándose al mismo tiempo.
+<br>Ejemplo: Varios usuarios intentando procesar pagos simultáneamente en un e-commerce.
+
+
+<br><br>
+<br>JMeter → Pruebas de carga y estrés en aplicaciones web.
+<br>Gatling → Pruebas de rendimiento con enfoque en automatización.
+<br>LoadRunner → Simulación de carga de usuarios en sistemas complejos.
+<br>k6 → Testing de rendimiento para APIs y microservicios.
+<br>New Relic → Monitoreo en tiempo real del rendimiento de aplicaciones.
+<br><br>
+<br>Configurar JMeter y crear un Thread Group con 500 usuarios concurrentes.
+<br>Definir una HTTP Request para acceder a https://ejemplo.com.
+<br>Ejecutar la prueba y analizar los tiempos de respuesta.
+<br><br>
+<br>Mejora la experiencia del usuario al optimizar tiempos de carga.
+<br>Previene fallos en producción al detectar limitaciones del sistema.
+<br>Asegura la escalabilidad del software ante crecimiento de usuarios.
+<br>Optimiza el uso de recursos para reducir costos operativos.
+<br><br>
+<br>Requiere entornos de prueba similares a producción.
+<br>Puede ser complejo identificar la causa raíz de problemas de rendimiento.
+<br>Demanda herramientas y conocimientos especializados.
+]]></description><link>desarrollo-de-interfacez\testnotas\testing-de-rendimiento.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/testNotas/Testing de Rendimiento.md</guid><pubDate>Sat, 01 Mar 2025 12:16:27 GMT</pubDate></item><item><title><![CDATA[Testing de Seguridad]]></title><description><![CDATA[ 
+ <br><br>El testing de seguridad es un proceso de evaluación de software que tiene como objetivo identificar vulnerabilidades y riesgos que podrían ser explotados por atacantes. Se enfoca en proteger datos sensibles, asegurar el acceso adecuado y evitar ataques malintencionados.<br><br>
+<br>Evalúa la protección de datos
+
+<br>Verifica cómo se almacenan y gestionan datos confidenciales.
+
+
+<br>Identifica vulnerabilidades
+
+<br>Detecta fallos que podrían ser explotados por hackers.
+
+
+<br>Simula ataques reales
+
+<br>Realiza pruebas como inyección de código y ataques de denegación de servicio (DDoS).
+
+
+<br>Garantiza cumplimiento de normativas
+
+<br>Asegura que el software cumpla con estándares de seguridad como OWASP, ISO 27001 o GDPR.
+
+
+<br><br>
+<br>
+Pruebas de Penetración (Pentesting)
+
+<br>Simula ataques reales para evaluar la seguridad del sistema.
+<br>Ejemplo: Un hacker ético intenta explotar vulnerabilidades en una aplicación web.
+
+
+<br>
+Análisis de Vulnerabilidades
+
+<br>Escanea el sistema en busca de puntos débiles conocidos.
+<br>Ejemplo: Uso de herramientas como Nessus para detectar fallos de seguridad.
+
+
+<br>
+Pruebas de Autenticación y Control de Acceso
+
+<br>Evalúa si solo usuarios autorizados pueden acceder a ciertas funciones.
+<br>Ejemplo: Intentar acceder a un área restringida sin credenciales válidas.
+
+
+<br>
+Pruebas de Inyección de Código
+
+<br>Identifica si el sistema es vulnerable a ataques como SQL Injection o Cross-Site Scripting (XSS).
+<br>Ejemplo: Insertar comandos maliciosos en formularios de entrada.
+
+
+<br>
+Pruebas de Seguridad en API
+
+<br>Evalúa si los servicios de comunicación entre sistemas están protegidos.
+<br>Ejemplo: Probar endpoints con Postman o Burp Suite.
+
+
+<br>
+Pruebas de Denegación de Servicio (DDoS)
+
+<br>Simula un alto volumen de tráfico para evaluar cómo responde el sistema.
+<br>Ejemplo: Uso de herramientas como LOIC o Slowloris.
+
+
+<br><br>
+<br>OWASP ZAP → Escaneo de vulnerabilidades en aplicaciones web.
+<br>Burp Suite → Pruebas de seguridad en APIs y aplicaciones.
+<br>Nmap → Análisis de redes y detección de puertos abiertos.
+<br>Metasploit → Simulación de ataques reales.
+<br>Wireshark → Análisis de tráfico de red.
+<br><br>
+<br>Instalar y abrir OWASP ZAP.
+<br>Configurar la URL de la aplicación a analizar.
+<br>Ejecutar el escaneo automatizado para detectar vulnerabilidades.
+<br>Revisar los reportes y corregir fallos identificados.
+<br><br>
+<br>Previene ataques cibernéticos y fuga de datos.
+<br>Cumple con normativas de seguridad y privacidad.
+<br>Protege la reputación y confianza del usuario.
+<br>Reduce costos de recuperación ante incidentes de seguridad.
+<br><br>
+<br>Requiere conocimientos avanzados en ciberseguridad.
+<br>Algunas pruebas pueden afectar la estabilidad del sistema.
+<br>Debe realizarse de manera continua para adaptarse a nuevas amenazas.
+]]></description><link>desarrollo-de-interfacez\testnotas\testing-de-seguridad.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/testNotas/Testing de Seguridad.md</guid><pubDate>Sat, 01 Mar 2025 12:17:25 GMT</pubDate></item><item><title><![CDATA[Testing de Sistema]]></title><description><![CDATA[ 
+ <br><br>El testing de sistema es una fase del proceso de pruebas de software en la que se evalúa el sistema completo para asegurarse de que cumple con los requisitos funcionales y no funcionales definidos. Se ejecuta en un entorno similar al de producción para validar la funcionalidad global del software antes de su lanzamiento.<br><br>
+<br>Evalúa el software como un todo
+
+<br>Se prueban todas las interacciones entre los módulos y componentes integrados.
+
+
+<br>Se basa en los requisitos del sistema
+
+<br>Verifica que el software cumpla con las especificaciones definidas en la fase de análisis.
+
+
+<br>Incluye pruebas funcionales y no funcionales
+
+<br>No solo se comprueba el correcto funcionamiento, sino también el rendimiento, la seguridad y la compatibilidad.
+
+
+<br>Simula un entorno real de producción
+
+<br>Se ejecuta en condiciones similares a las del entorno final para detectar posibles fallos antes del despliegue.
+
+
+<br><br>
+<br>
+Testing Funcional
+
+<br>Verifica que el sistema cumple con los requisitos establecidos.
+<br>Ejemplo: Probar si un usuario puede registrarse y acceder a su cuenta.
+
+
+<br>
+Testing de Rendimiento
+
+<br>Evalúa la velocidad, estabilidad y escalabilidad del sistema bajo diferentes cargas de trabajo.
+<br>Ejemplo: Medir el tiempo de respuesta de una API con 1000 solicitudes simultáneas.
+
+
+<br>
+Testing de Seguridad
+
+<br>Identifica vulnerabilidades y protege el sistema contra ataques.
+<br>Ejemplo: Simulación de ataques de inyección SQL para comprobar la protección de la base de datos.
+
+
+<br>
+Testing de Compatibilidad
+
+<br>Asegura que el sistema funciona correctamente en diferentes dispositivos, navegadores y sistemas operativos.
+<br>Ejemplo: Probar una aplicación web en Chrome, Firefox y Safari.
+
+
+<br>
+Testing de Usabilidad
+
+<br>Evalúa la experiencia del usuario en términos de facilidad de uso e interacción.
+<br>Ejemplo: Medir cuántos pasos necesita un usuario para completar una compra en una tienda en línea.
+
+
+<br>
+Testing de Recuperación
+
+<br>Comprueba la capacidad del sistema para recuperarse de fallos inesperados.
+<br>Ejemplo: Simular un apagón del servidor y verificar si el sistema se restablece correctamente.
+
+
+<br><br>
+<br>Selenium → Pruebas automatizadas de UI.
+<br>JMeter → Pruebas de rendimiento.
+<br>Burp Suite → Pruebas de seguridad.
+<br>TestRail → Gestión de pruebas.
+<br>Postman → Pruebas de API.
+<br><br>from selenium import webdriver
+
+def test_login():
+    driver = webdriver.Chrome()
+    driver.get("https://ejemplo.com/login")
+    user_input = driver.find_element("name", "usuario")
+    password_input = driver.find_element("name", "password")
+    user_input.send_keys("testuser")
+    password_input.send_keys("password123")
+    driver.find_element("id", "btn-login").click()
+    assert "Dashboard" in driver.title
+    driver.quit()
+<br>Ejecutar la prueba:<br>pytest test_sistema.py
+<br><br>
+<br>Detecta errores en la funcionalidad global del software.
+<br>Asegura que los requisitos del cliente se cumplan antes del lanzamiento.
+<br>Previene fallos críticos en producción.
+<br>Garantiza la compatibilidad con diferentes entornos.
+<br>Optimiza el rendimiento y la seguridad del sistema.
+]]></description><link>desarrollo-de-interfacez\testnotas\testing-de-sistema.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/testNotas/Testing de Sistema.md</guid><pubDate>Sat, 01 Mar 2025 11:41:54 GMT</pubDate></item><item><title><![CDATA[Testing de Usabilidad]]></title><description><![CDATA[ 
+ <br><br>El testing de usabilidad es un proceso de evaluación de software que mide la facilidad de uso, accesibilidad y experiencia del usuario en un sistema o aplicación. Su objetivo es identificar problemas de diseño que puedan afectar la interacción del usuario y mejorar la eficiencia del producto digital.<br><br>
+<br>Evalúa la experiencia del usuario (UX)
+
+<br>Analiza cómo los usuarios interactúan con la interfaz.
+
+
+<br>Identifica problemas de navegación y accesibilidad
+
+<br>Detecta dificultades en la estructura y disposición de los elementos.
+
+
+<br>Mide la eficiencia del diseño
+
+<br>Determina si el usuario puede completar tareas de manera rápida y sin confusión.
+
+
+<br>Recoge feedback directo de los usuarios
+
+<br>Se basa en pruebas con usuarios reales para detectar problemas y oportunidades de mejora.
+
+
+<br><br>
+<br>
+Pruebas de Observación
+
+<br>Los usuarios interactúan con el sistema mientras los evaluadores observan su comportamiento.
+<br>Ejemplo: Evaluar cómo un usuario navega en una tienda online y si encuentra fácilmente los productos.
+
+
+<br>
+Pruebas de Tareas Específicas
+
+<br>Se asignan tareas concretas a los usuarios para medir la facilidad de completarlas.
+<br>Ejemplo: Ver si un usuario puede registrarse y realizar una compra en una aplicación móvil sin problemas.
+
+
+<br>
+Pruebas A/B
+
+<br>Se comparan dos versiones de una interfaz para determinar cuál proporciona una mejor experiencia.
+<br>Ejemplo: Evaluar si un botón rojo genera más conversiones que un botón azul.
+
+
+<br>
+Pruebas de Accesibilidad
+
+<br>Verifica que el sistema sea usable por personas con discapacidades.
+<br>Ejemplo: Evaluar si una web es compatible con lectores de pantalla.
+
+
+<br>
+Test de Eye Tracking (Seguimiento Ocular)
+
+<br>Analiza el recorrido visual de los usuarios en la interfaz.
+<br>Ejemplo: Determinar en qué partes de una página web los usuarios prestan más atención.
+
+
+<br><br>
+<br>Hotjar → Analiza el comportamiento del usuario con mapas de calor.
+<br>Google Analytics → Evalúa métricas de navegación y conversión.
+<br>UsabilityHub → Realiza pruebas A/B con usuarios reales.
+<br>Lookback → Permite pruebas de usabilidad remotas con grabaciones en vivo.
+<br>WebAIM → Herramienta para pruebas de accesibilidad web.
+<br><br>
+<br>Se seleccionan 5 usuarios sin experiencia previa en la aplicación.
+<br>Se les asigna la tarea de completar un formulario de contacto.
+<br>Se mide el tiempo y cantidad de errores cometidos.
+<br>Se analiza la experiencia de los usuarios y se identifican mejoras.
+<br><br>
+<br>Mejora la experiencia del usuario y la satisfacción.
+<br>Aumenta la eficiencia y reduce la frustración del usuario.
+<br>Optimiza la conversión y el uso del sistema.
+<br>Reduce costos de soporte técnico y capacitación.
+<br>Facilita la accesibilidad y la inclusión digital.
+<br><br>
+<br>Puede ser costoso y requerir tiempo.
+<br>Los resultados dependen de la selección adecuada de usuarios de prueba.
+<br>Requiere analizar múltiples factores subjetivos.
+]]></description><link>desarrollo-de-interfacez\testnotas\testing-de-usabilidad.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/testNotas/Testing de Usabilidad.md</guid><pubDate>Sat, 01 Mar 2025 12:19:35 GMT</pubDate></item><item><title><![CDATA[Testing Manual]]></title><description><![CDATA[ 
+ <br><br>El testing manual es un proceso en el que testers ejecutan pruebas de software sin el uso de herramientas de automatización. Su objetivo es identificar errores, evaluar la funcionalidad del sistema y garantizar una experiencia de usuario óptima antes del despliegue en producción.<br><br>
+<br>Ejecutado por testers humanos
+
+<br>No requiere herramientas de automatización, las pruebas se realizan manualmente.
+
+
+<br>Simula el uso real del software
+
+<br>Se evalúa el sistema desde la perspectiva del usuario final.
+
+
+<br>Permite la detección de errores no obvios
+
+<br>Puede identificar problemas en la interfaz de usuario, usabilidad o lógica del sistema.
+
+
+<br>Requiere documentación y planificación
+
+<br>Se utilizan casos de prueba, listas de verificación y reportes de errores.
+
+
+<br><br>
+<br>
+Testing Exploratorio
+
+<br>Se prueba el sistema sin seguir un plan predefinido.
+<br>Ejemplo: Un tester navega por una aplicación buscando fallos inesperados.
+
+
+<br>
+Testing Funcional
+
+<br>Verifica que el sistema cumple con los requisitos establecidos.
+<br>Ejemplo: Probar si el botón "Comprar" en una tienda en línea realiza la acción esperada.
+
+
+<br>
+Testing de Usabilidad
+
+<br>Evalúa la experiencia del usuario y la facilidad de uso.
+<br>Ejemplo: Analizar si un formulario de registro es intuitivo y fácil de completar.
+
+
+<br>
+Testing de Regresión
+
+<br>Asegura que nuevos cambios no afecten funcionalidades previas.
+<br>Ejemplo: Tras actualizar una aplicación, se verifica que las funciones anteriores sigan funcionando correctamente.
+
+
+<br>
+Testing de Compatibilidad
+
+<br>Comprueba que el software funcione en diferentes dispositivos, navegadores y sistemas operativos.
+<br>Ejemplo: Probar una aplicación en Windows, Mac y Linux.
+
+
+<br><br>Aunque es un proceso sin automatización, existen herramientas que ayudan en la gestión y documentación de pruebas:<br>
+<br>TestRail → Gestión de casos de prueba.
+<br>JIRA → Seguimiento de errores y pruebas.
+<br>Bugzilla → Reporte y seguimiento de fallos.
+<br>Trello → Organización de tareas de testing.
+<br><br>
+<br>Detecta problemas de experiencia de usuario y usabilidad.
+<br>Flexible ante cambios en el sistema.
+<br>Útil en pruebas exploratorias y de diseño.
+<br>No requiere conocimientos avanzados en programación.
+<br><br>
+<br>Consume más tiempo en comparación con pruebas automatizadas.
+<br>Mayor posibilidad de errores humanos.
+<br>Menos eficiente para pruebas repetitivas o de gran escala.
+]]></description><link>desarrollo-de-interfacez\testnotas\testing-manual.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/testNotas/Testing Manual.md</guid><pubDate>Sat, 01 Mar 2025 11:56:32 GMT</pubDate></item><item><title><![CDATA[Testing Unitario]]></title><description><![CDATA[ 
+ <br><br><br>El testing unitario es una técnica de prueba de software que verifica el correcto funcionamiento de unidades individuales de código, como funciones, métodos o clases. Se realiza de manera aislada para asegurarse de que cada componente funciona según lo esperado antes de integrarlo con el resto del sistema.<br><br>
+<br>Prueba pequeñas unidades de código
+
+<br>Evalúa el comportamiento de funciones o métodos específicos.
+
+
+<br>Se ejecuta de forma aislada
+
+<br>No depende de otras partes del sistema ni de bases de datos externas.
+
+
+<br>Automatizable
+
+<br>Se pueden usar frameworks para ejecutar pruebas automáticamente.
+
+
+<br>Rápido y eficiente
+
+<br>Permite detectar errores en etapas tempranas del desarrollo.
+
+
+<br><br>
+<br>Detección temprana de errores, reduciendo costos de corrección.
+<br>Facilita la refactorización, asegurando que los cambios no introduzcan nuevos errores.
+<br>Mejora la calidad del código, promoviendo modularidad y buenas prácticas.
+<br>Aumenta la confianza en el código, asegurando su funcionalidad esperada.
+<br><br>Dependiendo del lenguaje de programación, existen diversos frameworks para realizar pruebas unitarias:<br>
+<br>Java → JUnit, TestNG
+<br>JavaScript → Jest, Mocha, Jasmine
+<br>Python → unittest, pytest
+<br>C# → NUnit, MSTest
+<br>Ruby → RSpec
+<br><br>import pytest
+
+def suma(a, b):
+    return a + b
+
+def test_suma():
+    assert suma(2, 3) == 5
+    assert suma(-1, 1) == 0
+<br>Ejecutar las pruebas con:<br>pytest test_suma.py
+<br><br>
+<br>Escribir pruebas independientes y aisladas.
+<br>Usar nombres descriptivos en las pruebas.
+<br>Mantener una alta cobertura de código.
+<br>Evitar dependencias externas en las pruebas.
+<br>Ejecutar pruebas automáticamente en integración continua (CI/CD).
+]]></description><link>desarrollo-de-interfacez\testnotas\testing-unitario.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/testNotas/Testing Unitario.md</guid><pubDate>Sat, 01 Mar 2025 11:38:44 GMT</pubDate></item><item><title><![CDATA[Arquitectura MVC]]></title><description><![CDATA[ 
  <br>La arquitectura Modelo-Vista-Controlador (MVC) es un patrón de diseño de software que separa la lógica de negocio, la presentación y el control de una aplicación en tres componentes principales: Modelo, Vista y Controlador. Este enfoque facilita la mantenibilidad, escalabilidad y organización del código en aplicaciones de software.<br><br>
 <br>
 Modelo (Model)
@@ -5578,7 +6696,7 @@ git commit -m "Descripción de los cambios"
 <br>Usar mensajes de commit en inglés cuando se trabaja con equipos internacionales.
 <br><br>git commit -m "Fix: corregido error en validación de formulario"
 ]]></description><link>desarrollo-de-interfacez\commit.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Commit.md</guid><pubDate>Fri, 28 Feb 2025 11:42:08 GMT</pubDate></item><item><title><![CDATA[Conflicto]]></title><description><![CDATA[ 
- <br>Un conflicto en Git ocurre cuando dos o más ramas han realizado cambios en la misma línea de un archivo y Git no puede fusionarlos automáticamente. Esto suele ocurrir durante operaciones como <a data-href="merge" href="\merge" class="internal-link" target="_self" rel="noopener nofollow">merge</a>, <a data-href="rebase" href="\rebase" class="internal-link" target="_self" rel="noopener nofollow">rebase</a> o <a data-href="pull" href="\pull" class="internal-link" target="_self" rel="noopener nofollow">pull</a>.<br><br>
+ <br>Un conflicto en Git ocurre cuando dos o más ramas han realizado cambios en la misma línea de un archivo y <a data-href="Git" href="\desarrollo-de-interfacez\git.html" class="internal-link" target="_self" rel="noopener nofollow">Git</a> no puede fusionarlos automáticamente. Esto suele ocurrir durante operaciones como <a data-href="merge" href="\desarrollo-de-interfacez\merge.html" class="internal-link" target="_self" rel="noopener nofollow">merge</a>, <a data-href="rebase" href="\desarrollo-de-interfacez\rebase.html" class="internal-link" target="_self" rel="noopener nofollow">rebase</a> o <a data-href="pull" href="\desarrollo-de-interfacez\pull.html" class="internal-link" target="_self" rel="noopener nofollow">pull</a>.<br><br>
 <br>Modificaciones en la misma línea de código en diferentes ramas.
 <br>Intentar fusionar ramas con cambios incompatibles.
 <br>Rebases con historial de cambios que entran en conflicto.
@@ -5596,7 +6714,7 @@ git commit -m "Descripción de los cambios"
 <br>Dividir las tareas en ramas separadas y fusionarlas con frecuencia.
 <br>Usar herramientas de revisión de cambios antes de confirmar modificaciones.
 <br>Coordinar con el equipo para evitar ediciones en los mismos archivos.
-]]></description><link>desarrollo-de-interfacez\conflicto.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Conflicto.md</guid><pubDate>Fri, 28 Feb 2025 11:44:22 GMT</pubDate></item><item><title><![CDATA[Temerario:]]></title><description><![CDATA[ 
+]]></description><link>desarrollo-de-interfacez\conflicto.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Conflicto.md</guid><pubDate>Sat, 01 Mar 2025 10:08:02 GMT</pubDate></item><item><title><![CDATA[Temerario:]]></title><description><![CDATA[ 
  <br><br>Primer Trimestre:<br>Como lo esta dando:<br>
 <br>
 <a data-href="Git Hub - Sistema de Control de Versiones" href="\desarrollo-de-interfacez\git-hub-sistema-de-control-de-versiones.html" class="internal-link" target="_self" rel="noopener nofollow">Git Hub - Sistema de Control de Versiones</a>
@@ -5663,8 +6781,89 @@ Otros
 
 <br>Cuidado
 Seguramente no se vea en este orden
-]]></description><link>desarrollo-de-interfacez\desarrollo-de-interfaces.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Desarrollo De Interfaces.md</guid><pubDate>Fri, 28 Feb 2025 11:23:29 GMT</pubDate></item><item><title><![CDATA[Diseño de interfaces]]></title><description><![CDATA[ 
- <br><br>Diseñas lo que vas hacer]]></description><link>desarrollo-de-interfacez\diseño-de-interfaces.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Diseño de interfaces.md</guid><pubDate>Thu, 13 Feb 2025 10:43:01 GMT</pubDate></item><item><title><![CDATA[Figma]]></title><description><![CDATA[ 
+]]></description><link>desarrollo-de-interfacez\desarrollo-de-interfaces.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Desarrollo De Interfaces.md</guid><pubDate>Fri, 28 Feb 2025 11:23:29 GMT</pubDate></item><item><title><![CDATA[Diseño de Interfaces]]></title><description><![CDATA[ 
+ <br><br>El diseño de interfaces es el proceso de planificar y estructurar la apariencia visual y la experiencia de usuario en un sistema digital, como aplicaciones, sitios web y software. Su objetivo principal es crear una interacción intuitiva, accesible y atractiva para los usuarios.<br><br>
+<br>
+Usabilidad
+
+<br>Garantiza que la interfaz sea fácil de aprender y utilizar.
+
+
+<br>
+Accesibilidad
+
+<br>Asegura que la interfaz pueda ser utilizada por personas con diferentes capacidades.
+
+
+<br>
+Diseño Visual
+
+<br>Incluye colores, tipografías, iconos y distribución de elementos para mejorar la experiencia del usuario.
+
+
+<br>
+Flujo de Navegación
+
+<br>Define cómo los usuarios interactúan con la interfaz para realizar tareas de manera eficiente.
+
+
+<br>
+Interactividad
+
+<br>Implementación de botones, menús y otros elementos que facilitan la navegación y el uso del sistema.
+
+
+<br><br>Algunas herramientas populares para el diseño de interfaces incluyen:<br>
+<br><a data-href="Figma" href="\desarrollo-de-interfacez\figma.html" class="internal-link" target="_self" rel="noopener nofollow">Figma</a>
+<br>Adobe XD
+<br>Sketch
+<br>InVision
+<br><br>Un buen diseño de interfaz mejora la experiencia del usuario, facilita la navegación y optimiza la interacción con el producto digital, lo que se traduce en mayor satisfacción y retención de los usuarios.]]></description><link>desarrollo-de-interfacez\diseño-de-interfaces.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Diseño de interfaces.md</guid><pubDate>Sat, 01 Mar 2025 10:09:44 GMT</pubDate></item><item><title><![CDATA[Git Fetch]]></title><description><![CDATA[ 
+ <br><br>El comando git fetch en <a data-href="Git" href="\desarrollo-de-interfacez\git.html" class="internal-link" target="_self" rel="noopener nofollow">Git</a> se usa para descargar cambios del repositorio remoto sin fusionarlos con la rama actual del repositorio local. Permite a los desarrolladores ver los cambios disponibles antes de aplicarlos.<br><br><br><br>git fetch &lt;remoto&gt; &lt;rama&gt;
+<br>Si se omiten los parámetros, Git traerá los cambios de todas las ramas remotas configuradas.<br><br>git fetch origin
+<br>Este comando obtiene todos los cambios del repositorio remoto origin, pero no los fusiona automáticamente.<br><br>
+<br>
+Ver las Diferencias después de un fetch
+git diff origin/main
+
+
+<br>Permite comparar los cambios entre la rama local y la remota.
+
+
+<br>
+Actualizar Referencias Remotas
+git fetch --prune
+
+
+<br>Elimina referencias a ramas remotas que ya no existen en el servidor.
+
+
+<br>
+Descargar Todos los Cambios de Todas las Ramas
+git fetch --all
+
+
+<br>Obtiene los cambios de todos los remotos configurados en el repositorio.
+
+
+<br><br>Si después de un fetch se quiere actualizar la rama local con los cambios obtenidos, se puede usar merge o rebase:<br>
+<br>
+Fusionar los cambios con merge
+git merge origin/main
+
+
+<br>Combina los cambios remotos en la rama actual.
+
+
+<br>
+Fusionar los cambios con rebase
+git rebase origin/main
+
+
+<br>Reaplica los commits locales sobre la versión más reciente de la rama remota.
+
+
+]]></description><link>desarrollo-de-interfacez\fetch.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/fetch.md</guid><pubDate>Sat, 01 Mar 2025 10:07:44 GMT</pubDate></item><item><title><![CDATA[Figma]]></title><description><![CDATA[ 
  <br>Figma es una herramienta de diseño colaborativo basada en la nube que permite a diseñadores, desarrolladores y equipos trabajar juntos en la creación de interfaces, prototipos y sistemas de diseño. Lanzado en 2016, se ha convertido en una de las plataformas más populares para el diseño de experiencia de usuario (UX) y de interfaz de usuario (UI).<br><br>
 <br>Basado en la nube
 
@@ -5704,8 +6903,40 @@ Seguramente no se vea en este orden
 <br>Funciona en la nube, eliminando la necesidad de licencias costosas o equipos específicos. Puede utilizarse en Windows, macOS y Linux sin problemas.
 <br><br>
 <br>Su enfoque en UI/UX lo hace una herramienta fundamental en la creación de aplicaciones, sitios web y software.
-]]></description><link>desarrollo-de-interfacez\figma.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Figma.md</guid><pubDate>Fri, 28 Feb 2025 10:21:08 GMT</pubDate></item><item><title><![CDATA[Flujo de  trabajo de Git]]></title><description><![CDATA[ 
- <br><a data-href="Repositiorio Local" href="\desarrollo-de-interfacez\repositiorio-local.html" class="internal-link" target="_self" rel="noopener nofollow">Repositiorio Local</a>]]></description><link>desarrollo-de-interfacez\flujo-de-trabajo-de-git.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Flujo de  trabajo de Git.md</guid><pubDate>Wed, 04 Oct 2023 09:19:40 GMT</pubDate></item><item><title><![CDATA[Frameworks e Interfaces]]></title><description><![CDATA[ 
+]]></description><link>desarrollo-de-interfacez\figma.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Figma.md</guid><pubDate>Fri, 28 Feb 2025 10:21:08 GMT</pubDate></item><item><title><![CDATA[Flujos de Trabajo en Git]]></title><description><![CDATA[ 
+ <br><br>Un flujo de trabajo en <a data-href="Git" href="\desarrollo-de-interfacez\git.html" class="internal-link" target="_self" rel="noopener nofollow">Git</a> es una estrategia o metodología que define cómo los desarrolladores colaboran en un proyecto, gestionan cambios y fusionan código dentro de un repositorio. Elegir un buen flujo de trabajo es clave para garantizar la eficiencia, evitar conflictos y mantener un historial de versiones limpio y ordenado.<br><br><br>
+<br>Usa múltiples ramas para organizar el desarrollo.
+<br>Estructura principal:
+
+<br>main: Contiene la versión estable del proyecto.
+<br>develop: Rama principal donde se integran los desarrollos antes de pasar a main.
+<br>feature/*: Ramas temporales para desarrollar nuevas funcionalidades.
+<br>release/*: Ramas para preparar versiones de producción.
+<br>hotfix/*: Para corregir errores en producción.
+
+
+<br>Ventajas: Organizado, ideal para equipos grandes y ciclos de desarrollo definidos.
+<br>Desventajas: Puede ser complejo y generar sobrecarga de ramas.
+<br><br>
+<br>Flujo simplificado basado en ramas cortas.
+<br>Se trabaja directamente desde la rama main y se crean ramas de características (feature-branch), que se fusionan con main mediante <a data-href="Pull Requests" href="\desarrollo-de-interfacez\pull-requests.html" class="internal-link" target="_self" rel="noopener nofollow">Pull Requests</a>.
+<br>Ventajas: Sencillo, ideal para integración continua y despliegues rápidos.
+<br>Desventajas: Menos control sobre versiones intermedias.
+<br><br>
+<br>Similar a GitHub Flow, pero incorpora ramas adicionales como staging y production para entornos de pruebas y producción.
+<br>Ventajas: Mejor control de despliegues.
+<br>Desventajas: Requiere definir con claridad los entornos y las reglas de fusión.
+<br><br>
+<br>Todos los desarrolladores trabajan en una sola rama (trunk o main) y hacen pequeños commits frecuentes.
+<br>Se apoya en características como Feature Flags para habilitar/deshabilitar código en producción.
+<br>Ventajas: Rápida integración, menor complejidad de ramas.
+<br>Desventajas: Requiere pruebas automatizadas robustas para evitar introducir errores.
+<br><br><br><br>
+<br>Para proyectos grandes y equipos grandes: Git Flow es una buena opción.
+<br>Para despliegues rápidos y desarrollo ágil: <a data-href="GitHub" href="\desarrollo-de-interfacez\github.html" class="internal-link" target="_self" rel="noopener nofollow">GitHub</a> Flow funciona bien.
+<br>Para proyectos que requieren entornos de prueba: <a data-href="GitLab" href="\desarrollo-de-interfacez\gitlab.html" class="internal-link" target="_self" rel="noopener nofollow">GitLab</a> Flow es recomendable.
+<br>Para startups y desarrollo continuo: Trunk-Based Development permite integración rápida.
+]]></description><link>desarrollo-de-interfacez\flujo-de-trabajo-de-git.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Flujo de  trabajo de Git.md</guid><pubDate>Sat, 01 Mar 2025 10:12:14 GMT</pubDate></item><item><title><![CDATA[Frameworks e Interfaces]]></title><description><![CDATA[ 
  <br><br>Un framework es un conjunto de herramientas, bibliotecas y reglas predefinidas que facilitan el desarrollo de software al proporcionar una estructura base. En términos generales, un framework permite reutilizar código y seguir buenas prácticas en el desarrollo de aplicaciones.<br><br>
 <br>Modularidad: Permite utilizar diferentes componentes según las necesidades del proyecto.
 <br>Reutilización de Código: Evita escribir código repetitivo al proporcionar soluciones predefinidas.
@@ -5764,7 +6995,7 @@ Interfaz de Programación de Aplicaciones (API - Application Programming Interfa
 
 <br>Uso del Protocolo Git
 
-<br>Basado en <a data-href="git" href="\desarrollo-de-interfacez\git.html" class="internal-link" target="_self" rel="noopener nofollow">git</a>, permite realizar operaciones como <a data-href="commit" href="\desarrollo-de-interfacez\commit.html" class="internal-link" target="_self" rel="noopener nofollow">commit</a>, <a data-href="push" href="\push" class="internal-link" target="_self" rel="noopener nofollow">push</a>, <a data-href="pull" href="\pull" class="internal-link" target="_self" rel="noopener nofollow">pull</a> y <a data-href="merge" href="\merge" class="internal-link" target="_self" rel="noopener nofollow">merge</a> para gestionar el código de manera eficiente.
+<br>Basado en <a data-href="git" href="\desarrollo-de-interfacez\git.html" class="internal-link" target="_self" rel="noopener nofollow">git</a>, permite realizar operaciones como <a data-href="commit" href="\desarrollo-de-interfacez\commit.html" class="internal-link" target="_self" rel="noopener nofollow">commit</a>, <a data-href="push" href="\desarrollo-de-interfacez\push.html" class="internal-link" target="_self" rel="noopener nofollow">push</a>, <a data-href="pull" href="\desarrollo-de-interfacez\pull.html" class="internal-link" target="_self" rel="noopener nofollow">pull</a> y <a data-href="merge" href="\desarrollo-de-interfacez\merge.html" class="internal-link" target="_self" rel="noopener nofollow">merge</a> para gestionar el código de manera eficiente.
 
 
 <br><br>
@@ -5772,8 +7003,124 @@ Interfaz de Programación de Aplicaciones (API - Application Programming Interfa
 <br>Integración con herramientas de desarrollo como CI/CD y automatización.
 <br>Seguridad y copias de seguridad en la nube.
 <br>Facilita la gestión de proyectos mediante issues, pull requests y revisiones de código.
-]]></description><link>desarrollo-de-interfacez\git-hub-sistema-de-control-de-versiones.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Git Hub - Sistema de Control de Versiones.md</guid><pubDate>Fri, 28 Feb 2025 11:43:28 GMT</pubDate></item><item><title><![CDATA[Interface de usuario (UI)]]></title><description><![CDATA[ 
- <br>Conjunto de elementos para interactúa o lo que interetua con la tecnología<br>Se busca que sea sencillas e intuitivas<br><a data-href="Interfaz Grafica de Usuario (GUI)" href="\desarrollo-de-interfacez\interfaz-grafica-de-usuario-(gui).html" class="internal-link" target="_self" rel="noopener nofollow">Interfaz Grafica de Usuario (GUI)</a>]]></description><link>desarrollo-de-interfacez\interface-de-usuario-(ui).html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Interface de usuario (UI).md</guid><pubDate>Wed, 04 Oct 2023 09:19:40 GMT</pubDate></item><item><title><![CDATA[Interfaces avanzadas Android]]></title><description><![CDATA[ 
+]]></description><link>desarrollo-de-interfacez\git-hub-sistema-de-control-de-versiones.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Git Hub - Sistema de Control de Versiones.md</guid><pubDate>Fri, 28 Feb 2025 11:43:28 GMT</pubDate></item><item><title><![CDATA[GitHub]]></title><description><![CDATA[ 
+ <br><br>GitHub es una plataforma de desarrollo colaborativo basada en Git, que permite a los desarrolladores gestionar código, realizar seguimiento de cambios y colaborar en proyectos de software. Además, ofrece herramientas para control de versiones, integración continua y gestión de proyectos.<br><br>
+<br>Control de Versiones con Git
+
+<br>Permite administrar y realizar seguimiento de cambios en proyectos de software.
+
+
+<br>Repositorios Públicos y Privados
+
+<br>Facilita el almacenamiento de código de manera accesible y segura.
+
+
+<br>Colaboración en Equipo
+
+<br>Uso de Pull Requests y Code Reviews para revisión y mejora del código.
+
+
+<br>GitHub Actions
+
+<br>Herramienta integrada de CI/CD para automatizar pruebas y despliegues.
+
+
+<br>Gestión de Proyectos
+
+<br>Tableros, issues y wikis para organizar tareas y documentar procesos.
+
+
+<br>Seguridad y Escaneo de Código
+
+<br>Análisis de vulnerabilidades y protección del código con GitHub Dependabot.
+
+
+<br><br><br><br>
+<br>
+Clonar un repositorio
+git clone https://github.com/usuario/proyecto.git
+
+
+<br>
+Añadir cambios y subir al repositorio
+git add .
+git commit -m "Descripción del cambio"
+git push origin main
+
+
+<br>
+Obtener cambios del repositorio remoto
+git pull origin main
+
+
+<br><br>
+<br>Facilita la colaboración en proyectos de código abierto y privados.
+<br>Integración con herramientas de automatización y CI/CD.
+<br>Acceso a una gran comunidad de desarrolladores y recursos educativos.
+<br>Soporte para documentación y gestión de proyectos.
+]]></description><link>desarrollo-de-interfacez\github.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/GitHub.md</guid><pubDate>Sat, 01 Mar 2025 09:49:22 GMT</pubDate></item><item><title><![CDATA[GitLab]]></title><description><![CDATA[ 
+ <br><br>GitLab es una plataforma de desarrollo de software basada en Git, que permite la gestión del ciclo de vida del desarrollo de aplicaciones. Ofrece herramientas para control de versiones, integración continua (CI/CD), monitoreo y seguridad, lo que la convierte en una solución completa para equipos de desarrollo.<br><br>
+<br>Control de Versiones con Git
+
+<br>Permite la gestión del código fuente y el seguimiento de cambios en un proyecto.
+
+
+<br>Integración y Entrega Continua (CI/CD)
+
+<br>Automatiza la ejecución de pruebas y despliegues para mejorar la eficiencia del desarrollo.
+
+
+<br>Gestión de Proyectos
+
+<br>Proporciona herramientas como tableros de issues, milestones y wikis para organizar el trabajo en equipo.
+
+
+<br>Seguridad Integrada
+
+<br>Incluye escaneo de vulnerabilidades, control de acceso y revisiones de código para garantizar la calidad del software.
+
+
+<br>Repositorios Privados y Públicos
+
+<br>Ofrece opciones para alojar código de manera pública o restringida según las necesidades del equipo.
+
+
+<br>Implementación en la Nube o en Servidores Propios
+
+<br>Se puede utilizar como servicio en la nube o instalar en un servidor propio para mayor control y seguridad.
+
+
+<br><br><br><br>
+<br>
+Clonar un repositorio de GitLab
+git clone https://gitlab.com/usuario/proyecto.git
+
+
+<br>
+Añadir cambios y subir al repositorio
+git add .
+git commit -m "Descripción del cambio"
+git push origin main
+
+
+<br>
+Obtener cambios del repositorio remoto
+git pull origin main
+
+
+]]></description><link>desarrollo-de-interfacez\gitlab.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/GitLab.md</guid><pubDate>Sat, 01 Mar 2025 09:47:30 GMT</pubDate></item><item><title><![CDATA[Interfaz de Usuario (UI)]]></title><description><![CDATA[ 
+ <br><br>La Interfaz de Usuario (UI) es el conjunto de elementos visuales y funcionales con los que un usuario interactúa para utilizar un sistema o tecnología. Su diseño busca que la experiencia sea sencilla, eficiente e intuitiva.<br><br>
+<br>Simplicidad: Debe ser clara y fácil de entender para el usuario.
+<br>Consistencia: Mantener patrones de diseño similares en toda la interfaz.
+<br>Accesibilidad: Adaptarse a diferentes dispositivos y usuarios con distintas capacidades.
+<br>Retroalimentación Visual: Informar al usuario sobre acciones realizadas mediante cambios en la interfaz.
+<br>Optimización de Flujo: Reducir la cantidad de pasos para completar una tarea.
+<br><br>
+<br><a data-href="Interfaz Gráfica de Usuario (GUI)" href="\desarrollo-de-interfacez\interfaz-gráfica-de-usuario-(gui).html" class="internal-link" target="_self" rel="noopener nofollow">Interfaz Gráfica de Usuario (GUI)</a>: Basada en elementos visuales como botones, menús e iconos.
+<br>Interfaz de Línea de Comandos (CLI): Requiere interacción mediante texto y comandos.
+<br>Interfaz Táctil: Utiliza gestos táctiles para interactuar con dispositivos móviles y pantallas táctiles.
+<br>Interfaz de Voz: Permite el control del sistema mediante comandos de voz.
+<br><br>Un buen diseño de UI mejora la experiencia del usuario, aumentando la satisfacción y eficiencia en el uso de la tecnología. Facilita la interacción con el software y reduce la curva de aprendizaje, permitiendo un acceso más rápido a la información y funciones clave.]]></description><link>desarrollo-de-interfacez\interface-de-usuario-(ui).html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Interface de usuario (UI).md</guid><pubDate>Sat, 01 Mar 2025 10:16:56 GMT</pubDate></item><item><title><![CDATA[Interfaces avanzadas Android]]></title><description><![CDATA[ 
  <br>En el desarrollo de aplicaciones para Android, las interfaces de usuario juegan un papel fundamental para ofrecer una experiencia fluida e intuitiva. A medida que las aplicaciones evolucionan, se hace necesario implementar interfaces avanzadas que mejoren la interactividad, la eficiencia y la estética de las aplicaciones.<br><br><br>
 <br>Jetpack Compose es el moderno toolkit de UI de Android basado en Kotlin.
 <br>Permite construir interfaces declarativas con menos código y mayor flexibilidad.
@@ -5799,10 +7146,153 @@ Interfaz de Programación de Aplicaciones (API - Application Programming Interfa
 <br>Uso de ConstraintLayout para layouts eficientes.
 <br>Evitar sobrecarga en el Main Thread, delegando procesos pesados a coroutines.
 <br>Implementación de Prefetching y Caching para mejorar la carga de imágenes con Glide o Coil.
-]]></description><link>desarrollo-de-interfacez\interfaces-avanzadas-android.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Interfaces avanzadas Android.md</guid><pubDate>Fri, 28 Feb 2025 11:19:09 GMT</pubDate></item><item><title><![CDATA[Interfaz Grafica de Usuario (GUI)]]></title><description><![CDATA[ 
- <br>Interfaz grafica todo lo que toques<br>
-Interfaz hardware: Teclados, mouse , mandos, etc.<br>
-Interfaces de usuario de voz(VUI)<br><br><a data-href="No me hagas pensar" href="\desarrollo-de-interfacez\no-me-hagas-pensar.html" class="internal-link" target="_self" rel="noopener nofollow">No me hagas pensar</a><br>Una ben asinterfaz es facil de usar y atractiva. Una mal interfaz frustra]]></description><link>desarrollo-de-interfacez\interfaz-grafica-de-usuario-(gui).html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Interfaz Grafica de Usuario (GUI).md</guid><pubDate>Wed, 04 Oct 2023 09:19:40 GMT</pubDate></item><item><title><![CDATA[Mockup]]></title><description><![CDATA[ 
+]]></description><link>desarrollo-de-interfacez\interfaces-avanzadas-android.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Interfaces avanzadas Android.md</guid><pubDate>Fri, 28 Feb 2025 11:19:09 GMT</pubDate></item><item><title><![CDATA[Interfaz Gráfica de Usuario (GUI)]]></title><description><![CDATA[ 
+ <br><br>Una Interfaz Gráfica de Usuario (GUI) es el sistema de interacción entre el usuario y una aplicación a través de elementos visuales como botones, iconos, menús y ventanas. Permite a los usuarios interactuar con dispositivos y software de manera intuitiva sin necesidad de escribir comandos de texto.<br><br>
+<br>Interfaz Gráfica (GUI)
+
+<br>Incluye todos los elementos visuales con los que el usuario puede interactuar mediante el uso de pantallas y dispositivos táctiles.
+
+
+<br>Interfaz de Hardware
+
+<br>Se refiere a los dispositivos físicos que permiten la interacción con un sistema, como teclados, ratones, pantallas táctiles y mandos de control.
+
+
+<br>Interfaz de Usuario de Voz (VUI)
+
+<br>Permite la interacción mediante comandos de voz, como asistentes virtuales (Siri, Alexa, Google Assistant).
+
+
+<br><br>Las interfaces gráficas desempeñan un papel crucial en la experiencia del usuario, ya que una buena interfaz es fácil de usar, intuitiva y visualmente atractiva. En cambio, una mala interfaz genera frustración y dificulta la interacción con la tecnología.<br><br>
+<br>Claridad: Elementos bien organizados y fácilmente comprensibles.
+<br>Consistencia: Diseño uniforme en todos los componentes de la interfaz.
+<br>Accesibilidad: Adaptación para usuarios con diferentes capacidades.
+<br>Eficiencia: Permite completar tareas con el menor número de pasos posible.
+<br>Feedback Visual: Responde a las acciones del usuario de manera clara y comprensible.
+<br><br>Tal como se menciona en <a data-href="No me hagas pensar" href="\desarrollo-de-interfacez\no-me-hagas-pensar.html" class="internal-link" target="_self" rel="noopener nofollow">No me hagas pensar</a>, el diseño de una interfaz debe ser lo más intuitivo posible. Los usuarios no deberían esforzarse en entender cómo usar una ## ]]></description><link>desarrollo-de-interfacez\interfaz-gráfica-de-usuario-(gui).html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Interfaz Gráfica de Usuario (GUI).md</guid><pubDate>Sat, 01 Mar 2025 10:43:42 GMT</pubDate></item><item><title><![CDATA[Merge en Git]]></title><description><![CDATA[ 
+ <br><br>El merge en Git es una operación que permite combinar cambios de diferentes ramas en una sola. Se utiliza comúnmente para integrar modificaciones desarrolladas en una rama secundaria dentro de la rama principal (main o develop).<br><br>
+<br>
+Merge Fast-Forward
+
+<br>Se produce cuando la rama de destino no ha cambiado desde la última vez que se creó la rama secundaria.
+<br>Git simplemente avanza el puntero de la rama de destino al último commit de la rama fusionada.
+<br>Comando:
+git merge nombre_rama
+
+
+
+
+<br>
+Merge con Commit de Fusión
+
+<br>Ocurre cuando la rama de destino tiene nuevos commits desde que se bifurcó la rama secundaria.
+<br>Se crea un commit adicional para unir las dos historias.
+<br>Comando:
+git merge nombre_rama
+
+
+
+
+<br>
+Merge con Conflictos
+
+<br>Se presenta cuando dos ramas han modificado las mismas líneas de un archivo y Git no puede decidir cuál versión conservar.
+<br>Git marca los archivos en conflicto y requiere intervención manual para resolverlos.
+<br>Pasos para solucionar un conflicto:
+git status  # Ver archivos en conflicto
+git add archivo_conflictivo.txt  # Después de resolver el conflicto
+git commit -m "Resolviendo conflictos en archivo_conflictivo.txt"
+
+
+
+
+<br><br>
+<br>
+Cambiar a la rama principal antes de fusionar
+git checkout main
+
+o en versiones más recientes de Git:
+git switch main
+
+
+<br>
+Fusionar una rama secundaria con la principal
+git merge nombre_rama
+
+
+<br>
+Ver el historial de fusiones
+git log --graph --oneline --all
+
+
+<br><br>
+<br>Merge conserva el historial de commits de ambas ramas, lo que puede hacer que el historial sea más complejo.
+<br>Rebase reescribe el historial, colocando los commits de la rama secundaria encima de la rama principal.
+
+<br>Comando:
+git rebase main
+
+
+<br>Útil para mantener un historial de cambios más limpio.
+
+
+]]></description><link>desarrollo-de-interfacez\merge.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/merge.md</guid><pubDate>Sat, 01 Mar 2025 09:57:05 GMT</pubDate></item><item><title><![CDATA[Merge Request en Git]]></title><description><![CDATA[ 
+ <br><br>Un Merge Request (MR) es una solicitud para fusionar cambios de una rama a otra dentro de un repositorio en plataformas como <a data-href="GitLab" href="\desarrollo-de-interfacez\gitlab.html" class="internal-link" target="_self" rel="noopener nofollow">GitLab</a>. Es el equivalente a un <a data-href="Pull Request" href="\Pull Request" class="internal-link" target="_self" rel="noopener nofollow">Pull Request</a> en <a data-href="GitHub" href="\desarrollo-de-interfacez\github.html" class="internal-link" target="_self" rel="noopener nofollow">GitHub</a>, y permite la revisión del código antes de integrarlo en la rama principal del proyecto.<br><br>
+<br>
+Crear una Rama Nueva
+
+<br>Se desarrolla una nueva funcionalidad en una rama basada en main o develop.
+
+git checkout -b feature-nueva
+
+
+<br>
+Realizar Cambios y Confirmarlos
+
+<br>Se agregan cambios y se registran con un commit.
+
+git add .
+git commit -m "Agregando nueva funcionalidad"
+
+
+<br>
+Subir la Rama al Repositorio Remoto
+git push origin feature-nueva
+
+
+<br>
+Crear el Merge Request en GitLab
+
+<br>Desde la plataforma de GitLab, se abre un Merge Request desde feature-nueva hacia main o develop.
+<br>Se incluye una descripción detallada del cambio.
+
+
+<br>
+Revisión de Código
+
+<br>Los miembros del equipo revisan los cambios y pueden aprobarlos o solicitar modificaciones.
+
+
+<br>
+Aprobación y Fusión de los Cambios
+
+<br>Una vez aprobado, el Merge Request se fusiona en la rama destino.
+
+git merge feature-nueva
+
+
+<br><br>
+<br>Facilita la revisión de código, reduciendo errores antes de fusionar.
+<br>Fomenta la colaboración, permitiendo sugerencias y mejoras.
+<br>Mantiene un historial de cambios bien documentado.
+<br>Protege la rama principal, asegurando que solo se fusionen cambios revisados.
+<br><br>
+<br>Usar nombres de ramas descriptivos (feature-login, bugfix-navbar).
+<br>Escribir mensajes de commit claros y detallados.
+<br>Solicitar revisión de código a otros desarrolladores.
+<br>No fusionar cambios sin aprobación.
+<br>Probar los cambios antes de solicitar un Merge Request.
+<br><br>]]></description><link>desarrollo-de-interfacez\merge-request.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Merge Request.md</guid><pubDate>Sat, 01 Mar 2025 10:14:48 GMT</pubDate></item><item><title><![CDATA[Mockup]]></title><description><![CDATA[ 
  <br>Un mockup es una representación visual detallada de un diseño, utilizada para previsualizar cómo se verá un producto final antes de su desarrollo o implementación. Los mockups suelen emplearse en el diseño de interfaces de usuario, productos físicos y otros entornos donde la estética y la disposición visual son fundamentales.<br><br>
 <br>Alta fidelidad visual
 
@@ -5839,8 +7329,50 @@ Interfaces de usuario de voz(VUI)<br><br><a data-href="No me hagas pensar" href=
 <br>Facilitan la presentación y aprobación de diseños.
 <br>Optimiza el trabajo en equipo al alinear la visión del diseño con los desarrolladores y clientes.
 <br>Ahorra tiempo y costos al reducir cambios en fases avanzadas del proyecto.
-]]></description><link>desarrollo-de-interfacez\mockup.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Mockup.md</guid><pubDate>Fri, 28 Feb 2025 10:30:52 GMT</pubDate></item><item><title><![CDATA[No me hagas pensar]]></title><description><![CDATA[ 
- <br>Steve can libro]]></description><link>desarrollo-de-interfacez\no-me-hagas-pensar.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/No me hagas pensar.md</guid><pubDate>Wed, 04 Oct 2023 09:19:40 GMT</pubDate></item><item><title><![CDATA[PhoneGap - Cordova]]></title><description><![CDATA[ 
+]]></description><link>desarrollo-de-interfacez\mockup.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Mockup.md</guid><pubDate>Sat, 01 Mar 2025 10:44:00 GMT</pubDate></item><item><title><![CDATA[No me hagas pensar - Steve Krug]]></title><description><![CDATA[ 
+ <br><br>"No me hagas pensar" es un libro escrito por Steve Krug que se ha convertido en una referencia fundamental en el diseño de experiencia de usuario (UX) y usabilidad web. Su enfoque práctico y directo explica cómo diseñar interfaces intuitivas y fáciles de usar, minimizando la carga cognitiva del usuario.<br><br>
+<br>
+No hagas pensar al usuario
+
+<br>Un buen diseño debe ser tan claro y evidente que el usuario no tenga que detenerse a pensar cómo funciona.
+
+
+<br>
+Los usuarios escanean, no leen
+
+<br>La mayoría de las personas no leen detenidamente el contenido de una página, sino que escanean visualmente buscando información relevante.
+
+
+<br>
+Diseña para la forma en que la gente usa la web
+
+<br>Los usuarios no siguen un flujo lineal, sino que hacen clic impulsivamente en lo que les llama la atención.
+
+
+<br>
+Reduce la cantidad de opciones
+
+<br>Mientras más opciones se presenten, más difícil será para el usuario tomar una decisión.
+
+
+<br>
+Haz obvio lo que es clickeable
+
+<br>Los enlaces y botones deben tener un diseño claro y reconocible para que los usuarios no duden sobre dónde hacer clic.
+
+
+<br>
+Minimiza la fricción en formularios y procesos
+
+<br>Solicita solo la información necesaria y diseña formularios simples y fáciles de completar.
+
+
+<br><br>
+<br>Diseño de interfaces simples y accesibles.
+<br>Optimización de la navegación en sitios web y aplicaciones.
+<br>Uso de pruebas de usabilidad para mejorar la experiencia del usuario.
+<br>Priorización de la claridad sobre la creatividad excesiva.
+<br><br>Este libro es una lectura esencial para diseñadores, desarrolladores y cualquier persona interesada en mejorar la usabilidad de productos digitales. Su enfoque basado en la simplicidad y la facilidad de uso ha influido en el desarrollo de interfaces modernas y amigables para los usuarios.]]></description><link>desarrollo-de-interfacez\no-me-hagas-pensar.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/No me hagas pensar.md</guid><pubDate>Sat, 01 Mar 2025 10:45:49 GMT</pubDate></item><item><title><![CDATA[PhoneGap - Cordova]]></title><description><![CDATA[ 
  <br>PhoneGap es un framework de desarrollo de aplicaciones móviles basado en tecnologías web como HTML, CSS y JavaScript. Fue creado por Nitobi y más tarde adquirido por Adobe, convirtiéndose en una de las herramientas más populares para el desarrollo de aplicaciones multiplataforma.<br>PhoneGap se basa en Apache Cordova, un proyecto de código abierto que permite a los desarrolladores crear aplicaciones que pueden ejecutarse en múltiples sistemas operativos móviles utilizando un solo código base.<br><br>
 <br>Desarrollo con Tecnologías Web
 
@@ -5920,8 +7452,230 @@ Prototipos Funcionales
 <br>Sketch
 <br>Axure RP
 <br>InVision
-<br>Ejemplo, sistema bibliotecario creado por mi y mi compañero Ruben:<br><a rel="noopener nofollow" class="external-link" href="https://www.figma.com/design/Whpr9UMacRP7UOy9pe7rUM/Figma-basics?node-id=1669-162202&amp;t=695T9VhfbbDBkTtY-1" target="_blank">https://www.figma.com/design/Whpr9UMacRP7UOy9pe7rUM/Figma-basics?node-id=1669-162202&amp;t=695T9VhfbbDBkTtY-1</a>]]></description><link>desarrollo-de-interfacez\prototipo.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Prototipo.md</guid><pubDate>Fri, 28 Feb 2025 10:27:45 GMT</pubDate></item><item><title><![CDATA[Ramas]]></title><description><![CDATA[ 
- <br>Líneas separadas de desarrollo<br>TU <a data-href="Reposotiro Servidor" href="\desarrollo-de-interfacez\reposotiro-servidor.html" class="internal-link" target="_self" rel="noopener nofollow">Reposotiro Servidor</a> y copias y creas una nueva versión]]></description><link>desarrollo-de-interfacez\ramas.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Ramas.md</guid><pubDate>Wed, 04 Oct 2023 09:19:40 GMT</pubDate></item><item><title><![CDATA[Realidad Virtual Aumentada]]></title><description><![CDATA[ 
+<br>Ejemplo, sistema bibliotecario creado por mi y mi compañero Ruben:<br><a rel="noopener nofollow" class="external-link" href="https://www.figma.com/design/Whpr9UMacRP7UOy9pe7rUM/Figma-basics?node-id=1669-162202&amp;t=695T9VhfbbDBkTtY-1" target="_blank">https://www.figma.com/design/Whpr9UMacRP7UOy9pe7rUM/Figma-basics?node-id=1669-162202&amp;t=695T9VhfbbDBkTtY-1</a>]]></description><link>desarrollo-de-interfacez\prototipo.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Prototipo.md</guid><pubDate>Fri, 28 Feb 2025 10:27:45 GMT</pubDate></item><item><title><![CDATA[Git Pull]]></title><description><![CDATA[ 
+ <br><br>El comando git pull en Git se utiliza para obtener cambios desde un repositorio remoto y fusionarlos automáticamente con la rama local. Es una combinación de dos comandos:<br>
+<br>git fetch: Descarga los cambios del repositorio remoto sin aplicarlos a la rama local.
+<br>git merge: Fusiona los cambios descargados en la rama local.
+<br><br>git pull &lt;remoto&gt; &lt;rama&gt;
+<br>Por defecto, si se omiten los parámetros, Git intentará hacer pull desde la rama origin/main o la configurada previamente.<br><br>git pull origin main
+<br>Este comando obtiene los cambios de la rama main en el repositorio remoto origin y los fusiona con la versión local.<br><br>
+<br>
+git pull --rebase
+
+<br>En lugar de hacer un merge, aplica un rebase sobre los cambios remotos.
+
+git pull --rebase origin main
+
+
+<br>Esto ayuda a mantener un historial de commits más limpio y lineal.
+
+
+<br>
+git pull --no-commit
+
+<br>Descarga y fusiona los cambios sin hacer un commit automático.
+
+git pull --no-commit origin main
+
+
+<br>Útil para revisar los cambios antes de confirmar la fusión.
+
+
+<br>
+git pull --no-ff
+
+<br>Realiza un merge sin avance rápido, forzando la creación de un commit de fusión.
+
+git pull --no-ff origin main
+
+
+<br>Esto ayuda a preservar el historial de cambios de manera más estructurada.
+
+
+<br><br><br><br>Cuando se realiza un git pull, pueden surgir conflictos si hay cambios en la rama local que entran en conflicto con los cambios remotos. Para resolverlos:<br>
+<br>
+<a data-href="Git" href="\desarrollo-de-interfacez\git.html" class="internal-link" target="_self" rel="noopener nofollow">Git</a> indicará los archivos en conflicto.
+
+<br>
+Editar los archivos manualmente y resolver las diferencias.
+
+<br>
+Agregar los cambios resueltos con:
+git add archivo_conflictivo.txt
+
+
+<br>
+Completar la fusión con:
+git commit -m "Resolviendo conflicto en archivo_conflictivo.txt"
+
+
+]]></description><link>desarrollo-de-interfacez\pull.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/pull.md</guid><pubDate>Sat, 01 Mar 2025 10:00:46 GMT</pubDate></item><item><title><![CDATA[Pull Request en Git]]></title><description><![CDATA[ 
+ <br><br>Un Pull Request (PR) es una solicitud para fusionar cambios de una rama a otra dentro de un repositorio en plataformas como <a data-href="GitHub" href="\desarrollo-de-interfacez\github.html" class="internal-link" target="_self" rel="noopener nofollow">GitHub</a>, <a data-href="GitLab" href="\desarrollo-de-interfacez\gitlab.html" class="internal-link" target="_self" rel="noopener nofollow">GitLab</a> o Bitbucket. Es una herramienta esencial en el desarrollo colaborativo que permite la revisión de código antes de su integración en la rama principal.<br><br>
+<br>
+Crear una Rama Nueva
+
+<br>Se trabaja en una nueva rama basada en main o develop.
+
+git checkout -b feature-nueva
+
+
+<br>
+Realizar Cambios y Confirmarlos
+
+<br>Se agregan cambios y se registran con un commit.
+
+git add .
+git commit -m "Agregando nueva funcionalidad"
+
+
+<br>
+Subir la Rama al Repositorio Remoto
+git push origin feature-nueva
+
+
+<br>
+Crear el Pull Request
+
+<br>Desde la plataforma de Git (GitHub/GitLab), se abre un PR desde feature-nueva hacia main.
+<br>Se agrega una descripción clara del cambio.
+
+
+<br>
+Revisión de Código
+
+<br>Los colaboradores revisan el código y pueden aprobarlo o sugerir cambios.
+
+
+<br>
+Fusionar los Cambios
+
+<br>Si todo está correcto, el PR se aprueba y se fusiona en main.
+
+git merge feature-nueva
+
+
+<br><br>
+<br>Facilita la revisión de código, reduciendo errores antes de la fusión.
+<br>Promueve el trabajo en equipo, permitiendo comentarios y sugerencias.
+<br>Mejora la trazabilidad, dejando un historial de cambios documentado.
+<br>Evita problemas en la rama principal, asegurando la estabilidad del código.
+<br><br>
+<br>Usar nombres de ramas descriptivos (feature-login, bugfix-navbar).
+<br>Escribir mensajes de commit claros y concisos.
+<br>Solicitar revisión de código a otros colaboradores.
+<br>No fusionar cambios sin aprobación.
+<br>Probar los cambios antes de solicitar un PR.
+<br><br>]]></description><link>desarrollo-de-interfacez\pull-requests.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Pull Requests.md</guid><pubDate>Sat, 01 Mar 2025 10:13:52 GMT</pubDate></item><item><title><![CDATA[Git Push]]></title><description><![CDATA[ 
+ <br><br>El comando git push en Git se utiliza para enviar los cambios de un repositorio local a un repositorio remoto. Es una operación fundamental para compartir código con otros desarrolladores y mantener actualizado el código en plataformas como GitHub, GitLab o Bitbucket.<br><br>git push &lt;remoto&gt; &lt;rama&gt;
+<br>Si se omiten los parámetros, Git intentará hacer push a la rama predeterminada configurada en el repositorio remoto.<br><br>git push origin main
+<br>Este comando envía los cambios de la rama main al repositorio remoto origin.<br><br>
+<br>
+git push --force (Forzar el Push)
+
+<br>Sobrescribe la versión remota con la local, incluso si hay cambios en el servidor.
+
+git push --force origin main
+
+
+<br>Precaución: Puede eliminar cambios remotos irreversiblemente.
+
+
+<br>
+git push --set-upstream (Configurar Rama Remota por Primera Vez)
+
+<br>Establece una rama de seguimiento para futuras actualizaciones.
+
+git push --set-upstream origin feature-branch
+
+
+<br>Luego, se puede hacer git push sin especificar la rama.
+
+
+<br>
+git push --tags (Enviar Etiquetas al Repositorio Remoto)
+
+<br>Envia todas las etiquetas (tags) creadas localmente.
+
+git push --tags
+
+
+<br><br><br><br>
+<br>
+Error: "Rejected - non-fast-forward"
+
+<br>Ocurre cuando hay cambios en la rama remota que no están en la local.
+<br>Solución:
+git pull --rebase origin main
+git push origin main
+
+
+
+
+<br>
+Autenticación Requerida
+
+<br>Git puede solicitar credenciales al hacer un push.
+<br>Se recomienda configurar SSH Keys o usar Git Credential Manager.
+
+
+]]></description><link>desarrollo-de-interfacez\push.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/push.md</guid><pubDate>Sat, 01 Mar 2025 09:59:51 GMT</pubDate></item><item><title><![CDATA[Ramas en Git]]></title><description><![CDATA[ 
+ <br><br>Las ramas en <a data-href="Git" href="\desarrollo-de-interfacez\git.html" class="internal-link" target="_self" rel="noopener nofollow">Git</a> son líneas separadas de desarrollo que permiten trabajar en nuevas funcionalidades, correcciones de errores o versiones experimentales sin afectar la rama principal del proyecto. Son fundamentales para mantener un flujo de trabajo organizado y colaborativo.<br><br>Cuando trabajas en un proyecto, puedes crear una rama a partir de la versión actual de tu <a data-href="Repositorio Servidor" href="\desarrollo-de-interfacez\repositorio-servidor.html" class="internal-link" target="_self" rel="noopener nofollow">Repositorio Servidor</a>, lo que te permite desarrollar nuevas características sin alterar la rama principal. Una vez que la nueva funcionalidad está lista, la rama puede fusionarse de nuevo con la rama principal.<br><br>
+<br>
+Crear una nueva rama
+git branch nombre_rama
+
+
+<br>
+Cambiar a una rama específica
+git checkout nombre_rama
+
+o en versiones más recientes de Git:
+git switch nombre_rama
+
+
+<br>
+Listar todas las ramas
+git branch
+
+
+<br>
+Fusionar una rama con la rama principal
+git checkout main
+git merge nombre_rama
+
+
+<br>
+Eliminar una rama después de fusionarla
+git branch -d nombre_rama
+
+
+<br><br>
+<br>Rama Principal (main o master)
+
+<br>Contiene la versión estable del código.
+
+
+<br>Ramas de Funcionalidad (feature)
+
+<br>Usadas para desarrollar nuevas características.
+
+
+<br>Ramas de Corrección de Errores (hotfix)
+
+<br>Para solucionar errores críticos en producción.
+
+
+<br>Ramas de Desarrollo (develop)
+
+<br>Se usa como base para integrar nuevas funcionalidades antes de pasar a producción.
+
+
+<br><br>
+<br>Permite el desarrollo paralelo sin afectar la rama principal.
+<br>Facilita la colaboración en equipos.
+<br>Ayuda a probar cambios antes de fusionarlos con el código estable.
+<br>Mantiene un historial de cambios ordenado y comprensible.
+]]></description><link>desarrollo-de-interfacez\ramas.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Ramas.md</guid><pubDate>Sat, 01 Mar 2025 10:46:25 GMT</pubDate></item><item><title><![CDATA[Realidad Virtual Aumentada]]></title><description><![CDATA[ 
  <br>La Realidad Virtual (VR) y la Realidad Aumentada (AR) son tecnologías que han revolucionado la manera en que interactuamos con el mundo digital. Ambas permiten experiencias inmersivas y enriquecidas, aplicándose en diversos sectores como entretenimiento, educación, medicina e industria. La programación en estos entornos requiere herramientas especializadas y enfoques distintos según la plataforma de desarrollo.<br><br>
 <br>Realidad Virtual (VR): Crea un entorno completamente digital en el que el usuario puede interactuar mediante dispositivos como cascos VR (Oculus, HTC Vive, PlayStation VR).
 <br>Realidad Aumentada (AR): Superpone elementos digitales en el mundo real, permitiendo interactuar con ellos a través de dispositivos como smartphones, tablets o gafas inteligentes (HoloLens, ARKit, ARCore).
@@ -5966,9 +7720,133 @@ Prototipos Funcionales
 <br>Optimización del Rendimiento: La renderización en tiempo real requiere hardware potente y optimización eficiente.
 <br>Interfaz y Experiencia de Usuario (UX): Diseño intuitivo para una inmersión cómoda.
 <br>Compatibilidad de Dispositivos: Diferencias entre plataformas pueden generar desafíos de integración.
-]]></description><link>desarrollo-de-interfacez\realidad-virtual-aumentada.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Realidad Virtual Aumentada.md</guid><pubDate>Fri, 28 Feb 2025 11:24:06 GMT</pubDate></item><item><title><![CDATA[Repositiorio Local]]></title><description><![CDATA[ 
- <br>Copia del repositorio en el ordenador]]></description><link>desarrollo-de-interfacez\repositiorio-local.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Repositiorio Local.md</guid><pubDate>Wed, 04 Oct 2023 09:19:40 GMT</pubDate></item><item><title><![CDATA[Reposotiro Servidor]]></title><description><![CDATA[ 
- <br>Versión de l proyecto alojado en el servidor]]></description><link>desarrollo-de-interfacez\reposotiro-servidor.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Reposotiro Servidor.md</guid><pubDate>Thu, 13 Feb 2025 10:43:22 GMT</pubDate></item><item><title><![CDATA[Testing]]></title><description><![CDATA[ 
+]]></description><link>desarrollo-de-interfacez\realidad-virtual-aumentada.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Realidad Virtual Aumentada.md</guid><pubDate>Fri, 28 Feb 2025 11:24:06 GMT</pubDate></item><item><title><![CDATA[Rebase en Git]]></title><description><![CDATA[ 
+ <br><br>El rebase en Git es una operación que permite reescribir la historia de una rama al aplicar sus cambios sobre otra rama base. Se usa principalmente para mantener un historial de commits más limpio y evitar merges innecesarios.<br><br><br>Mientras que merge combina las ramas manteniendo los <a data-href="commit" href="\desarrollo-de-interfacez\commit.html" class="internal-link" target="_self" rel="noopener nofollow">commit</a>s originales, rebase reubica los commits de una rama sobre otra, eliminando bifurcaciones en la historia del proyecto.<br><br>
+<br>
+Cambiar a la rama que se desea actualizar
+git checkout feature-rama
+
+o en versiones recientes de Git:
+git switch feature-rama
+
+
+<br>
+Rebasar los cambios sobre la rama principal
+git rebase main
+
+
+<br>
+Resolver conflictos (si existen)
+
+<br>Git detendrá el proceso de rebase en caso de conflictos.
+<br>Editar los archivos en conflicto y luego ejecutar:
+git add archivo_conflictivo.txt
+git rebase --continue
+
+
+<br>Para cancelar el rebase en curso:
+git rebase --abort
+
+
+
+
+<br><br>Para editar el historial de commits antes de aplicar el rebase:<br>git rebase -i HEAD~n  # Donde 'n' es el número de commits a modificar
+<br>Esto permite modificar, fusionar o eliminar commits antes de aplicar el rebase.<br><br>
+<br>No hacer rebase en ramas compartidas: Puede generar problemas si otros colaboradores ya han utilizado la rama.
+<br>Úsalo en ramas locales antes de hacer <a data-href="push" href="\desarrollo-de-interfacez\push.html" class="internal-link" target="_self" rel="noopener nofollow">push</a>: Ayuda a limpiar el historial de commits antes de compartirlos.
+<br>Rebase vs <a data-href="Merge" href="\desarrollo-de-interfacez\merge.html" class="internal-link" target="_self" rel="noopener nofollow">Merge</a>: Si se desea un historial más limpio y lineal, rebase es la mejor opción. Para conservar la historia completa, merge es más recomendable.
+]]></description><link>desarrollo-de-interfacez\rebase.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/rebase.md</guid><pubDate>Sat, 01 Mar 2025 09:58:05 GMT</pubDate></item><item><title><![CDATA[Repositorio Local]]></title><description><![CDATA[ 
+ <br><br>Un repositorio local en Git es una versión del proyecto almacenada en la computadora del usuario. Permite realizar cambios en el código, gestionar versiones y trabajar sin conexión a un servidor remoto. Una vez que se han realizado modificaciones y validado los cambios, estos pueden enviarse a un repositorio servidor para sincronización con otros colaboradores.<br><br>
+<br>Almacenamiento en la Computadora del Usuario
+
+<br>No requiere conexión a Internet para realizar cambios y gestionar versiones.
+
+
+<br>Historial de Cambios
+
+<br>Permite registrar y consultar todas las modificaciones realizadas en el código.
+
+
+<br>Trabajo Independiente
+
+<br>Se puede desarrollar, probar y validar el código antes de compartirlo con un equipo.
+
+
+<br>Sincronización con un Repositorio Remoto
+
+<br>Se pueden enviar (push) y recibir (pull) cambios desde un servidor remoto como GitHub o GitLab.
+
+
+<br><br>
+<br>
+Inicializar un Repositorio Local
+git init
+
+Este comando convierte un directorio en un repositorio Git.
+
+<br>
+Agregar Archivos al Área de Preparación
+git add archivo.txt
+
+O para agregar todos los archivos:
+git add .
+
+
+<br>
+Confirmar los Cambios (Commit)
+git commit -m "Mensaje descriptivo del cambio"
+
+Guarda los cambios en el historial del repositorio local.
+
+<br>
+Ver el Estado del Repositorio
+git status
+
+Muestra los archivos modificados y pendientes de confirmación.
+
+<br>
+Ver el Historial de Cambios
+git log
+
+Permite consultar los commits realizados en el repositorio local.
+
+<br>
+Sincronizar con un Repositorio Remoto Asociar un repositorio remoto y subir cambios:
+git remote add origin https://github.com/usuario/proyecto.git
+git push -u origin main
+
+
+<br><br>]]></description><link>desarrollo-de-interfacez\repositiorio-local.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Repositiorio Local.md</guid><pubDate>Sat, 01 Mar 2025 09:51:13 GMT</pubDate></item><item><title><![CDATA[Repositorio Servidor]]></title><description><![CDATA[ 
+ <br><br>Un repositorio servidor es la versión del proyecto alojada en un servidor centralizado o en la nube, permitiendo la gestión y control de versiones de manera colaborativa. Este tipo de repositorio facilita el acceso a los archivos del proyecto desde múltiples ubicaciones y permite que varios desarrolladores trabajen en paralelo.<br><br>
+<br>Accesibilidad Remota: Se puede acceder desde cualquier ubicación con conexión a Internet.
+<br>Control de Versiones: Permite registrar cambios y mantener un historial de modificaciones.
+<br>Colaboración en Equipo: Varios usuarios pueden contribuir al mismo proyecto simultáneamente.
+<br>Seguridad y Respaldo: Al estar alojado en un servidor, ofrece copias de seguridad automáticas y medidas de seguridad avanzadas.
+<br>Sincronización con Repositorios Locales: Los desarrolladores pueden clonar el repositorio en sus computadoras y luego subir cambios al servidor.
+<br><br>
+<br><a data-href="GitHub" href="\desarrollo-de-interfacez\github.html" class="internal-link" target="_self" rel="noopener nofollow">GitHub</a>: Plataforma de alojamiento de código basada en Git.
+<br><a data-href="GitLab" href="\desarrollo-de-interfacez\gitlab.html" class="internal-link" target="_self" rel="noopener nofollow">GitLab</a>: Alternativa a GitHub con funciones avanzadas de CI/CD.
+<br>Bitbucket: Solución de Atlassian para proyectos privados y empresariales.
+<br>Apache Subversion (SVN): Sistema de control de versiones centralizado.
+<br><br>
+<br>
+Clonar un Repositorio
+git clone https://servidor.com/repositorio.git
+
+
+<br>
+Subir Cambios al Repositorio Servidor
+git add .
+git commit -m "Descripción del cambio"
+git push origin main
+
+
+<br>
+Actualizar el Proyecto con Cambios del Servidor
+git pull origin main
+
+
+]]></description><link>desarrollo-de-interfacez\repositorio-servidor.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Repositorio Servidor.md</guid><pubDate>Sat, 01 Mar 2025 09:47:02 GMT</pubDate></item><item><title><![CDATA[Testing]]></title><description><![CDATA[ 
  <br>El testing en desarrollo de software es el proceso de evaluación de un sistema o componente para identificar defectos, garantizar su correcto funcionamiento y mejorar su calidad. Su objetivo principal es verificar que el software cumpla con los requisitos definidos y minimizar errores antes de su implementación en producción.<br><br>
 <br>Garantiza la calidad del software.
 <br>Previene errores y fallos en producción.
@@ -5976,29 +7854,29 @@ Prototipos Funcionales
 <br>Reduce costos al detectar fallos en etapas tempranas.
 <br>Facilita el mantenimiento y evolución del software.
 <br><br><br>
-<br><a data-href="Testing Unitario:" href="\Testing Unitario:" class="internal-link" target="_self" rel="noopener nofollow">Testing Unitario:</a> Evalúa componentes individuales del software de forma aislada.
-<br>Testing de Integración: Verifica la correcta interacción entre módulos o sistemas.
-<br>Testing de Sistema: Evalúa el software como un todo para verificar su funcionalidad completa.
-<br>Testing de Aceptación: Confirma si el software cumple con los requisitos y expectativas del usuario.
+<br><a data-href="Testing Unitario" href="\desarrollo-de-interfacez\testnotas\testing-unitario.html" class="internal-link" target="_self" rel="noopener nofollow">Testing Unitario</a> Evalúa componentes individuales del software de forma aislada.
+<br><a data-href="Testing de Integración" href="\desarrollo-de-interfacez\testnotas\testing-de-integración.html" class="internal-link" target="_self" rel="noopener nofollow">Testing de Integración</a>: Verifica la correcta interacción entre módulos o sistemas.
+<br><a data-href="Testing de Sistema" href="\desarrollo-de-interfacez\testnotas\testing-de-sistema.html" class="internal-link" target="_self" rel="noopener nofollow">Testing de Sistema</a>: Evalúa el software como un todo para verificar su funcionalidad completa.
+<br><a data-href="Testing de Aceptación" href="\desarrollo-de-interfacez\testnotas\testing-de-aceptación.html" class="internal-link" target="_self" rel="noopener nofollow">Testing de Aceptación</a>: Confirma si el software cumple con los requisitos y expectativas del usuario.
 <br><br>
-<br>Testing Manual: Realizado por testers sin herramientas automatizadas.
-<br>Testing Automatizado: Se ejecuta mediante scripts y herramientas de automatización.
+<br><a data-href="Testing Manual" href="\desarrollo-de-interfacez\testnotas\testing-manual.html" class="internal-link" target="_self" rel="noopener nofollow">Testing Manual</a>: Realizado por testers sin herramientas automatizadas.
+<br><a data-href="Testing Automatizado" href="\desarrollo-de-interfacez\testnotas\testing-automatizado.html" class="internal-link" target="_self" rel="noopener nofollow">Testing Automatizado</a>: Se ejecuta mediante scripts y herramientas de automatización.
 <br><br>
-<br>Testing de Caja Blanca: Se basa en el conocimiento del código fuente.
-<br>Testing de Caja Negra: Se enfoca en la funcionalidad sin conocer la implementación interna.
-<br>Testing de Caja Gris: Combinación de caja blanca y negra para un análisis más profundo.
+<br><a data-href="Testing de Caja Blanca" href="\desarrollo-de-interfacez\testnotas\testing-de-caja-blanca.html" class="internal-link" target="_self" rel="noopener nofollow">Testing de Caja Blanca</a>: Se basa en el conocimiento del código fuente.
+<br><a data-href="Testing de Caja Negra" href="\desarrollo-de-interfacez\testnotas\testing-de-caja-negra.html" class="internal-link" target="_self" rel="noopener nofollow">Testing de Caja Negra</a>: Se enfoca en la funcionalidad sin conocer la implementación interna.
+<br><a data-href="Testing de Caja Gris" href="\desarrollo-de-interfacez\testnotas\testing-de-caja-gris.html" class="internal-link" target="_self" rel="noopener nofollow">Testing de Caja Gris</a>: Combinación de caja blanca y negra para un análisis más profundo.
 <br><br>
-<br>Testing de Rendimiento: Mide la velocidad, estabilidad y eficiencia del sistema.
-<br>Testing de Seguridad: Evalúa vulnerabilidades y riesgos en el software.
-<br>Testing de Usabilidad: Se centra en la experiencia del usuario y accesibilidad.
-<br>Testing de Compatibilidad: Comprueba el funcionamiento en diferentes dispositivos y entornos.
-<br>Testing de Regresión: Asegura que nuevas modificaciones no afecten funcionalidades previas.
+<br><a data-href="Testing de Rendimiento" href="\desarrollo-de-interfacez\testnotas\testing-de-rendimiento.html" class="internal-link" target="_self" rel="noopener nofollow">Testing de Rendimiento</a>: Mide la velocidad, estabilidad y eficiencia del sistema.
+<br><a data-href="Testing de Seguridad" href="\desarrollo-de-interfacez\testnotas\testing-de-seguridad.html" class="internal-link" target="_self" rel="noopener nofollow">Testing de Seguridad</a>: Evalúa vulnerabilidades y riesgos en el software.
+<br><a data-href="Testing de Usabilidad" href="\desarrollo-de-interfacez\testnotas\testing-de-usabilidad.html" class="internal-link" target="_self" rel="noopener nofollow">Testing de Usabilidad</a>: Se centra en la experiencia del usuario y accesibilidad.
+<br><a data-href="Testing de Compatibilidad" href="\desarrollo-de-interfacez\testnotas\testing-de-compatibilidad.html" class="internal-link" target="_self" rel="noopener nofollow">Testing de Compatibilidad</a>: Comprueba el funcionamiento en diferentes dispositivos y entornos.
+<br><a data-href="Testing de Regresión" href="\desarrollo-de-interfacez\testnotas\testing-de-regresión.html" class="internal-link" target="_self" rel="noopener nofollow">Testing de Regresión</a>: Asegura que nuevas modificaciones no afecten funcionalidades previas.
 <br><br>Algunas herramientas utilizadas en testing incluyen:<br>
 <br>JUnit, TestNG (Testing unitario en Java).
 <br>Selenium, Cypress (Testing automatizado de interfaz).
 <br>JMeter, LoadRunner (Testing de rendimiento).
 <br>Postman, SoapUI (Testing de APIs).
-]]></description><link>desarrollo-de-interfacez\testing.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Testing.md</guid><pubDate>Fri, 28 Feb 2025 11:45:58 GMT</pubDate></item><item><title><![CDATA[Usabilidad ISO]]></title><description><![CDATA[ 
+]]></description><link>desarrollo-de-interfacez\testing.html</link><guid isPermaLink="false">DESARROLLO-DE-INTERFACEZ/Testing.md</guid><pubDate>Sat, 01 Mar 2025 12:20:21 GMT</pubDate></item><item><title><![CDATA[Usabilidad ISO]]></title><description><![CDATA[ 
  <br>La usabilidad, según la norma ISO 9241-11, se define como "el grado en que un producto puede ser utilizado por usuarios específicos para alcanzar objetivos específicos con eficacia, eficiencia y satisfacción en un contexto de uso determinado".<br><br>
 <br>Eficacia
 
