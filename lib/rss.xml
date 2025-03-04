@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[FEMPA]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>FEMPA</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 02 Mar 2025 11:40:51 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 02 Mar 2025 11:39:55 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[1 Casos prácticos (elegir uno)]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[FEMPA]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>FEMPA</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 04 Mar 2025 12:55:12 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 04 Mar 2025 12:54:06 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[1 Casos prácticos (elegir uno)]]></title><description><![CDATA[ 
  <br>Ejemplos de proyectos que incluirán elementos de persistencia, servicios, controladores, relaciones entre entidades, APIs, e interfaces web. <br>
 <br>
 Sistema de Reservas para un Hotel (ejemplo, no elegir): Gestiona reservas de habitaciones, clientes y servicios del hotel. Las habitaciones pueden tener múltiples reservas (OneToMany) y los clientes pueden tener múltiples reservas (OneToMany).
@@ -4611,33 +4611,24 @@ x.assign(tf.tensor([4,5,6]));
 
 x.print();
 ]]></description><link>curso-tenseflow\variables-imutables.html</link><guid isPermaLink="false">Curso - Tenseflow/Variables - Imutables.md</guid><pubDate>Thu, 07 Dec 2023 22:24:51 GMT</pubDate></item><item><title><![CDATA[Activity]]></title><description><![CDATA[ 
- <br>Es el intermediario entre la parte lógica y la pantalla que ve el usuario, por cada activty tenemos un xml con su diseño<br><br>Usamos Intent, seguramente allá otra forma la mas básica es con la clase Intent()<br>Toma dos valores como parámetro:<br>
-1- El primero es el contexto, ósea al activity con el que vamos a trabajar si se coloca this es en contexto actual de la activyty si se coloca la ruta absoluta de otra activty es otro activty<br>
-2- El segundo parámetro es el activyty que deseamos abrir en pantalla<br>Pero esto solo lo crea debemos llamar a una función llamada startActibvty(Content):<br>
-val btnStart = findViewById&lt;AppCompatButton&gt;(R.id.btnStart)  
+ <br>Es el intermediario entre la parte lógica y la pantalla que ve el usuario. Por cada activity, tenemos un XML con su diseño.<br><br>Usamos Intent, seguramente haya otra forma, pero la más básica es con la clase Intent().<br>Toma dos valores como parámetro:<br>
+<br>El primero es el contexto, ósea el activity con el que vamos a trabajar. Si se coloca this, es el contexto actual de la activity. Si se coloca la ruta absoluta de otra activity, se refiere a otro activity.
+<br>El segundo parámetro es la activity que deseamos abrir en pantalla.
+<br>Pero esto solo lo crea; debemos llamar a una función llamada startActivity(Intent):<br>val btnStart = findViewById&lt;AppCompatButton&gt;(R.id.btnStart)  
 val etName = findViewById&lt;AppCompatEditText&gt;(R.id.etName)  
-  
-  
-  
-  
-btnStart.setOnClickListener(){  
+
+btnStart.setOnClickListener {  
     val name = etName.text.toString()  
-  
-    if(name.isNotEmpty()){  
-        val intent = Intent(this,ResultActivity::class.java)  
+
+    if (name.isNotEmpty()) {  
+        val intent = Intent(this, ResultActivity::class.java)  
         startActivity(intent)  
     }  
-  
 }
-
-
-//Codigo de la primera app para ver a detalle
-
-<br>Entonces aunque pasemos intento este no mostrara nada en pantalla al menos que le pasemos un valor<br>
-//Primer Activyty Main
+<br>Código de la primera app para ver a detalle:<br>Entonces, aunque pasemos el Intent, este no mostrará nada en pantalla a menos que le pasemos un valor:<br>// Primer Activity - Main
 
 package com.example.estudioandroid.firstapp  
-  
+
 import android.content.Intent  
 import androidx.appcompat.app.AppCompatActivity  
 import android.os.Bundle  
@@ -4645,79 +4636,163 @@ import android.util.Log
 import androidx.appcompat.widget.AppCompatButton  
 import androidx.appcompat.widget.AppCompatEditText  
 import com.example.estudioandroid.R  
-  
+
 class FirstAppActivity : AppCompatActivity() {  
     override fun onCreate(savedInstanceState: Bundle?) {  
         super.onCreate(savedInstanceState)  
         setContentView(R.layout.activity_first_app)  
+        
         val btnStart = findViewById&lt;AppCompatButton&gt;(R.id.btnStart)  
         val etName = findViewById&lt;AppCompatEditText&gt;(R.id.etName)  
-  
-  
-  
-  
-        btnStart.setOnClickListener(){  
+
+        btnStart.setOnClickListener {  
             val name = etName.text.toString()  
-  
-            if(name.isNotEmpty()){  
-                val intent = Intent(this,ResultActivity::class.java)  
-  
-                intent.putExtra("EXTRANAME",name)  //Le pasamos name con la llave EXTRANAME
+
+            if (name.isNotEmpty()) {  
+                val intent = Intent(this, ResultActivity::class.java)  
+                intent.putExtra("EXTRANAME", name)  // Le pasamos name con la llave EXTRANAME
                 startActivity(intent)  
             }  
-  
         }  
     }  
 }
-<br>En el segundo activyt podemos acceder al "EXTRANAME" solo con las llaves [posicion] o dicnedo en tipo d dato que debemos recibir pero incluso con esto fallaria ya que no sabemos de ante mano si lo que le pasamos no es null.<br>Entonces usamos:<br>
-//Segundo activity:
+<br>En el segundo activity, podemos acceder al "EXTRANAME" solo con las llaves [posición] o indicando el tipo de dato que debemos recibir. Pero incluso con esto fallaría, ya que no sabemos de antemano si lo que le pasamos es null.<br>Entonces usamos:<br>// Segundo activity:
 
 package com.example.estudioandroid.firstapp  
-  
+
 import androidx.appcompat.app.AppCompatActivity  
 import android.os.Bundle  
 import android.widget.TextView  
 import com.example.estudioandroid.R  
-  
+
 class ResultActivity : AppCompatActivity() {  
     override fun onCreate(savedInstanceState: Bundle?) {  
         super.onCreate(savedInstanceState)  
         setContentView(R.layout.activity_result)  
+
         val tvResult = findViewById&lt;TextView&gt;(R.id.tvResult)  
-        val name:String = intent.extras?.getString("EXTRANAME").orEmpty()  //Accedemos a su valor
-  
-  
+        val name: String = intent.extras?.getString("EXTRANAME").orEmpty()  // Accedemos a su valor
     }  
 }
-<br>Siempre es recomcable crear diferentes funciones para todo lo que hagamos ademas tambien es bueno hacer una funcion que inice todo los componetnet y otras que eschuce los listeners<br><br>Se hace con ConxtCompart.getColor(referencia de color) Primero ya deberia tener el color en el xml de colors<br>Ademas despues de obtener el color se busca el componente y luego se le pasa el color:<br>
-//Ejemplo completo en el proyecto de IMC aplicaicon
+<br>Siempre es recomendable crear diferentes funciones para todo lo que hagamos. Además, también es bueno hacer una función que inicie todos los componentes y otra que escuche los listeners.<br><br><br>Se hace con ContextCompat.getColor(referencia de color). Primero, ya deberíamos tener el color en el XML de colors.xml.<br>Después de obtener el color, se busca el componente y luego se le pasa el color:<br>// Ejemplo completo en el proyecto de IMC aplicación
 
-viewMale = findViewById&lt;CardView&gt;(R.id.viewMale)//Buscamos el compontent a cambiar
+viewMale = findViewById&lt;CardView&gt;(R.id.viewMale) // Buscamos el componente a cambiar
 
-
-viewMale.setOnClickListener{//listener que ejecuta cuando se clickea compente
-	viewMale.setCardBackgroundColor(//cambia el color
-		R.color.back_componen_selectedt//Referencia de color cargado en xml de colors
-	)
-
+viewMale.setOnClickListener { // Listener que ejecuta cuando se clickea el componente
+    viewMale.setCardBackgroundColor( // Cambia el color
+        R.color.back_component_selected // Referencia de color cargado en colors.xml
+    )
 }
+<br><br><br>Para el componente de tipo <a data-href="RangeSlider" href="\curso_android_studio\rangeslider.html" class="internal-link" target="_self" rel="noopener nofollow">RangeSlider</a> usamos el listener:<br>
+<br>addOnChangeListener { _, value, _ } (averiguar más sobre este en el futuro): value es el valor del rango que cambia.
+<br>setOnClickListener {}: Se usa cuando se clickea ese componente.
+<br>onBackPressed(): Método deprecado. Ya no se usa, pero servía para volver a la pantalla anterior o activity.
+<br><br><br>Tenemos una función básica llamada <a data-href="FindViewByID" href="\curso_android_studio\findviewbyid.html" class="internal-link" target="_self" rel="noopener nofollow">FindViewByID</a>, pero esta ya está deprecada. Ahora se usa <a data-href="bind.idComponente" href="\bind.idComponente" class="internal-link" target="_self" rel="noopener nofollow">bind.idComponente</a>, que depende de una dependencia para poder funcionar, pero es mucho más sencillo y es como se usa actualmente.<br>Esta te permite acceder a cualquier componente que tenga un ID en nuestro XML dentro de la activity (<a data-href="TextView" href="\curso_android_studio\textview.html" class="internal-link" target="_self" rel="noopener nofollow">TextView</a>, <a data-href="AppCompatButton" href="\curso_android_studio\appcompatbutton.html" class="internal-link" target="_self" rel="noopener nofollow">AppCompatButton</a>, etc.).<br>La forma de acceder a nuestro XML que contiene los string que usamos en nuestro activity (explicado en <a data-href="EstructuraDeUnProyecto" href="\curso_android_studio\estructuradeunproyecto.html" class="internal-link" target="_self" rel="noopener nofollow">EstructuraDeUnProyecto</a>) es con el método:<br>getString(R.string.nombreDeString) // Entonces podemos acceder a nuestro XML para poder usarlo
+
+// Se puede usar para cambiar el valor de nuestro TextView
+tvIbm.text = getString(R.string.error) // Se puede usar para mostrar un error
+<br><br><br>Después de entender lo básico, hay que mejorar y usar una dependencia, además de empezar a cargar <a data-href="Listas" href="\programacion-de-multimedia-y-dispositivos-moviles\listas.html" class="internal-link" target="_self" rel="noopener nofollow">Listas</a> usando <a data-href="RecyclerView" href="\programacion-de-multimedia-y-dispositivos-moviles\recyclerview.html" class="internal-link" target="_self" rel="noopener nofollow">RecyclerView</a>.]]></description><link>curso_android_studio\activity.html</link><guid isPermaLink="false">Curso_android_studio/Activity.md</guid><pubDate>Tue, 04 Mar 2025 11:58:15 GMT</pubDate></item><item><title><![CDATA[¿Qué es Android Manifest?]]></title><description><![CDATA[ 
+ <br><br>El AndroidManifest.xml es un archivo esencial en cualquier aplicación Android. Se encuentra en el directorio raíz de cada proyecto y su función principal es proporcionar información fundamental sobre la aplicación al sistema operativo.<br><br>
+<br>
+Declaración de componentes de la aplicación
+
+<br>Define las actividades (&lt;activity&gt;), servicios (&lt;service&gt;), receptores de difusión (&lt;receiver&gt;) y proveedores de contenido (&lt;provider&gt;) que forman parte de la aplicación.
 
 
-<br><br>Para el compontente de tipo <a data-href="RangeSlider" href="\RangeSlider" class="internal-link" target="_self" rel="noopener nofollow">RangeSlider</a>  usamos el listener:<br>
-<br>addOnChangeListener{-,value,-} (averiguar ams de ele en futuro): el values el valor edl rango que cambia.
-<br>setOnClickListener{}: Se usa cualndo se clickea ese componete
-<br>onBackPressed(): metodode deprecado ya no se usa pero se usa para volver a la pantalla anterior o activity
-<br><br>Tenemos una funcion basica llamada <a data-href="FindViewByID" href="\curso_android_studio\findviewbyid.html" class="internal-link" target="_self" rel="noopener nofollow">FindViewByID</a> pero esta ya esta deprecada ahora se usa <a data-href="bind.idCoompete" href="\bind.idCoompete" class="internal-link" target="_self" rel="noopener nofollow">bind.idCoompete</a> que depende de una dependicna para poder funcina pero es mucho mas sencillo y como se usa ahora<br>Esta te permite entrar en cualquier componete que tenga un id en nuestro xml en el activtyt(<a data-href="TextView" href="\TextView" class="internal-link" target="_self" rel="noopener nofollow">TextView</a>,<a data-href="AppCompatButton" href="\curso_android_studio\appcompatbutton.html" class="internal-link" target="_self" rel="noopener nofollow">AppCompatButton</a>,etc)<br>La forma de entrar a nuestro xml que contiene las string que usamos en nuestro activtuy (explicado en <a data-href="EstructuraDeUnProyecto" href="\curso_android_studio\estructuradeunproyecto.html" class="internal-link" target="_self" rel="noopener nofollow">EstructuraDeUnProyecto</a>) es con el metodo:<br>
-getString(R.string.nombreDeString)//Entonces podemos accede a nuestro xml para poder usarla
+<br>
+Permisos requeridos
 
-//Se puede uar para cmbiar el valor de nuestro textview
-tvIbm.text = getString(R.string.error)//Se puede usar para msotrar un error
+<br>Se especifican los permisos que la aplicación necesita para acceder a funciones del sistema o hardware, como acceso a internet, ubicación, cámara, almacenamiento, etc.
 
-<br><br>Pues depesue entendeor lo basico hay que mejorar y sar a depndencia ademas de que empezar a cargar <a data-href="Listas" href="\programacion-de-multimedia-y-dispositivos-moviles\listas.html" class="internal-link" target="_self" rel="noopener nofollow">Listas</a>  usando <a data-href="Recicly View" href="\programacion-de-multimedia-y-dispositivos-moviles\recicly-view.html" class="internal-link" target="_self" rel="noopener nofollow">Recicly View</a>]]></description><link>curso_android_studio\activity.html</link><guid isPermaLink="false">Curso_android_studio/Activity.md</guid><pubDate>Thu, 13 Feb 2025 11:11:33 GMT</pubDate></item><item><title><![CDATA[Android Manifest]]></title><description><![CDATA[ 
- <br>Le indica la estructura de nuestra aplicación y los componentes que estos tienen]]></description><link>curso_android_studio\android-manifest.html</link><guid isPermaLink="false">Curso_android_studio/Android Manifest.md</guid><pubDate>Sun, 05 Nov 2023 15:32:06 GMT</pubDate></item><item><title><![CDATA[AppCompatButton]]></title><description><![CDATA[ 
- <br>Tipo de botón que cuenta con las mismas propiedades que <a data-href="TextView" href="\TextView" class="internal-link" target="_self" rel="noopener nofollow">TextView</a>]]></description><link>curso_android_studio\appcompatbutton.html</link><guid isPermaLink="false">Curso_android_studio/AppCompatButton.md</guid><pubDate>Thu, 13 Feb 2025 11:06:12 GMT</pubDate></item><item><title><![CDATA[AppCompatEditText]]></title><description><![CDATA[ 
- <br>Componte parecido a <a data-href="editText" href="\curso_android_studio\edittext.html" class="internal-link" target="_self" rel="noopener nofollow">editText</a>, cuenta con las mismas propiedades ]]></description><link>curso_android_studio\appcompatedittext.html</link><guid isPermaLink="false">Curso_android_studio/AppCompatEditText.md</guid><pubDate>Mon, 06 Nov 2023 11:14:59 GMT</pubDate></item><item><title><![CDATA[Arrays]]></title><description><![CDATA[ 
- <br>Las arrays son secuencias de datos, sabiendo las <a data-href="PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Variables Kotlin" href="\PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES\Curso_android_studio\Variables Kotlin" class="internal-link" target="_self" rel="noopener nofollow">PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Variables Kotlin</a> , <a data-href="Variables Alfanumericas" href="\Variables Alfanumericas" class="internal-link" target="_self" rel="noopener nofollow">Variables Alfanumericas</a><br>
+&lt;uses-permission android:name="android.permission.INTERNET"/&gt;
+&lt;uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/&gt;
+
+
+<br>
+Configuración del launcher y actividades
+
+<br>Se define cuál es la actividad principal (la que se abre al iniciar la aplicación).
+
+&lt;activity android:name=".MainActivity"&gt;
+    &lt;intent-filter&gt;
+        &lt;action android:name="android.intent.action.MAIN"/&gt;
+        &lt;category android:name="android.intent.category.LAUNCHER"/&gt;
+    &lt;/intent-filter&gt;
+&lt;/activity&gt;
+
+
+<br>
+Versión y compatibilidad de la aplicación
+
+<br>Se establece la versión de la aplicación y la versión mínima y máxima de Android en la que puede ejecutarse.
+
+&lt;uses-sdk
+    android:minSdkVersion="21"
+    android:targetSdkVersion="33"/&gt;
+
+
+<br>
+Declaración de temas y configuraciones globales
+
+<br>Define estilos, configuraciones de orientación de pantalla, modo nocturno, entre otros.
+
+&lt;application
+    android:theme="@style/Theme.MyApp"
+    android:allowBackup="true"
+    android:supportsRtl="true"&gt;
+
+
+<br><br>El archivo AndroidManifest.xml se encuentra en:<br>
+app/src/main/AndroidManifest.xml<br><br>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapp"&gt;
+
+    &lt;!-- Permisos requeridos --&gt;
+    &lt;uses-permission android:name="android.permission.INTERNET"/&gt;
+    
+    &lt;!-- Configuración de compatibilidad --&gt;
+    &lt;uses-sdk android:minSdkVersion="21" android:targetSdkVersion="33"/&gt;
+
+    &lt;application
+        android:allowBackup="true"
+        android:theme="@style/Theme.MyApp"&gt;
+        
+        &lt;!-- Actividad principal --&gt;
+        &lt;activity android:name=".MainActivity"&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name="android.intent.action.MAIN"/&gt;
+                &lt;category android:name="android.intent.category.LAUNCHER"/&gt;
+            &lt;/intent-filter&gt;
+        &lt;/activity&gt;
+
+    &lt;/application&gt;
+&lt;/manifest&gt;
+<br><br>Sin este archivo, Android no sabría cómo ejecutar la aplicación, qué componentes tiene o qué permisos necesita. Es esencial para el correcto funcionamiento y distribución de cualquier aplicación Android.<br>Siempre revisa y configura correctamente este archivo para evitar errores al ejecutar la aplicación.]]></description><link>curso_android_studio\android-manifest.html</link><guid isPermaLink="false">Curso_android_studio/Android Manifest.md</guid><pubDate>Tue, 04 Mar 2025 12:12:23 GMT</pubDate></item><item><title><![CDATA[AppCompatButton]]></title><description><![CDATA[ 
+ <br><br>AppCompatButton es un tipo de botón que extiende la funcionalidad de Button, proporcionando compatibilidad con versiones anteriores de Android a través de la biblioteca AndroidX.<br>Este botón hereda muchas propiedades y características de <a data-href="TextView" href="\curso_android_studio\textview.html" class="internal-link" target="_self" rel="noopener nofollow">TextView</a>, lo que permite personalizar su apariencia y comportamiento de manera similar. Se puede modificar su texto, fuente, color de fondo, bordes y más, asegurando una integración coherente con el diseño de la aplicación.<br>Ejemplo de uso en XML:<br>&lt;androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/btnExample"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Presionar"
+    android:textColor="@color/white"
+    android:background="@color/primaryColor"/&gt;
+<br>Ejemplo de uso en Kotlin:<br>val btnExample = findViewById&lt;AppCompatButton&gt;(R.id.btnExample)
+
+btnExample.setOnClickListener {
+    btnExample.text = "¡Presionado!"
+}
+<br>El uso de AppCompatButton es recomendable en proyectos que requieran compatibilidad con versiones antiguas de Android, manteniendo el soporte para estilos modernos y personalizaciones avanzadas.]]></description><link>curso_android_studio\appcompatbutton.html</link><guid isPermaLink="false">Curso_android_studio/AppCompatButton.md</guid><pubDate>Tue, 04 Mar 2025 12:13:47 GMT</pubDate></item><item><title><![CDATA[AppCompatEditText]]></title><description><![CDATA[ 
+ <br><br>AppCompatEditText es un componente de entrada de texto que extiende la funcionalidad de EditText, proporcionando compatibilidad con versiones anteriores de Android a través de AndroidX.<br>Este componente cuenta con las mismas propiedades que EditText, permitiendo la personalización del texto, el color de fondo, los bordes y otros estilos. Se recomienda su uso en aplicaciones modernas para garantizar un diseño coherente y mejorar la compatibilidad en diferentes versiones de Android.<br><br>&lt;androidx.appcompat.widget.AppCompatEditText
+    android:id="@+id/etExample"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Ingrese su nombre"
+    android:textColor="@color/black"
+    android:background="@drawable/edit_text_background"/&gt;
+<br><br>val etExample = findViewById&lt;AppCompatEditText&gt;(R.id.etExample)
+
+val userInput = etExample.text.toString()
+<br>El uso de AppCompatEditText es recomendable para garantizar compatibilidad con versiones antiguas de Android, al tiempo que se mantienen las opciones de personalización y funcionalidad avanzada de EditText.]]></description><link>curso_android_studio\appcompatedittext.html</link><guid isPermaLink="false">Curso_android_studio/AppCompatEditText.md</guid><pubDate>Tue, 04 Mar 2025 12:15:33 GMT</pubDate></item><item><title><![CDATA[Arrays]]></title><description><![CDATA[ 
+ <br>Las arrays son secuencias de datos, sabiendo las <a data-href="Variables Kotlin" href="\curso_android_studio\variables-kotlin.html" class="internal-link" target="_self" rel="noopener nofollow">Variables Kotlin</a> , <a data-href="Variables Alfanuméricas" href="\curso_android_studio\variables-alfanuméricas.html" class="internal-link" target="_self" rel="noopener nofollow">Variables Alfanuméricas</a><br>
 y <a data-href="Nulabilidad kotlin" href="\curso_android_studio\nulabilidad-kotlin.html" class="internal-link" target="_self" rel="noopener nofollow">Nulabilidad kotlin</a><br>
 var nameString:String = "pepe"
 var nameString2:String = "pepe"
@@ -4732,7 +4807,7 @@ val weekDays = arrayOf("Lunes","Martes","Miercoles","VJueves","Viernes","Sabado"
 
 println(weekDays[0])//Comienza 0 el indice 0-6
 
-//Asiganmos un nueo valor:
+//Asiganmos un nuevo valor:
 
 weekDays[0] = "Hola"
 println(weekDays[0])
@@ -4767,8 +4842,8 @@ for(weekDay in weekDays){
 	println("Ahora es $weekDay")
 }
 
-<br>Los arrays son muy buenos pero tiene muchas restricciones que no permiten mucha flexibildiad por eso se crearon las <a data-href="Listas kotlin" href="\curso_android_studio\listas-kotlin.html" class="internal-link" target="_self" rel="noopener nofollow">Listas kotlin</a>]]></description><link>curso_android_studio\arrays.html</link><guid isPermaLink="false">Curso_android_studio/Arrays.md</guid><pubDate>Sun, 02 Mar 2025 10:15:42 GMT</pubDate></item><item><title><![CDATA[Booleanos]]></title><description><![CDATA[ 
- <br><a data-href="PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Variables Kotlin" href="\PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES\Curso_android_studio\Variables Kotlin" class="internal-link" target="_self" rel="noopener nofollow">PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/Variables Kotlin</a> solo pueden ser true o false:<br>
+<br>Los arrays son muy buenos pero tiene muchas restricciones que no permiten mucha flexibildiad por eso se crearon las <a data-href="Listas kotlin" href="\curso_android_studio\listas-kotlin.html" class="internal-link" target="_self" rel="noopener nofollow">Listas kotlin</a>]]></description><link>curso_android_studio\arrays.html</link><guid isPermaLink="false">Curso_android_studio/Arrays.md</guid><pubDate>Tue, 04 Mar 2025 12:48:02 GMT</pubDate></item><item><title><![CDATA[Booleanos]]></title><description><![CDATA[ 
+ <br> <a data-tooltip-position="top" aria-label="PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Variables kotlin" data-href="PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Variables kotlin" href="\programacion-de-multimedia-y-dispositivos-moviles\variables-kotlin.html" class="internal-link" target="_self" rel="noopener nofollow">Variables kotlin</a> solo pueden ser true o false:<br>
 /**
      * Variables booleanas
      */
@@ -4779,10 +4854,41 @@ for(weekDay in weekDays){
     val booleanExample3 = false
 
 
-<br>Funcion <a data-href="Print" href="\Print" class="internal-link" target="_self" rel="noopener nofollow">Print</a>]]></description><link>curso_android_studio\booleanos.html</link><guid isPermaLink="false">Curso_android_studio/Booleanos.md</guid><pubDate>Sun, 02 Mar 2025 10:15:42 GMT</pubDate></item><item><title><![CDATA[CardView]]></title><description><![CDATA[ 
- <br>Componentes para diseñar una especie de carta en nuestra aplicación]]></description><link>curso_android_studio\cardview.html</link><guid isPermaLink="false">Curso_android_studio/CardView.md</guid><pubDate>Thu, 13 Feb 2025 11:06:33 GMT</pubDate></item><item><title><![CDATA[CheckBox]]></title><description><![CDATA[ 
- <br>Componte para verificar si fue cliqueado o no]]></description><link>curso_android_studio\checkbox.html</link><guid isPermaLink="false">Curso_android_studio/CheckBox.md</guid><pubDate>Fri, 10 Nov 2023 09:30:01 GMT</pubDate></item><item><title><![CDATA[CompanionObjecto]]></title><description><![CDATA[ 
- <br>Es un objecto en kotlin que permite hacer cosntante spara que se puedan comunicar entre <a data-href="Activity" href="\curso_android_studio\activity.html" class="internal-link" target="_self" rel="noopener nofollow">Activity</a> o <a data-href="Clase" href="\programacion-de-multimedia-y-dispositivos-moviles\clase.html" class="internal-link" target="_self" rel="noopener nofollow">Clase</a><br>companion object{  
+<br>Funcion <a data-href="Print" href="\curso_android_studio\print.html" class="internal-link" target="_self" rel="noopener nofollow">Print</a>]]></description><link>curso_android_studio\booleanos.html</link><guid isPermaLink="false">Curso_android_studio/Booleanos.md</guid><pubDate>Tue, 04 Mar 2025 12:18:35 GMT</pubDate></item><item><title><![CDATA[CardView]]></title><description><![CDATA[ 
+ <br><br>CardView es un componente de diseño que permite crear contenedores con una apariencia de tarjeta, agregando efectos como esquinas redondeadas, elevación y sombras. Es útil para estructurar elementos de la interfaz de usuario de manera visualmente atractiva y organizada.<br>Se usa comúnmente en listas, tarjetas de presentación, perfiles de usuario y cualquier otro diseño donde se desee resaltar un bloque de información dentro de la aplicación.<br><br>&lt;androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    android:padding="16dp"&gt;
+
+    &lt;TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contenido dentro de CardView"
+        android:textSize="16sp"/&gt;
+&lt;/androidx.cardview.widget.CardView&gt;
+<br><br>val cardView = findViewById&lt;CardView&gt;(R.id.cardViewExample)
+cardView.setOnClickListener {
+    Toast.makeText(this, "CardView clickeado", Toast.LENGTH_SHORT).show()
+}
+<br>CardView es una excelente opción para mejorar la experiencia visual de una aplicación, proporcionando un diseño limpio y moderno con efectos visuales atractivos.]]></description><link>curso_android_studio\cardview.html</link><guid isPermaLink="false">Curso_android_studio/CardView.md</guid><pubDate>Tue, 04 Mar 2025 12:19:50 GMT</pubDate></item><item><title><![CDATA[CheckBox]]></title><description><![CDATA[ 
+ <br><br>CheckBox es un componente de interfaz que permite al usuario seleccionar o deseleccionar una opción, indicando un estado de verificación. Es ideal para casos donde se necesita permitir múltiples selecciones dentro de un grupo de opciones.<br><br>&lt;CheckBox
+    android:id="@+id/checkBoxExample"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Acepto los términos y condiciones"/&gt;
+<br><br>val checkBox = findViewById&lt;CheckBox&gt;(R.id.checkBoxExample)
+
+checkBox.setOnCheckedChangeListener { _, isChecked -&gt;
+    if (isChecked) {
+        Toast.makeText(this, "CheckBox seleccionado", Toast.LENGTH_SHORT).show()
+    } else {
+        Toast.makeText(this, "CheckBox deseleccionado", Toast.LENGTH_SHORT).show()
+    }
+}
+<br>Se utiliza en formularios, configuraciones y cualquier sección donde se necesite confirmar una elección. Su estado puede consultarse con isChecked, lo que facilita la gestión de opciones seleccionadas.]]></description><link>curso_android_studio\checkbox.html</link><guid isPermaLink="false">Curso_android_studio/CheckBox.md</guid><pubDate>Tue, 04 Mar 2025 12:20:49 GMT</pubDate></item><item><title><![CDATA[CompanionObjecto]]></title><description><![CDATA[ 
+ <br>Es un objecto en kotlin que permite hacer constantes para que se puedan comunicar entre <a data-href="Activity" href="\curso_android_studio\activity.html" class="internal-link" target="_self" rel="noopener nofollow">Activity</a> o <a data-href="Clase" href="\programacion-de-multimedia-y-dispositivos-moviles\clase.html" class="internal-link" target="_self" rel="noopener nofollow">Clase</a><br>companion object{  
     const val IMC_KEY = "IMC_RESULT"  
 }
 
@@ -4797,117 +4903,157 @@ startActivity(intent)
 import com.example.estudioandroid.imccalculator.ImcActivity.Companion.IMC_KEY
 val result:Double = intent.extras?.getDouble(IMC_KEY) ?: -1.0
 
-<br>Entonces se importa en las activty que usemos en ella y si cambiamos la llave cambiara en la demas que se usen y no tener que ir una a una]]></description><link>curso_android_studio\companionobjecto.html</link><guid isPermaLink="false">Curso_android_studio/CompanionObjecto.md</guid><pubDate>Wed, 08 Nov 2023 11:29:57 GMT</pubDate></item><item><title><![CDATA[ConstransLayout]]></title><description><![CDATA[ 
+<br>Entonces se importa en las activty que usemos en ella y si cambiamos la llave cambiara en la demas que se usen y no tener que ir una a una]]></description><link>curso_android_studio\companionobjecto.html</link><guid isPermaLink="false">Curso_android_studio/CompanionObjecto.md</guid><pubDate>Tue, 04 Mar 2025 12:20:27 GMT</pubDate></item><item><title><![CDATA[ConstransLayout]]></title><description><![CDATA[ 
  <br>Componente mas recomendado para su uso y a la vez el más complejo]]></description><link>curso_android_studio\constranslayout.html</link><guid isPermaLink="false">Curso_android_studio/ConstransLayout.md</guid><pubDate>Sun, 05 Nov 2023 17:29:35 GMT</pubDate></item><item><title><![CDATA[Dialog]]></title><description><![CDATA[ 
- <br>Son un componeten de nuestro proyecot o aplcaicion que se sobrepone por encima de todo nuestra aplicacion par amostrar algo hay de muchos tipos <br>Primero debemos crear la vista o xml que contiene  el disñeo de nuestro dialog y luego crear una instacia en nuestro <a data-href="Activity" href="\curso_android_studio\activity.html" class="internal-link" target="_self" rel="noopener nofollow">Activity</a> y de ahi pasarle el <a data-href="PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/xml" href="\PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES\Curso_android_studio\xml" class="internal-link" target="_self" rel="noopener nofollow">PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/xml</a> que tenga nuestra vista<br>val dialog = Dialog(this)  
+ <br>Son un componente de nuestro proyecto o aplicación que se sobrepone por encima de todo nuestra aplicación par amostrar algo hay de muchos tipos <br>Primero debemos crear la vista o XML que contiene  el diseño de nuestro dialogo y luego crear una instancia en nuestro <a data-href="Activity" href="\curso_android_studio\activity.html" class="internal-link" target="_self" rel="noopener nofollow">Activity</a> y de ahi pasarle el <a data-tooltip-position="top" aria-label="Curso_android_studio/xml" data-href="Curso_android_studio/xml" href="\curso_android_studio\xml.html" class="internal-link" target="_self" rel="noopener nofollow">xml</a> que tenga nuestra vista<br>val dialog = Dialog(this)  
 dialog.setContentView(R.layout.daolog_task)
 
 
 dialog.show()
 
-<br>Usando <a data-href="View Binding" href="\View Binding" class="internal-link" target="_self" rel="noopener nofollow">View Binding</a> se puede  acceder a los elementos primero ya debemos tener el diseño de nuestra vista en xml y luego crear una constante de ese dialogo binding para luego inflarlo y psasarle el tipo que es:<br>
+<br>Usando <a data-href="View Binding" href="\curso_android_studio\view-binding.html" class="internal-link" target="_self" rel="noopener nofollow">View Binding</a> se puede  acceder a los elementos primero ya debemos tener el diseño de nuestra vista en XML y luego crear una constante de ese dialogo binding para luego inflarlo y pasarle el tipo que es:<br>
 val bind :DaologTaskBinding =  DaologTaskBinding.inflate(layoutInflater)  
 dialog.setContentView(bind.root)
-<br>Despues podemos acaceder a diferentes partes de nuestro dialogo como queramso y aplciar la logica que queramos]]></description><link>curso_android_studio\dialog.html</link><guid isPermaLink="false">Curso_android_studio/Dialog.md</guid><pubDate>Tue, 06 Feb 2024 07:54:28 GMT</pubDate></item><item><title><![CDATA[editText]]></title><description><![CDATA[ 
- <br>Es un compontent de <a data-href="PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/xml" href="\PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES\Curso_android_studio\xml" class="internal-link" target="_self" rel="noopener nofollow">PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/xml</a> que permite al usuario agregar un texto<br>cuenta con varios propiedades basicas pero las mas improtnate son:<br>
-<br>hint: le dice que mostrar al usuario y una ves que el usuario le da para cambiar el texto desaperece
+<br>Después podemos acceder a diferentes partes de nuestro dialogo como queramos y aplicar la lógica que queramos]]></description><link>curso_android_studio\dialog.html</link><guid isPermaLink="false">Curso_android_studio/Dialog.md</guid><pubDate>Tue, 04 Mar 2025 12:22:01 GMT</pubDate></item><item><title><![CDATA[editText]]></title><description><![CDATA[ 
+ <br>Es un componente de <a data-tooltip-position="top" aria-label="Curso_android_studio/xml" data-href="Curso_android_studio/xml" href="\curso_android_studio\xml.html" class="internal-link" target="_self" rel="noopener nofollow">xml</a> que permite al usuario agregar un texto<br>cuenta con varios propiedades básicas pero las mas importante son:<br>
+<br>hint: le dice que mostrar al usuario y una ves que el usuario le da para cambiar el texto desaparece
 <br>textColorHint: cambia el color solo del hint
-]]></description><link>curso_android_studio\edittext.html</link><guid isPermaLink="false">Curso_android_studio/editText.md</guid><pubDate>Tue, 06 Feb 2024 07:54:28 GMT</pubDate></item><item><title><![CDATA[EstructuraDeUnProyecto]]></title><description><![CDATA[ 
- <br>Siempre tenemos la vista Android es la mas sencilla<br>Cuando creamos una aplicación depende de dos partes una visual y tora lógica que es la que interactúa<br>Una activity es la unión entre la parte lógica y visual<br>Cuando creamos un nuevo new &gt; activity empty te pregunta el nombre del activyty que tiene el nombre y el nombre del <a data-href="PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/xml" href="\PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES\Curso_android_studio\xml" class="internal-link" target="_self" rel="noopener nofollow">PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/xml</a> te saldrá un campo para clickear llamado lauche app que le decimos a android que es la pantalla principal<br>Una clase es un contenedor de <a data-href="Función" href="\curso_android_studio\función.html" class="internal-link" target="_self" rel="noopener nofollow">Función</a>es (es mucho mas obviamente).<br>El onCreate es la funciona que siempre se llama al inicio arrancar la pantalla<br>override fun onCreate(savedInstanceState: Bundle?) {  
+]]></description><link>curso_android_studio\edittext.html</link><guid isPermaLink="false">Curso_android_studio/editText.md</guid><pubDate>Tue, 04 Mar 2025 12:22:31 GMT</pubDate></item><item><title><![CDATA[<strong>Estructura de un Proyecto en Android Studio</strong>]]></title><description><![CDATA[ 
+ <br><br>Siempre trabajamos con la vista Android, ya que es la más sencilla y organizada.<br>Al crear una aplicación, se divide en dos partes:<br>
+<br>La parte visual, que define la interfaz del usuario.
+<br>La parte lógica, que es la que interactúa con la interfaz y procesa la información.
+<br>Una Activity es la unión entre la parte lógica y visual.<br>Cuando creamos una nueva Activity (New &gt; Activity &gt; Empty), Android Studio solicita un nombre para la Activity y también un nombre para el archivo XML correspondiente dentro de <a data-tooltip-position="top" aria-label="Curso_android_studio/xml" data-href="Curso_android_studio/xml" href="\curso_android_studio\xml.html" class="internal-link" target="_self" rel="noopener nofollow">xml</a>].<br>En este proceso, aparece una opción llamada "Launch app", donde indicamos cuál será la pantalla principal de la aplicación.<br><br>Una clase es un contenedor de <a data-href="Función" href="\curso_android_studio\función.html" class="internal-link" target="_self" rel="noopener nofollow">Función</a>es (aunque puede incluir más elementos).<br>onCreate() es el método que siempre se ejecuta al iniciar una pantalla en la aplicación:<br>override fun onCreate(savedInstanceState: Bundle?) {  
     super.onCreate(savedInstanceState)  
     setContentView(R.layout.activity_first_app)  
-  
-    //Al arrancar pantalla  
+    // Se ejecuta al iniciar la pantalla  
 }
-<br>Cada activity tiene su función lógica  setContentView es para cargar el diseño que tenemos del xml <br>Siempre el <a data-href="PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/xml" href="\PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES\Curso_android_studio\xml" class="internal-link" target="_self" rel="noopener nofollow">PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/xml</a> esta en res/layout<br>Podemos configurar nuestro emulador de Android en la esquina superior y te permitirá decirle a Android studio cuanto ram quieres que tenga, espacio interno y dependiendo de la versión de Android y el modelo te dirá si tiene los google service(maps, google, youtube, etc).<br>Tenemos el <a data-href="Android Manifest" href="\curso_android_studio\android-manifest.html" class="internal-link" target="_self" rel="noopener nofollow">Android Manifest</a><br>Desde el actibuty podemos acceder a cualquier componente del <a data-href="PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/xml" href="\PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES\Curso_android_studio\xml" class="internal-link" target="_self" rel="noopener nofollow">PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/xml</a><br>Ya sea en la función onCreate o onResume() tenemos otros:<br>
-package com.example.estudioandroid.firstapp  
-  
+<br>Cada Activity tiene su parte lógica y un diseño XML asociado. setContentView(R.layout.activity_first_app) es la función que carga el diseño desde el XML correspondiente.<br>El archivo XML de cada Activity siempre se encuentra en res/layout, dentro de <a data-tooltip-position="top" aria-label="Curso_android_studio/xml" data-href="Curso_android_studio/xml" href="\curso_android_studio\xml.html" class="internal-link" target="_self" rel="noopener nofollow">xml</a>.<br><br><br>Podemos configurar el emulador de Android desde la esquina superior de Android Studio.<br>
+Aquí podemos definir:<br>
+<br>La cantidad de RAM asignada.
+<br>El espacio de almacenamiento interno.
+<br>La versión de Android y el modelo del dispositivo.
+<br>Si incluye los Google Services (Maps, Google, YouTube, etc.).
+<br><br><br>El proyecto contiene el archivo <a data-href="Android Manifest" href="\curso_android_studio\android-manifest.html" class="internal-link" target="_self" rel="noopener nofollow">Android Manifest</a>, que es clave para definir configuraciones globales de la aplicación.<br><br><br>Desde una Activity podemos acceder a cualquier componente del archivo XML dentro de <a data-tooltip-position="top" aria-label="Curso_android_studio/xml" data-href="Curso_android_studio/xml" href="\curso_android_studio\xml.html" class="internal-link" target="_self" rel="noopener nofollow">xml</a>.<br>Esto se puede hacer dentro de la función onCreate() o en onResume().<br><br>package com.example.estudioandroid.firstapp  
+
 import androidx.appcompat.app.AppCompatActivity  
 import android.os.Bundle  
 import com.example.estudioandroid.R  
-  
+
 class FirstAppActivity : AppCompatActivity() {  
     override fun onCreate(savedInstanceState: Bundle?) {  
         super.onCreate(savedInstanceState)  
         setContentView(R.layout.activity_first_app)  
-  
-        val btnStart = findViewById&lt;TipoDeComponente&gt;(R.id.IDdeElemento) //Tipo de componente puede ser TextView, Buton ,etc.
+
+        val btnStart = findViewById&lt;TipoDeComponente&gt;(R.id.IDdeElemento) 
+        // Tipo de componente puede ser TextView, Button, etc.
     }  
 }
+<br><br>package com.example.estudioandroid.firstapp  
 
-<br>Para luego agregar un listener para que haga algo en el momento que clic kea:<br>
-package com.example.estudioandroid.firstapp  
-  
 import androidx.appcompat.app.AppCompatActivity  
 import android.os.Bundle  
 import android.util.Log  
 import androidx.appcompat.widget.AppCompatButton  
 import com.example.estudioandroid.R  
-  
+
 class FirstAppActivity : AppCompatActivity() {  
     override fun onCreate(savedInstanceState: Bundle?) {  
         super.onCreate(savedInstanceState)  
         setContentView(R.layout.activity_first_app)  
+
         val btnStart = findViewById&lt;AppCompatButton&gt;(R.id.btnStart)  
-  
-        btnStart.setOnClickListener(){  
-            //Codigo de accion  
-            Log.i("Joaquin","Mensaje")  
+
+        btnStart.setOnClickListener {  
+            // Código de acción  
+            Log.i("Joaquin", "Mensaje")  
         }  
-        //Al arrancar pantalla  
     }  
 }
+<br><br>package com.example.estudioandroid.firstapp  
 
-<br>Para msotrar el contenido de un <a data-href="editText" href="\curso_android_studio\edittext.html" class="internal-link" target="_self" rel="noopener nofollow">editText</a>.<br>
-package com.example.estudioandroid.firstapp  
-  
 import androidx.appcompat.app.AppCompatActivity  
 import android.os.Bundle  
 import android.util.Log  
 import androidx.appcompat.widget.AppCompatButton  
 import androidx.appcompat.widget.AppCompatEditText  
 import com.example.estudioandroid.R  
-  
+
 class FirstAppActivity : AppCompatActivity() {  
     override fun onCreate(savedInstanceState: Bundle?) {  
         super.onCreate(savedInstanceState)  
         setContentView(R.layout.activity_first_app)  
+
         val btnStart = findViewById&lt;AppCompatButton&gt;(R.id.btnStart)  
         val etName = findViewById&lt;AppCompatEditText&gt;(R.id.etName)  
-  
-  
-        etName.text.toString() // devuelve la informacion que contenga en este texto  
-  
-        btnStart.setOnClickListener(){  
-            //Codigo de accion  
-            Log.i("Joaquin","Mensaje")  
+
+        val userInput = etName.text.toString() // Obtiene el contenido del EditText  
+
+        btnStart.setOnClickListener {  
+            Log.i("Joaquin", "Mensaje")  
         }  
-        //Al arrancar pantalla  
     }  
 }
-<br>En las lista de carpetas el res es la parte de diseño:<br>Dentro del mismo tenemos values: en values muestra los colores que trabajamos en el .xml podemos agregar ahí todos los colores que queramos usar<br>Dentro de res también tenemos drawable, este contiene todas las imágenes y debemos cargar las imágenes nuevas ahí cuando queramos agregar una nueva<br>Para formatear el codigo tenemos el atajo ctrl + alt + l<br>En res / values además de los colores tenemos los srings que ahí se coloca todos los strings que se usan nuestro <a data-href="TextView" href="\TextView" class="internal-link" target="_self" rel="noopener nofollow">TextView</a><br>
-y no usando la propiedad text ya que si tenemos varios strings de diferentes idiomas y seria mas difícil si uso<br><br>Llendo a help&gt;about muestra la version<br><br>Dentro de values&gt;themes&gt; tenemos dos themes  . xml que uno es el estilo oscuro y otro el el rnomal<br>En si cremoas un nuevo etiqueta styles  paracida a la originla podremos cambiar colores o pesoanlizar partes de la aplicacion como queremoas]]></description><link>curso_android_studio\estructuradeunproyecto.html</link><guid isPermaLink="false">Curso_android_studio/EstructuraDeUnProyecto.md</guid><pubDate>Thu, 13 Feb 2025 11:06:53 GMT</pubDate></item><item><title><![CDATA[FindViewByID]]></title><description><![CDATA[ 
- <br>Es un método de kotlin que busca el id del view en nuestro <a data-href="PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/xml" href="\PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES\Curso_android_studio\xml" class="internal-link" target="_self" rel="noopener nofollow">PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/xml</a> para usarla en nuestra <a data-href="Activity" href="\curso_android_studio\activity.html" class="internal-link" target="_self" rel="noopener nofollow">Activity</a> , pero es una forma que ya no se usa]]></description><link>curso_android_studio\findviewbyid.html</link><guid isPermaLink="false">Curso_android_studio/FindViewByID.md</guid><pubDate>Thu, 13 Feb 2025 11:07:29 GMT</pubDate></item><item><title><![CDATA[FloatingActionButon]]></title><description><![CDATA[ 
- <br>Componente parecido a <a data-href="Boton" href="\Boton" class="internal-link" target="_self" rel="noopener nofollow">Boton</a> pero de forma circular]]></description><link>curso_android_studio\floatingactionbuton.html</link><guid isPermaLink="false">Curso_android_studio/FloatingActionButon.md</guid><pubDate>Thu, 13 Feb 2025 11:07:38 GMT</pubDate></item><item><title><![CDATA[Fragment]]></title><description><![CDATA[ 
- <br>Es una parte de la pantalla que se reutiliza, es un <a data-href="Activity" href="\curso_android_studio\activity.html" class="internal-link" target="_self" rel="noopener nofollow">Activity</a> que usa una parte de la pantalla<br>Primero generamos el framgnet qyue conetara con el un <a data-href="PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/xml" href="\PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES\Curso_android_studio\xml" class="internal-link" target="_self" rel="noopener nofollow">PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/xml</a> que suara el fragment:<br>
-companion object {  
-  
+<br><br><br>Dentro de la carpeta res/ se encuentra la parte visual de la aplicación.<br>
+<br>res/values/ → Contiene los colores y textos predefinidos.
+
+<br>En colors.xml podemos definir todos los colores a utilizar en el diseño de la aplicación.
+<br>En strings.xml se colocan todos los textos utilizados en los <a data-href="TextView" href="\curso_android_studio\textview.html" class="internal-link" target="_self" rel="noopener nofollow">TextView</a>, evitando escribirlos directamente en el código. Esto permite la adaptación a múltiples idiomas.
+
+
+<br>res/drawable/ → Almacena todas las imágenes utilizadas en la aplicación.
+
+<br>Para agregar nuevas imágenes, deben colocarse dentro de esta carpeta.
+
+
+<br><br><br>
+<br>Formatear código → Ctrl + Alt + L
+<br>Verificar la versión de Android Studio → Ir a Help &gt; About
+<br><br><br>Dentro de res/values/themes/ se encuentran dos archivos XML:<br>
+<br>Un tema claro
+<br>Un tema oscuro
+<br>Para personalizar los estilos de la aplicación, se pueden modificar estos archivos o crear un nuevo archivo en styles.xml. Esto permite cambiar colores y personalizar la apariencia de la aplicación según las necesidades del proyecto.]]></description><link>curso_android_studio\estructuradeunproyecto.html</link><guid isPermaLink="false">Curso_android_studio/EstructuraDeUnProyecto.md</guid><pubDate>Tue, 04 Mar 2025 12:25:26 GMT</pubDate></item><item><title><![CDATA[FindViewByID]]></title><description><![CDATA[ 
+ <br><br>findViewById es un método de Kotlin utilizado para buscar un componente en el archivo <a data-tooltip-position="top" aria-label="Curso_android_studio/xml" data-href="Curso_android_studio/xml" href="\curso_android_studio\xml.html" class="internal-link" target="_self" rel="noopener nofollow">XML</a> a través de su ID y luego manipularlo dentro de una <a data-href="Activity" href="\curso_android_studio\activity.html" class="internal-link" target="_self" rel="noopener nofollow">Activity</a>.<br>Aunque fue la forma estándar de acceder a las vistas en versiones anteriores de Android, actualmente se considera obsoleta, ya que existen alternativas más eficientes como View Binding y Jetpack Compose, que mejoran el rendimiento y reducen errores en tiempo de ejecución.<br><br>val textView = findViewById&lt;TextView&gt;(R.id.myTextView)
+textView.text = "Nuevo texto"
+<br><br><br>val binding = ActivityMainBinding.inflate(layoutInflater)
+setContentView(binding.root)
+
+binding.myTextView.text = "Nuevo texto"
+<br><br>Text(text = "Nuevo texto", fontSize = 18.sp)
+]]></description><link>curso_android_studio\findviewbyid.html</link><guid isPermaLink="false">Curso_android_studio/FindViewByID.md</guid><pubDate>Tue, 04 Mar 2025 12:29:34 GMT</pubDate></item><item><title><![CDATA[FloatingActionButon]]></title><description><![CDATA[ 
+ <br><br>FloatingActionButton es un componente similar a un <a data-href="Boton" href="\Boton" class="internal-link" target="_self" rel="noopener nofollow">Boton</a>, pero con un diseño circular y flotante, lo que lo hace ideal para acciones principales dentro de una pantalla, como agregar un elemento, enviar un mensaje o iniciar una acción importante.<br>Este botón suele ubicarse en la parte inferior derecha de la interfaz y destaca visualmente para facilitar su acceso.<br><br>&lt;com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/fab"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_add"
+    app:layout_anchorGravity="bottom|end"
+    app:backgroundTint="@color/primaryColor"/&gt;
+<br><br>val fab = findViewById&lt;FloatingActionButton&gt;(R.id.fab)
+
+fab.setOnClickListener {
+    Toast.makeText(this, "FAB clickeado", Toast.LENGTH_SHORT).show()
+}
+<br><br>
+<br>Diseño flotante y circular para destacar acciones clave.
+<br>Soporta iconos personalizados mediante android:src.
+<br>Puede personalizarse con backgroundTint para cambiar su color de fondo.
+<br>Se integra con Material Design, ofreciendo una apariencia moderna y responsiva.
+<br>FloatingActionButton es una excelente opción cuando se necesita un botón de acceso rápido para una acción relevante dentro de la aplicación.]]></description><link>curso_android_studio\floatingactionbuton.html</link><guid isPermaLink="false">Curso_android_studio/FloatingActionButon.md</guid><pubDate>Tue, 04 Mar 2025 12:29:25 GMT</pubDate></item><item><title><![CDATA[<strong>Fragmentos en Android</strong>]]></title><description><![CDATA[ 
+ <br><br>Un Fragment es una parte reutilizable de la interfaz de usuario dentro de una <a data-href="Activity" href="\curso_android_studio\activity.html" class="internal-link" target="_self" rel="noopener nofollow">Activity</a>. A diferencia de una Activity, un Fragment no ocupa toda la pantalla, sino que se integra dentro de una actividad, permitiendo modularizar la interfaz de usuario y mejorar la reutilización de componentes.<br><br><br>Primero, generamos la clase del fragmento, que se conectará con un archivo <a data-tooltip-position="top" aria-label="Curso_android_studio/xml" data-href="Curso_android_studio/xml" href="\curso_android_studio\xml.html" class="internal-link" target="_self" rel="noopener nofollow">XML</a> que contendrá su diseño:<br>companion object {  
     const val NAME_INTENT = "name_intent"  
     const val ADDRESS_INTENT = "address_intent"  
-  
+
     @JvmStatic  
     fun newInstance(name: String, address: String) =  
-        FirtsFragment().apply {  
+        FirstFragment().apply {  
             arguments = Bundle().apply {  
                 putString(NAME_INTENT, name)  
                 putString(ADDRESS_INTENT, address)  
             }  
-        }}
-
-
-<br>Creamos los parámetros que vayamos a usar y borramos las constantes de afuera de la clase<br>Ennces en onCreate debemos inciazliar los parametro y darle el valor con la llava que coloacmos en companieon object<br>private var name: String? = null  
+        }
+}
+<br>Aquí definimos parámetros que serán utilizados en el fragmento. Es recomendable eliminar las constantes fuera de la clase para evitar redundancias.<br><br><br>En el método onCreate(), debemos inicializar los parámetros y asignarles los valores recibidos a través de los argumentos:<br>private var name: String? = null  
 private var address: String? = null  
-  
+
 override fun onCreate(savedInstanceState: Bundle?) {  
     super.onCreate(savedInstanceState)  
     arguments?.let {  
@@ -4915,150 +5061,273 @@ override fun onCreate(savedInstanceState: Bundle?) {
         address = it.getString(ADDRESS_INTENT)  
     }  
 }
-
-<br>Le pasa los argumentos pero a un asi no crea el framneto con el xml que le pasamos eso lo hace en otra funcion:<br>
-override fun onCreateView(  
+<br>Esto nos permite recuperar los valores enviados al fragmento mediante newInstance().<br><br><br>El fragmento aún no está vinculado con su diseño XML. Para cargar el layout, se usa onCreateView(), que infla el XML del fragmento:<br>override fun onCreateView(  
     inflater: LayoutInflater, container: ViewGroup?,  
     savedInstanceState: Bundle?  
 ): View? {  
-  
-    return inflater.inflate(R.layout.fragment_firts, container, false)  
+    return inflater.inflate(R.layout.fragment_first, container, false)  
 }
-<br>Aque en inflater.inflate busca el xml que contega lo que queramos y en los sigueintes contiene el contiener<br>Con eso eso tenemos un fragmento básico pero aun así debemos realizar otras cosas para que funciones nuestro fragmento en nuestro activity, debemos primero inicializarlo y en nuestro xml principal colocar un componente con id en la parte que se quiera reutilizar la pantalla de la pantalla el componente de que debemos usar es el :<br>androidx.fragment.app.FragmentContainerView y su atributo name buscara el fragment que queramos usar.<br>Eso seria usando el xml pero no es lo normal  se usa el código para poder hacer uso de fragment y pintar como queramos<br>Primero debemos agregar una implementación:<br>dependencies {  
-  
+<br>Aquí, inflater.inflate() busca el archivo XML que contiene la estructura visual del fragmento y lo coloca en el container.<br><br><br>Para que un Fragment funcione dentro de una <a data-href="Activity" href="\curso_android_studio\activity.html" class="internal-link" target="_self" rel="noopener nofollow">Activity</a>, debemos agregarlo en el XML o mediante código en Kotlin.<br><br>Se debe incluir un componente en la parte de la pantalla donde queremos que aparezca el fragmento. Para esto, usamos androidx.fragment.app.FragmentContainerView:<br>&lt;androidx.fragment.app.FragmentContainerView
+    android:id="@+id/fragmentContainer"
+    android:name="com.example.FirstFragment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/&gt;
+<br>El atributo android:name especifica el fragmento que se cargará en este contenedor.<br><br><br>Lo más común es gestionar los fragmentos dinámicamente en la Activity usando FragmentManager. Para ello, primero debemos agregar la implementación en dependencies:<br>dependencies {  
     implementation("androidx.core:core-ktx:1.9.0")  
     implementation("androidx.appcompat:appcompat:1.6.1")  
     implementation("com.google.android.material:material:1.10.0")  
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")  
-  
-    implementation("androidx.fragment:fragment-ktx:1.6.2")  //Esta es la implementacion de fragment
-  
+    implementation("androidx.fragment:fragment-ktx:1.6.2") // Implementación de Fragment  
     testImplementation("junit:junit:4.13.2")  
     androidTestImplementation("androidx.test.ext:junit:1.1.5")  
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")  
 }
-
-<br>En el main activyty debemos colocar:<br>
-supportFragmentManager.commit {  
-        setReorderingAllowed(true)  
-        add&lt;FirtsFragment&gt;(R.id.btnFragmentPepe)  //Nuestro fragmento y el id del componente del fragment
-  
-    }  
+<br>Luego, en el MainActivity, agregamos el fragmento de forma programática:<br>supportFragmentManager.commit {  
+    setReorderingAllowed(true)  
+    add&lt;FirstFragment&gt;(R.id.fragmentContainer) // Se agrega el fragmento en el contenedor  
 }
-
-<br>Ahora esto sirve para pasarle parametros a nuestro fragmento, debemos sacar private los parámetros que tenemos en  el del fragment]]></description><link>curso_android_studio\fragment.html</link><guid isPermaLink="false">Curso_android_studio/Fragment.md</guid><pubDate>Thu, 13 Feb 2025 11:08:25 GMT</pubDate></item><item><title><![CDATA[Función]]></title><description><![CDATA[ 
- <br>Una función es un contenedor de operaciones.<br>Tenemos funciones que ya vienen de ante mano en <a data-href="Kotlin" href="\programacion-de-multimedia-y-dispositivos-moviles\kotlin.html" class="internal-link" target="_self" rel="noopener nofollow">Kotlin</a> algunas de ellas son:<br>
-<br><a data-href="Print" href="\Print" class="internal-link" target="_self" rel="noopener nofollow">Print</a>
+<br>Esto permite agregar dinámicamente el fragmento a la interfaz y gestionarlo sin necesidad de definirlo en el XML.<br><br><br>Si necesitamos enviar valores al fragmento, debemos definir los parámetros como private, para encapsular la información correctamente dentro de la clase del fragmento.<br>De esta forma, el fragmento podrá recibir y gestionar datos de manera segura.]]></description><link>curso_android_studio\fragment.html</link><guid isPermaLink="false">Curso_android_studio/Fragment.md</guid><pubDate>Tue, 04 Mar 2025 12:31:26 GMT</pubDate></item><item><title><![CDATA[Función]]></title><description><![CDATA[ 
+ <br><br>Una función es un bloque de código reutilizable que agrupa una serie de operaciones.<br>En <a data-href="Kotlin" href="\programacion-de-multimedia-y-dispositivos-moviles\kotlin.html" class="internal-link" target="_self" rel="noopener nofollow">Kotlin</a>, existen funciones integradas que podemos utilizar sin necesidad de definirlas, algunas de ellas son:<br>
+<br><a data-href="Print" href="\curso_android_studio\print.html" class="internal-link" target="_self" rel="noopener nofollow">Print</a>
 <br><a data-href="ToString" href="\ToString" class="internal-link" target="_self" rel="noopener nofollow">ToString</a>
 <br><a data-href="main()" href="\main()" class="internal-link" target="_self" rel="noopener nofollow">main()</a>
-<br>Y después la que podemos crear dentro de una clase de Kotlin <br>fun nombreDeFuncion( para1:String,  para2:Int){
-	//Alcance y desarrollo de operaciones
+<br>Además, podemos definir nuestras propias funciones dentro de una clase en Kotlin.<br><br><br>fun nombreDeFuncion(para1: String, para2: Int) {
+    // Cuerpo de la función donde se ejecutan las operaciones
 }
+<br><br><br>Las variables declaradas dentro de una función solo existen dentro de esa función. Sin embargo, si se declara una variable como propiedad de una clase, puede ser utilizada en cualquier función dentro de esa clase.<br>class Pepe {
+    val age = 30 // Variable global dentro de la clase
 
-<br>Los parámetros o variables que creamos dentro de una función solo puede quedar ahí dentro salvo que lo coloquemos como una propiedad de la clase que contiene esa función y el main que llama a la funcion.<br>class Pepe(){
-	val age = 30 // variable gloabal
+    fun main() {
+        funcion1("Carlos") // Llamada a la función
+    }
 
-	fun main(){
-		funcion1()
-	
-	}
-
-	fun funcion1( para1:String){
-		var mensaje : String = "Hola $para1 y mi edad es $age" //variable de funcion
-	print(mensaje)
-	}
-
+    fun funcion1(para1: String) {
+        val mensaje: String = "Hola $para1, mi edad es $age" // Variable local de la función
+        print(mensaje)
+    }
 }
-
-<br><br>Tenemos funciones con parametros normales, una funcion con parametros de salida y mixtas:.<br>// funcion de salida
-fun salida():String{
-	var mensaje:String = "Pepe sale"
-	return mensaje
+<br><br><br>Existen diferentes tipos de funciones según su comportamiento y parámetros.<br><br>Una función que devuelve un valor debe especificar el tipo de dato de salida:<br>fun salida(): String {
+    val mensaje: String = "Pepe sale"
+    return mensaje
 }
-
- //Funcion con parametro por defecto
-fun defecto(para1:String = "Nadie"){
-	println("Hola $para1")
+<br><br>Si un parámetro tiene un valor predeterminado, puede omitirse al llamar a la función:<br>fun defecto(para1: String = "Nadie") {
+    println("Hola $para1")
 }
-
-//Funcion pequeña
-
-fun segundoMensaje(para1:String = nadie) = print("Hola $para1")
-
-
-// funcion de saldia y entrada
-fun salida ( nom:String):String{
-	var mensaje:String = "Pepe sale $nom"
-	return mensaje
+<br><br>Se puede definir una función corta en una sola línea utilizando =:<br>fun segundoMensaje(para1: String = "Nadie") = print("Hola $para1")
+<br><br>Combina la recepción de un parámetro y la devolución de un resultado:<br>fun salida(nom: String): String {
+    val mensaje: String = "Pepe sale $nom"
+    return mensaje
 }
+<br>Las funciones en Kotlin permiten estructurar el código de forma modular y reutilizable, facilitando la organización y el mantenimiento del programa.<br><a data-href="When" href="\curso_android_studio\when.html" class="internal-link" target="_self" rel="noopener nofollow">When</a>]]></description><link>curso_android_studio\función.html</link><guid isPermaLink="false">Curso_android_studio/Función.md</guid><pubDate>Tue, 04 Mar 2025 12:32:38 GMT</pubDate></item><item><title><![CDATA[layout_constraintStart_toStartOf]]></title><description><![CDATA[ 
+ <br><br>La propiedad layout_constraintStart_toStartOf en ConstraintLayout se usa para alinear un componente con el lado izquierdo (start) de otro componente.<br><br><br>
+<br>Si se establece en parent, el componente se alineará con el lado izquierdo del contenedor principal, manteniéndose fijo en esa posición.
+<br>También se puede usar con el ID de otro componente, alineándolo con el inicio (lado izquierdo) de ese elemento.
+<br><br><br>&lt;TextView
+    android:id="@+id/tvExample"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Ejemplo"
+    app:layout_constraintStart_toStartOf="parent"/&gt;  
+<br>👉 El TextView se alinea con el lado izquierdo del ConstraintLayout (contenedor principal).<br>&lt;Button
+    android:id="@+id/btnExample"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Botón"
+    app:layout_constraintStart_toStartOf="@id/tvExample"/&gt;
+<br>👉 El Button se alinea con el lado izquierdo del TextView.<br><br><br>
+<br>layout_constraintStart_toStartOf="parent" alinea un componente con el borde izquierdo del contenedor.
+<br>Si se usa con el ID de otro componente, el elemento se posicionará alineado con el inicio de ese componente.
+<br>Es una propiedad útil en <a data-href="Android" href="\Android" class="internal-link" target="_self" rel="noopener nofollow">Android</a> para organizar elementos en la interfaz de manera flexible y responsiva.
+]]></description><link>curso_android_studio\layout_constraintstart_tostartof.html</link><guid isPermaLink="false">Curso_android_studio/layout_constraintStart_toStartOf.md</guid><pubDate>Tue, 04 Mar 2025 12:43:51 GMT</pubDate></item><item><title><![CDATA[layout_constraintTop_toTopOf]]></title><description><![CDATA[ 
+ <br><br>La propiedad layout_constraintTop_toTopOf en ConstraintLayout se usa para alinear un componente con la parte superior de otro elemento.<br><br><br>
+<br>Si se asigna parent, el componente se alineará con la parte superior del ConstraintLayout (contenedor principal).
+<br>Si se asigna el ID de otro componente, el elemento se alineará con la parte superior de dicho componente, manteniendo su posición relativa.
+<br><br><br>👉 Centrado en la parte superior del contenedor principal (parent)<br>&lt;TextView
+    android:id="@+id/tvExample"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Ejemplo"
+    app:layout_constraintTop_toTopOf="parent"/&gt;  
+<br>👉 Alineado con la parte superior de otro componente (Button)<br>&lt;Button
+    android:id="@+id/btnExample"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Botón"
+    app:layout_constraintTop_toTopOf="@id/tvExample"/&gt;
+<br><br><br>
+<br>layout_constraintTop_toTopOf="parent" fija el componente en la parte superior del contenedor.
+<br>Si se asigna un ID, el componente se alineará con la parte superior del elemento especificado.
+<br>Es una propiedad útil en <a data-href="Android" href="\Android" class="internal-link" target="_self" rel="noopener nofollow">Android</a> para estructurar interfaces flexibles y responsivas.
+]]></description><link>curso_android_studio\layout_constrainttop_totopof.html</link><guid isPermaLink="false">Curso_android_studio/layout_constraintTop_toTopOf.md</guid><pubDate>Tue, 04 Mar 2025 12:47:27 GMT</pubDate></item><item><title><![CDATA[layout_constraitBottom_toBottomof]]></title><description><![CDATA[ 
+ <br><br>La propiedad layout_constraintBottom_toBottomOf se utiliza en <a data-href="View" href="\curso_android_studio\view.html" class="internal-link" target="_self" rel="noopener nofollow">View</a> dentro de ConstraintLayout para definir su alineación con la parte inferior de otro componente.<br><br>
+<br>Si se establece en parent, el componente se alineará con la parte inferior del contenedor padre y, si no hay otras restricciones, se centrará en la pantalla.
+<br>También se puede usar con el ID de otro componente, lo que hará que el elemento se posicione alineado con la parte inferior de ese componente.
+<br><br>&lt;androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"&gt;
 
-<br><a data-href="When" href="\When" class="internal-link" target="_self" rel="noopener nofollow">When</a>]]></description><link>curso_android_studio\función.html</link><guid isPermaLink="false">Curso_android_studio/Función.md</guid><pubDate>Thu, 13 Feb 2025 11:10:02 GMT</pubDate></item><item><title><![CDATA[layout_constraitBottom_toBottomof]]></title><description><![CDATA[ 
- <br>Propiedad para tratar un componente como <a data-href="View" href="\View" class="internal-link" target="_self" rel="noopener nofollow">View</a> para decirle como queremos en la parte inferior y si se usa: parent te centra<br>Ademas de parent tenemos que podemos colcoar el id de algun otro componeten entonces seguiria al lado de ese componenet]]></description><link>curso_android_studio\layout_constraitbottom_tobottomof.html</link><guid isPermaLink="false">Curso_android_studio/layout_constraitBottom_toBottomof.md</guid><pubDate>Mon, 06 Nov 2023 10:12:23 GMT</pubDate></item><item><title><![CDATA[layout_contraitsTop_toTopOf]]></title><description><![CDATA[ 
- <br>No se usa Android sino que se colocar app:layout_...<br>Propiedad de los <a data-href="View" href="\View" class="internal-link" target="_self" rel="noopener nofollow">View</a> y otros parecidos que sirve para ubicar el compontee en la que se pude modificar su ubicacion de arriba dependiendo del que se use como atributo:<br> parent<br>
-Además de parent tenemos que podemos colocar el id de algún otro componente entonces seguiría al lado de ese componente]]></description><link>curso_android_studio\layout_contraitstop_totopof.html</link><guid isPermaLink="false">Curso_android_studio/layout_contraitsTop_toTopOf.md</guid><pubDate>Tue, 07 Nov 2023 07:56:34 GMT</pubDate></item><item><title><![CDATA[LinearLayout]]></title><description><![CDATA[ 
- <br>Solo permite poner elementos de manera vertical uno debajo de otroc adae que que agregemos un <a data-href="TextView" href="\TextView" class="internal-link" target="_self" rel="noopener nofollow">TextView</a> o otro elemento]]></description><link>curso_android_studio\linearlayout.html</link><guid isPermaLink="false">Curso_android_studio/LinearLayout.md</guid><pubDate>Sun, 05 Nov 2023 17:27:15 GMT</pubDate></item><item><title><![CDATA[Listas kotlin]]></title><description><![CDATA[ 
- <br>Son la mejora de los <a data-href="Arrays" href="\curso_android_studio\arrays.html" class="internal-link" target="_self" rel="noopener nofollow">Arrays</a>. Se diferencian entre dos tipos de listas las inmutebalesList son listas que no se cambian el valor y las muteables list son listas que cambian<br>InMuteable list:<br>
-val readOnly:List&lt;String&gt; = listOf("Lunes","MArtes","Miercoles","Jueves","Viernes","Sabado","Viernes")
+    &lt;TextView
+        android:id="@+id/tvExample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ejemplo"
+        app:layout_constraintBottom_toBottomOf="parent"/&gt;
 
-println(readonly) //Te mostrar todo los valores con toString() no muestra direccion de memeoria
-println(readonly[0]) 
+    &lt;Button
+        android:id="@+id/btnExample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Botón"
+        app:layout_constraintBottom_toBottomOf="@id/tvExample"/&gt;
+&lt;/androidx.constraintlayout.widget.ConstraintLayout&gt;
+<br><br>
+<br>El TextView se alinea con la parte inferior del parent (la pantalla o el ConstraintLayout).
+<br>El Button se posiciona alineado con la parte inferior del TextView.
+<br>Esta propiedad es útil para definir relaciones precisas entre los elementos de la interfaz, asegurando que mantengan una estructura consistente en diferentes tamaños de pantalla.]]></description><link>curso_android_studio\layout_constraitbottom_tobottomof.html</link><guid isPermaLink="false">Curso_android_studio/layout_constraitBottom_toBottomof.md</guid><pubDate>Tue, 04 Mar 2025 12:33:19 GMT</pubDate></item><item><title><![CDATA[layout_contraitsTop_toTopOf]]></title><description><![CDATA[ 
+ <br><br>layout_constraintTop_toTopOf es una propiedad utilizada en <a data-href="View" href="\curso_android_studio\view.html" class="internal-link" target="_self" rel="noopener nofollow">View</a> dentro de ConstraintLayout para definir la alineación de un componente con la parte superior de otro elemento.<br><br>
+<br>No se usa android:, sino app:layout_constraintTop_toTopOf.
+<br>Si se establece en parent, el componente se alineará con la parte superior del contenedor principal (ConstraintLayout).
+<br>También se puede usar con el ID de otro componente, lo que hará que el elemento se posicione alineado con la parte superior de ese componente.
+<br><br>&lt;androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"&gt;
 
-<br>Tenemos diferentes metdoos<br>
-<br>.size : tamaño de la lista
-<br>.last():Devuelve el ultimo valor de la lista
-<br>.first():Devuelve el primero de la lista
-<br>.filter():
-<br>var example = readOnly.filter {it.contains("a")} //it es el item o elemento
+    &lt;TextView
+        android:id="@+id/tvExample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ejemplo"
+        app:layout_constraintTop_toTopOf="parent"/&gt;
 
-println(example)
+    &lt;Button
+        android:id="@+id/btnExample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Botón"
+        app:layout_constraintTop_toTopOf="@id/tvExample"/&gt;
+&lt;/androidx.constraintlayout.widget.ConstraintLayout&gt;
+<br><br>
+<br>El TextView se posiciona en la parte superior del parent (ConstraintLayout).
+<br>El Button se alinea con la parte superior del TextView, manteniendo su posición en relación con él.
+<br>Esta propiedad permite un control preciso de la ubicación de los elementos en la interfaz, asegurando un diseño adaptable y bien estructurado.]]></description><link>curso_android_studio\layout_contraitstop_totopof.html</link><guid isPermaLink="false">Curso_android_studio/layout_contraitsTop_toTopOf.md</guid><pubDate>Tue, 04 Mar 2025 12:33:50 GMT</pubDate></item><item><title><![CDATA[LinearLayout]]></title><description><![CDATA[ 
+ <br><br>LinearLayout es un contenedor en Android que organiza sus elementos de forma lineal, permitiendo ubicarlos uno debajo del otro (orientación vertical) o en una sola fila (orientación horizontal).<br><br>
+<br>Organiza los elementos de manera secuencial, sin superposiciones.
+<br>La orientación se define con android:orientation, que puede ser:
 
-<br>Reccorer una lista:<br>readOnly.forEach{ weekDate -&gt; println(weekDate)} //Mas legible pero son lo mismo
-readOnly.forEach{ println(weekDate)} //Son iguales pero es menos legible
+<br>vertical → Los elementos se colocan uno debajo del otro.
+<br>horizontal → Los elementos se colocan uno al lado del otro.
 
-<br>Mutable list:<br>
-val weekDays:MutableList&lt;String&gt; = mutableListOf("Lunes","MArtes","Miercoles","Jueves","Viernes","Sabado","Viernes")  
+
+<br><br>&lt;LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"&gt;
+
+    &lt;TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto 1"/&gt;
+
+    &lt;TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto 2"/&gt;
+
+&lt;/LinearLayout&gt;
+<br><br>&lt;LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"&gt;
+
+    &lt;TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto 1"/&gt;
+
+    &lt;TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto 2"/&gt;
+
+&lt;/LinearLayout&gt;
+<br><br>
+<br>LinearLayout es fácil de usar, pero no es eficiente para diseños complejos.
+<br>Se recomienda evitar anidar muchos LinearLayout, ya que puede afectar el rendimiento.
+<br>Para mayor flexibilidad, en muchos casos es preferible usar ConstraintLayout.
+]]></description><link>curso_android_studio\linearlayout.html</link><guid isPermaLink="false">Curso_android_studio/LinearLayout.md</guid><pubDate>Tue, 04 Mar 2025 12:34:28 GMT</pubDate></item><item><title><![CDATA[Listas kotlin]]></title><description><![CDATA[ 
+ <br><br>Las listas en Kotlin son una mejora sobre los <a data-href="Arrays" href="\curso_android_studio\arrays.html" class="internal-link" target="_self" rel="noopener nofollow">Arrays</a>, proporcionando una forma más flexible y segura de manejar colecciones de datos.<br>Se dividen en dos tipos principales:<br>
+<br>Listas inmutables (List) → No pueden modificarse después de su creación.
+<br>Listas mutables (MutableList) → Permiten agregar, eliminar o modificar elementos.
+<br><br><br>Las listas inmutables no pueden cambiar su contenido después de ser creadas.<br>val readOnly: List&lt;String&gt; = listOf("Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo")
+
+println(readOnly) // Muestra todos los valores como un toString() automático
+println(readOnly[0]) // Accede al primer elemento de la lista
+<br><br>
+<br>.size → Devuelve el tamaño de la lista.
+<br>.last() → Retorna el último valor de la lista.
+<br>.first() → Retorna el primer valor de la lista.
+<br>.filter() → Filtra elementos de la lista según una condición.
+<br>val example = readOnly.filter { it.contains("a") } // `it` representa cada elemento de la lista
+
+println(example) // Muestra solo los elementos que contienen la letra "a"
+<br><br>readOnly.forEach { weekDate -&gt; println(weekDate) } // Más legible
+readOnly.forEach { println(it) } // Menos legible pero funcionalmente igual
+<br><br><br>Las listas mutables pueden modificarse agregando o eliminando elementos.<br>val weekDays: MutableList&lt;String&gt; = mutableListOf("Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo")
+
 println(weekDays)  
-  
-  
-weekDays.add("Pluton")  
-println(weekDays)//Añade pluton  
-  
-weekDays.add(0,"Jupiter")//Añade en la posion que queramos  
-  
-println(weekDays.isEmpty()) //Si esta vacio true  
-println(weekDays.isNotEmpty()) //Si no esta vacio es true  
-  
-  
-weekDays.last() //Ultimo elemento de la lista
-<br>Tambien cuenta con los mismo metdos de filter y forEach tambien se puede usar lo mismo de arrays]]></description><link>curso_android_studio\listas-kotlin.html</link><guid isPermaLink="false">Curso_android_studio/Listas kotlin.md</guid><pubDate>Sun, 05 Nov 2023 12:56:06 GMT</pubDate></item><item><title><![CDATA[Navigation Component]]></title><description><![CDATA[ 
- <br>La forma de navegar entre varios pantallas y fragmentos<br>Debemos colocar sus respetivas implementaciones:<br>val version = "2.7.5"  
-  
-//NavNavigation  
+<br><br>weekDays.add("Plutón") // Añade un nuevo elemento al final  
+println(weekDays)  
+
+weekDays.add(0, "Júpiter") // Añade "Júpiter" en la posición 0  
+println(weekDays)  
+
+println(weekDays.isEmpty()) // Devuelve `true` si la lista está vacía  
+println(weekDays.isNotEmpty()) // Devuelve `true` si la lista NO está vacía  
+
+println(weekDays.last()) // Devuelve el último elemento de la lista  
+<br><br><br>Las listas mutables e inmutables comparten muchos métodos como:<br>
+<br>.filter()
+<br>.forEach()
+<br>.size
+<br>.first()
+<br>.last()
+<br>Además, pueden utilizar los mismos métodos de los <a data-href="Arrays" href="\curso_android_studio\arrays.html" class="internal-link" target="_self" rel="noopener nofollow">Arrays</a>, ofreciendo una forma flexible y segura de manejar datos en <a data-href="Kotlin" href="\programacion-de-multimedia-y-dispositivos-moviles\kotlin.html" class="internal-link" target="_self" rel="noopener nofollow">Kotlin</a>.]]></description><link>curso_android_studio\listas-kotlin.html</link><guid isPermaLink="false">Curso_android_studio/Listas kotlin.md</guid><pubDate>Tue, 04 Mar 2025 12:35:27 GMT</pubDate></item><item><title><![CDATA[Navigation Component]]></title><description><![CDATA[ 
+ <br><br>El Navigation Component es la forma recomendada para manejar la navegación entre pantallas y <a data-href="Fragment" href="\curso_android_studio\fragment.html" class="internal-link" target="_self" rel="noopener nofollow">Fragment</a>s en una aplicación Android. Permite una gestión más sencilla y estructurada de las transiciones entre pantallas, incluso en aplicaciones con múltiples fragmentos.<br><br><br>Para usar Navigation Component, primero debemos agregar sus dependencias en build.gradle.kts:<br>val version = "2.7.5"  
+
+// Implementación de Navigation
 implementation("androidx.navigation:navigation-fragment-ktx:$version")  
 implementation("androidx.navigation:navigation-ui-ktx:$version")
-
-<br>Damos a sincronizar y después creamos la cantidad de fragment que vayamos a usar<br>Navigation Graph te muestra como mapa todas las pantalla de fragment que podemos navegar<br>Agregamos un directorio para poder trabajar con las pantallas y luego click derecho&gt;new&gt;Navigation Resource File<br>Esto se usa para poder navegar entre pantallas mucho mejor ya que si tenemos muchas pantalla esta es mas difícil verlo<br>Colocamos el botón de estrellas y te acomoda todas las pantallas además este te muestra todo<br>Te muestra todas las pantallas y luego puedes agruparlas para no ver todo en uno<br>Por detrás tienen un código que cada pantalla o <a data-href="Fragment" href="\curso_android_studio\fragment.html" class="internal-link" target="_self" rel="noopener nofollow">Fragment</a>o <a data-href="Activity" href="\curso_android_studio\activity.html" class="internal-link" target="_self" rel="noopener nofollow">Activity</a> agregado se muestra así:<br>&lt;?xml version="1.0" encoding="utf-8"?&gt;  
+<br>Luego, sincronizamos el proyecto en Android Studio y creamos los fragmentos que vayamos a utilizar.<br><br><br>El Navigation Graph es una herramienta visual que muestra todas las pantallas y fragmentos de la aplicación en un mapa interactivo, facilitando la navegación entre ellos.<br><br>
+<br>En la vista de Android Studio, hacer clic derecho en res/ → New → Navigation Resource File.
+<br>Asignarle un nombre, por ejemplo: nav_graph.xml.
+<br>Agregar los fragmentos al Navigation Graph.
+<br>Esto nos permite organizar y visualizar fácilmente la navegación entre pantallas.<br>En el modo visual, podemos arrastrar fragmentos y establecer conexiones entre ellos con flechas. También es posible agrupar fragmentos para mejorar la organización.<br><br><br>Internamente, cada pantalla o <a data-href="Fragment" href="\curso_android_studio\fragment.html" class="internal-link" target="_self" rel="noopener nofollow">Fragment</a> agregado al Navigation Graph se define en un archivo XML.<br>&lt;?xml version="1.0" encoding="utf-8"?&gt;  
 &lt;navigation xmlns:android="http://schemas.android.com/apk/res/android"  
     xmlns:app="http://schemas.android.com/apk/res-auto"  
     xmlns:tools="http://schemas.android.com/tools"  
     android:id="@+id/main_graph"  
     app:startDestination="@id/mainActivity"&gt;  
-  
-    &lt;fragment        android:id="@+id/firstFragment"  
+
+    &lt;fragment  
+        android:id="@+id/firstFragment"  
         android:name="com.practica.navigationcomponentexample.FirstFragment"  
         android:label="fragment_first"  
         tools:layout="@layout/fragment_first" /&gt;
-
-<br>Fragment se coloca la etiqueta y se coloca la ruta el nombre del id del framgento, <br>En la etiqueta del fragemnt padre en donde "app:startDestination:" en este podemos colocar la pantalla inicial y cual es la que empieza o la home<br>Recordar que solo hay una pantalla en realidad ya que los fragmentos son un reciclador de una pantalla osea que si o si debemos tener un <a data-href="Activity" href="\curso_android_studio\activity.html" class="internal-link" target="_self" rel="noopener nofollow">Activity</a> que contenga nuestros fragmentos<br>Ósea debemos usar un componente especial en nuestro <a data-href="PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/xml" href="\PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES\Curso_android_studio\xml" class="internal-link" target="_self" rel="noopener nofollow">PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Curso_android_studio/xml</a> del actityty para invocar nuestro Navigation Resousece File. Que es el Fragment Container View y agregarle un id para poder controlarlo<br>Quedando de la siguiente manera:<br>
-&lt;?xml version="1.0" encoding="utf-8"?&gt;  
-&lt;androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+&lt;/navigation&gt;
+<br>
+<br>app:startDestination="@id/mainActivity" → Define la pantalla principal de la aplicación.
+<br>&lt;fragment&gt; → Cada pantalla o fragmento se declara con su id y la clase correspondiente.
+<br><br><br>Los Fragment no pueden existir por sí solos; necesitan una <a data-href="Activity" href="\curso_android_studio\activity.html" class="internal-link" target="_self" rel="noopener nofollow">Activity</a> para contenerlos. Para esto, en el XML de la Activity, agregamos un FragmentContainerView, que alojará los fragmentos y manejará la navegación.<br>&lt;?xml version="1.0" encoding="utf-8"?&gt;  
+&lt;androidx.constraintlayout.widget.ConstraintLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
     xmlns:app="http://schemas.android.com/apk/res-auto"  
     xmlns:tools="http://schemas.android.com/tools"  
     android:layout_width="match_parent"  
     android:layout_height="match_parent"  
     tools:context=".MainActivity"&gt;  
-  
-    &lt;androidx.fragment.app.FragmentContainerView        android:id="@+id/navHostFragment"  
+
+    &lt;androidx.fragment.app.FragmentContainerView  
+        android:id="@+id/navHostFragment"  
         android:name="androidx.navigation.fragment.NavHostFragment"  
         android:layout_width="0dp"  
         android:layout_height="0dp"  
@@ -5066,50 +5335,533 @@ implementation("androidx.navigation:navigation-ui-ktx:$version")
         app:layout_constraintEnd_toEndOf="parent"  
         app:layout_constraintStart_toStartOf="parent"  
         app:layout_constraintBottom_toBottomOf="parent"  
-        app:navGraph="@navigation/main_graph"  
-        /&gt;  
-  
+        app:navGraph="@navigation/nav_graph"  
+        app:defaultNavHost="true"/&gt;  
+
 &lt;/androidx.constraintlayout.widget.ConstraintLayout&gt;
-<br>En el name le decimos la propiedad que va usar android y que si o o si tiene que ser esa linea y en app:navGraph le colocamos el nombre nuestro navigation que hayamos hecho:<br>  android:name="androidx.navigation.fragment.NavHostFragment"  
-  app:navGraph="@navigation/NombreDenavigation"  
-<br>Despues le agregamos una propiedad mas para decirle cual es el contenedor principal de toda la vista que es:<br>app:defaultNavHost="true"
-<br>Luego podemos trabajar con nuresto graph navigation y tendremosel paratado design y ahi podermos darle con una flecha para decirle a que lado ir cuando cambimos de lado, pero si vamos al apartado de -&gt; superior y clickeamos podremos elegir el nombre del id, desde donde y a hacia donde y lo mas importnte una animacion para mostrar que se puede hacer. Es mejor entenderlo desde la herramienta de android studio<br>Pero tambien tiene  su parte de xml que podemos configurar nosotros directamente:<br>&lt;fragment  
+<br><br>
+<br>android:name="androidx.navigation.fragment.NavHostFragment" → Indica que este contenedor gestionará los fragmentos.
+<br>app:navGraph="@navigation/nav_graph" → Especifica el archivo Navigation Graph que hemos creado.
+<br>app:defaultNavHost="true" → Define este FragmentContainerView como el principal en la aplicación.
+<br><br><br>Desde la interfaz visual de Navigation Graph, podemos definir transiciones con flechas o configurar la navegación manualmente en XML.<br>&lt;fragment  
     android:id="@+id/firstFragment"  
     android:name="com.practica.navigationcomponentexample.FirstFragment"  
     android:label="fragment_first"  
-    tools:layout="@layout/fragment_first" &gt;  
-    &lt;action        android:id="@+id/action_firstFragment_to_secondFragment"  
-        app:destination="@id/secondFragment" /&gt;
-<br>En el action configuramos el id del cambio de fragmento y su destino pero tambien controlamos sus animaciones con:<br>app:enterAnim="@anim/nav_default_enter_anim"<br>
-app:exitAnim="@anim/nav_default_pop_enter_anim"<br>
-app:popEnterAnim="@anim/nav_default_pop_enter_anim"<br>
-app:popExitAnim="@anim/nav_default_exit_anim"<br>En anim podemos usar o definir difrernetes animaciones de cambio de pantlla como queramos<br><br>Es una dependencia que recomienda google para poder pasar diferentes datos para pintar en la pantalla del fragmento nunca vamos a pasar objectos complejos entre fragmentos ya que es una mala practica lo que si pasamos son id de algunos objectos enrte otras cosas:<br>En l grable scripts, en build.gradle.kts agregamos:<br>id("androidx.navigation.safeargs.kotlin") version "2.7.1" apply false<br>id("androidx.navigation.safeargs") version "2.7.1" apply false, si no usamos kotlin<br>Debemos hacerlo en los dos build.gradle<br>id("androidx.navigation.safeargs.kotlin")<br>Una vez sincronizado debemos ir a nuestro grapg o donde se encuentra xml que maneja nuestras pantalla podemo usar el lado visual para poder pasr un arguemnto pero tambien tenemos el codigo:<br>&lt;fragment  
+    tools:layout="@layout/fragment_first"&gt;  
+
+    &lt;action  
+        android:id="@+id/action_firstFragment_to_secondFragment"  
+        app:destination="@id/secondFragment"/&gt;
+&lt;/fragment&gt;
+<br>Esto indica que, al ejecutar la acción action_firstFragment_to_secondFragment, se navegará a secondFragment.<br>Podemos también definir animaciones en la transición entre fragmentos:<br>&lt;action  
+    android:id="@+id/action_firstFragment_to_secondFragment"  
+    app:destination="@id/secondFragment"  
+    app:enterAnim="@anim/nav_default_enter_anim"  
+    app:exitAnim="@anim/nav_default_exit_anim"  
+    app:popEnterAnim="@anim/nav_default_pop_enter_anim"  
+    app:popExitAnim="@anim/nav_default_pop_exit_anim"/&gt;
+<br>Las animaciones pueden ser personalizadas en la carpeta res/anim.<br><br><br>Podemos movernos entre fragmentos con findNavController() y la acción definida en el XML:<br>findNavController().navigate(R.id.action_firstFragment_to_secondFragment)
+<br>Si necesitamos pasar datos entre fragmentos, la mejor práctica es usar Safe Args.<br><br><br>Safe Args es una dependencia recomendada por Google para transferir datos entre fragmentos sin riesgo de errores.<br><br>id("androidx.navigation.safeargs.kotlin") version "2.7.1" apply false
+<br>Luego, sincronizamos el proyecto.<br><br>Podemos agregar argumentos en la interfaz visual o manualmente en XML:<br>&lt;fragment  
     android:id="@+id/secondFragment"  
     android:name="com.practica.navigationcomponentexample.SecondFragment"  
     android:label="fragment_second"  
-    tools:layout="@layout/fragment_second" &gt;  
-    &lt;action        android:id="@+id/action_secondFragment_to_thirdFragment"  
-        app:destination="@id/thirdFragment" /&gt;  
-    &lt;argument     
-       android:name="name"  
-        app:argType="string" /&gt;  
+    tools:layout="@layout/fragment_second"&gt;  
+
+    &lt;action  
+        android:id="@+id/action_secondFragment_to_thirdFragment"  
+        app:destination="@id/thirdFragment"/&gt;  
+
+    &lt;argument  
+        android:name="name"  
+        app:argType="string"/&gt;
 &lt;/fragment&gt;
-<br>Arguemtn tendra enombre y el typo igual la parte visual te lo hara automaticamente pero si falla es  bueno saber que hace por detras para entender que arreglar<br>Una vez hecho eso debemos cambiar el como pasamos entre pantallas:<br>findNavController().navigate(  
-    FirstFragmentDirections.actionFirstFragmentToSecondFragment(  
-        name = "Pepe"  
-    )  
+<br>Esto define un argumento llamado name de tipo String.<br><br>En el FirstFragment, usamos Safe Args para enviar el dato:<br>findNavController().navigate(
+    FirstFragmentDirections.actionFirstFragmentToSecondFragment(
+        name = "Pepe"
+    )
 )
-<br>Por dertras kotlin ya tiene creada una clase direcction con elnombre de tu fragmento y la accion y dentro de eeste definimos el parametro, para poder recibirlo:<br>]]></description><link>curso_android_studio\navigation-component.html</link><guid isPermaLink="false">Curso_android_studio/Navigation Component.md</guid><pubDate>Tue, 06 Feb 2024 07:54:28 GMT</pubDate></item><item><title><![CDATA[Nulabilidad kotlin]]></title><description><![CDATA[ 
- <br>En Android o kotlin las variables pueden ser  <a data-href="Null" href="\Null" class="internal-link" target="_self" rel="noopener nofollow">Null</a><br>No se puede asignar una variable null:<br>var name: String = null //mal
+<br>¿Qué hace FirstFragmentDirections?<br>
+Kotlin genera automáticamente una clase con los métodos adecuados para cada acción de navegación, evitando errores al pasar argumentos.<br><br>class SecondFragment : Fragment() {
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        val binding = FragmentSecondBinding.inflate(inflater, container, false)
+        
+        val args = SecondFragmentArgs.fromBundle(requireArguments())
+        binding.textView.text = args.name // Muestra el valor recibido
+
+        return binding.root
+    }
+}
+<br><br><br>El Navigation Component facilita la gestión de pantallas en una aplicación, permitiendo navegar entre <a data-href="Activity" href="\curso_android_studio\activity.html" class="internal-link" target="_self" rel="noopener nofollow">Activity</a>s y <a data-href="Fragment" href="\curso_android_studio\fragment.html" class="internal-link" target="_self" rel="noopener nofollow">Fragment</a>s de manera sencilla.<br>
+<br>Navigation Graph organiza visualmente las transiciones.
+<br>Safe Args permite pasar datos de forma segura entre fragmentos.
+<br>NavHostFragment actúa como contenedor principal de los fragmentos.
+<br>.]]></description><link>curso_android_studio\navigation-component.html</link><guid isPermaLink="false">Curso_android_studio/Navigation Component.md</guid><pubDate>Tue, 04 Mar 2025 12:36:27 GMT</pubDate></item><item><title><![CDATA[Nulabilidad kotlin]]></title><description><![CDATA[ 
+ <br><br>En <a data-href="Kotlin" href="\programacion-de-multimedia-y-dispositivos-moviles\kotlin.html" class="internal-link" target="_self" rel="noopener nofollow">Kotlin</a>, las variables pueden contener valores nulos (null), pero de manera controlada para evitar errores comunes en Android, como el temido NullPointerException.<br>Por defecto, no se permite asignar null a una variable de tipo String u otro tipo de datos, a menos que se especifique explícitamente que la variable puede ser nula.<br><br><br><br>var name: String = null // ❌ Error: una variable no nula no puede ser asignada a null
+<br><br>var name: String? = null // ✅ Correcto
+<br><br><br><br>Si estamos completamente seguros de que la variable no es null, podemos usar !! para forzar su uso. Sin embargo, si la variable es null, la aplicación crasheará con un NullPointerException.<br>println(name!!) // ⚠️ Si `name` es null, lanzará un error en tiempo de ejecución.
+<br><br>Si name tiene un valor, se ejecutará la función get(3), de lo contrario, la operación devolverá null.<br>println(name?.get(3)) // Si `name` es null, el resultado será null sin error.
+<br><br>Si name es null, se devuelve "Es null" como valor por defecto.<br>println(name?.get(3) ?: "Es null") // Si `name` es null, imprimirá "Es null".
+<br><br><br>
+<br>En Kotlin, las variables no pueden ser null a menos que se especifique con ?.
+<br>Usar !! es riesgoso y debe evitarse a menos que estemos 100% seguros de que el valor nunca será null.
+<br>Las mejores prácticas incluyen el uso de ?. para llamadas seguras y ?: para manejar valores alternativos.
+<br>Manejar la nulabilidad correctamente es fundamental en <a data-href="Android" href="\Android" class="internal-link" target="_self" rel="noopener nofollow">Android</a> para evitar errores y mejorar la estabilidad de la aplicación.]]></description><link>curso_android_studio\nulabilidad-kotlin.html</link><guid isPermaLink="false">Curso_android_studio/Nulabilidad kotlin.md</guid><pubDate>Tue, 04 Mar 2025 12:37:30 GMT</pubDate></item><item><title><![CDATA[Null]]></title><description><![CDATA[ 
+ <br><br>En <a data-href="Kotlin" href="\programacion-de-multimedia-y-dispositivos-moviles\kotlin.html" class="internal-link" target="_self" rel="noopener nofollow">Kotlin</a>, null representa la ausencia de un valor en una variable o propiedad. A diferencia de otros lenguajes como Java, Kotlin no permite valores null de forma predeterminada en variables, lo que ayuda a evitar errores comunes como el NullPointerException (NPE).<br><br><br>En Java, cualquier variable de tipo String, Int, Object, etc., puede ser null, lo que puede provocar fallos en tiempo de ejecución si intentamos acceder a métodos o propiedades de una variable nula.<br>Kotlin, en cambio, distingue entre variables que pueden ser null y variables que no pueden serlo, lo que hace que el código sea más seguro.<br><br><br><br>var name: String = "Pepe"
+name = null // ❌ Error: No se puede asignar null a una variable no nullable.
+<br><br>Para permitir null, debemos declarar la variable con ?:<br>var name: String? = null // ✅ Correcto
+<br><br><br><br>Si estamos seguros de que la variable no es null, podemos usar !! para forzar su uso.<br>println(name!!) // ⚠️ Si `name` es null, lanzará un NullPointerException.
+<br><br>Si name tiene un valor, se ejecutará la función length, de lo contrario, la operación devolverá null.<br>println(name?.length) // Si `name` es null, devuelve null sin error.
+<br><br>Si name es null, se devuelve "Sin nombre" como valor por defecto.<br>println(name ?: "Sin nombre") // Si `name` es null, imprimirá "Sin nombre".
+<br><br><br>
+<br>En Kotlin, null debe manejarse explícitamente con ?.
+<br>Evitar !! siempre que sea posible, ya que puede causar NullPointerException.
+<br>Usar ?. y ?: es la forma más segura de trabajar con valores nulos.
+<br>El correcto manejo de null en <a data-href="Android" href="\Android" class="internal-link" target="_self" rel="noopener nofollow">Android</a> y Kotlin ayuda a reducir errores y mejorar la estabilidad de la aplicación.]]></description><link>curso_android_studio\null.html</link><guid isPermaLink="false">Curso_android_studio/Null.md</guid><pubDate>Tue, 04 Mar 2025 12:38:43 GMT</pubDate></item><item><title><![CDATA[Print]]></title><description><![CDATA[ 
+ <br><br>En <a data-href="Kotlin" href="\programacion-de-multimedia-y-dispositivos-moviles\kotlin.html" class="internal-link" target="_self" rel="noopener nofollow">Kotlin</a>, print() es una <a data-href="Función" href="\curso_android_studio\función.html" class="internal-link" target="_self" rel="noopener nofollow">Función</a> utilizada para mostrar información en la pantalla o en la consola.<br><br>
+<br>Es útil para depurar el código y visualizar el estado de las variables en diferentes momentos.
+<br>Si el valor de una variable cambia después de ser impreso, la consola mostrará el valor anterior al cambio, ya que la ejecución del programa es secuencial.
+<br>No agrega un salto de línea después de la impresión, lo que significa que los valores se mostrarán en la misma línea.
+<br>val name = "Carlos"
+print(name) // Salida: Carlos
+print(" es programador") // Salida final: Carlos es programador
+<br><br><br>Para imprimir valores en líneas separadas automáticamente, se usa println(), que añade un salto de línea al final de la impresión.<br>println("Hola")
+println("Mundo")
+<br>Salida en la consola:<br>Hola
+Mundo
+<br>Diferencia clave:<br>
+<br>print() → Imprime sin salto de línea.
+<br>println() → Imprime y agrega un salto de línea automáticamente.
+<br>Esto es útil en <a data-href="Kotlin" href="\programacion-de-multimedia-y-dispositivos-moviles\kotlin.html" class="internal-link" target="_self" rel="noopener nofollow">Kotlin</a> para mejorar la legibilidad en la salida de datos.]]></description><link>curso_android_studio\print.html</link><guid isPermaLink="false">Curso_android_studio/Print.md</guid><pubDate>Tue, 04 Mar 2025 12:38:57 GMT</pubDate></item><item><title><![CDATA[RadioButton]]></title><description><![CDATA[ 
+ <br><br>RadioButton es un componente que permite al usuario seleccionar una única opción dentro de un grupo de opciones.<br>Por sí solo, un RadioButton actúa como una opción individual, pero cuando se agrupa dentro de un RadioGroup, se garantiza que solo una opción pueda estar seleccionada a la vez.<br><br><br>El RadioButton tiene la propiedad android:checked, que permite definir una opción predeterminada marcándola con true:<br>&lt;RadioButton  
+    android:id="@+id/rbOpcion1"  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"  
+    android:text="Opción 1"  
+    android:checked="true"/&gt;
+<br>En este caso, "Opción 1" aparecerá seleccionada por defecto.<br><br><br>Para organizar varios RadioButton y evitar que el usuario seleccione más de una opción simultáneamente, se usa RadioGroup:<br>&lt;RadioGroup  
+    android:id="@+id/radioGroup"  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"&gt;  
+
+    &lt;RadioButton  
+        android:id="@+id/rbOpcion1"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:text="Opción 1"  
+        android:checked="true"/&gt;  
+
+    &lt;RadioButton  
+        android:id="@+id/rbOpcion2"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:text="Opción 2"/&gt;  
+
+&lt;/RadioGroup&gt;
+<br><br>
+<br>Facilita la organización del XML al agrupar los RadioButton.
+<br>Garantiza que solo un botón pueda estar seleccionado dentro del grupo.
+<br>Permite acceder fácilmente al botón seleccionado en Kotlin.
+<br><br><br>val radioGroup = findViewById&lt;RadioGroup&gt;(R.id.radioGroup)
+val selectedOption = findViewById&lt;RadioButton&gt;(radioGroup.checkedRadioButtonId)
+
+println("Opción seleccionada: ${selectedOption.text}")
+<br><br><br>
+<br>RadioButton permite seleccionar una opción, pero debe agruparse en RadioGroup si queremos que el usuario solo pueda elegir una.
+<br>La propiedad checked define la opción seleccionada por defecto.
+<br>En <a data-href="Android" href="\Android" class="internal-link" target="_self" rel="noopener nofollow">Android</a>, RadioGroup facilita la manipulación de opciones y mejora la legibilidad del XML.
+]]></description><link>curso_android_studio\radiobutton.html</link><guid isPermaLink="false">Curso_android_studio/RadioButton.md</guid><pubDate>Tue, 04 Mar 2025 12:39:49 GMT</pubDate></item><item><title><![CDATA[RangeSlider]]></title><description><![CDATA[ 
+ <br><br>RangeSlider es un componente que permite al usuario seleccionar un rango de valores dentro de un intervalo definido. Es útil para establecer límites en configuraciones como filtros de precios, volumen, brillo, edad, etc..<br><br><br>Además de los atributos comunes en <a data-href="Android" href="\Android" class="internal-link" target="_self" rel="noopener nofollow">Android</a>, RangeSlider tiene propiedades específicas para definir su comportamiento:<br>
+<br>valueFrom → Define el valor mínimo del rango.
+<br>valueTo → Establece el valor máximo del rango.
+<br>stepSize → Determina el tamaño del salto cuando el usuario mueve los controles del RangeSlider.
+<br><br><br>&lt;com.google.android.material.slider.RangeSlider
+    android:id="@+id/rangeSlider"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:valueFrom="0"
+    app:valueTo="100"
+    app:stepSize="5"/&gt;
+<br><br>
+<br>valueFrom="0" → El rango comienza desde 0.
+<br>valueTo="100" → El rango máximo es 100.
+<br>stepSize="5" → El control se moverá en incrementos de 5 unidades.
+<br><br><br>Para capturar los valores seleccionados por el usuario, se usa addOnChangeListener:<br>val rangeSlider = findViewById&lt;RangeSlider&gt;(R.id.rangeSlider)
+
+rangeSlider.addOnChangeListener { slider, _, _ -&gt;
+    val values = slider.values
+    val minValue = values[0] // Primer valor del rango
+    val maxValue = values[1] // Segundo valor del rango
+    println("Rango seleccionado: $minValue - $maxValue")
+}
+<br><br><br>
+<br>RangeSlider permite seleccionar un rango en lugar de un solo valor.
+<br>valueFrom y valueTo definen los límites del control.
+<br>stepSize controla el salto entre valores.
+<br>Es altamente configurable y útil para mejorar la experiencia de usuario en <a data-href="Android" href="\Android" class="internal-link" target="_self" rel="noopener nofollow">Android</a>.
+]]></description><link>curso_android_studio\rangeslider.html</link><guid isPermaLink="false">Curso_android_studio/RangeSlider.md</guid><pubDate>Tue, 04 Mar 2025 12:40:38 GMT</pubDate></item><item><title><![CDATA[Sealed Class]]></title><description><![CDATA[ 
+ <br><br>Una Sealed Class es un tipo especial de <a data-href="Clase" href="\programacion-de-multimedia-y-dispositivos-moviles\clase.html" class="internal-link" target="_self" rel="noopener nofollow">Clase</a> en <a data-href="Kotlin" href="\programacion-de-multimedia-y-dispositivos-moviles\kotlin.html" class="internal-link" target="_self" rel="noopener nofollow">Kotlin</a> que restringe la herencia a un conjunto de clases definidas dentro del mismo archivo o paquete. Esto permite crear jerarquías de clases seguras y controladas.<br><br><br>
+<br>No pueden ser heredadas fuera del archivo donde están definidas.
+<br>Se utilizan comúnmente para modelar estados, eventos o resultados en lógica de negocio.
+<br>Aseguran que todas las subclases posibles son conocidas en tiempo de compilación, lo que facilita el manejo en estructuras como when.
+<br><br><br>sealed class Resultado {
+    data class Exito(val data: String) : Resultado()
+    data class Error(val mensaje: String) : Resultado()
+    object Cargando : Resultado()
+}
+<br>En este caso:<br>
+<br>Exito y Error son subclases de Resultado.
+<br>Cargando es un objeto único que representa un estado específico.
+<br>Resultado no puede ser extendida fuera de este archivo.
+<br><br><br>Las sealed class permiten un when sin necesidad de usar else, ya que el compilador conoce todas las opciones posibles:<br>fun manejarResultado(resultado: Resultado) {
+    when (resultado) {
+        is Resultado.Exito -&gt; println("Éxito: ${resultado.data}")
+        is Resultado.Error -&gt; println("Error: ${resultado.mensaje}")
+        Resultado.Cargando -&gt; println("Cargando...")
+    }
+}
+<br><br><br><br><br><br>
+<br>Sealed Class permite definir jerarquías de clases restringidas dentro del mismo archivo.
+<br>Son ideales para modelar estados en aplicaciones Android, como respuestas de red, errores o eventos.
+<br>Usar when con sealed class mejora la seguridad y legibilidad del código.
+]]></description><link>curso_android_studio\sealed-class.html</link><guid isPermaLink="false">Curso_android_studio/Sealed Class.md</guid><pubDate>Tue, 04 Mar 2025 12:41:43 GMT</pubDate></item><item><title><![CDATA[TextView]]></title><description><![CDATA[ 
+ <br><br>TextView es un componente en <a data-href="Android" href="\Android" class="internal-link" target="_self" rel="noopener nofollow">Android</a> utilizado para mostrar texto en la pantalla. Permite personalizar su apariencia y alineación mediante diferentes propiedades.<br><br><br><br>Estas propiedades definen el tamaño del TextView en la interfaz:<br>
+<br>android:layout_width → Define el ancho.
+<br>android:layout_height → Define la altura.
+<br>Ambos pueden tomar valores como wrap_content (ajustar al contenido) o match_parent (ocupar todo el espacio disponible).<br><br><br>La alineación del texto dentro del TextView depende del contenedor padre y de las propiedades aplicadas.<br>
+<br>Alineación dentro del contenedor (layout_gravity)
+
+<br>android:layout_gravity="center" → Centra el TextView dentro del contenedor padre.
+<br>También se pueden combinar valores: android:layout_gravity="top|center" (centrado horizontalmente en la parte superior).
 
 
-var name: String?= null //Bien
+<br>Alineación del texto dentro del TextView
+
+<br>android:gravity="center" → Centra el texto dentro del TextView.
 
 
-println(name!!)//Le dicimo con"!" que no es null y que estamo seguro que no es null
-println(name?.get(3): "Es null")// Si no es null name dame el valor pero si lo no lo des da  otro resultado
+<br>Dependiendo del contenedor padre (FrameLayout, LinearLayout, ConstraintLayout), la forma de centrar el TextView variará.<br>
+Lo más recomendable es usar ConstraintLayout para una mayor flexibilidad en la alineación.<br><br><br>
+<br>android:textSize="20sp" → Tamaño del texto en sp (unidad recomendada para escalabilidad).
+<br>android:text="Este es un texto" → Define el contenido del texto.
+<br>android:textStyle="italic" → Establece el estilo del texto (bold, italic, etc.).
+<br>android:textColor="@color/black" → Define el color del texto.
+<br><br><br>&lt;?xml version="1.0" encoding="utf-8"?&gt;  
+&lt;FrameLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:app="http://schemas.android.com/apk/res-auto"  
+    xmlns:tools="http://schemas.android.com/tools"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    tools:context=".firstapp.ResultActivity"&gt;  
 
-]]></description><link>curso_android_studio\nulabilidad-kotlin.html</link><guid isPermaLink="false">Curso_android_studio/Nulabilidad kotlin.md</guid><pubDate>Sun, 05 Nov 2023 10:27:01 GMT</pubDate></item><item><title><![CDATA[useCallBack]]></title><description><![CDATA[ 
+    &lt;TextView  
+        android:id="@+id/tvExample"
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        tools:text="Esto es un ejemplo"  
+        android:textSize="35sp"  
+        android:textColor="@color/material_dynamic_primary50"  
+        android:layout_gravity="center"/&gt;  
+
+&lt;/FrameLayout&gt;
+<br>👉 tools:text → Se usa solo para la vista previa en Android Studio, sin afectar el texto real en la app.<br><br><br>Podemos cambiar el contenido de un TextView desde la lógica en Kotlin:<br>val textView = findViewById&lt;TextView&gt;(R.id.tvExample)
+textView.text = "Texto actualizado desde Kotlin"
+<br><br><br>
+<br>TextView es el componente principal para mostrar texto en Android.
+<br>Se puede alinear dentro del contenedor con layout_gravity y dentro del TextView con gravity.
+<br>tools:text permite mostrar texto solo en el diseño sin afectarlo en tiempo de ejecución.
+<br>Lo más recomendable es usar ConstraintLayout para una mayor flexibilidad en el diseño.
+]]></description><link>curso_android_studio\textview.html</link><guid isPermaLink="false">Curso_android_studio/TextView.md</guid><pubDate>Tue, 04 Mar 2025 12:45:54 GMT</pubDate></item><item><title><![CDATA[Theme]]></title><description><![CDATA[ 
+ <br><br>El Theme en <a data-href="Android" href="\Android" class="internal-link" target="_self" rel="noopener nofollow">Android</a> es un archivo XML ubicado en res/values/themes.xml, donde se define el estilo global de la aplicación. A través de este archivo, podemos configurar elementos visuales como:<br>
+<br>Colores primarios y secundarios de la app.
+<br>Diseño de la barra superior (AppBar).
+<br>Apariencia de componentes (botones, textos, etc.).
+<br>Soporte para modo oscuro y claro.
+<br><br><br>Dentro del archivo themes.xml, podemos definir estilos personalizados utilizando &lt;style&gt;, lo que nos permite reutilizar configuraciones en diferentes componentes.<br><br>&lt;style name="ToDoSubtitle"&gt;  
+    &lt;item name="textAllCaps"&gt;true&lt;/item&gt;  
+    &lt;item name="android:textColor"&gt;@color/subtitle_text&lt;/item&gt;  
+    &lt;item name="android:layout_marginHorizontal"&gt;32dp&lt;/item&gt;  
+&lt;/style&gt;
+<br><br>Para usar este estilo en un TextView, Button o cualquier otro componente, lo llamamos con style="@style/NombreDelEstilo" en el XML del layout:<br>&lt;TextView  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"  
+    android:text="Texto con estilo"
+    style="@style/ToDoSubtitle"/&gt;
+<br><br><br>
+<br>Centraliza la personalización: No es necesario repetir atributos en cada componente.
+<br>Facilita los cambios de diseño: Modificar un tema afecta toda la app de forma inmediata.
+<br>Optimiza la organización del código: Separa la lógica de diseño del layout principal.
+<br>Permite soportar modo oscuro y claro con configuraciones específicas.
+<br><br><br>El archivo themes.xml es fundamental en <a data-href="Android" href="\Android" class="internal-link" target="_self" rel="noopener nofollow">Android</a> para definir los colores, estilos y apariencia de la aplicación. A través de los styles, podemos personalizar componentes y reutilizar configuraciones para mantener un diseño uniforme en toda la app.]]></description><link>curso_android_studio\theme.html</link><guid isPermaLink="false">Curso_android_studio/Theme.md</guid><pubDate>Tue, 04 Mar 2025 12:46:42 GMT</pubDate></item><item><title><![CDATA[Variables Alfanuméricas]]></title><description><![CDATA[ 
+ <br><br>Las variables alfanuméricas en <a data-href="Kotlin" href="\programacion-de-multimedia-y-dispositivos-moviles\kotlin.html" class="internal-link" target="_self" rel="noopener nofollow">Kotlin</a> incluyen los tipos Char y String, los cuales permiten almacenar caracteres individuales o cadenas de texto.<br><br><br>/**
+ * Variables Alfanuméricas
+ */
+
+val age: Int = 30
+
+// Char → Almacena un solo carácter
+val charExample1: Char = 'e'
+val charExample2: Char = '2'
+val charExample3: Char = '@'
+
+// String → Almacena cadenas de texto
+val stringExample1: String = "AristiDevs suscríbete"
+val stringExample2 = "AristiDevs"
+val stringExample3 = "4"
+val stringExample4 = "23"
+
+// Concatenación de Strings
+var stringConcatenada: String = "Hola"
+stringConcatenada = "Hola, me llamo $stringExample2 y tengo $age años"
+println(stringConcatenada)
+
+// Convertir un número a String
+val example123: String = age.toString()
+<br><br><br>Kotlin permite interpolación de strings usando $nombreDeVariable, lo que facilita la concatenación de valores dentro de una cadena:<br>val name = "Carlos"
+val age = 25
+val message = "Hola, soy $name y tengo $age años."
+println(message) // Salida: Hola, soy Carlos y tengo 25 años.
+<br>Esto también funciona con tipos numéricos, ya que Kotlin los convierte automáticamente a String.<br><br><br>
+<br>Char almacena un único carácter, mientras que String almacena cadenas de texto.
+<br>La interpolación con $variable simplifica la concatenación en Kotlin.
+<br>Los valores numéricos pueden convertirse en String con .toString().
+<br>Las variables alfanuméricas son esenciales en <a data-href="Kotlin" href="\programacion-de-multimedia-y-dispositivos-moviles\kotlin.html" class="internal-link" target="_self" rel="noopener nofollow">Kotlin</a> para manejar texto y comunicación en una aplicación.<br><a data-href="Booleanos" href="\curso_android_studio\booleanos.html" class="internal-link" target="_self" rel="noopener nofollow">Booleanos</a>]]></description><link>curso_android_studio\variables-alfanuméricas.html</link><guid isPermaLink="false">Curso_android_studio/Variables Alfanuméricas.md</guid><pubDate>Tue, 04 Mar 2025 12:47:58 GMT</pubDate></item><item><title><![CDATA[Variables Kotlin]]></title><description><![CDATA[ 
+ <br><br>En <a data-href="Kotlin" href="\programacion-de-multimedia-y-dispositivos-moviles\kotlin.html" class="internal-link" target="_self" rel="noopener nofollow">Kotlin</a>, las variables pueden definirse de dos maneras:<br>
+<br>val → Para valores constantes que no pueden cambiar después de su asignación.
+<br>var → Para valores mutables que pueden cambiar en cualquier momento.
+<br><br><br>val numInt: Int = 30  // Variable inmutable (constante)
+numInt = 32  // ❌ Error: No se puede reasignar un valor a una variable `val`
+
+var numMutable: Int = 32  // Variable mutable
+numMutable = 30  // ✅ No falla, ya que `var` permite modificar el valor
+<br><br><br>
+<br>Definir si es val o var (constante o variable).
+<br>Asignar un nombre siguiendo la convención <a data-href="CamelCase" href="\programacion-de-multimedia-y-dispositivos-moviles\camelcase.html" class="internal-link" target="_self" rel="noopener nofollow">CamelCase</a>.
+<br>Especificar el tipo de dato (Int, String, Boolean, etc.).
+<br>Ejemplo:<br>val nombre: String = "Carlos"
+var edad: Int = 25
+<br>👉 En Kotlin, los tipos de datos son envoltorios, no primitivos, lo que significa que Int, Double, Boolean, etc., son clases en lugar de tipos primitivos como en Java.<br><br><br>
+<br>val es para valores constantes que no cambian.
+<br>var es para valores mutables que pueden cambiar.
+<br>Kotlin usa <a data-href="CamelCase" href="\programacion-de-multimedia-y-dispositivos-moviles\camelcase.html" class="internal-link" target="_self" rel="noopener nofollow">CamelCase</a> para los nombres de variables.
+<br>Los tipos de datos en Kotlin no son primitivos, sino envoltorios.
+<br>Las variables en Kotlin son clave para almacenar y manipular datos de manera eficiente en <a data-href="Android" href="\Android" class="internal-link" target="_self" rel="noopener nofollow">Android</a> y otros entornos.<br><a data-href="Variables Numericas" href="\curso_android_studio\variables-numericas.html" class="internal-link" target="_self" rel="noopener nofollow">Variables Numericas</a>]]></description><link>curso_android_studio\variables-kotlin.html</link><guid isPermaLink="false">Curso_android_studio/Variables Kotlin.md</guid><pubDate>Tue, 04 Mar 2025 12:48:31 GMT</pubDate></item><item><title><![CDATA[Variables Numericas]]></title><description><![CDATA[ 
+ <br><br>En <a data-href="Kotlin" href="\programacion-de-multimedia-y-dispositivos-moviles\kotlin.html" class="internal-link" target="_self" rel="noopener nofollow">Kotlin</a>, existen diferentes tipos de variables numéricas, cada una con un rango específico de valores.<br><br><br>/**
+ * Variables Numéricas
+ */
+
+// Int → Rango: -2,147,483,647 a 2,147,483,647
+var age2: Int = 30
+age2 = 29  // ✅ Puede cambiar porque es `var`
+
+// Long → Rango: -9,223,372,036,854,775,807 a 9,223,372,036,854,775,807
+val example: Long = 30
+val example2: Long = 9223372036854775807
+
+// Float → Números decimales con precisión simple (32 bits)
+val floatExample: Float = 30.5f
+
+// Double → Números decimales con precisión doble (64 bits)
+val doubleExample: Double = 3241.3123123
+<br><br><br>Kotlin permite realizar operaciones matemáticas básicas con variables numéricas:<br>println("Sumar: ${age + age2}")          // Suma
+println("Restar: ${age - age2}")         // Resta
+println("Multiplicar: ${age * age2}")    // Multiplicación
+println("División: ${age / age2}")       // División (redondea en enteros si ambos son `Int`)
+println("Módulo: ${age % age2}")         // Resto de la división
+<br><br><br>Si combinamos diferentes tipos numéricos (por ejemplo, Int y Float), Kotlin convierte automáticamente al tipo de mayor precisión:<br>var exampleSuma = age + floatExample // `age` (Int) se convierte en `Float`
+println(exampleSuma) // Salida con decimales
+<br><br><br>
+<br>Int → Para números enteros dentro de un rango moderado.
+<br>Long → Para números enteros muy grandes.
+<br>Float → Para decimales de precisión simple.
+<br>Double → Para decimales de precisión alta.
+<br>Kotlin permite operaciones matemáticas directas entre variables numéricas.
+<br>Si se combinan tipos diferentes, Kotlin convierte automáticamente al tipo de mayor precisión.
+<br>Las variables numéricas son fundamentales en <a data-href="Kotlin" href="\programacion-de-multimedia-y-dispositivos-moviles\kotlin.html" class="internal-link" target="_self" rel="noopener nofollow">Kotlin</a> para realizar cálculos y manejar datos de manera eficiente.<br><a data-href="Variables Alfanuméricas" href="\curso_android_studio\variables-alfanuméricas.html" class="internal-link" target="_self" rel="noopener nofollow">Variables Alfanuméricas</a>]]></description><link>curso_android_studio\variables-numericas.html</link><guid isPermaLink="false">Curso_android_studio/Variables Numericas.md</guid><pubDate>Tue, 04 Mar 2025 12:49:05 GMT</pubDate></item><item><title><![CDATA[View]]></title><description><![CDATA[ 
+ <br><br>La View es el elemento más básico en <a data-href="Android" href="\Android" class="internal-link" target="_self" rel="noopener nofollow">Android</a>, actuando como la base de todos los componentes visuales. Se puede personalizar con diferentes propiedades para definir su tamaño, posición y apariencia.<br><br><br>&lt;View  
+    android:layout_width="125dp"  
+    android:layout_height="50dp"  
+    android:background="@color/teal_200"/&gt;
+<br>Explicación:<br>
+<br>android:layout_width="125dp" → Define el ancho de la vista.
+<br>android:layout_height="50dp" → Define la altura de la vista.
+<br>android:background="@color/teal_200" → Establece el color de fondo.
+<br><br><br>Para posicionar una View en la pantalla, se pueden usar restricciones de ConstraintLayout, como:<br>
+<br><a data-href="layout_constraintTop_toTopOf" href="\curso_android_studio\layout_constrainttop_totopof.html" class="internal-link" target="_self" rel="noopener nofollow">layout_constraintTop_toTopOf</a> → Alinea la vista con la parte superior de otro componente o parent.
+<br><a data-href="layout_constraintBottom_toBottomOf" href="\layout_constraintBottom_toBottomOf" class="internal-link" target="_self" rel="noopener nofollow">layout_constraintBottom_toBottomOf</a> → Alinea la vista con la parte inferior de otro componente o parent.
+<br><a data-href="layout_constraintStart_toStartOf" href="\curso_android_studio\layout_constraintstart_tostartof.html" class="internal-link" target="_self" rel="noopener nofollow">layout_constraintStart_toStartOf</a> → Alinea la vista con el lado izquierdo de otro componente o parent.
+<br>&lt;View  
+    android:layout_width="100dp"  
+    android:layout_height="50dp"  
+    android:background="@color/black"  
+    app:layout_constraintTop_toTopOf="parent"  
+    app:layout_constraintStart_toStartOf="parent"/&gt;
+<br>👉 Si se usa parent, la View se alineará con los bordes del contenedor principal.<br><br><br>
+<br>View es la base de todos los componentes visuales en <a data-href="Android" href="\Android" class="internal-link" target="_self" rel="noopener nofollow">Android</a>.
+<br>Se puede personalizar con ancho (layout_width), altura (layout_height) y color (background).
+<br>Se puede posicionar dentro de un ConstraintLayout con restricciones como:
+
+<br><a data-href="layout_constraintTop_toTopOf" href="\curso_android_studio\layout_constrainttop_totopof.html" class="internal-link" target="_self" rel="noopener nofollow">layout_constraintTop_toTopOf</a> (Alineación superior)
+<br><a data-href="layout_constraintBottom_toBottomOf" href="\layout_constraintBottom_toBottomOf" class="internal-link" target="_self" rel="noopener nofollow">layout_constraintBottom_toBottomOf</a> (Alineación inferior)
+<br><a data-href="layout_constraintStart_toStartOf" href="\curso_android_studio\layout_constraintstart_tostartof.html" class="internal-link" target="_self" rel="noopener nofollow">layout_constraintStart_toStartOf</a> (Alineación izquierda)
+
+
+<br>La correcta configuración de View permite crear interfaces flexibles y responsivas en Android.]]></description><link>curso_android_studio\view.html</link><guid isPermaLink="false">Curso_android_studio/View.md</guid><pubDate>Tue, 04 Mar 2025 12:49:41 GMT</pubDate></item><item><title><![CDATA[View Binding]]></title><description><![CDATA[ 
+ <br><br>View Binding es una alternativa mejorada a <a data-href="FindViewByID" href="\curso_android_studio\findviewbyid.html" class="internal-link" target="_self" rel="noopener nofollow">FindViewByID</a>, que evita errores comunes al trabajar con vistas en <a data-href="Android" href="\Android" class="internal-link" target="_self" rel="noopener nofollow">Android</a>.<br>🔹 ¿Por qué usar View Binding?<br>
+<br>findViewById() puede fallar si hay IDs duplicados en varias <a data-href="Activity" href="\curso_android_studio\activity.html" class="internal-link" target="_self" rel="noopener nofollow">Activity</a>s, ya que la aplicación no podrá identificar a cuál corresponde.
+<br>View Binding es más seguro y eficiente, evitando referencias nulas y errores en tiempo de ejecución.
+<br><br><br>Para activar View Binding, debemos modificar el archivo build.gradle.kts en la carpeta raíz de nuestra <a data-href="EstructuraDeUnProyecto" href="\curso_android_studio\estructuradeunproyecto.html" class="internal-link" target="_self" rel="noopener nofollow">EstructuraDeUnProyecto</a> (no en app).<br>android {
+    // Configuración general del proyecto
+
+    // Para versiones de Android Studio 4.0 o superior
+    buildFeatures {  
+        viewBinding = true  
+    }
+
+    // Para versiones anteriores a Android Studio 4.0
+    viewBinding {
+        enable = true
+    }
+}
+<br>Después de agregar esto, sincroniza el proyecto (Sync Now).<br>
+Si no estás seguro de tu versión de Android Studio, revisa <a data-href="EstructuraDeUnProyecto" href="\curso_android_studio\estructuradeunproyecto.html" class="internal-link" target="_self" rel="noopener nofollow">EstructuraDeUnProyecto</a> para comprobarla.<br><br><br><br>Debemos crear una variable que represente el binding para nuestro archivo XML.<br>private lateinit var binding: ActivityMainBinding
+<br><br>En el método onCreate(), inflamos el layout con binding.inflate(layoutInflater).<br>override fun onCreate(savedInstanceState: Bundle?) {
+    super.onCreate(savedInstanceState)
+    
+    binding = ActivityMainBinding.inflate(layoutInflater) // Inicializa el binding
+    setContentView(binding.root) // Asigna la vista al layout
+
+    // Acceder a componentes directamente con binding
+    binding.nombreDeIdDeComponente.setOnClickListener { 
+        Toast.makeText(this, "Clickeado", Toast.LENGTH_SHORT).show() 
+    }
+}
+<br>✅ Ventajas:<br>
+<br>No es necesario usar findViewById().
+<br>Evita errores al acceder a vistas que no existen en el layout.
+<br>Código más limpio y seguro.
+<br><br><br>En los fragmentos, View Binding requiere una implementación especial para evitar filtraciones de memoria (memory leaks).<br>class ExampleFragment : Fragment() {
+    
+    private var _binding: FragmentExampleBinding? = null // View Binding del Fragment
+    private val binding get() = _binding!! // Acceso seguro a la vista
+
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View {
+        _binding = FragmentExampleBinding.inflate(inflater, container, false)
+        return binding.root
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null // Evitar fugas de memoria
+    }
+}
+<br>🔹 ¿Por qué _binding = null en onDestroyView()?<br>
+<br>En los Fragment, la vista puede destruirse y recrearse (por ejemplo, al cambiar de orientación).
+<br>Si no liberamos _binding, la app puede tener fugas de memoria.
+<br><br><br>
+<br>View Binding reemplaza findViewById() de forma más segura y eficiente.
+<br>Evita referencias nulas y errores por IDs duplicados en <a data-href="Activity" href="\curso_android_studio\activity.html" class="internal-link" target="_self" rel="noopener nofollow">Activity</a>s y <a data-href="Fragment" href="\curso_android_studio\fragment.html" class="internal-link" target="_self" rel="noopener nofollow">Fragment</a>.
+<br>Mejora la legibilidad del código y optimiza el rendimiento.
+<br>En Fragment, siempre se debe liberar _binding en onDestroyView() para evitar fugas de memoria.
+<br>View Binding es una herramienta fundamental para escribir código más limpio y seguro en <a data-href="Android" href="\Android" class="internal-link" target="_self" rel="noopener nofollow">Android</a>.]]></description><link>curso_android_studio\view-binding.html</link><guid isPermaLink="false">Curso_android_studio/View Binding.md</guid><pubDate>Tue, 04 Mar 2025 12:50:33 GMT</pubDate></item><item><title><![CDATA[When]]></title><description><![CDATA[ 
+ <br><br>when en <a data-href="Kotlin" href="\programacion-de-multimedia-y-dispositivos-moviles\kotlin.html" class="internal-link" target="_self" rel="noopener nofollow">Kotlin</a> es una estructura similar a switch en otros lenguajes, pero más potente y flexible. Se usa para evaluar múltiples condiciones de manera limpia y concisa.<br><br><br>fun getMonth(month: Int) {
+    when (month) {
+        1 -&gt; println("Enero")
+        2 -&gt; println("Febrero")
+        3 -&gt; println("Marzo")
+        4 -&gt; println("Abril")
+        5 -&gt; println("Mayo")
+        6 -&gt; println("Junio")
+        7 -&gt; println("Julio")
+        8 -&gt; println("Agosto")
+        9 -&gt; println("Septiembre")
+        10 -&gt; println("Octubre")
+        11 -&gt; {
+            println("Noviembre")
+            println("Fin de año se acerca")
+        }
+        12 -&gt; println("Diciembre")
+        else -&gt; println("No es un mes válido")
+    }
+}
+<br>🔹 Diferencias con switch:<br>
+<br>when no requiere break al final de cada caso.
+<br>Se pueden agrupar múltiples valores en una misma condición.
+<br>Permite evaluar rangos y tipos de datos.
+<br><br><br>fun getTrimestre(month: Int) {
+    when (month) {
+        1, 2, 3 -&gt; println("Primer Trimestre")
+        4, 5, 6 -&gt; println("Segundo Trimestre")        
+        7, 8, 9 -&gt; println("Tercer Trimestre")    
+        10, 11, 12 -&gt; println("Cuarto Trimestre")        
+        else -&gt; println("No es un mes válido")
+    }
+}
+<br>📌 Aquí agrupamos varios meses dentro de un mismo caso sin necesidad de escribir una condición por separado.<br><br><br>fun getSemestre(month: Int) {
+    when (month) {
+        in 1..6 -&gt; println("Primer Semestre")
+        in 7..12 -&gt; println("Segundo Semestre")                
+        !in 1..12 -&gt; println("Semestre NO válido") // Si `month` no está entre 1 y 12
+    }
+}
+<br>📌 in 1..6 → Evalúa si el valor está dentro del rango del primer semestre.<br>
+📌 !in 1..12 → Evalúa si el valor está fuera del rango de meses válidos.<br><br><br>Any es la superclase de todos los tipos en Kotlin, lo que significa que una variable de tipo Any puede contener cualquier tipo de dato. Sin embargo, no se puede operar directamente con Any, ya que su tipo específico no está definido.<br>fun getType(value: Any) {
+    when (value) {
+        is Int -&gt; println("Es un número entero: ${value + value}") // Puede sumarse
+        is String -&gt; println("Es un texto: $value") // Se imprime directamente
+        is Boolean -&gt; if (value) println("Es un valor booleano verdadero")
+    }
+}
+<br>📌 El uso de is permite comprobar dinámicamente el tipo de dato y ejecutar diferentes acciones según corresponda.<br>❌ No se puede hacer operaciones como value + value si value no es un número, ya que Any no tiene un tipo definido hasta que se evalúa en when.<br><br><br>A diferencia de switch, when en Kotlin puede devolver valores directamente.<br>fun getSemestre(month: Int): String {
+    return when (month) {
+        in 1..6 -&gt; "Primer Semestre"
+        in 7..12 -&gt; "Segundo Semestre"
+        else -&gt; "Semestre NO válido"
+    }
+}
+<br>📌 El when se usa como una expresión, devolviendo un valor sin necesidad de usar return en cada caso.<br><br><br>Otra ventaja de when es que su resultado puede asignarse directamente a una variable, lo que hace el código más limpio y conciso.<br>fun getSemestre(month: Int): String {
+    val result = when (month) {
+        in 1..6 -&gt; "Primer Semestre"
+        in 7..12 -&gt; "Segundo Semestre"
+        else -&gt; "Semestre NO válido"
+    }
+    return result
+}
+<br><br>fun getSemestre(month: Int) = when (month) {
+    in 1..6 -&gt; "Primer Semestre"
+    in 7..12 -&gt; "Segundo Semestre"
+    else -&gt; "Semestre NO válido"
+}
+<br>📌 Si la función solo tiene un return, podemos omitir las llaves {} y el return, haciéndola aún más concisa.<br><br><br>✅ when es una alternativa más poderosa y flexible a switch.<br>
+✅ Permite evaluar múltiples valores, rangos y tipos de datos.<br>
+✅ Puede usarse para devolver valores directamente o asignarlos a variables.<br>
+✅ Facilita el código al evitar el uso de break y agrupar múltiples casos en una misma línea.<br>Es una herramienta clave para la toma de decisiones en <a data-href="Kotlin" href="\programacion-de-multimedia-y-dispositivos-moviles\kotlin.html" class="internal-link" target="_self" rel="noopener nofollow">Kotlin</a>.<br><a data-href="Nulabilidad kotlin" href="\curso_android_studio\nulabilidad-kotlin.html" class="internal-link" target="_self" rel="noopener nofollow">Nulabilidad kotlin</a>]]></description><link>curso_android_studio\when.html</link><guid isPermaLink="false">Curso_android_studio/When.md</guid><pubDate>Tue, 04 Mar 2025 12:51:35 GMT</pubDate></item><item><title><![CDATA[xml]]></title><description><![CDATA[ 
+ <br>Es que indica la <a data-href="EstructuraDeUnProyecto" href="\curso_android_studio\estructuradeunproyecto.html" class="internal-link" target="_self" rel="noopener nofollow">EstructuraDeUnProyecto</a> y el diseño de nuestra app<br>Tenemos u contenodr padre el mas facil es FrameLayout, Y mas sencillo de todos<br>Cada cotenedor tienen diferentes propiedades <br>android:layout_width="wrap_content" Esta propiedad le indicamos cuanto ocupa de ancho y el wrapcontent indica que ocupe solo lo minimo que necesita para mostrarse el boton<br>Y el matchParent todo el espacio que le permita el padre.<br>También tenemos unidades fijas: <br>
+<br>dp(para pantalla )
+<br>sp(para tamaño de fuentes)
+<br>Dentro de frame podemos crear otros componentes que también cuenta con estas propiedades, algunos de esos componentes son:<br>
+<br><a data-href="TextView" href="\curso_android_studio\textview.html" class="internal-link" target="_self" rel="noopener nofollow">TextView</a>
+<br><a data-href="View" href="\curso_android_studio\view.html" class="internal-link" target="_self" rel="noopener nofollow">View</a>
+<br><a data-href="AppCompatButton" href="\curso_android_studio\appcompatbutton.html" class="internal-link" target="_self" rel="noopener nofollow">AppCompatButton</a>
+<br><a data-href="Button" href="\Button" class="internal-link" target="_self" rel="noopener nofollow">Button</a>
+<br><a data-href="AppCompatEditText" href="\curso_android_studio\appcompatedittext.html" class="internal-link" target="_self" rel="noopener nofollow">AppCompatEditText</a>
+<br><a data-href="CardView" href="\curso_android_studio\cardview.html" class="internal-link" target="_self" rel="noopener nofollow">CardView</a>
+<br><a data-href="RangeSlider" href="\curso_android_studio\rangeslider.html" class="internal-link" target="_self" rel="noopener nofollow">RangeSlider</a>
+<br><a data-href="FloatingActionButon" href="\curso_android_studio\floatingactionbuton.html" class="internal-link" target="_self" rel="noopener nofollow">FloatingActionButon</a>
+<br><a data-href="CheckBox" href="\curso_android_studio\checkbox.html" class="internal-link" target="_self" rel="noopener nofollow">CheckBox</a>
+<br><a data-href="editText" href="\curso_android_studio\edittext.html" class="internal-link" target="_self" rel="noopener nofollow">editText</a>
+<br><a data-href="RadioButton" href="\curso_android_studio\radiobutton.html" class="internal-link" target="_self" rel="noopener nofollow">RadioButton</a>
+<br>Al igual que framelayout tenemos otros como:<br>
+<br><a data-href="LinearLayout" href="\curso_android_studio\linearlayout.html" class="internal-link" target="_self" rel="noopener nofollow">LinearLayout</a>
+<br><a data-href="ConstransLayout" href="\curso_android_studio\constranslayout.html" class="internal-link" target="_self" rel="noopener nofollow">ConstransLayout</a>
+<br>Se puede colcoar id a cada componente<br>con: android:id="@+id/nombreDeID"<br>Sirve para engachar con [[]]<br>Igual la propiedad text de nuestro text view no debe ser suado sino que debe referenciar a un string que tengamos en nuestro string de la carpata de recursos]]></description><link>curso_android_studio\xml.html</link><guid isPermaLink="false">Curso_android_studio/xml.md</guid><pubDate>Fri, 12 Jan 2024 17:53:35 GMT</pubDate></item><item><title><![CDATA[useCallBack]]></title><description><![CDATA[ 
  ]]></description><link>curso_react\hoks\usecallback.html</link><guid isPermaLink="false">Curso_React/hoks/useCallBack.md</guid><pubDate>Tue, 22 Oct 2024 14:59:11 GMT</pubDate></item><item><title><![CDATA[useContext]]></title><description><![CDATA[ 
  ]]></description><link>curso_react\hoks\usecontext.html</link><guid isPermaLink="false">Curso_React/hoks/useContext.md</guid><pubDate>Tue, 22 Oct 2024 14:59:20 GMT</pubDate></item><item><title><![CDATA[useEffect]]></title><description><![CDATA[ 
  <br>useEffect(() =&gt; ,[/*dependecies*/])
@@ -5180,11 +5932,11 @@ export default function Counter() {
 <br>Debe comenzar con una letra mayúscula
 <br>Puede recibir valores si es necesario
 <br><br>Props es la abreviación de propiedades, son argumentos que puede recibir un componente de React<br>Los props solo se pueden enviar de padre a hijos pero no de hijo a padre<br><img alt="componente_funcional.png" src="\lib\media\componente_funcional.png"><br><br>Siempre comienzan con una letr mayuscula diferente de los <a data-href="Elemento" href="\curso_react\elemento.html" class="internal-link" target="_self" rel="noopener nofollow">Elemento</a> que van  en minuscula]]></description><link>curso_react\componente-funcional.html</link><guid isPermaLink="false">Curso_React/Componente Funcional.md</guid><pubDate>Mon, 25 Dec 2023 16:20:59 GMT</pubDate><enclosure url="lib\media\componente_funcional.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\componente_funcional.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Elemento]]></title><description><![CDATA[ 
- <br>Unidades más pequeñas en <a data-href="React" href="\curso_react\react.html" class="internal-link" target="_self" rel="noopener nofollow">React</a>. Definen lo que se ve en la pantalla<br><br>La complejidad de componente es mayor. Un componente puede crear o renderizar otros componentes.<br>En cambio los elementos son muchos mas básicos<br>Los elementos están dentro de componentes por lota tanto un compnenente puede contener muchos elementos al a vez <br><br>Con <a data-href="JSX" href="\curso_react\jsx.html" class="internal-link" target="_self" rel="noopener nofollow">JSX</a> podemos crear y usar cualquier elemento HTML en el mismo<br><br>para poder reconocer un elemento de HTML se representa con etiquetas en letras minúsculas<br><br>Cualquier elemento de JSX puede tener atributos para especificar ciertas características a los mismos. Tenemos los atributos normales de HTML y los personalizados<br>Ej:<br>El atributo clase en HTML:<br>&lt;h1 class="titulo-azul"&gt;Azul&lt;/h1&gt;
-<br>El atirubto class en JSX:<br>&lt;h1 className="titulo-azul"&gt;Azul&lt;/h1&gt;
+ <br>Unidades más pequeñas en <a data-href="React" href="\curso_react\react.html" class="internal-link" target="_self" rel="noopener nofollow">React</a>. Definen lo que se ve en la pantalla<br><br>La complejidad de componente es mayor. Un componente puede crear o renderizar otros componentes.<br>En cambio los elementos son muchos mas básicos<br>Los elementos están dentro de componentes por lota tanto un componente puede contener muchos elementos al a vez <br><br>Con <a data-href="JSX" href="\curso_react\jsx.html" class="internal-link" target="_self" rel="noopener nofollow">JSX</a> podemos crear y usar cualquier elemento HTML en el mismo<br><br>para poder reconocer un elemento de HTML se representa con etiquetas en letras minúsculas<br><br>Cualquier elemento de JSX puede tener atributos para especificar ciertas características a los mismos. Tenemos los atributos normales de HTML y los personalizados<br>Ej:<br>El atributo clase en HTML:<br>&lt;h1 class="titulo-azul"&gt;Azul&lt;/h1&gt;
+<br>El atributo class en JSX:<br>&lt;h1 className="titulo-azul"&gt;Azul&lt;/h1&gt;
 <br>El porque esto se debe a que en JS tenemos  la palabra reservada "class" para hacer clases por eso se cambio la forma en la que se coloca el atributo<br>El atributo "for":<br>&lt;label for="css"&gt;CSS &lt;/label&gt;
 <br>Con  jsx:<br>&lt;lebel htmlFor="css"&gt;CSS&lt;/label&gt;
-<br><br>Se usa un lemento o div o elemneto html que conetega a todos los elementos o <a data-href="Componente Funcional" href="\curso_react\componente-funcional.html" class="internal-link" target="_self" rel="noopener nofollow">Componente Funcional</a><br>Generalemnte se coloca un id llamado "root" y para poder ver un elemento usamos <a data-href="React DOM" href="\curso_react\react-dom.html" class="internal-link" target="_self" rel="noopener nofollow">React DOM</a>]]></description><link>curso_react\elemento.html</link><guid isPermaLink="false">Curso_React/Elemento.md</guid><pubDate>Mon, 25 Dec 2023 23:15:02 GMT</pubDate></item><item><title><![CDATA[Estado]]></title><description><![CDATA[ 
+<br><br>Se usa un lemento o div o elemneto html que conetega a todos los elementos o <a data-href="Componente Funcional" href="\curso_react\componente-funcional.html" class="internal-link" target="_self" rel="noopener nofollow">Componente Funcional</a><br>Generalemnte se coloca un id llamado "root" y para poder ver un elemento usamos <a data-href="React DOM" href="\curso_react\react-dom.html" class="internal-link" target="_self" rel="noopener nofollow">React DOM</a>]]></description><link>curso_react\elemento.html</link><guid isPermaLink="false">Curso_React/Elemento.md</guid><pubDate>Tue, 04 Mar 2025 11:48:08 GMT</pubDate></item><item><title><![CDATA[Estado]]></title><description><![CDATA[ 
  <br>El estado en React es una representación de la información dinámica que un componente maneja y puede cambiar con el tiempo. Puede ser local al componente o global, dependiendo de los requisitos de la aplicación. La gestión adecuada del estado es esencial para construir aplicaciones React eficientes y reactivas.<br>Use estate para estados locales <a data-tooltip-position="top" aria-label="Curso_React/hoks/useContext" data-href="Curso_React/hoks/useContext" href="\curso_react\hoks\usecontext.html" class="internal-link" target="_self" rel="noopener nofollow">useContext</a> para generar estados globales, o generar un estado independiente de la renderización usando <a data-tooltip-position="top" aria-label="Curso_React/hoks/useRef" data-href="Curso_React/hoks/useRef" href="\curso_react\hoks\useref.html" class="internal-link" target="_self" rel="noopener nofollow">useRef</a>.]]></description><link>curso_react\estado.html</link><guid isPermaLink="false">Curso_React/Estado.md</guid><pubDate>Thu, 13 Feb 2025 10:52:50 GMT</pubDate></item><item><title><![CDATA[Event listener]]></title><description><![CDATA[ 
  <br>Cuando sucede un evento especifico en nuestro navegador este ejecuta una función eso es un event Listener, tambien llamada Event Handler]]></description><link>curso_react\event-listener.html</link><guid isPermaLink="false">Curso_React/Event listener.md</guid><pubDate>Thu, 21 Dec 2023 22:42:23 GMT</pubDate></item><item><title><![CDATA[Hooks]]></title><description><![CDATA[ 
  <br>Es una función especial que te permite trabajar con estados en componentes funcionales y otros aspectos de React<br>Su principal ventaja es que no hace falta crear un <a data-href="Componente de Clase" href="\curso_react\componente-de-clase.html" class="internal-link" target="_self" rel="noopener nofollow">Componente de Clase</a> gracias a los mismo y podemos trabajar con <a data-href="Componente Funcional" href="\curso_react\componente-funcional.html" class="internal-link" target="_self" rel="noopener nofollow">Componente Funcional</a> de manera mucho más fácil.<br>Hoks mas usados:<br>
@@ -5269,10 +6021,10 @@ const estiloDiv = {
 //Usar estilo especifico:
 &lt;div style={/*Aqui va JS*/{/*El objecto con estilos*/color: 'yellow'}}&gt;¡Hola ,Mundo!&lt;div&gt;
 <br>El style forma parte de los <a data-href="Atributos React" href="\curso_react\atributos-react.html" class="internal-link" target="_self" rel="noopener nofollow">Atributos React</a>]]></description><link>curso_react\style.html</link><guid isPermaLink="false">Curso_React/Style.md</guid><pubDate>Mon, 25 Dec 2023 22:52:44 GMT</pubDate></item><item><title><![CDATA[useState]]></title><description><![CDATA[ 
- <br>Es un <a data-href="Hooks" href="\curso_react\hooks.html" class="internal-link" target="_self" rel="noopener nofollow">Hooks</a>  que permite darle estado a un <a data-href="Componente Funcional" href="\curso_react\componente-funcional.html" class="internal-link" target="_self" rel="noopener nofollow">Componente Funcional</a> <br><br>El useState se importa y se usa un arreglo que contiene la variable que contiene ese valor, y luego la funcion que lo cambia la variable:<br>import {useState} from 'react';
+ <br>Es un <a data-href="Hooks" href="\curso_react\hooks.html" class="internal-link" target="_self" rel="noopener nofollow">Hooks</a>  que permite darle estado a un <a data-href="Componente Funcional" href="\curso_react\componente-funcional.html" class="internal-link" target="_self" rel="noopener nofollow">Componente Funcional</a> <br><br>El useState se importa y se usa un arreglo que contiene la variable que contiene ese valor, y luego la función que lo cambia la variable:<br>import {useState} from 'react';
 
 	const [variable,setVaraible] = useState("Valor inicial de cualquier tipo(int,string"));
-]]></description><link>curso_react\usestate.html</link><guid isPermaLink="false">Curso_React/useState.md</guid><pubDate>Thu, 18 Jan 2024 12:50:04 GMT</pubDate></item><item><title><![CDATA[Cambiar estilos en diferentes plataformas]]></title><description><![CDATA[ 
+]]></description><link>curso_react\usestate.html</link><guid isPermaLink="false">Curso_React/useState.md</guid><pubDate>Tue, 04 Mar 2025 11:48:32 GMT</pubDate></item><item><title><![CDATA[Cambiar estilos en diferentes plataformas]]></title><description><![CDATA[ 
  <br>Para poder dar <a data-href="Estilos" href="\curso-ractnative\estilos.html" class="internal-link" target="_self" rel="noopener nofollow">Estilos</a> en diferentes <a data-href="React Router Native" href="\curso-ractnative\react-router-native.html" class="internal-link" target="_self" rel="noopener nofollow">React Router Native</a> o rutas se puede usar:<br>import { Platform } from "react-native";
 
   
@@ -5782,7 +6534,7 @@ const Main = () =&gt; {
 
 export default Main; // Cambia a export default Main;
 ]]></description><link>curso-ractnative\react-router-native.html</link><guid isPermaLink="false">Curso-RactNative/React Router Native.md</guid><pubDate>Tue, 12 Mar 2024 11:01:13 GMT</pubDate></item><item><title><![CDATA[ScrollView]]></title><description><![CDATA[ 
- <br>Es un componente que usa para cuando un <a data-href="View" href="\View" class="internal-link" target="_self" rel="noopener nofollow">View</a> o vista necesita scroll lo cual si es un elementos muy básico  se usa <a data-href="FlatList" href="\curso-ractnative\flatlist.html" class="internal-link" target="_self" rel="noopener nofollow">FlatList</a> porque consume menos recursos]]></description><link>curso-ractnative\scrollview.html</link><guid isPermaLink="false">Curso-RactNative/ScrollView.md</guid><pubDate>Thu, 13 Feb 2025 10:59:00 GMT</pubDate></item><item><title><![CDATA[Text]]></title><description><![CDATA[ 
+ <br>Es un componente que usa para cuando un <a data-href="View" href="\curso_android_studio\view.html" class="internal-link" target="_self" rel="noopener nofollow">View</a> o vista necesita scroll lo cual si es un elementos muy básico  se usa <a data-href="FlatList" href="\curso-ractnative\flatlist.html" class="internal-link" target="_self" rel="noopener nofollow">FlatList</a> porque consume menos recursos]]></description><link>curso-ractnative\scrollview.html</link><guid isPermaLink="false">Curso-RactNative/ScrollView.md</guid><pubDate>Thu, 13 Feb 2025 10:59:00 GMT</pubDate></item><item><title><![CDATA[Text]]></title><description><![CDATA[ 
  <br>Componente de react básico para texto no se puede colocar texto directo]]></description><link>curso-ractnative\text.html</link><guid isPermaLink="false">Curso-RactNative/Text.md</guid><pubDate>Thu, 13 Feb 2025 10:58:46 GMT</pubDate></item><item><title><![CDATA[TextInput]]></title><description><![CDATA[ 
  <br>Es un input de html basico para olocar informacion]]></description><link>curso-ractnative\textinput.html</link><guid isPermaLink="false">Curso-RactNative/TextInput.md</guid><pubDate>Mon, 11 Mar 2024 11:45:49 GMT</pubDate></item><item><title><![CDATA[Touchable]]></title><description><![CDATA[ 
  <br>Botones que se pueden tocar de la UI<br>Se usa una propiedad onPress para ejecutar un trozo de código que queramos<br>Tenemos muchas variantes de touchable:<br>
@@ -8435,54 +9187,54 @@ git pull origin main
  <br>Listado y funcionamiento de comandos:<br>
 <br>docker create (opcional) --name &lt; nombre del contenedor&gt; &lt; imagen que usemos&gt; : crea un contenedor junto a una imagen que usemos. Este devuelve un id para poder ejecutar nuestro contenedor.
 <br>docker container create &lt; imagen que usaremos&gt; otra manera de crear un contenedor
-<br>docker start &lt; id del container || nombre del contenodr&gt;: iniciamos nuestro contenedor y devuelve el id de nuestro container.
-<br>docker ps: devuelve todos los contenedores que esten ejecutandose
+<br>docker start &lt; id del container || nombre del contendor&gt;: iniciamos nuestro contenedor y devuelve el id de nuestro container.
+<br>docker ps: devuelve todos los contenedores que estén ejecutándose
 <br>docker stop &lt; id de container&gt;: detiene ese contenedor mas no elimina
-<br>docker ps -a : devuelve todos los contenedores ya esten activos o no
-<br>docker rm &lt; nombre del container&gt;: cuando listas los cotnendosres estos tienen un nombre debes colocarlo para poder elimarlo.
-<br>docker create -p&lt; puerto de nuestra maquina fisica que queramos usar&gt; : (importante hay doble punto en el comanod) &lt; puerto interno que usar docker &gt; ... : crea un contenedor en el puerto especifico que nosotros queramos y elegimos el puerto del docker tambien, esto es llamado como <a data-href="Port Mapping" href="\dockercurso\port-mapping.html" class="internal-link" target="_self" rel="noopener nofollow">Port Mapping</a>
+<br>docker ps -a : devuelve todos los contenedores ya estén activos o no
+<br>docker rm &lt; nombre del container&gt;: cuando listas los contendores estos tienen un nombre debes colocarlo para poder eliminarlo.
+<br>docker create -p&lt; puerto de nuestra maquina física que queramos usar&gt; : (importante hay doble punto en el comando) &lt; puerto interno que usar docker &gt; ... : crea un contenedor en el puerto especifico que nosotros queramos y elegimos el puerto del docker tambien, esto es llamado como <a data-href="Port Mapping" href="\dockercurso\port-mapping.html" class="internal-link" target="_self" rel="noopener nofollow">Port Mapping</a>
 <br>docker  logs &lt; nombre de contenedor&gt;: este mostrar todos los logs que tenga ese contenedor
 <br>docker logs --follow &lt; nombre contenedor&gt;: este sigue esperando y no permite escribir mas logs sino que queda a la espera de mas logs para salir se usa ctrl + c
-<br>docker run &lt; nombre de imagen&gt; : Este es una combinacion de varios <a data-href="Comandos de imagenes" href="\dockercurso\comandos-de-imagenes.html" class="internal-link" target="_self" rel="noopener nofollow">Comandos de imagenes</a> y comandos de contendores:
+<br>docker run &lt; nombre de imagen&gt; : Este es una combinación de varios <a data-href="Comandos de imagenes" href="\dockercurso\comandos-de-imagenes.html" class="internal-link" target="_self" rel="noopener nofollow">Comandos de imagenes</a> y comandos de contendores:
 
 <br>Si no encuentra la imagen la descarga
 <br>Crea un contenedor
 <br>Inicia contenedor
 <br>Inicia el comando docker logs --follow
-<br>Si salimos del comando tambien se detiene la ejecucion del contenedor
+<br>Si salimos del comando tambien se detiene la ejecución del contenedor
 
 
-<br>docker run -d &lt; nombre de imagen&gt;: hace lo mismo que lo anterior pero sin logs y ni detener la ejecucion del contenedor. Esto se llama modo destapach por eso es "-d".
-<br>docker run --name &lt; nombre de contenedor&gt; -p&lt; puerto fisico o virtula nuestro &gt; : &lt; puerto interno de docker&gt; -d (opcional) &lt; nombre de imagen que queremos usar&gt;: Este ejecuta lo mismo que run -d pero con <a data-href="Port Mapping" href="\dockercurso\port-mapping.html" class="internal-link" target="_self" rel="noopener nofollow">Port Mapping</a> y diciendole el nombre que nos interesa.
+<br>docker run -d &lt; nombre de imagen&gt;: hace lo mismo que lo anterior pero sin logs y ni detener la ejecución del contenedor. Esto se llama modo destapach por eso es "-d".
+<br>docker run --name &lt; nombre de contenedor&gt; -p&lt; puerto físico o virtual nuestro &gt; : &lt; puerto interno de docker&gt; -d (opcional) &lt; nombre de imagen que queremos usar&gt;: Este ejecuta lo mismo que run -d pero con <a data-href="Port Mapping" href="\dockercurso\port-mapping.html" class="internal-link" target="_self" rel="noopener nofollow">Port Mapping</a> y diciéndole el nombre que nos interesa.
 <br>
-]]></description><link>dockercurso\comandos-de-contenedores.html</link><guid isPermaLink="false">DockerCurso/Comandos de Contenedores.md</guid><pubDate>Fri, 29 Mar 2024 18:48:58 GMT</pubDate></item><item><title><![CDATA[Comandos de imagenes]]></title><description><![CDATA[ 
- <br>Listado y descrpcion de comandos:<br>
+]]></description><link>dockercurso\comandos-de-contenedores.html</link><guid isPermaLink="false">DockerCurso/Comandos de Contenedores.md</guid><pubDate>Tue, 04 Mar 2025 11:44:03 GMT</pubDate></item><item><title><![CDATA[Comandos de imagenes]]></title><description><![CDATA[ 
+ <br>Listado y descripción de comandos:<br>
 <br>docker images: lista todas las imágenes
-<br>docker pull &lt; aplicacion que queremos&gt; : &lt; version que queramos&gt;: por defecto coloca la ultima version
-<br>docker image rm node:&lt; version que queramos elmininar&gt; : para ilimnar una imagen
-<br>docker build -t &lt; nombre de aplicacion&gt;: numero que queramos&gt;  &lt; ruta de nuestro proyecto &gt;: sirve para conteruir una aplcacion con la lista de comandos que nosotros allamos hecho de <a data-href="Conectar un contenedor a nuestra app" href="\dockercurso\conectar-un-contenedor-a-nuestra-app.html" class="internal-link" target="_self" rel="noopener nofollow">Conectar un contenedor a nuestra app</a>. Crea una imagen de nuestro proyecto
+<br>docker pull &lt; aplicación que queremos&gt; : &lt; versión que queramos&gt;: por defecto coloca la ultima versión
+<br>docker image rm node:&lt; versión que queramos eliminar&gt; : para eliminar una imagen
+<br>docker build -t &lt; nombre de aplicación&gt;: numero que queramos&gt;  &lt; ruta de nuestro proyecto &gt;: sirve para construir una aplicación con la lista de comandos que nosotros allamos hecho de <a data-href="Conectar un contenedor a nuestra app" href="\dockercurso\conectar-un-contenedor-a-nuestra-app.html" class="internal-link" target="_self" rel="noopener nofollow">Conectar un contenedor a nuestra app</a>. Crea una imagen de nuestro proyecto
 <br>
-<br>Existen imagenes que necesitan <a data-href="variables de configuracion" href="\variables de configuracion" class="internal-link" target="_self" rel="noopener nofollow">variables de configuracion</a> para poder funcionar las imagenes<br>
-<br>docker create --name mysqls -p 27070:27070 -e MYSQL_PASSWORD=simanadulto1J -e MYSQL_USER=javi mysql este es un ejemplo que usa variables de configuracion el parametro -e es para decirle a docker que es un variable 
-]]></description><link>dockercurso\comandos-de-imagenes.html</link><guid isPermaLink="false">DockerCurso/Comandos de imagenes.md</guid><pubDate>Fri, 29 Mar 2024 18:49:24 GMT</pubDate></item><item><title><![CDATA[Conectar un contenedor a nuestra app]]></title><description><![CDATA[ 
+<br>Existen imágenes que necesitan <a data-href="variables de configuracion" href="\variables de configuracion" class="internal-link" target="_self" rel="noopener nofollow">variables de configuracion</a> para poder funcionar las imágenes<br>
+<br>docker create --name mysqls -p 27070:27070 -e MYSQL_PASSWORD=simanadulto1J -e MYSQL_USER=javi mysql este es un ejemplo que usa variables de configuración el parámetro -e es para decirle a Docker que es un variable 
+]]></description><link>dockercurso\comandos-de-imagenes.html</link><guid isPermaLink="false">DockerCurso/Comandos de imagenes.md</guid><pubDate>Tue, 04 Mar 2025 11:45:22 GMT</pubDate></item><item><title><![CDATA[Conectar un contenedor a nuestra app]]></title><description><![CDATA[ 
  <br>Debemos crear una carpeta que si o si se debe llamar DockerFile<br>debemos decir de que tipo es una image:<br>
-<br>From &lt; tipo de aplicacion &gt;: node , python ,etc. Seguido de : podemos indicar la version que este disponible docker hub.
+<br>From &lt; tipo de aplicación &gt;: node , python ,etc. Seguido de : podemos indicar la version que este disponible docker hub.
 <br>RUN mkdir -p /home/app: es una ruta de nuestro contenedor y podremos indicar que es el home o index de nuestra aplicacion
 <br>COPY . /home/app es desde donde estamos copiamos en la ruta home hasta app  con eso podemos copiar el directorio de nuestro programa 
 <br>EXPOSE &lt; puerto del contendor&gt;: se expone un puerto del contendor que puede ejecutarse para poder usarlo
 <br>comadon para ejcutar nuestro servicio: puede ser python y el nombre del apalcaicion y ruta o node si es de node y de otra dependiendo de que tecnologia sea se usara una o otra.
 <br>CMD ["node","/home/app/index.js"] este es un ejemplo
-<br>Podemos usar cualquier comando de linux]]></description><link>dockercurso\conectar-un-contenedor-a-nuestra-app.html</link><guid isPermaLink="false">DockerCurso/Conectar un contenedor a nuestra app.md</guid><pubDate>Fri, 29 Mar 2024 17:54:48 GMT</pubDate></item><item><title><![CDATA[Contenedores]]></title><description><![CDATA[ 
+<br>Podemos usar cualquier comando de linux]]></description><link>dockercurso\conectar-un-contenedor-a-nuestra-app.html</link><guid isPermaLink="false">DockerCurso/Conectar un contenedor a nuestra app.md</guid><pubDate>Tue, 04 Mar 2025 11:45:28 GMT</pubDate></item><item><title><![CDATA[Contenedores]]></title><description><![CDATA[ 
  ]]></description><link>dockercurso\contenedores.html</link><guid isPermaLink="false">DockerCurso/Contenedores.md</guid><pubDate>Sat, 23 Mar 2024 21:37:14 GMT</pubDate></item><item><title><![CDATA[Docker Compose]]></title><description><![CDATA[ 
- <br>es un archivo .yml que contiene la configuracion de neustro contenedores:<br>Primero le decimos la version de nuestro docker:<br>version: "x.x"<br>se puede colocar cualquiera ya sea la uno mas basica la 2 un poco mas nueva y la 3 que contiene caracteristicas mas avznadas<br>seguido de esto debemos decirle que contenedores son los que queremos usar:<br>version: "3.9"
+ <br>es un archivo .yml que contiene la configuracion de neustro contenedores:<br>Primero le decimos la version de nuestro docker:<br>version: "x.x"<br>se puede colocar cualquiera ya sea la uno mas básica la 2 un poco mas nueva y la 3 que contiene características mas avanzadas<br>seguido de esto debemos decirle que contenedores son los que queremos usar:<br>version: "3.9"
 services:
   granja:
   mysqlss:
-<br>Dentro services se menciona dentro de cada contenedor tenemos difrentes configuraciones:<br>
-<br>build: para decirle donde esta el archivo dockerfile de nuestro proyecto generalmente es "." para decirle que esta en la misma ruta
+<br>Dentro services se menciona dentro de cada contenedor tenemos diferentes configuraciones:<br>
+<br>build: para decirle donde esta el archivo Docker file de nuestro proyecto generalmente es "." para decirle que esta en la misma ruta
 <br>ports: puertos que queramos usar. <a data-href="Port Mapping" href="\dockercurso\port-mapping.html" class="internal-link" target="_self" rel="noopener nofollow">Port Mapping</a> usamos "" y dentro el puerto, podemos indicar todos los puertos que queramos
-<br>links: le indicamos que otros contenedores trabaja nuestra aplicacion, los nombres de contenedores no usamos " " para indicarlo sin ella.
-<br>image: le indicamos en que images estan basadas
+<br>links: le indicamos que otros contenedores trabaja nuestra aplicación, los nombres de contenedores no usamos " " para indicarlo sin ella.
+<br>image: le indicamos en que imágenes están basadas
 <br>Ejemplo de uso de todo:<br>version: "3.9"
 services:
   granja:
@@ -8497,18 +9249,18 @@ services:
       - "27000:27000"
     environment:
       - MYSQL_ROOT_PASSWORD=1234
-<br>Despues para poder ejeutar nuestro yaml tenemos el comando:<br>
+<br>Después para poder ejecutar nuestro yaml tenemos el comando:<br>
 <br>docker compose up
-<br>docker compose down: para elimanr todas las images, red y conenedores que alla creado nuestro docker
-]]></description><link>dockercurso\docker-compose.html</link><guid isPermaLink="false">DockerCurso/Docker Compose.md</guid><pubDate>Sat, 30 Mar 2024 10:27:15 GMT</pubDate></item><item><title><![CDATA[Docker Network]]></title><description><![CDATA[ 
+<br>docker compose down: para eliminar todas las imágenes, red y contenedores que allá creado nuestro Docker
+]]></description><link>dockercurso\docker-compose.html</link><guid isPermaLink="false">DockerCurso/Docker Compose.md</guid><pubDate>Tue, 04 Mar 2025 11:46:49 GMT</pubDate></item><item><title><![CDATA[Docker Network]]></title><description><![CDATA[ 
  <br>Es un conjunto de contendores que se comunican entre si<br>Comandos:<br>
 <br>docker network ls: para listar todas las conexiones
-<br>docker network create &lt; nombre de network&gt;: creamo una conexion entre contenedores
-<br>docker network rm &lt; nombre de network&gt;: eliminamos un netwokr
+<br>docker network create &lt; nombre de network&gt;: creamos una conexion entre contenedores
+<br>docker network rm &lt; nombre de network&gt;: eliminamos un network
 <br>
-]]></description><link>dockercurso\docker-network.html</link><guid isPermaLink="false">DockerCurso/Docker Network.md</guid><pubDate>Fri, 29 Mar 2024 18:40:37 GMT</pubDate></item><item><title><![CDATA[Imagenes]]></title><description><![CDATA[ 
+]]></description><link>dockercurso\docker-network.html</link><guid isPermaLink="false">DockerCurso/Docker Network.md</guid><pubDate>Tue, 04 Mar 2025 11:47:02 GMT</pubDate></item><item><title><![CDATA[Imagenes]]></title><description><![CDATA[ 
  ]]></description><link>dockercurso\imagenes.html</link><guid isPermaLink="false">DockerCurso/Imagenes.md</guid><pubDate>Sat, 23 Mar 2024 21:37:25 GMT</pubDate></item><item><title><![CDATA[Port Mapping]]></title><description><![CDATA[ 
- <br>Recibimos una conexion en fisico en nuestra maquina y nosotros queremos mapearlo con nuestros contenedores, es decir tenemos contendores que corren que internamente corren en el mismo puerto (ej: 3000) cuando lo conextemos a nuestra maquina usamos port mapping (el primer container 3000, el segundo el 3001) cambiado el puerto en el que se usa]]></description><link>dockercurso\port-mapping.html</link><guid isPermaLink="false">DockerCurso/Port Mapping.md</guid><pubDate>Sat, 23 Mar 2024 22:11:40 GMT</pubDate></item><item><title><![CDATA[Virtualizacion SO y aplicaciones]]></title><description><![CDATA[ 
+ <br>Recibimos una conexion en fisico en nuestra maquina y nosotros queremos mapearlo con nuestros contenedores, es decir tenemos contendores que corren que internamente corren en el mismo puerto (ej: 3000) cuando lo conextemos a nuestra maquina usamos port mapping (el primer container 3000, el segundo el 3001) cambiado el puerto en el que se usa.]]></description><link>dockercurso\port-mapping.html</link><guid isPermaLink="false">DockerCurso/Port Mapping.md</guid><pubDate>Tue, 04 Mar 2025 11:47:19 GMT</pubDate></item><item><title><![CDATA[Virtualizacion SO y aplicaciones]]></title><description><![CDATA[ 
  ]]></description><link>dockercurso\virtualizacion-so-y-aplicaciones.html</link><guid isPermaLink="false">DockerCurso/Virtualizacion SO y aplicaciones.md</guid><pubDate>Sat, 23 Mar 2024 21:37:32 GMT</pubDate></item><item><title><![CDATA[Volumes]]></title><description><![CDATA[ 
  <br>Parte del sistema de archivos que contiene el contendor esta comparte esa parte con el sistema de archivos anfitrion permitiendo pasar archivos en ambos lados<br>Existe tres tipos de volumes:<br>
 <br>Anonimo: solo indicas la ruta, no pueder referenciar para que lo utlize otro contenedor
@@ -9301,7 +10053,7 @@ runtimeService.startProcessInstanceByKey("simpleProcess");
 <br>Persistencia: Android tiene restricciones de almacenamiento y ejecución en segundo plano, lo que puede afectar la persistencia de los procesos.
 <br>Seguridad: Asegurar la integridad de los procesos es fundamental, especialmente si se manejan datos sensibles.
 ]]></description><link>programacion-de-multimedia-y-dispositivos-moviles\activiti.html</link><guid isPermaLink="false">PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Activiti.md</guid><pubDate>Sun, 02 Mar 2025 10:20:01 GMT</pubDate></item><item><title><![CDATA[Adapter]]></title><description><![CDATA[ 
- <br>Es el que estrae los datos y dice donde van, que se van usar en el <a data-href="Recicly View" href="\programacion-de-multimedia-y-dispositivos-moviles\recicly-view.html" class="internal-link" target="_self" rel="noopener nofollow">Recicly View</a><br>Para usarlo extendemos de RecyclerView,Adapter &lt; NombreDeLaClaseHolder&gt;<br>Ejemplo:<br>package com.example.estudioandroid.todoapp  
+ <br>Es el que estrae los datos y dice donde van, que se van usar en el <a data-href="RecyclerView" href="\programacion-de-multimedia-y-dispositivos-moviles\recyclerview.html" class="internal-link" target="_self" rel="noopener nofollow">RecyclerView</a><br>Para usarlo extendemos de RecyclerView,Adapter &lt; NombreDeLaClaseHolder&gt;<br>Ejemplo:<br>package com.example.estudioandroid.todoapp  
   
 import android.view.ViewGroup  
 import androidx.recyclerview.widget.RecyclerView  
@@ -9327,14 +10079,14 @@ override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CatagoryViewh
 <br>En este devemos incializar una view que le pasaremos de parametro a nuestro holder para que la pinte<br>Layput Infalte busacr xml con item que allamaos creado como estamos en otro contexto no podemos usar this debemos decir contexto padre y R en debe busacr por id buscamos por layout, entrando en el directorio layout y buscando el nombre que le digmos<br>override fun onBindViewHolder(holder: CatagoryViewholder, position: Int) {  
     holder.render(categories[position])  
 }
-<br>Este recorre dentro de nuestra lista por detrás y ira pintando con la función render que nosotros creamos en nuestro <a data-href="holder" href="\programacion-de-multimedia-y-dispositivos-moviles\holder.html" class="internal-link" target="_self" rel="noopener nofollow">holder</a>]]></description><link>programacion-de-multimedia-y-dispositivos-moviles\adapter.html</link><guid isPermaLink="false">PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Adapter.md</guid><pubDate>Thu, 09 Nov 2023 12:09:46 GMT</pubDate></item><item><title><![CDATA[Aplicación Básica]]></title><description><![CDATA[ 
+<br>Este recorre dentro de nuestra lista por detrás y ira pintando con la función render que nosotros creamos en nuestro <a data-href="holder" href="\programacion-de-multimedia-y-dispositivos-moviles\holder.html" class="internal-link" target="_self" rel="noopener nofollow">holder</a>]]></description><link>programacion-de-multimedia-y-dispositivos-moviles\adapter.html</link><guid isPermaLink="false">PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Adapter.md</guid><pubDate>Tue, 04 Mar 2025 11:54:26 GMT</pubDate></item><item><title><![CDATA[Aplicación Básica]]></title><description><![CDATA[ 
  <br><br><br>El primer paso es definir los modelos de datos utilizando data classes, que permiten almacenar la información de manera estructurada y eficiente.<br><br>Para el diseño de la interfaz, Google recomienda el uso de ConstraintLayout, ya que permite organizar los elementos de manera flexible y eficiente.<br><br>
 <br>Uso de CardView en lugar de ConstraintLayout para resaltar elementos visuales.
 <br>Medidas relativas con <a data-href="dp" href="\programacion-de-multimedia-y-dispositivos-moviles\dp.html" class="internal-link" target="_self" rel="noopener nofollow">dp</a> para asegurar compatibilidad con diferentes tamaños de pantalla.
 <br>Jerarquía del diseño:
 
 <br>ConstraintLayout como vista padre.
-<br>Elementos visuales como <a data-href="ImgView" href="\programacion-de-multimedia-y-dispositivos-moviles\imgview.html" class="internal-link" target="_self" rel="noopener nofollow">ImgView</a> y <a data-href="TextView" href="\TextView" class="internal-link" target="_self" rel="noopener nofollow">TextView</a>.
+<br>Elementos visuales como <a data-href="ImgView" href="\programacion-de-multimedia-y-dispositivos-moviles\imgview.html" class="internal-link" target="_self" rel="noopener nofollow">ImgView</a> y <a data-href="TextView" href="\curso_android_studio\textview.html" class="internal-link" target="_self" rel="noopener nofollow">TextView</a>.
 <br>Definición de tamaños de texto con <a data-href="SP" href="\programacion-de-multimedia-y-dispositivos-moviles\sp.html" class="internal-link" target="_self" rel="noopener nofollow">SP</a>.
 <br>Uso de herramientas de diseño como tools:text para visualizar el contenido en Android Studio.
 
@@ -9342,7 +10094,7 @@ override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CatagoryViewh
 <br><br>Se realiza una petición a la API para obtener los datos que se mostrarán en la aplicación.<br><br>Se utiliza RecyclerView para mostrar listas de datos de manera optimizada y fluida.<br><br>El Adapter es responsable de conectar los datos con la interfaz gráfica, asegurando que los elementos se muestren correctamente en la lista.<br><br>
 <br>ViewHolder (VH) Personalizado: Se define una clase interna para optimizar la gestión de vistas.
 <br>Uso de <a data-href="inner Clase" href="\programacion-de-multimedia-y-dispositivos-moviles\inner-clase.html" class="internal-link" target="_self" rel="noopener nofollow">inner Clase</a>: Se crea una clase interna dentro del adaptador para manejar las vistas de cada elemento.
-<br>Con este flujo, se logra estructurar una aplicación básica en Android de manera eficiente y modular.]]></description><link>programacion-de-multimedia-y-dispositivos-moviles\aplicación-básica.html</link><guid isPermaLink="false">PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Aplicación Básica.md</guid><pubDate>Sun, 02 Mar 2025 10:59:07 GMT</pubDate></item><item><title><![CDATA[Arquitectura Limpia]]></title><description><![CDATA[ 
+<br>Con este flujo, se logra estructurar una aplicación básica en Android de manera eficiente y modular.]]></description><link>programacion-de-multimedia-y-dispositivos-moviles\aplicación-básica.html</link><guid isPermaLink="false">PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Aplicación Básica.md</guid><pubDate>Tue, 04 Mar 2025 11:54:26 GMT</pubDate></item><item><title><![CDATA[Arquitectura Limpia]]></title><description><![CDATA[ 
  <br><br>Arquitectura Limpia (Clean Architecture) es un patrón de diseño propuesto por Robert C. Martin (Uncle Bob) que busca organizar el código en capas bien definidas para mejorar la mantenibilidad, escalabilidad y testabilidad de las aplicaciones.<br><br><br>
 <br>Separación de responsabilidades → Cada capa tiene un propósito claro.
 <br>Independencia de frameworks → La lógica de negocio no depende de detalles de implementación.
@@ -9680,7 +10432,7 @@ Número procesado: 4
     println("Usuarios recibidos: $lista")
 }
 ]]></description><link>programacion-de-multimedia-y-dispositivos-moviles\flow.html</link><guid isPermaLink="false">PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Flow.md</guid><pubDate>Sun, 02 Mar 2025 11:32:52 GMT</pubDate></item><item><title><![CDATA[holder]]></title><description><![CDATA[ 
- <br>Es el que le dice al <a data-href="Recicly View" href="\programacion-de-multimedia-y-dispositivos-moviles\recicly-view.html" class="internal-link" target="_self" rel="noopener nofollow">Recicly View</a> como pintar los elementos<br>Generalmente hacemos que herede de ReciclerView.ViewHolder(Vista) , quedando de la siguiente manera:<br>package com.example.estudioandroid.todoapp  
+ <br>Es el que le dice al <a data-href="RecyclerView" href="\programacion-de-multimedia-y-dispositivos-moviles\recyclerview.html" class="internal-link" target="_self" rel="noopener nofollow">RecyclerView</a> como pintar los elementos<br>Generalmente hacemos que herede de ReciclerView.ViewHolder(Vista) , quedando de la siguiente manera:<br>package com.example.estudioandroid.todoapp  
   
 import android.view.View  
 import androidx.recyclerview.widget.RecyclerView  
@@ -9689,7 +10441,7 @@ class CatagoryViewholder (view:View): RecyclerView.ViewHolder(view){
   
   
 }
-<br>Dentro holder creamos una función que normalmente se llama render() y que recibe nuestra clase creada <a data-href="SealedClass" href="\SealedClass" class="internal-link" target="_self" rel="noopener nofollow">SealedClass</a> .]]></description><link>programacion-de-multimedia-y-dispositivos-moviles\holder.html</link><guid isPermaLink="false">PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/holder.md</guid><pubDate>Sun, 02 Mar 2025 10:21:01 GMT</pubDate></item><item><title><![CDATA[ImgView]]></title><description><![CDATA[ 
+<br>Dentro holder creamos una función que normalmente se llama render() y que recibe nuestra clase creada <a data-href="Sealed Class" href="\curso_android_studio\sealed-class.html" class="internal-link" target="_self" rel="noopener nofollow">Sealed Class</a> .]]></description><link>programacion-de-multimedia-y-dispositivos-moviles\holder.html</link><guid isPermaLink="false">PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/holder.md</guid><pubDate>Tue, 04 Mar 2025 12:44:07 GMT</pubDate></item><item><title><![CDATA[ImgView]]></title><description><![CDATA[ 
  <br><br>ImageView es un componente de la interfaz de usuario en Android que permite mostrar imágenes en la pantalla de la aplicación. Se puede utilizar para mostrar imágenes desde los recursos de la aplicación o cargar imágenes dinámicamente desde la web o almacenamiento interno.<br><br>Para agregar un ImageView en el archivo de diseño XML, se puede definir de la siguiente manera:<br>&lt;ImageView
     android:id="@+id/imagenEjemplo"
     android:layout_width="wrap_content"
@@ -10118,13 +10870,13 @@ fun main() {
 <br><a data-href="Métodos" href="\programacion-de-multimedia-y-dispositivos-moviles\métodos.html" class="internal-link" target="_self" rel="noopener nofollow">Métodos</a>
 <br><a data-href="Init" href="\programacion-de-multimedia-y-dispositivos-moviles\init.html" class="internal-link" target="_self" rel="noopener nofollow">Init</a>
 <br><a data-href="Activiti" href="\programacion-de-multimedia-y-dispositivos-moviles\activiti.html" class="internal-link" target="_self" rel="noopener nofollow">Activiti</a>
-<br><a data-href="Recicly View" href="\programacion-de-multimedia-y-dispositivos-moviles\recicly-view.html" class="internal-link" target="_self" rel="noopener nofollow">Recicly View</a>
+<br><a data-href="RecyclerView" href="\programacion-de-multimedia-y-dispositivos-moviles\recyclerview.html" class="internal-link" target="_self" rel="noopener nofollow">RecyclerView</a>
 <br><a data-href="Vistas - View" href="\programacion-de-multimedia-y-dispositivos-moviles\vistas-view.html" class="internal-link" target="_self" rel="noopener nofollow">Vistas - View</a>
 <br><a data-href="Adapter" href="\programacion-de-multimedia-y-dispositivos-moviles\adapter.html" class="internal-link" target="_self" rel="noopener nofollow">Adapter</a>
 <br><a data-href="Lista API" href="\programacion-de-multimedia-y-dispositivos-moviles\lista-api.html" class="internal-link" target="_self" rel="noopener nofollow">Lista API</a>
 <br><a data-href="Jerarquía De Carpetas" href="\programacion-de-multimedia-y-dispositivos-moviles\jerarquía-de-carpetas.html" class="internal-link" target="_self" rel="noopener nofollow">Jerarquía De Carpetas</a>
 <br><a data-href="Aplicación Básica" href="\programacion-de-multimedia-y-dispositivos-moviles\aplicación-básica.html" class="internal-link" target="_self" rel="noopener nofollow">Aplicación Básica</a>
-<br><a data-href="Temas  de segundo trimestre" href="\programacion-de-multimedia-y-dispositivos-moviles\temas-de-segundo-trimestre.html" class="internal-link" target="_self" rel="noopener nofollow">Temas  de segundo trimestre</a>]]></description><link>programacion-de-multimedia-y-dispositivos-moviles\pmdm.html</link><guid isPermaLink="false">PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/PMDM.md</guid><pubDate>Sun, 02 Mar 2025 10:59:22 GMT</pubDate></item><item><title><![CDATA[primitivo]]></title><description><![CDATA[ 
+<br><a data-href="Temas  de segundo trimestre" href="\programacion-de-multimedia-y-dispositivos-moviles\temas-de-segundo-trimestre.html" class="internal-link" target="_self" rel="noopener nofollow">Temas  de segundo trimestre</a>]]></description><link>programacion-de-multimedia-y-dispositivos-moviles\pmdm.html</link><guid isPermaLink="false">PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/PMDM.md</guid><pubDate>Tue, 04 Mar 2025 11:54:26 GMT</pubDate></item><item><title><![CDATA[primitivo]]></title><description><![CDATA[ 
  <br><br>En Kotlin, los tipos de datos primitivos son aquellos que representan valores básicos como números, caracteres y booleanos. A diferencia de Java, en Kotlin todos los tipos primitivos son representados como clases envolventes (Wrapper Classes) en tiempo de ejecución cuando es necesario, lo que permite un manejo más eficiente de la memoria.<br><br><br>Los tipos primitivos en Kotlin se dividen en las siguientes categorías:<br><br><br>Ejemplo de uso:<br>val numeroEntero: Int = 42
 val numeroDecimal: Double = 3.14
 <br><br>El tipo Boolean solo puede tener dos valores: true o false.<br>val esActivo: Boolean = true
@@ -10140,7 +10892,7 @@ val numeroDouble: Double = numero.toDouble() // Conversión explícita
 <br>toFloat()
 <br>toDouble()
 <br>toChar()
-]]></description><link>programacion-de-multimedia-y-dispositivos-moviles\primitivo.html</link><guid isPermaLink="false">PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/primitivo.md</guid><pubDate>Sun, 02 Mar 2025 11:12:12 GMT</pubDate></item><item><title><![CDATA[Recicly View]]></title><description><![CDATA[ 
+]]></description><link>programacion-de-multimedia-y-dispositivos-moviles\primitivo.html</link><guid isPermaLink="false">PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/primitivo.md</guid><pubDate>Sun, 02 Mar 2025 11:12:12 GMT</pubDate></item><item><title><![CDATA[RecyclerView]]></title><description><![CDATA[ 
  <br><br>RecyclerView es un componente de Android que permite mostrar listas o colecciones de datos de manera eficiente. Su principal ventaja es la reutilización de vistas, evitando la creación innecesaria de elementos y optimizando el uso de memoria y rendimiento.<br>A diferencia de ListView, RecyclerView recicla las vistas existentes, sobrescribiendo su contenido en lugar de crear nuevas instancias, lo que reduce el consumo de recursos.<br><br>Un RecyclerView está compuesto por varios elementos clave:<br><br>Define la manera en que los elementos se organizan en pantalla. Existen diferentes tipos:<br>
 <br>LinearLayoutManager → Disposición en lista vertical u horizontal.
 <br>GridLayoutManager → Disposición en cuadrícula.
@@ -10174,7 +10926,7 @@ val numeroDouble: Double = numero.toDouble() // Conversión explícita
         recyclerView.adapter = ItemAdapter(listOf("Elemento 1", "Elemento 2", "Elemento 3"))
     }
 }
-<br><br>RecyclerView es una herramienta fundamental para mostrar listas en Android de manera eficiente. Su sistema de reutilización de vistas mejora el rendimiento y facilita la gestión de grandes cantidades de datos, haciéndolo una mejor alternativa a ListView en la mayoría de los casos.]]></description><link>programacion-de-multimedia-y-dispositivos-moviles\recicly-view.html</link><guid isPermaLink="false">PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Recicly View.md</guid><pubDate>Sun, 02 Mar 2025 10:50:56 GMT</pubDate></item><item><title><![CDATA[Sets]]></title><description><![CDATA[ 
+<br><br>RecyclerView es una herramienta fundamental para mostrar listas en Android de manera eficiente. Su sistema de reutilización de vistas mejora el rendimiento y facilita la gestión de grandes cantidades de datos, haciéndolo una mejor alternativa a ListView en la mayoría de los casos.]]></description><link>programacion-de-multimedia-y-dispositivos-moviles\recyclerview.html</link><guid isPermaLink="false">PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/RecyclerView.md</guid><pubDate>Tue, 04 Mar 2025 11:54:36 GMT</pubDate></item><item><title><![CDATA[Sets]]></title><description><![CDATA[ 
  <br>Un "set" es una estructura de datos en programación que representa una colección de elementos en la que cada elemento es único, es decir, no puede haber duplicados en el conjunto. Los conjuntos se utilizan para almacenar una colección de elementos donde la presencia de duplicados no tiene sentido o debe evitarse. Los elementos en un conjunto no están ordenados, lo que significa que no tienen un índice específico y no se puede acceder a ellos por posición.<br>En un conjunto, los elementos no están indexados y no se garantiza un orden específico, lo que significa que no puedes acceder a los elementos por su posición. En cambio, se utilizan para verificar la presencia o ausencia de elementos específicos y para garantizar que no haya duplicados en una colección.<br>En muchos lenguajes de programación, incluyendo Kotlin, Java, Python y otros, los conjuntos se implementan como colecciones de elementos únicos. Algunas operaciones comunes en un conjunto incluyen:<br>
 <br>Agregar un elemento: Agregar un elemento único al conjunto.
 <br>Eliminar un elemento: Eliminar un elemento específico del conjunto.
@@ -10213,7 +10965,7 @@ println(db1 == db2) // Salida: true (ambas referencias apuntan al mismo objeto)
 <br>Para manejar cache o almacenamiento temporal de datos.
 <br>Para servicios compartidos como autenticación o logs.
 ]]></description><link>programacion-de-multimedia-y-dispositivos-moviles\simple-class.html</link><guid isPermaLink="false">PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/simple class.md</guid><pubDate>Sun, 02 Mar 2025 11:04:40 GMT</pubDate></item><item><title><![CDATA[SP]]></title><description><![CDATA[ 
- <br><br>sp (Scale-independent Pixels) es una unidad de medida utilizada en Android para definir el tamaño del texto dentro de componentes como <a data-href="TextView" href="\TextView" class="internal-link" target="_self" rel="noopener nofollow">TextView</a>. A diferencia de <a data-href="dp" href="\programacion-de-multimedia-y-dispositivos-moviles\dp.html" class="internal-link" target="_self" rel="noopener nofollow">dp</a> (Density-independent Pixels), sp ajusta el tamaño del texto según la configuración de accesibilidad del usuario, asegurando una mejor legibilidad en diferentes dispositivos.<br><br><br><br>Para definir el tamaño del texto en XML:<br>&lt;TextView
+ <br><br>sp (Scale-independent Pixels) es una unidad de medida utilizada en Android para definir el tamaño del texto dentro de componentes como <a data-href="TextView" href="\curso_android_studio\textview.html" class="internal-link" target="_self" rel="noopener nofollow">TextView</a>. A diferencia de <a data-href="dp" href="\programacion-de-multimedia-y-dispositivos-moviles\dp.html" class="internal-link" target="_self" rel="noopener nofollow">dp</a> (Density-independent Pixels), sp ajusta el tamaño del texto según la configuración de accesibilidad del usuario, asegurando una mejor legibilidad en diferentes dispositivos.<br><br><br><br>Para definir el tamaño del texto en XML:<br>&lt;TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="Ejemplo de Texto"
@@ -11564,8 +12316,7 @@ IBM Watson Language Translator: Este API permite la traducción automática de t
 <br>Pages: Componentes que esten relacionado con el router de nuestra aplicacion
 <br>smarts: usa el blocs para conectar con el core
 <br>dumbs: Componentes que se apoyan los smarts para crear la interfaz grafica adecuada a nuestra aplicacion
-]]></description><link>proyectos-fempa\proyecto-final\arquitectura-limpia.html</link><guid isPermaLink="false">PROYECTOS - FEMPA/PROYECTO - FINAL/Arquitectura Limpia.md</guid><pubDate>Thu, 13 Feb 2025 11:17:42 GMT</pubDate></item><item><title><![CDATA[CasosDe Uso]]></title><description><![CDATA[ 
- ]]></description><link>proyectos-fempa\proyecto-final\casosde-uso.html</link><guid isPermaLink="false">PROYECTOS - FEMPA/PROYECTO - FINAL/CasosDe Uso.md</guid><pubDate>Mon, 06 May 2024 20:15:36 GMT</pubDate></item><item><title><![CDATA[Comandos para crear proyecto]]></title><description><![CDATA[ 
+]]></description><link>proyectos-fempa\proyecto-final\arquitectura-limpia.html</link><guid isPermaLink="false">PROYECTOS - FEMPA/PROYECTO - FINAL/Arquitectura Limpia.md</guid><pubDate>Thu, 13 Feb 2025 11:17:42 GMT</pubDate></item><item><title><![CDATA[Comandos para crear proyecto]]></title><description><![CDATA[ 
  <br>mvn compile jib:build: crea imagen del proyecto de jhister<br>
 docker-compose -f src/main/docker/app.yml up]]></description><link>proyectos-fempa\proyecto-final\comandos-para-crear-proyecto.html</link><guid isPermaLink="false">PROYECTOS - FEMPA/PROYECTO - FINAL/Comandos para crear proyecto.md</guid><pubDate>Sat, 13 Apr 2024 16:01:51 GMT</pubDate></item><item><title><![CDATA[Entidad Relación]]></title><description><![CDATA[ 
  <br>Acorde a los <a data-href="Requistos Funcionales" href="\proyectos-fempa\proyecto-final\requistos-funcionales.html" class="internal-link" target="_self" rel="noopener nofollow">Requistos Funcionales</a> se a hehco lo siguiente con su respectivamen cjsutificacion:<br>Entidades:<br>
