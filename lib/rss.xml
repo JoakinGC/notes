@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[FEMPA]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>FEMPA</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 04 Mar 2025 12:55:12 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 04 Mar 2025 12:54:06 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[1 Casos prácticos (elegir uno)]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[FEMPA]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>FEMPA</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 19 Mar 2025 12:23:20 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 19 Mar 2025 12:22:02 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[1 Casos prácticos (elegir uno)]]></title><description><![CDATA[ 
  <br>Ejemplos de proyectos que incluirán elementos de persistencia, servicios, controladores, relaciones entre entidades, APIs, e interfaces web. <br>
 <br>
 Sistema de Reservas para un Hotel (ejemplo, no elegir): Gestiona reservas de habitaciones, clientes y servicios del hotel. Las habitaciones pueden tener múltiples reservas (OneToMany) y los clientes pueden tener múltiples reservas (OneToMany).
@@ -3718,7 +3718,80 @@ public class LeerArchivo {
 <br>Permiten manejar grandes volúmenes de datos sin consumir mucha memoria.  
 <br>Facilitan la comunicación entre diferentes fuentes de datos (archivos, redes, memoria).  
 <br>Mejoran la eficiencia en operaciones de lectura/escritura.  
-]]></description><link>acceso-a-datos\stream.html</link><guid isPermaLink="false">ACCESO-A-DATOS/Stream.md</guid><pubDate>Fri, 14 Feb 2025 21:34:25 GMT</pubDate></item><item><title><![CDATA[<strong>Botones en Bootstrap</strong>]]></title><description><![CDATA[ 
+]]></description><link>acceso-a-datos\stream.html</link><guid isPermaLink="false">ACCESO-A-DATOS/Stream.md</guid><pubDate>Fri, 14 Feb 2025 21:34:25 GMT</pubDate></item><item><title><![CDATA[Amazon Memory DB for Redis]]></title><description><![CDATA[ 
+ <br>Redis (Remote Dictionary Server) es una base de datos NoSQL en memoria, de estructura clave-valor, diseñada para ofrecer acceso ultrarrápido a datos, lo que lo hace ideal para caché, almacenamiento en memoria y mensajería en tiempo real.<br>Es un servicio de almacenamiento en caché en memoria de alto rendimiento y baja latencia basado en Redis.<br>No es un Redis.]]></description><link>amazon-cloud\amazon-memory-db-for-redis.html</link><guid isPermaLink="false">Amazon Cloud/Amazon Memory DB for Redis.md</guid><pubDate>Thu, 06 Mar 2025 10:23:29 GMT</pubDate></item><item><title><![CDATA[Amazon Web Services (AWS)]]></title><description><![CDATA[ 
+ <br>Servicio de Cloud mas usado, plataforma mas usada que brinda una gran cantidad de servicios ideales para muchos casos.<br>Algunos de los mas usados son:<br>
+<br>Computación:
+
+<br><a data-href="EC2 (Elastic Compute Cloud)" href="\amazon-cloud\ec2-(elastic-compute-cloud).html" class="internal-link" target="_self" rel="noopener nofollow">EC2 (Elastic Compute Cloud)</a>: Servidores virtuales en la nube
+<br>Lambda: Ejecuta código sin servidores
+<br>Elastic Beanstalk: Despliegue fácil de aplicaciones web.
+
+
+<br>Almacenamiento:
+
+<br><a data-href="S3 (Simple Storage Service)" href="\amazon-cloud\s3-(simple-storage-service).html" class="internal-link" target="_self" rel="noopener nofollow">S3 (Simple Storage Service)</a>: Almacenamiento de objetos (como imágenes, videos y backups).  
+<br>EBS (Elastic Block Store): Discos duros virtuales para servidores EC2.  
+<br>Glacier: Almacenamiento de archivos a largo plazo (archivos fríos).
+
+
+<br>Bases de Datos:
+
+<br><a data-href="RDS (Relational Database Service)" href="\amazon-cloud\rds-(relational-database-service).html" class="internal-link" target="_self" rel="noopener nofollow">RDS (Relational Database Service)</a>: Bases de datos SQL administradas (MySQL, PostgreSQL, etc.).  
+<br><a data-href="DocumentDB" href="\amazon-cloud\documentdb.html" class="internal-link" target="_self" rel="noopener nofollow">DocumentDB</a>: Base de datos parecido a MongoDB.  
+<br><a data-href="Dynamod DB" href="\amazon-cloud\dynamod-db.html" class="internal-link" target="_self" rel="noopener nofollow">Dynamod DB</a>: Para bases de datos NoSQL.
+<br><a data-href="Amazon Memory DB for Redis" href="\amazon-cloud\amazon-memory-db-for-redis.html" class="internal-link" target="_self" rel="noopener nofollow">Amazon Memory DB for Redis</a>
+<br>ElastiCache: Caché en memoria con Redis o Memcached.
+
+
+<br>Dependiendo de la región tendrá unos servicios o otros por eso importante evaluar bien la región del servició.]]></description><link>amazon-cloud\amazon-web-services-(aws).html</link><guid isPermaLink="false">Amazon Cloud/Amazon Web Services (AWS).md</guid><pubDate>Thu, 06 Mar 2025 10:42:43 GMT</pubDate></item><item><title><![CDATA[Bucket]]></title><description><![CDATA[ 
+ <br>Es un contenedor de almacenamiento en el servicio de <a data-href="S3 (Simple Storage Service)" href="\amazon-cloud\s3-(simple-storage-service).html" class="internal-link" target="_self" rel="noopener nofollow">S3 (Simple Storage Service)</a>.<br>Aunque se puede simular un sistema de ficheros lo cierto es que no es lo mismo,  son objectos que pueden almacenar cualquier tipo de dato.]]></description><link>amazon-cloud\bucket.html</link><guid isPermaLink="false">Amazon Cloud/Bucket.md</guid><pubDate>Tue, 18 Mar 2025 16:06:12 GMT</pubDate></item><item><title><![CDATA[DocumentDB]]></title><description><![CDATA[ 
+ <br>Servicio que replica como motor a Mongo DB pero no es mongo DB, te permite usar todos las herramientas como mongo DB, sus API's, etc.]]></description><link>amazon-cloud\documentdb.html</link><guid isPermaLink="false">Amazon Cloud/DocumentDB.md</guid><pubDate>Thu, 06 Mar 2025 10:17:29 GMT</pubDate></item><item><title><![CDATA[Dynamod DB]]></title><description><![CDATA[ 
+ <br>Servicio de <a data-href="Amazon Web Services(AWS)" href="\Amazon Web Services(AWS)" class="internal-link" target="_self" rel="noopener nofollow">Amazon Web Services(AWS)</a> que brinda para crear base de datos NoSQL de forma rápida y segura.<br>Te cobran por uso(lectura, escritura), capacidad. No compatible con Mongo DB]]></description><link>amazon-cloud\dynamod-db.html</link><guid isPermaLink="false">Amazon Cloud/Dynamod DB.md</guid><pubDate>Thu, 06 Mar 2025 10:20:57 GMT</pubDate></item><item><title><![CDATA[Elastic Compute Cloud (EC2)]]></title><description><![CDATA[ 
+ <br><br>Capacidad de crear una instancia para crear una máquina virtual<br>Lo mas perecido a un <a data-href="servidor" href="\servidor" class="internal-link" target="_self" rel="noopener nofollow">servidor</a> normal.<br><br>Selecciona el servicio el mismo te pedirá un nombre y imagen de la maquina que usaras en el servicio(Ubuntu, red hat, etc).<br><br>Los tipos de recursos o hardware que tendrá nuestra instancia, tambien saldrá el precio del recurso por hora. Aqui se puede hacer un <a data-href="Escalamiento Vertical" href="\Escalamiento Vertical" class="internal-link" target="_self" rel="noopener nofollow">Escalamiento Vertical</a>.<br>No obstante no solo debemos fijarnos en el hardware tambien debemos fijarnos en el rendimiento de red ya que puede perjudicar al acceso al servicio<br><br>Nosotros podemos conectarnos a nuestro servicio con <a data-href="SSH" href="\SSH" class="internal-link" target="_self" rel="noopener nofollow">SSH</a>, generando un tipo de clave.<br><br>Recomendable saber sobre <a data-href="redes" href="\redes" class="internal-link" target="_self" rel="noopener nofollow">redes</a>. Pero lo básico es que si tienes varias instancias lo recomendable es que tengas tus servicios dentro de la misma red, eso ayuda a disminuir la latencia y demas.<br>También se puede crear un grupo de seguridad y por lo general si se crea una instancia de EC2 es para crear <a data-tooltip-position="top" aria-label="Servicio Web" data-href="Servicio Web" href="\amazon-cloud\servicio-web.html" class="internal-link" target="_self" rel="noopener nofollow">servicio web</a> por lo que es recomendable acepar peticiones de HTTP y HTTPS, tambien se puede activar desde cualquier IP(0.0.0.0/0) pero no es lo recomendable dado que podría realizar un ataque, algunos solo configuran su ip para poder ingresar. Al crear un grupo de seguridad podemos decirle a la instancia como debería comportarse cuando recibe peticiones HTPP/S<br>Con esto tendríamos la configuración mínima de nuestro servicio. Y crear el servicio.<br><br>Si descárgate las claves de seguridad de la instancia se puede conectar por SSH.<br>Una vez dentro de la instancia estaríamos dentro de la terminal de la imagen que hayamos seleccionado, y se puede ejecutar o descargar lo que queramos.]]></description><link>amazon-cloud\ec2-(elastic-compute-cloud).html</link><guid isPermaLink="false">Amazon Cloud/EC2 (Elastic Compute Cloud).md</guid><pubDate>Thu, 06 Mar 2025 10:13:11 GMT</pubDate></item><item><title><![CDATA[RDS (Relational Database Service)]]></title><description><![CDATA[ 
+ <br>Crea un servicio de base de datos relacionales con cualquier servicio de mysql:<br>
+<br>MySQl
+<br>etc.
+<br>Tiene su propio motor de MySQL llamado Aurora.<br>Tiene dos opciones importantes:<br>
+<br>La de mostrar versiones compatibles con el clusters:
+
+<br>Te genera Avarilyty Zone, las zonas habilitadas que permiten mejorar la latencia. Te genera varias instancias de la misma base de datos en la misma region.
+
+
+<br>Al hacer esto aumenta el coste del mismo servicio<br>Despues se selecciona la capa que se va usar.<br>Las credenciales de nuestra base de datos, y usuarios<br><br>Un aspecto importante es la conectividad ya que esta es la configuración para la comunicación entre servicios]]></description><link>amazon-cloud\rds-(relational-database-service).html</link><guid isPermaLink="false">Amazon Cloud/RDS (Relational Database Service).md</guid><pubDate>Thu, 06 Mar 2025 10:36:57 GMT</pubDate></item><item><title><![CDATA[S3 (Simple Storage Service)]]></title><description><![CDATA[ 
+ <br>Servicio de <a data-href="Amazon Web Services(AWS)" href="\Amazon Web Services(AWS)" class="internal-link" target="_self" rel="noopener nofollow">Amazon Web Services(AWS)</a>, con el propósito de almacenar archivos estáticos de cualquier tipo(imágenes, .js, etc.). Los almacena en Buckets o objectos. <br>Existen servicios que son globales y afectan a todas las regiones.<br>Pero en S3 el <a data-href="Bucket" href="\amazon-cloud\bucket.html" class="internal-link" target="_self" rel="noopener nofollow">Bucket</a> es nivel a región, por lo que tendrás que elegir bien la región. Otra característica de un bucket es que los nombres debe ser únicos a nivel mundial.<br><br>En la configuración de propiedades del objecto te pregunta si deseas que los objectos puedan ser cambiados por usuarios de AWS. Lo recomendable es que no.<br>Se puede configurar para que el servicio sea publico y accesible por todos pero eso no seria una buena practica ya que AWS tiene un servicio para ello llamado <a data-href="CloudFront" href="\CloudFront" class="internal-link" target="_self" rel="noopener nofollow">CloudFront</a>. Que se encargaría del acceso a S3<br><br>S3 permite generar un cifrado a la información que guardemos en nuestros objectos.<br>El cifrado es importante porque si no se cifra permite que sea mas fácil leer logs o información importante para los atacantes<br><br>Existen diferentes tipos de almacenamiento que dependiendo de que tanto necesites acceder a esos ficheros y latencia del mismo podría variar en ello. Mientras mas rápido y accesible es mas caro se vuelve pero mientras mas lento y difícil de acceder mas barato. Evaluar que tipo de almacenamiento deberías dependerá de esos dos factores. Velocidad y disponibilidad.<br>Amazon S3 ofrece diferentes clases de almacenamiento, cada una diseñada para diferentes necesidades de acceso, disponibilidad y costos. A continuación, te detallo los tipos de almacenamiento en S3, sus características y una comparación de precios estimados (los precios pueden variar según la región y el uso específico).<br><br><br>Uso: Datos que se acceden con frecuencia (sitios web, aplicaciones en tiempo real, backups activos).<br>
+Disponibilidad: 99.99%<br>
+Durabilidad: 99.999999999% (11 nueves)<br>
+Costo estimado: ~$0.023 por GB/mes<br>
+Retribución por acceso: No hay costos adicionales por acceso.<br>Cuándo usarlo:<br>
+Ideal para almacenar datos críticos a los que necesitas acceso frecuente y rápido.<br><br><br>Uso: Datos a los que accedes ocasionalmente, pero que aún necesitas disponibles con baja latencia (ej. backups a mediano plazo, almacenamiento de registros).<br>
+Disponibilidad: 99.9%<br>
+Durabilidad: 99.999999999%<br>
+Costo estimado: ~$0.0125 por GB/mes<br>
+Costo de recuperación: ~$0.01 por GB recuperado<br>Cuándo usarlo:<br>
+Ideal para archivos que no necesitas con frecuencia, pero que aún quieres disponibles sin demoras.<br><br><br>Uso: Datos que no cambian con frecuencia y pueden almacenarse en una única zona de disponibilidad (ej. backups secundarios).<br>
+Disponibilidad: 99.5% (menor que otras clases porque está en una sola zona de AWS)<br>
+Durabilidad: 99.999999999%<br>
+Costo estimado: ~$0.01 por GB/mes<br>
+Costo de recuperación: ~$0.01 por GB<br>Cuándo usarlo:<br>
+Si puedes tolerar una posible pérdida de datos en caso de fallo en la única zona donde se almacena.<br><br><br>Uso: Archivos que necesitas almacenar por largos períodos sin acceso frecuente (ej. archivos históricos, backups de cumplimiento).<br>
+Disponibilidad: 99.99%<br>
+Durabilidad: 99.999999999%<br>
+Costo estimado: ~$0.004 por GB/mes<br>
+Costo de recuperación: Desde $0.01 a $0.03 por GB, según la velocidad de recuperación elegida.<br>Cuándo usarlo:<br>
+Si necesitas un almacenamiento de bajo costo para datos que no accederás por meses o años.<br><br><br>Uso: Almacenamiento a muy largo plazo (ej. archivos que deben guardarse durante décadas por regulaciones legales).<br>
+Disponibilidad: 99.99%<br>
+Durabilidad: 99.999999999%<br>
+Costo estimado: ~$0.00099 por GB/mes<br>
+Costo de recuperación: Desde $0.02 por GB (tarda entre 12 a 48 horas).<br>Cuándo usarlo:<br>
+Si necesitas guardar datos por años y el acceso puede esperar varias horas.<br><br><br>Uso: Alterna entre S3 Standard y S3 IA automáticamente según la frecuencia de acceso.<br>
+Disponibilidad: 99.9%<br>
+Durabilidad: 99.999999999%<br>
+Costo estimado: ~$0.023 por GB/mes en acceso frecuente y ~$0.0125 en IA<br>
+Costo de monitoreo: ~$0.0025 por 1,000 objetos por mes.<br>Cuándo usarlo:<br>
+Si no sabes con certeza cuándo accederás a los datos y quieres optimizar costos automáticamente.<br><br><br><br>]]></description><link>amazon-cloud\s3-(simple-storage-service).html</link><guid isPermaLink="false">Amazon Cloud/S3 (Simple Storage Service).md</guid><pubDate>Tue, 18 Mar 2025 16:26:09 GMT</pubDate></item><item><title><![CDATA[Servicio Web]]></title><description><![CDATA[ 
+ <br>Brindar un servicio a través de una pagina. <a data-tooltip-position="top" aria-label="Amazon Web Services(AWS)" data-href="Amazon Web Services(AWS)" href="\Amazon Web Services(AWS)" class="internal-link" target="_self" rel="noopener nofollow">AWS</a> brinda una gama  de servicios para crear tu servicio Web. <br>Un servicio web podría necesitar de muchos servicios y al haber un necesidad o aumento repentino de las peticiones del servicio se realiza un escalamiento de diferentes tipos.<br><br>En caso de necesitar aumentar el hardware del servidor se hace un <a data-tooltip-position="top" aria-label="Escalamiento Vertical" data-href="Escalamiento Vertical" href="\Escalamiento Vertical" class="internal-link" target="_self" rel="noopener nofollow">escalamiento vertical</a><br>
+Tambien se puede hacer manera inversa ya sea aumentar o rebajar los recursos del servidor<br>Otra forma de escalar nuestro servicio es el <a data-tooltip-position="top" aria-label="Escalamiento Horizontal" data-href="Escalamiento Horizontal" href="\Escalamiento Horizontal" class="internal-link" target="_self" rel="noopener nofollow">escalamiento horizontal</a>, que permite distribuir las cargas del servidor central en otros servidores.<br><br>Cada una tiene sus ventajas y inconvenientes, el escalamiento vertical tiene un momento en donde se pierde la conectividad llamado el "dowmtime". En cambio al distribuir la tarea en varios server esta seria mas difícil de perder. <br>Sin embargo al tener una servidor es mucho más sencillo realizar su escalamiento. Pero en cambio al contar con varios ordenadores tendrás que ir viendo uno por uno que carga distribuirle.<br>Otra ventaja es el coste que tiene un escalamiento vertical de uno horizontal, un vertical es mas barato.]]></description><link>amazon-cloud\servicio-web.html</link><guid isPermaLink="false">Amazon Cloud/Servicio Web.md</guid><pubDate>Wed, 05 Mar 2025 10:32:47 GMT</pubDate></item><item><title><![CDATA[<strong>Botones en Bootstrap</strong>]]></title><description><![CDATA[ 
  <br><br>Bootstrap proporciona una variedad de estilos y tamaños para los botones, permitiendo una personalización rápida y sencilla.<br><br><br>Los botones en Bootstrap se crean utilizando la clase .btn junto con una clase de color:<br>&lt;button class="btn btn-primary"&gt;Primario&lt;/button&gt;
 &lt;button class="btn btn-secondary"&gt;Secundario&lt;/button&gt;
 &lt;button class="btn btn-success"&gt;Éxito&lt;/button&gt;
@@ -4186,7 +4259,161 @@ miModal.addEventListener('shown.bs.modal', function () {
   let modal = new bootstrap.Modal(document.getElementById('miModal'));
   modal.hide();
 }, 5000); // Se cierra después de 5 segundos
-<br><br>Con estas configuraciones, los modales en Bootstrap pueden adaptarse a diferentes necesidades y mejorar la experiencia de usuario.]]></description><link>boostrap-curso\modals.html</link><guid isPermaLink="false">BOOSTRAP - Curso/Modals.md</guid><pubDate>Thu, 20 Feb 2025 10:17:36 GMT</pubDate></item><item><title><![CDATA[Accesos a datos de un tensor]]></title><description><![CDATA[ 
+<br><br>Con estas configuraciones, los modales en Bootstrap pueden adaptarse a diferentes necesidades y mejorar la experiencia de usuario.]]></description><link>boostrap-curso\modals.html</link><guid isPermaLink="false">BOOSTRAP - Curso/Modals.md</guid><pubDate>Thu, 20 Feb 2025 10:17:36 GMT</pubDate></item><item><title><![CDATA[Introducción a CSS]]></title><description><![CDATA[ 
+ <br><br><br>CSS (Cascading Style Sheets) es un lenguaje de estilos utilizado para definir la presentación de documentos HTML. Permite controlar la apariencia de las páginas web de manera estructurada y eficiente.<br><br><br>Es recomendable enlazar los estilos CSS mediante un archivo externo en lugar de escribirlos directamente en el HTML.<br>&lt;link rel="stylesheet" href="styles.css"&gt;
+<br>Esto facilita la mantenibilidad y reutilización del código.<br><br>No se recomienda definir estilos directamente en las etiquetas HTML, ya que dificulta la separación de la estructura y el diseño.<br>❌ Mala práctica:<br>&lt;p style="color: red; font-size: 20px;"&gt;Texto rojo&lt;/p&gt;
+<br>✔ Buena práctica:<br>p {
+    color: red;
+    font-size: 20px;
+}
+<br><br>Se pueden importar estilos dentro de otro archivo CSS con @import, aunque no es recomendable debido a que bloquea la carga del resto del CSS.<br>@import url("otros-estilos.css");
+<br><br>CSS está dividido en módulos que permiten trabajar con distintas funcionalidades, como:<br>
+<br>Diseño y maquetación: Flexbox, Grid.
+<br>Animaciones: @keyframes, transition.
+<br>Colores y estilos: Variables CSS, opacity, box-shadow.
+<br><br><br>Se recomienda evitar el uso de IDs en CSS, ya que son menos reutilizables y pueden causar problemas de especificidad.<br>❌ Mala práctica:<br>#titulo {
+    color: blue;
+}
+<br>✔ Buena práctica:<br>.titulo {
+    color: blue;
+}
+<br><br>Para seleccionar elementos que son hijos directos de un contenedor, se usa el símbolo &gt;.<br>.contenedor &gt; p {
+    font-weight: bold;
+}
+<br><br>
+<br><a data-tooltip-position="top" aria-label="https://codeguide.co/" rel="noopener nofollow" class="external-link" href="https://codeguide.co/" target="_blank">Guía de buenas prácticas en CSS</a>
+<br><a data-tooltip-position="top" aria-label="https://cssreference.io/" rel="noopener nofollow" class="external-link" href="https://cssreference.io/" target="_blank">Referencia completa de CSS</a>
+<br><a data-tooltip-position="top" aria-label="https://joakingc.github.io/notes-JS/CSS%20(Jon%20Mircha).html" rel="noopener nofollow" class="external-link" href="https://joakingc.github.io/notes-JS/CSS%20(Jon%20Mircha).html" target="_blank">Antiguas Notas de CSS</a>
+]]></description><link>css\css.html</link><guid isPermaLink="false">Css/Css.md</guid><pubDate>Wed, 19 Mar 2025 11:28:32 GMT</pubDate></item><item><title><![CDATA[Introducción a CSS]]></title><description><![CDATA[ 
+ <br><br><br>
+<br>
+Fundamentos de CSS
+
+<br>¿Qué es CSS?
+<br>Sintaxis básica
+<br>Diferentes formas de aplicar CSS (en línea, interno, externo)
+
+
+<br>
+Selectores en CSS
+
+<br>Selectores básicos (p, div, span)
+<br>Selectores de clases (.clase)
+<br>Selectores de ID (#id)
+<br>Selectores avanzados (:nth-child, :first-child, :hover, :focus)
+<br>Selectores combinadores (&gt;, +, ~)
+
+
+<br>
+Modelo de Caja en CSS
+
+<br>Margen (margin)
+<br>Relleno (padding)
+<br>Borde (border)
+<br>Tamaño de contenido (width, height)
+<br>Propiedad box-sizing
+
+
+<br>
+Diseño y Maquetación
+
+<br>Flexbox
+
+<br>display: flex
+<br>justify-content
+<br>align-items
+<br>flex-direction
+<br>flex-wrap
+
+
+<br>Grid Layout
+
+<br>display: grid
+<br>grid-template-columns y grid-template-rows
+<br>gap, justify-items, align-items
+
+
+<br>Positioning
+
+<br>static, relative, absolute, fixed, sticky
+
+
+
+
+<br>
+Colores y Fondos
+
+<br>Propiedades color, background-color, opacity
+<br>Degradados (linear-gradient, radial-gradient)
+<br>Imágenes de fondo (background-image, background-size, background-position)
+
+
+<br>
+Tipografía y Texto
+
+<br>Propiedad font-family
+<br>Tamaño de fuente (font-size)
+<br>Peso de fuente (font-weight)
+<br>Estilos (text-align, text-decoration, letter-spacing, line-height)
+
+
+<br>
+Animaciones y Transiciones
+
+<br>transition
+<br>transform
+<br>animation y @keyframes
+
+
+<br>
+Variables y Personalización en CSS
+
+<br>Variables CSS (--nombre-variable)
+<br>Uso de var()
+<br>Tema claro y oscuro con CSS
+
+
+<br>
+Buenas Prácticas en CSS
+
+<br>Uso de archivos externos
+<br>Organización del código CSS
+<br>Evitar el uso de !important
+<br>Uso de clases en lugar de IDs
+
+
+<br>
+Recursos y Herramientas Útiles
+
+<br><a data-tooltip-position="top" aria-label="https://codeguide.co/" rel="noopener nofollow" class="external-link" href="https://codeguide.co/" target="_blank">Guía de buenas prácticas en CSS</a>
+<br><a data-tooltip-position="top" aria-label="https://cssreference.io/" rel="noopener nofollow" class="external-link" href="https://cssreference.io/" target="_blank">Referencia completa de CSS</a>
+<br>Herramientas como DevTools de Chrome para depuración
+
+
+<br><br>CSS (Cascading Style Sheets) es un lenguaje de estilos utilizado para definir la presentación de documentos HTML. Permite controlar la apariencia de las páginas web de manera estructurada y eficiente.<br><br><br>Es recomendable enlazar los estilos CSS mediante un archivo externo en lugar de escribirlos directamente en el HTML.<br>&lt;link rel="stylesheet" href="styles.css"&gt;
+<br>Esto facilita la mantenibilidad y reutilización del código.<br><br>No se recomienda definir estilos directamente en las etiquetas HTML, ya que dificulta la separación de la estructura y el diseño.<br>❌ Mala práctica:<br>&lt;p style="color: red; font-size: 20px;"&gt;Texto rojo&lt;/p&gt;
+<br>✔ Buena práctica:<br>p {
+    color: red;
+    font-size: 20px;
+}
+<br><br>Se pueden importar estilos dentro de otro archivo CSS con @import, aunque no es recomendable debido a que bloquea la carga del resto del CSS.<br>@import url("otros-estilos.css");
+<br><br>CSS está dividido en módulos que permiten trabajar con distintas funcionalidades, como:<br>
+<br>Diseño y maquetación: Flexbox, Grid.
+<br>Animaciones: @keyframes, transition.
+<br>Colores y estilos: Variables CSS, opacity, box-shadow.
+<br><br><br>Se recomienda evitar el uso de IDs en CSS, ya que son menos reutilizables y pueden causar problemas de especificidad.<br>❌ Mala práctica:<br>#titulo {
+    color: blue;
+}
+<br>✔ Buena práctica:<br>.titulo {
+    color: blue;
+}
+<br><br>Para seleccionar elementos que son hijos directos de un contenedor, se usa el símbolo &gt;.<br>.contenedor &gt; p {
+    font-weight: bold;
+}
+<br><br>
+<br><a data-tooltip-position="top" aria-label="https://codeguide.co/" rel="noopener nofollow" class="external-link" href="https://codeguide.co/" target="_blank">Guía de buenas prácticas en CSS</a>
+<br><a data-tooltip-position="top" aria-label="https://cssreference.io/" rel="noopener nofollow" class="external-link" href="https://cssreference.io/" target="_blank">Referencia completa de CSS</a>
+<br>Siguiendo estas recomendaciones, podrás escribir código CSS más limpio, mantenible y eficiente.]]></description><link>css\indice-css.html</link><guid isPermaLink="false">Css/Indice CSS.md</guid><pubDate>Wed, 19 Mar 2025 11:31:19 GMT</pubDate></item><item><title><![CDATA[Accesos a datos de un tensor]]></title><description><![CDATA[ 
  <br>Para acceder a un tensor creado por el módulo de <a data-href="tf" href="\curso-tenseflow\tf.html" class="internal-link" target="_self" rel="noopener nofollow">tf</a>, tenemos el método:<br>
 <br>.data(): Este devuelve una promesa, por lo que debemos usar los métodos de asincronía de JavaScript para obtener los datos.  
 <br><br>const val = [];
@@ -9883,7 +10110,277 @@ regulaciones cambiantes, financiamiento inconstante y presiones políticas y sin
 <br>Actualizarse constantemente sobre cambios normativos.
 
 
-]]></description><link>empresa-e-iniciativa-empredora\tipos-de-empresas-y-su-fiscalidad.html</link><guid isPermaLink="false">Empresa-e-Iniciativa-Empredora/Tipos de Empresas y su Fiscalidad.md</guid><pubDate>Wed, 19 Feb 2025 09:34:25 GMT</pubDate></item><item><title><![CDATA[Ingles]]></title><description><![CDATA[ 
+]]></description><link>empresa-e-iniciativa-empredora\tipos-de-empresas-y-su-fiscalidad.html</link><guid isPermaLink="false">Empresa-e-Iniciativa-Empredora/Tipos de Empresas y su Fiscalidad.md</guid><pubDate>Wed, 19 Feb 2025 09:34:25 GMT</pubDate></item><item><title><![CDATA[Flexbox en CSS]]></title><description><![CDATA[ 
+ <br><br><br>Flexbox es un modelo de diseño en CSS que permite organizar elementos en una sola dimensión (horizontal o vertical) de manera eficiente. Es especialmente útil para distribuir el espacio entre los elementos de un contenedor y alinear elementos de manera flexible.<br><br>Para utilizar Flexbox, se debe agregar la propiedad display: flex; al contenedor padre, lo que afectará directamente a los elementos hijos.<br>.contenedor {
+    display: flex;
+}
+<br><br>Flexbox proporciona una serie de propiedades que permiten controlar la alineación y distribución de los elementos dentro del contenedor.<br><br>Define cómo se distribuyen los elementos hijos a lo largo del eje principal (horizontal por defecto).<br>Valores principales:<br>
+<br>flex-start: Los elementos se alinean al inicio del contenedor (valor por defecto).
+<br>flex-end: Los elementos se alinean al final del contenedor.
+<br>center: Los elementos se alinean en el centro del contenedor.
+<br>space-between: Los elementos se distribuyen con el primer y último elemento pegados a los bordes.
+<br>space-around: Similar a space-between, pero con espacio adicional alrededor de los elementos.
+<br>space-evenly: Distribuye el espacio de manera uniforme entre los elementos.
+<br>.contenedor {
+    display: flex;
+    justify-content: center;
+}
+<br><br>Controla la alineación de los elementos en el eje transversal (vertical por defecto).<br>Valores principales:<br>
+<br>flex-start: Alinea los elementos en la parte superior.
+<br>flex-end: Alinea los elementos en la parte inferior.
+<br>center: Alinea los elementos en el centro del eje transversal.
+<br>baseline: Alinea los elementos según su línea base de texto.
+<br>stretch: Hace que los elementos ocupen todo el espacio disponible.
+<br>.contenedor {
+    display: flex;
+    align-items: center;
+}
+<br><br>Define la dirección del eje principal.<br>Valores principales:<br>
+<br>row: Dirección horizontal de izquierda a derecha (por defecto).
+<br>row-reverse: Dirección horizontal de derecha a izquierda.
+<br>column: Dirección vertical de arriba a abajo.
+<br>column-reverse: Dirección vertical de abajo a arriba.
+<br>.contenedor {
+    display: flex;
+    flex-direction: column;
+}
+<br><br>Permite a los elementos hijos ajustarse a nuevas líneas cuando el espacio es insuficiente.<br>Valores principales:<br>
+<br>nowrap: Los elementos se mantienen en una sola línea (valor por defecto).
+<br>wrap: Los elementos se ajustan a nuevas líneas según sea necesario.
+<br>wrap-reverse: Similar a wrap, pero en dirección inversa.
+<br>.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+<br><br>Controla la distribución de las filas cuando flex-wrap está activado.<br>Valores principales:<br>
+<br>flex-start: Filas alineadas al inicio del contenedor.
+<br>flex-end: Filas alineadas al final del contenedor.
+<br>center: Filas alineadas en el centro.
+<br>space-between: Filas distribuidas con espacio entre ellas.
+<br>space-around: Espacio alrededor de cada fila.
+<br>stretch: Las filas ocupan todo el espacio disponible.
+<br>.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+<br><br><br>
+<br>vh: Representa el porcentaje de la altura del viewport.
+<br>vw: Representa el porcentaje del ancho del viewport.
+<br>El viewport es el área visible de la página en la pantalla del usuario.<br>.caja {
+    width: 50vw; /* La mitad del ancho de la pantalla */
+    height: 30vh; /* Un 30% de la altura de la pantalla */
+}
+<br><a data-tooltip-position="top" aria-label="https://joakingc.github.io/notes-JS/Flex%253aPg.html" rel="noopener nofollow" class="external-link" href="https://joakingc.github.io/notes-JS/Flex%253aPg.html" target="_blank">Antiguas Notas de Flex box</a>]]></description><link>flex\flex.html</link><guid isPermaLink="false">Flex/Flex.md</guid><pubDate>Wed, 19 Mar 2025 11:27:33 GMT</pubDate></item><item><title><![CDATA[Índice (Flexbox)]]></title><description><![CDATA[ 
+ <br><br>
+<br>Introducción a Flexbox<br>
+1.1. ¿Qué es <a data-href="Flexbox" href="\Flexbox" class="internal-link" target="_self" rel="noopener nofollow">Flexbox</a>?<br>
+1.2. Ventajas y usos de Flexbox<br>
+1.3. Comparación con otros métodos de diseño (Grid, Float, Inline-Block)
+<br>Conceptos Básicos<br>
+2.1. Ejes y dirección en Flexbox<br>
+2.2. Contenedor y elementos flexibles<br>
+2.3. Propiedades del contenedor flex
+<br>Propiedades del Contenedor Flex<br>
+3.1. display: flex vs display: inline-flex<br>
+3.2. flex-direction (row, column, row-reverse, column-reverse)<br>
+3.3. flex-wrap (nowrap, wrap, wrap-reverse)<br>
+3.4. flex-flow (combinación de flex-direction y flex-wrap)<br>
+3.5. justify-content (alineación horizontal)<br>
+3.6. align-items (alineación vertical)<br>
+3.7. align-content (alineación de múltiples líneas flexibles)
+<br>Propiedades de los Elementos Flexibles<br>
+4.1. order (control del orden de los elementos)<br>
+4.2. flex-grow (expansión del elemento en el espacio disponible)<br>
+4.3. flex-shrink (reducción del tamaño de un elemento flexible)<br>
+4.4. flex-basis (tamaño base de un elemento)<br>
+4.5. flex (shorthand de flex-grow, flex-shrink y flex-basis)<br>
+4.6. align-self (alineación individual de un elemento)
+<br>Ejemplos Prácticos<br>
+5.1. Menús de navegación con Flexbox<br>
+5.2. Diseño de tarjetas con Flexbox<br>
+5.3. Creación de un diseño responsivo con Flexbox
+<br>Flexbox vs Grid<br>
+6.1. Diferencias clave entre Flexbox y Grid<br>
+6.2. ¿Cuándo usar Flexbox y cuándo usar Grid?<br>
+6.3. Uso combinado de Flexbox y Grid
+<br>Herramientas y Recursos para Aprender Flexbox<br>
+7.1. Inspeccionar elementos Flexbox con DevTools<br>
+7.2. Generadores de código para Flexbox<br>
+7.3. Juegos interactivos para practicar Flexbox
+<br>Conclusión y Buenas Prácticas<br>
+8.1. Errores comunes al usar Flexbox<br>
+8.2. Optimización del rendimiento con Flexbox<br>
+8.3. Compatibilidad y soporte en navegadores
+]]></description><link>flex\índice-(flexbox).html</link><guid isPermaLink="false">Flex/Índice (Flexbox).md</guid><pubDate>Wed, 19 Mar 2025 11:30:27 GMT</pubDate></item><item><title><![CDATA[Grid en CSS]]></title><description><![CDATA[ 
+ <br><br><br>CSS Grid es un sistema de diseño bidimensional que permite organizar elementos en filas y columnas. A diferencia de Flexbox, que se enfoca en una sola dimensión (fila o columna), Grid permite distribuir elementos en ambas direcciones, facilitando la creación de diseños complejos y responsivos.<br><br><br>El contenedor es el elemento padre al que se aplica display: grid;, convirtiéndolo en un contexto de cuadrícula.<br>.contenedor {
+    display: grid;
+}
+<br><br>Son las unidades mínimas de la cuadrícula, es decir, los espacios generados dentro del grid donde se posicionan los elementos.<br><br>Son los elementos hijos directos del contenedor. Cada ítem ocupa una o más celdas dentro del grid.<br>.contenedor {
+    display: grid;
+    grid-template-columns: 100px 200px auto;
+    grid-template-rows: 50px auto;
+}
+<br><br><br>Definen el número y tamaño de las columnas y filas dentro del grid.<br>.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100px 200px;
+}
+<br>
+<br>fr (fracción) asigna espacio proporcional dentro del grid.
+<br>También se pueden usar valores fijos como px, em, %.
+<br><br>Define el espacio entre las celdas del grid.<br>.contenedor {
+    display: grid;
+    gap: 20px;
+}
+<br><br>Controlan la alineación de los ítems dentro de sus celdas.<br>.contenedor {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+<br><br>Alinean el grid dentro del contenedor.<br>.contenedor {
+    display: grid;
+    justify-content: space-between;
+    align-content: center;
+}
+<br><br><br>Permiten especificar la posición de un ítem dentro del grid.<br>.item {
+    grid-column: 1 / 3; /* Ocupa desde la columna 1 hasta la 3 */
+    grid-row: 2 / 4; /* Ocupa desde la fila 2 hasta la 4 */
+}
+<br><br>Permite asignar nombres a las áreas del grid y ubicarlas fácilmente.<br>.contenedor {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+}
+
+.header { grid-area: header; }
+.sidebar { grid-area: sidebar; }
+.main { grid-area: main; }
+.footer { grid-area: footer; }
+<br><br>
+<br><a data-tooltip-position="top" aria-label="https://css-tricks.com/snippets/css/complete-guide-grid/" rel="noopener nofollow" class="external-link" href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">Guía de CSS Grid</a>
+<br><a data-tooltip-position="top" aria-label="https://grid.malven.co/" rel="noopener nofollow" class="external-link" href="https://grid.malven.co/" target="_blank">Referencia visual de CSS Grid</a>
+<br>[Antiguas notas de Grid](<a data-tooltip-position="top" aria-label="https://joakingc.github.io/notes-JS/Grid%20-%20CSS.html" rel="noopener nofollow" class="external-link" href="https://joakingc.github.io/notes-JS/Grid%20-%20CSS.html" target="_blank">Grid - CSS</a>)
+]]></description><link>grid\grid.html</link><guid isPermaLink="false">Grid/Grid.md</guid><pubDate>Wed, 19 Mar 2025 11:38:45 GMT</pubDate></item><item><title><![CDATA[Introducción a HTML]]></title><description><![CDATA[ 
+ <br><br><br>
+<br>
+Fundamentos de HTML
+
+<br>¿Qué es HTML?
+<br>Estructura básica de un documento HTML
+<br>Elementos y etiquetas
+<br>Atributos en HTML
+
+
+<br>
+Estructura del Documento
+
+<br>&lt;!DOCTYPE html&gt;
+<br>&lt;html&gt;
+<br>&lt;head&gt;
+<br>&lt;body&gt;
+
+
+<br>
+Elementos de Texto
+
+<br>Encabezados (&lt;h1&gt; - &lt;h6&gt;)
+<br>Párrafos (&lt;p&gt;)
+<br>Enlaces (&lt;a&gt;)
+<br>Listas (&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;)
+<br>Citas (&lt;blockquote&gt;, &lt;q&gt;)
+<br>Formateo de texto (&lt;strong&gt;, &lt;em&gt;, &lt;span&gt;)
+
+
+<br>
+Imágenes y Multimedia
+
+<br>Imágenes (&lt;img&gt;)
+<br>Videos (&lt;video&gt;)
+<br>Audio (&lt;audio&gt;)
+<br>Etiqueta &lt;figure&gt; y &lt;figcaption&gt;
+
+
+<br>
+Enlaces e Hipervínculos
+
+<br>Enlaces absolutos y relativos
+<br>Enlaces internos en la misma página
+<br>Abrir enlaces en nueva pestaña (target="_blank")
+
+
+<br>
+Tablas en HTML
+
+<br>Creación de tablas (&lt;table&gt;)
+<br>Filas y celdas (&lt;tr&gt;, &lt;td&gt;)
+<br>Encabezados de tabla (&lt;th&gt;)
+<br>Atributos de tabla (colspan, rowspan)
+
+
+<br>
+Formularios y Entradas de Usuario
+
+<br>Elemento &lt;form&gt;
+<br>Campos de entrada (&lt;input&gt;, &lt;textarea&gt;)
+<br>Selectores (&lt;select&gt;, &lt;option&gt;)
+<br>Botones (&lt;button&gt;, &lt;input type="submit"&gt;)
+<br>Validación de formularios en HTML5
+
+
+<br>
+Elementos de Diseño y Contenedores
+
+<br>&lt;div&gt; y &lt;span&gt;
+<br>&lt;section&gt;, &lt;article&gt;, &lt;aside&gt;
+<br>&lt;header&gt; y &lt;footer&gt;
+<br>&lt;nav&gt; para navegación
+
+
+<br>
+HTML Semántico
+
+<br>Importancia del HTML semántico
+<br>Diferencia entre etiquetas semánticas y no semánticas
+
+
+<br>
+Metadatos y SEO en HTML
+
+<br>Uso de &lt;meta&gt; en &lt;head&gt;
+<br>Etiqueta &lt;title&gt; y su importancia
+<br>Mejores prácticas de accesibilidad
+<br>Open Graph y meta etiquetas para redes sociales
+
+
+<br>
+HTML5 y Características Modernas
+
+<br>Nuevas etiquetas en HTML5
+<br>Soporte para localStorage y sessionStorage
+<br>APIs de geolocalización y multimedia
+
+
+<br>
+Buenas Prácticas en HTML
+
+<br>Uso correcto de etiquetas
+<br>Organización del código
+<br>Accesibilidad y SEO
+<br>Compatibilidad con navegadores
+
+
+<br>
+Recursos y Herramientas Útiles
+
+<br><a data-tooltip-position="top" aria-label="https://developer.mozilla.org/es/docs/Web/HTML" rel="noopener nofollow" class="external-link" href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">MDN Web Docs - HTML</a>
+<br><a data-tooltip-position="top" aria-label="https://htmlreference.io/" rel="noopener nofollow" class="external-link" href="https://htmlreference.io/" target="_blank">HTML Reference</a>
+<br>Herramientas como el validador de HTML de W3C
+
+
+]]></description><link>html\html-indice.html</link><guid isPermaLink="false">Html/Html indice.md</guid><pubDate>Wed, 19 Mar 2025 11:39:09 GMT</pubDate></item><item><title><![CDATA[Ingles]]></title><description><![CDATA[ 
  <br>Primer Trimestre:<br>
 <br><a data-href="Tema 1" href="\ingles\tema-1.html" class="internal-link" target="_self" rel="noopener nofollow">Tema 1</a>
 <br><a data-href="Tema 2" href="\ingles\tema-2.html" class="internal-link" target="_self" rel="noopener nofollow">Tema 2</a>
@@ -9967,7 +10464,78 @@ Word processing (Español a Inglés): Procesamiento de texto
 
 
 <br>Expressing a lack of knowledge]]></description><link>ingles\tema-1.html</link><guid isPermaLink="false">Ingles/Tema 1.md</guid><pubDate>Wed, 04 Oct 2023 09:19:40 GMT</pubDate></item><item><title><![CDATA[Tema 2]]></title><description><![CDATA[ 
- <br>Segundo tema Word procesing actions<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>]]></description><link>ingles\tema-2.html</link><guid isPermaLink="false">Ingles/Tema 2.md</guid><pubDate>Thu, 13 Feb 2025 11:13:08 GMT</pubDate></item><item><title><![CDATA[Casos de uso de Next.js]]></title><description><![CDATA[ 
+ <br>Segundo tema Word procesing actions<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>]]></description><link>ingles\tema-2.html</link><guid isPermaLink="false">Ingles/Tema 2.md</guid><pubDate>Thu, 13 Feb 2025 11:13:08 GMT</pubDate></item><item><title><![CDATA[JavaScript indice]]></title><description><![CDATA[ 
+ <br>JavaScript<br>
+Constantes:<br>
+<br>strings
+<br>Number
+<br>Booleano
+<br>Undefined,  null and NaN
+<br>Funciones
+<br>Arrays
+<br>Objectos
+<br>Operadores:
+<br>Condicionales
+<br>Loops / Bucles
+<br>Manejo de Errores(Try/Cach/Finally)
+<br>Break &amp; Continue
+<br>Destructuración
+<br>Objectos Literales
+<br>Parametros REST &amp; Operador Spread
+<br>Aroww Functions / Funciones Flechas
+<br>POO
+
+<br>Clases
+<br>Objectos
+<br>Prototipos
+
+<br>Herencia Prototípica
+
+
+<br>Métodos Estaticos
+<br>Método getters y Setters
+
+
+<br>Objecto Consola
+<br>Objecto Date
+<br>Object Math
+<br>Operador Cortocircuito
+<br>Alert, Confirm y Prompt
+<br>Expresiones Regulares
+
+<br>Expresiones Regulares 2
+
+
+<br>Funciones Anonimas
+<br>Modulos (Import / Export)
+<br>Notas Practica:
+<br>Promacion Asincrona (JS)
+
+<br>Event Loop
+<br>Procesos de CPU
+<br>Operacione I / O
+<br>Operaciones Concurrentes y Paralelas
+<br>Operaciones BLoqueantes y No Bloqueantes
+<br>Operaciones Síncronas y Asíncronas
+<br>Temporizadores (setTimeout &amp; setInteval)
+<br>CallBack
+<br>Promesas
+<br>Async - Await
+
+
+<br>Otros tipos de datos:
+
+<br>Symbols
+<br>Sets
+<br>Maps
+<br>WeakSets &amp; WeakMaps
+<br>Elementos Iterables &amp; Iteretors
+<br>Generators
+<br>Proxies
+<br>Propiedades Dinamicas Objectos
+
+
+]]></description><link>javascript\javascript-indice.html</link><guid isPermaLink="false">JavaScript/JavaScript indice.md</guid><pubDate>Wed, 19 Mar 2025 12:17:03 GMT</pubDate></item><item><title><![CDATA[Casos de uso de Next.js]]></title><description><![CDATA[ 
  <br>
 <br>Aplicaciones con SEO optimizado: Blogs, ecommerce, sitios de noticias.
 <br>Dashboards y aplicaciones internas: Donde la rapidez es clave y se puede combinar SSR y CSR.
@@ -10032,7 +10600,8 @@ Word processing (Español a Inglés): Procesamiento de texto
 <br>Mejor rendimiento: Gracias a su optimización automática de imágenes, carga progresiva de JavaScript y otros beneficios.
 <br>Soporte para React Server Components (RSC): Ayuda a reducir el tamaño del bundle en el cliente.
 <br>Optimización automática: Next.js optimiza el código y la carga de recursos sin intervención manual.
-]]></description><link>next.js\ventajas-de-next.js-sobre-react.html</link><guid isPermaLink="false">Next.js/Ventajas de Next.js sobre React.md</guid><pubDate>Thu, 13 Feb 2025 11:52:45 GMT</pubDate></item><item><title><![CDATA[Activiti]]></title><description><![CDATA[ 
+]]></description><link>next.js\ventajas-de-next.js-sobre-react.html</link><guid isPermaLink="false">Next.js/Ventajas de Next.js sobre React.md</guid><pubDate>Thu, 13 Feb 2025 11:52:45 GMT</pubDate></item><item><title><![CDATA[Principios Solid]]></title><description><![CDATA[ 
+ <br>Son una series de principios que se usan en programación para asegurar la responsabilidad de la clase y mantebilidad como escalabilidad del mismo.]]></description><link>principios-solid\principios-solid.html</link><guid isPermaLink="false">Principios Solid/Principios Solid.md</guid><pubDate>Tue, 18 Feb 2025 10:48:08 GMT</pubDate></item><item><title><![CDATA[Activiti]]></title><description><![CDATA[ 
  <br> Activiti es un motor de flujo de trabajo y gestión de procesos empresariales (BPM) basado en Java. Si bien está diseñado principalmente para aplicaciones empresariales y entornos de servidor, es posible integrarlo en una aplicación Android para manejar flujos de trabajo y automatización de procesos.<br><br>Para usar Activiti en Android, se deben agregar las dependencias necesarias en el archivo build.gradle:<br>implementation 'org.activiti:activiti-engine:7.1.0.M6'
 <br>Dado que Activiti requiere una base de datos, puedes optar por usar una base de datos embebida como H2 o SQLite en Android.<br><br>Para inicializar el motor de Activiti en Android, se puede usar la configuración predeterminada:<br>ProcessEngine processEngine = ProcessEngines.getDefaultProcessEngine();
 <br>Esto cargará la configuración predeterminada de Activiti, asegurando que el motor esté listo para ejecutar flujos de trabajo.<br><br>Un proceso en Activiti se define usando BPMN 2.0. Se puede crear un proceso en un archivo XML:<br>&lt;definitions ...&gt;
@@ -13327,7 +13896,269 @@ Puede ampliarse con módulos verticales para cubrir necesidades específicas.
 🔹 Facilita el control de calidad.<br>
 🔹 Optimiza la gestión de inventarios y reduce pérdidas.<br>
 🔹 Es clave en sectores como alimentación, farmacéutica, automotriz y logística.  ]]></description><link>sistema-gestion-empresarial\trazabilidad.html</link><guid isPermaLink="false">Sistema-Gestion-Empresarial/Trazabilidad.md</guid><pubDate>Sun, 16 Feb 2025 10:19:28 GMT</pubDate></item><item><title><![CDATA[Svelte]]></title><description><![CDATA[ 
- <br>Svelte es un <a data-href="Framework" href="\curso-spring\framework.html" class="internal-link" target="_self" rel="noopener nofollow">Framework</a> y a la vez un compilador directo que NO usa DOM para tras copilar como <a data-href="React" href="\curso_react\react.html" class="internal-link" target="_self" rel="noopener nofollow">React</a>, Vuet.]]></description><link>sveltekitcurso\svelte.html</link><guid isPermaLink="false">SvelteKitCurso/Svelte.md</guid><pubDate>Sun, 02 Mar 2025 11:13:31 GMT</pubDate></item><item><title><![CDATA[Indice]]></title><description><![CDATA[ 
+ <br>Svelte es un <a data-href="Framework" href="\curso-spring\framework.html" class="internal-link" target="_self" rel="noopener nofollow">Framework</a> y a la vez un compilador directo que NO usa DOM para tras copilar como <a data-href="React" href="\curso_react\react.html" class="internal-link" target="_self" rel="noopener nofollow">React</a>, Vuet.]]></description><link>sveltekitcurso\svelte.html</link><guid isPermaLink="false">SvelteKitCurso/Svelte.md</guid><pubDate>Sun, 02 Mar 2025 11:13:31 GMT</pubDate></item><item><title><![CDATA[API Styles]]></title><description><![CDATA[ 
+ <br>Las Apy Styles se dividen dos tipos: <a data-href="Options Api" href="\vue\options-api.html" class="internal-link" target="_self" rel="noopener nofollow">Options Api</a> y <a data-href="Composition Api" href="\vue\composition-api.html" class="internal-link" target="_self" rel="noopener nofollow">Composition Api</a><br>Options Api<br><br>Es un tipo de <a data-href="API Styles" href="\vue\api-styles.html" class="internal-link" target="_self" rel="noopener nofollow">API Styles</a>, nosotros aqui definimos la lógica de nuestro componente,usando un objecto, dentro del mismo  contiene data, methods  y mounted. Propiedades que definimos en un objecto para nuestra función<br>&lt;script&gt;
+export default {
+  // Properties returned from data() become reactive state
+  // and will be exposed on `this`.
+  data() {
+    return {
+      count: 0
+    }
+  },
+
+  // Methods are functions that mutate state and trigger updates.
+  // They can be bound as event handlers in templates.
+  methods: {
+    increment() {
+      this.count++
+    }
+  },
+
+  // Lifecycle hooks are called at different stages
+  // of a component's lifecycle.
+  // This function will be called when the component is mounted.
+  mounted() {
+    console.log(`The initial count is ${this.count}.`)
+  }
+}
+&lt;/script&gt;
+
+&lt;template&gt;
+  &lt;button @click="increment"&gt;Count is: {{ count }}&lt;/button&gt;
+&lt;/template&gt;
+<br>Composition Api<br><br>Es un tipo de <a data-href="API Styles" href="\vue\api-styles.html" class="internal-link" target="_self" rel="noopener nofollow">API Styles</a> que contiene la logica de nuestro componente usando API funciones. Se usa &lt;script setup&gt;, setup es el atributo que usamos para decirle a Vue que vamos a crear un componente usando las funciones.<br>&lt;script setup&gt;
+import { ref, onMounted } from 'vue'
+
+// reactive state
+const count = ref(0)
+
+// functions that mutate state and trigger updates
+function increment() {
+  count.value++
+}
+
+// lifecycle hooks
+onMounted(() =&gt; {
+  console.log(`The initial count is ${count.value}.`)
+})
+&lt;/script&gt;
+
+&lt;template&gt;
+  &lt;button @click="increment"&gt;Count is: {{ count }}&lt;/button&gt;
+&lt;/template&gt;
+<br><br>Options API esta mas centrado para aquellos que prefieren usar <a data-href="POO" href="\POO" class="internal-link" target="_self" rel="noopener nofollow">POO</a> como paradigma para poder desarrollar<br>Composition API esta mas centrado para aquellos que prefieren mas libertad y control sobre la reatividad.<br>Ambos te permiten desarrollar componetes complejos o <a data-href="Single-File Components" href="\vue\single-file-components.html" class="internal-link" target="_self" rel="noopener nofollow">Single-File Components</a> o SFC.]]></description><link>vue\api-styles.html</link><guid isPermaLink="false">Vue/API Styles.md</guid><pubDate>Fri, 17 Jan 2025 08:53:21 GMT</pubDate></item><item><title><![CDATA[App Configurations]]></title><description><![CDATA[ 
+ <br>Son las configuraciones que podemos hacer a <a data-href="CreateApp" href="\vue\createapp.html" class="internal-link" target="_self" rel="noopener nofollow">CreateApp</a>  una vez instanciado y antes de montarlo. Usando .config.<br><br>La aplicación nos permite configurar errores de distintos nivele en este caso a nivel global.<br>app.config.errorHarler = (err) =&gt;{
+	/*Manejo de error*/
+}
+<br><br>Usando .component() te permite guardar o instaciar componentes generales<br>Tipo:<br>interface App {
+  component(name: string): Component | undefined
+  component(name: string, component: Component): this
+}
+<br>import { createApp } from 'vue'
+
+const app = createApp({})
+
+// register an options object
+app.component('MyComponent', {
+  /* ... */
+})
+
+// retrieve a registered component
+const MyComponent = app.component('MyComponent')
+<br>Mas informacion de los metodos y configuraciones de <a data-href="CreateApp" href="\vue\createapp.html" class="internal-link" target="_self" rel="noopener nofollow">CreateApp</a>: ![<a data-tooltip-position="top" aria-label="https://vuejs.org/api/application.html" rel="noopener nofollow" class="external-link" href="https://vuejs.org/api/application.html" target="_blank">API de aplicación | Vue.js</a>]]]></description><link>vue\app-configurations.html</link><guid isPermaLink="false">Vue/App Configurations.md</guid><pubDate>Sun, 19 Jan 2025 13:17:04 GMT</pubDate></item><item><title><![CDATA[Composition Api]]></title><description><![CDATA[ 
+ <br>Es un tipo de <a data-href="API Styles" href="\vue\api-styles.html" class="internal-link" target="_self" rel="noopener nofollow">API Styles</a> que contiene la logica de nuestro componente usando API funciones. Se usa &lt;script setup&gt;, setup es el atributo que usamos para decirle a Vue que vamos a crear un componente usando las funciones.<br>&lt;script setup&gt;
+import { ref, onMounted } from 'vue'
+
+// reactive state
+const count = ref(0)
+
+// functions that mutate state and trigger updates
+function increment() {
+  count.value++
+}
+
+// lifecycle hooks
+onMounted(() =&gt; {
+  console.log(`The initial count is ${count.value}.`)
+})
+&lt;/script&gt;
+
+&lt;template&gt;
+  &lt;button @click="increment"&gt;Count is: {{ count }}&lt;/button&gt;
+&lt;/template&gt;
+]]></description><link>vue\composition-api.html</link><guid isPermaLink="false">Vue/Composition Api.md</guid><pubDate>Fri, 17 Jan 2025 08:48:59 GMT</pubDate></item><item><title><![CDATA[CreateApp]]></title><description><![CDATA[ 
+ <br>Cada aplicación de Vue  esta montada por createApp()  <br>import { createApp } from 'vue'
+
+const app = createApp({
+  /* root component options */
+})
+<br><br>Dentro de root options normalmente se pasan los componentes que contienen nuestra aplicación normalmente esta un componente llamado "App" y dentro contiene los demas componentes pero tambien se puede agregar varios componentes en el create App <br><br>Lo que hemos hecho hasta ahora es crear pero le dijimos en que parte o donde montarlo para poder montar la aplicación usamos un método llamado .mount("id") <br>El elemento que se pasa como argumento no forma parte del montaje. <br>Las configuraciones se hacen antes de instaciar el metodo. <a data-href="App Configurations" href="\vue\app-configurations.html" class="internal-link" target="_self" rel="noopener nofollow">App Configurations</a><br><br>Puedes crear muchas instacias de create app en una sola pagina de html.<br>const app1 = createApp({
+  /* ... */
+})
+app1.mount('#container-1')
+
+const app2 = createApp({
+  /* ... */
+})
+app2.mount('#container-2')
+]]></description><link>vue\createapp.html</link><guid isPermaLink="false">Vue/CreateApp.md</guid><pubDate>Sun, 19 Jan 2025 13:18:26 GMT</pubDate></item><item><title><![CDATA[Options Api]]></title><description><![CDATA[ 
+ <br>Es un tipo de <a data-href="API Styles" href="\vue\api-styles.html" class="internal-link" target="_self" rel="noopener nofollow">API Styles</a>, nosotros aqui definimos la lógica de nuestro componente,usando un objecto, dentro del mismo  contiene data, methods  y mounted. Propiedades que definimos en un objecto para nuestra función<br>&lt;script&gt;
+export default {
+  // Properties returned from data() become reactive state
+  // and will be exposed on `this`.
+  data() {
+    return {
+      count: 0
+    }
+  },
+
+  // Methods are functions that mutate state and trigger updates.
+  // They can be bound as event handlers in templates.
+  methods: {
+    increment() {
+      this.count++
+    }
+  },
+
+  // Lifecycle hooks are called at different stages
+  // of a component's lifecycle.
+  // This function will be called when the component is mounted.
+  mounted() {
+    console.log(`The initial count is ${this.count}.`)
+  }
+}
+&lt;/script&gt;
+
+&lt;template&gt;
+  &lt;button @click="increment"&gt;Count is: {{ count }}&lt;/button&gt;
+&lt;/template&gt;
+]]></description><link>vue\options-api.html</link><guid isPermaLink="false">Vue/Options Api.md</guid><pubDate>Fri, 17 Jan 2025 08:35:43 GMT</pubDate></item><item><title><![CDATA[Plantillas Raiz DOM sin compilacion]]></title><description><![CDATA[ 
+ <br>Se puede escribir el codigo de Vue directamente sin usar el compilador de Vue y en el mismo usamos. Vue por detras usara .innerHTLM para hacerlo<br>&lt;div id="app"&gt;
+  &lt;button @click="count++"&gt;{{ count }}&lt;/button&gt;
+&lt;/div&gt;
+<br>import { createApp } from 'vue'
+
+const app = createApp({
+  data() {
+    return {
+      count: 0
+    }
+  }
+})
+
+app.mount('#app')
+<br><a data-href="CreateApp" href="\vue\createapp.html" class="internal-link" target="_self" rel="noopener nofollow">CreateApp</a><br><a rel="noopener nofollow" class="external-link" href="https://vuejs.org/guide/quick-start.html#using-vue-from-cdn" target="_blank">https://vuejs.org/guide/quick-start.html#using-vue-from-cdn</a>]]></description><link>vue\plantillas-raiz-dom-sin-compilacion.html</link><guid isPermaLink="false">Vue/Plantillas Raiz DOM sin compilacion.md</guid><pubDate>Sun, 19 Jan 2025 13:05:45 GMT</pubDate></item><item><title><![CDATA[Que es Vue]]></title><description><![CDATA[ 
+ <br>Vue.js es una <a data-href="framework" href="\curso-spring\framework.html" class="internal-link" target="_self" rel="noopener nofollow">framework</a> o <a data-href="libreria" href="\libreria" class="internal-link" target="_self" rel="noopener nofollow">libreria</a> de javascript para crear interfacez visuales web complejas<br>Es <a data-href="reactiva" href="\reactiva" class="internal-link" target="_self" rel="noopener nofollow">reactiva</a> y <a data-href="declaractiva" href="\declaractiva" class="internal-link" target="_self" rel="noopener nofollow">declaractiva</a><br><a data-href="Single-File Components" href="\vue\single-file-components.html" class="internal-link" target="_self" rel="noopener nofollow">Single-File Components</a>]]></description><link>vue\que-es-vue.html</link><guid isPermaLink="false">Vue/Que es Vue.md</guid><pubDate>Fri, 17 Jan 2025 08:16:53 GMT</pubDate></item><item><title><![CDATA[ref]]></title><description><![CDATA[ 
+ <br>Es una <a data-href="API Function" href="\API Function" class="internal-link" target="_self" rel="noopener nofollow">API Function</a> usado en componente de tipo <a data-href="Options Api" href="\vue\options-api.html" class="internal-link" target="_self" rel="noopener nofollow">Options Api</a>. Usado para referenciar un estado reactivo<br>&lt;script setup&gt;
+import { ref } from 'vue'
+
+const message = ref('Hello World!')
+&lt;/script&gt;
+<br>Podemos gaurdar cualquier tipo de dato en el (objectos) tambien tenemos diferentes atributos del mismo:<br>
+<br>.value: devuelve su valor
+]]></description><link>vue\ref.html</link><guid isPermaLink="false">Vue/ref.md</guid><pubDate>Fri, 17 Jan 2025 11:41:47 GMT</pubDate></item><item><title><![CDATA[Single-File Components]]></title><description><![CDATA[ 
+ <br>Los single file component o SFC, es el nombre que se brinda a aquellos archivos simples que mezclan toda la logica, estructura de html y estilos en un simple archivo.<br>&lt;script setup&gt;
+import { ref } from 'vue'
+const count = ref(0)
+&lt;/script&gt;
+
+&lt;template&gt;
+  &lt;button @click="count++"&gt;Count is: {{ count }}&lt;/button&gt;
+&lt;/template&gt;
+
+&lt;style scoped&gt;
+button {
+  font-weight: bold;
+}
+&lt;/style&gt;
+
+<br>Es el mas utilizado dentro de un proyecto de vue<br>Cuando se acompleja enpezamos a separar la logica usando <a data-href="API Styles" href="\vue\api-styles.html" class="internal-link" target="_self" rel="noopener nofollow">API Styles</a>]]></description><link>vue\single-file-components.html</link><guid isPermaLink="false">Vue/Single-File Components.md</guid><pubDate>Fri, 17 Jan 2025 08:20:24 GMT</pubDate></item><item><title><![CDATA[Style Scoped]]></title><description><![CDATA[ 
+ <br>Dentro de cada SFC o <a data-href="Single-File Components" href="\vue\single-file-components.html" class="internal-link" target="_self" rel="noopener nofollow">Single-File Components</a> podemos definir estilos que solo afecten a ese componente con &lt;style scoped&gt; <br>&lt;template&gt;
+  &lt;div class="example"&gt;
+    Scoped style!
+  &lt;/div&gt;
+&lt;/template&gt;
+
+&lt;style scoped&gt;
+.example {
+  color: red;
+}
+&lt;/style&gt;
+
+]]></description><link>vue\style-scoped.html</link><guid isPermaLink="false">Vue/Style Scoped.md</guid><pubDate>Sun, 19 Jan 2025 08:10:36 GMT</pubDate></item><item><title><![CDATA[Vue X]]></title><description><![CDATA[ 
+ <br>Es una librería compatible con <a data-href="Vue 3" href="\Vue 3" class="internal-link" target="_self" rel="noopener nofollow">Vue 3</a> para controlar el estado global de nuestra aplicación.<br><br>Usando <a data-href="ref" href="\vue\ref.html" class="internal-link" target="_self" rel="noopener nofollow">ref</a> :<br>&lt;template&gt;
+  &lt;div&gt;
+    &lt;h1&gt;Contador Local&lt;/h1&gt;
+    &lt;p&gt;Valor: {{ count }}&lt;/p&gt;
+    &lt;button @click="increment"&gt;Incrementar&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+import { ref } from 'vue';
+
+export default {
+  setup() {
+    // Estado local con ref()
+    const count = ref(0);
+
+    const increment = () =&gt; {
+      count.value++;
+    };
+
+    return { count, increment };
+  },
+};
+&lt;/script&gt;
+<br>Descargando la librería de pinia:<br>npm install pinia<br>counter.js:<br>import { defineStore } from 'pinia';
+
+export const useCounterStore = defineStore('counter', {
+  state: () =&gt; ({
+    count: 0,
+  }),
+  actions: {
+    increment() {
+      this.count++;
+    },
+    decrement() {
+      this.count--;
+    },
+  },
+});
+<br>main.js:<br>import { createApp } from 'vue';
+import { createPinia } from 'pinia';
+import App from './App.vue';
+
+const app = createApp(App);
+app.use(createPinia());
+app.mount('#app');
+
+<br>Usando el estado global:<br>&lt;template&gt;
+  &lt;div&gt;
+    &lt;h1&gt;Contador Global&lt;/h1&gt;
+    &lt;p&gt;Valor: {{ count }}&lt;/p&gt;
+    &lt;button @click="increment"&gt;Incrementar&lt;/button&gt;
+    &lt;button @click="decrement"&gt;Decrementar&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+import { useCounterStore } from '@/stores/counter';
+
+export default {
+  setup() {
+    const counterStore = useCounterStore();
+
+    return {
+      count: counterStore.count,
+      increment: counterStore.increment,
+      decrement: counterStore.decrement,
+    };
+  },
+};
+&lt;/script&gt;
+]]></description><link>vue\vue-x.html</link><guid isPermaLink="false">Vue/Vue X.md</guid><pubDate>Sun, 19 Jan 2025 09:02:16 GMT</pubDate></item><item><title><![CDATA[Indice]]></title><description><![CDATA[ 
  <br>
 <br><a data-href="PSP" href="\programacion-de-servicios-y-procesos\psp.html" class="internal-link" target="_self" rel="noopener nofollow">PSP</a> (Programación de servicios y procesos)
 <br><a data-href="PMDM" href="\programacion-de-multimedia-y-dispositivos-moviles\pmdm.html" class="internal-link" target="_self" rel="noopener nofollow">PMDM</a> (Programación de multimedia y dispositivos móviles)
@@ -13348,6 +14179,18 @@ Puede ampliarse con módulos verticales para cubrir necesidades específicas.
 <br><a data-href="React Native" href="\React Native" class="internal-link" target="_self" rel="noopener nofollow">React Native</a>
 <br><a data-href="TensorFlow" href="\curso-tenseflow\tensorflow.html" class="internal-link" target="_self" rel="noopener nofollow">TensorFlow</a>
 <br><a data-href="Boostrap" href="\Boostrap" class="internal-link" target="_self" rel="noopener nofollow">Boostrap</a>
+<br><a data-tooltip-position="top" aria-label="Indice CSS" data-href="Indice CSS" href="\css\indice-css.html" class="internal-link" target="_self" rel="noopener nofollow">CSS</a>
+<br><a data-tooltip-position="top" aria-label="Índice (Flexbox)" data-href="Índice (Flexbox)" href="\flex\índice-(flexbox).html" class="internal-link" target="_self" rel="noopener nofollow">FlexBox</a>
+<br><a data-href="Grid" href="\grid\grid.html" class="internal-link" target="_self" rel="noopener nofollow">Grid</a>
+<br><a data-tooltip-position="top" aria-label="Html indice" data-href="Html indice" href="\html\html-indice.html" class="internal-link" target="_self" rel="noopener nofollow">HTML</a>
+<br><a data-href="Que es Vue" href="\vue\que-es-vue.html" class="internal-link" target="_self" rel="noopener nofollow">Que es Vue</a>
+<br><a data-href="Principios Solid" href="\principios-solid\principios-solid.html" class="internal-link" target="_self" rel="noopener nofollow">Principios Solid</a>
+<br><a data-href="Patrones de diseño" href="\Patrones de diseño" class="internal-link" target="_self" rel="noopener nofollow">Patrones de diseño</a>
+<br><a data-href="Google Cloud" href="\Google Cloud" class="internal-link" target="_self" rel="noopener nofollow">Google Cloud</a>
+<br><a data-href="Cloudfare" href="\Cloudfare" class="internal-link" target="_self" rel="noopener nofollow">Cloudfare</a>
+<br><a data-href="Arquitecturas" href="\Arquitecturas" class="internal-link" target="_self" rel="noopener nofollow">Arquitecturas</a>
+<br><a data-href="Amazon Cloud" href="\Amazon Cloud" class="internal-link" target="_self" rel="noopener nofollow">Amazon Cloud</a>
+<br><a data-tooltip-position="top" aria-label="JavaScript indice" data-href="JavaScript indice" href="\javascript\javascript-indice.html" class="internal-link" target="_self" rel="noopener nofollow">JavaScript</a>
 
 
-]]></description><link>indice.html</link><guid isPermaLink="false">Indice.md</guid><pubDate>Fri, 28 Feb 2025 11:21:24 GMT</pubDate></item></channel></rss>
+]]></description><link>indice.html</link><guid isPermaLink="false">Indice.md</guid><pubDate>Wed, 19 Mar 2025 12:21:22 GMT</pubDate></item></channel></rss>
