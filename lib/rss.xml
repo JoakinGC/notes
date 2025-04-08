@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[FEMPA]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>FEMPA</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 01 Apr 2025 11:05:18 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 01 Apr 2025 11:04:10 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[1 Casos prácticos (elegir uno)]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[FEMPA]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>FEMPA</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 08 Apr 2025 07:56:45 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 08 Apr 2025 07:55:04 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[1 Casos prácticos (elegir uno)]]></title><description><![CDATA[ 
  <br>Ejemplos de proyectos que incluirán elementos de persistencia, servicios, controladores, relaciones entre entidades, APIs, e interfaces web. <br>
 <br>
 Sistema de Reservas para un Hotel (ejemplo, no elegir): Gestiona reservas de habitaciones, clientes y servicios del hotel. Las habitaciones pueden tener múltiples reservas (OneToMany) y los clientes pueden tener múltiples reservas (OneToMany).
@@ -3718,7 +3718,72 @@ public class LeerArchivo {
 <br>Permiten manejar grandes volúmenes de datos sin consumir mucha memoria.  
 <br>Facilitan la comunicación entre diferentes fuentes de datos (archivos, redes, memoria).  
 <br>Mejoran la eficiencia en operaciones de lectura/escritura.  
-]]></description><link>acceso-a-datos\stream.html</link><guid isPermaLink="false">ACCESO-A-DATOS/Stream.md</guid><pubDate>Fri, 14 Feb 2025 21:34:25 GMT</pubDate></item><item><title><![CDATA[Algoritmo de entrenamiento]]></title><description><![CDATA[ 
+]]></description><link>acceso-a-datos\stream.html</link><guid isPermaLink="false">ACCESO-A-DATOS/Stream.md</guid><pubDate>Fri, 14 Feb 2025 21:34:25 GMT</pubDate></item><item><title><![CDATA[Comandos y utilidades]]></title><description><![CDATA[ 
+ <br><br>
+<br>aws configure<br>
+Configura las credenciales de AWS (Access Key ID, Secret Access Key, región y formato de salida).<br>
+
+<br><br>
+<br>aws s3 ls<br>
+Lista los buckets de S3 en tu cuenta.<br>
+
+<br>aws s3 mb s3://nombre-del-bucket<br>
+Crea un nuevo bucket.<br>
+
+<br>aws s3 cp archivo.txt s3://mi-bucket/<br>
+Sube un archivo a un bucket.<br>
+
+<br>aws s3 sync . s3://mi-bucket/<br>
+Sincroniza un directorio local con un bucket.<br>
+
+<br>aws s3 rm s3://mi-bucket/archivo.txt<br>
+Elimina un archivo de un bucket.<br>
+
+<br><br>
+<br>aws ec2 describe-instances<br>
+Muestra información sobre las instancias EC2.<br>
+
+<br>aws ec2 start-instances --instance-ids i-1234567890abcdef0<br>
+Inicia una instancia específica.<br>
+
+<br>aws ec2 stop-instances --instance-ids i-1234567890abcdef0<br>
+Detiene una instancia.<br>
+
+<br><br>
+<br>aws iam list-users<br>
+Lista todos los usuarios IAM.<br>
+
+<br>aws iam create-user --user-name nombreUsuario<br>
+Crea un nuevo usuario.<br>
+
+<br>aws iam attach-user-policy --user-name nombreUsuario --policy-arn arn:aws:iam::aws:policy/NombrePolitica<br>
+Asigna una política a un usuario.<br>
+
+<br><br>
+<br>aws cloudformation create-stack --stack-name nombreStack --template-body file://plantilla.yaml<br>
+Crea un stack desde una plantilla local.<br>
+
+<br>aws cloudformation describe-stacks<br>
+Muestra los detalles de los stacks.<br>
+
+<br><br>
+<br>aws sns create-topic --name nombreTopic<br>
+Crea un nuevo tema de notificación.<br>
+
+<br>aws sns publish --topic-arn arn:aws:sns:region:account-id:nombreTopic --message "Hola"<br>
+Envía un mensaje al tema.<br>
+
+<br><br>
+<br>aws cloudwatch list-metrics<br>
+Lista las métricas disponibles.<br>
+
+<br>aws cloudwatch get-metric-statistics ...<br>
+Obtiene estadísticas de una métrica específica (requiere varios parámetros).
+]]></description><link>amazon-cloud\consola-de-administración-aws\comandos-y-utilidades.html</link><guid isPermaLink="false">Amazon Cloud/Consola de Administración AWS/Comandos y utilidades.md</guid><pubDate>Thu, 03 Apr 2025 11:01:42 GMT</pubDate></item><item><title><![CDATA[Pago por uso]]></title><description><![CDATA[ 
+ <br>Le permite adaptar su negocio a las necesidades de demandas que no se mantienen en el tiempo. El sistema de pago por uso le permite adaptarse a los cambios empresarias y mejorar su capacidad de respuesta. ]]></description><link>amazon-cloud\consola-de-administración-aws\pago-por-uso.html</link><guid isPermaLink="false">Amazon Cloud/Consola de Administración AWS/Pago por uso.md</guid><pubDate>Thu, 03 Apr 2025 11:39:05 GMT</pubDate></item><item><title><![CDATA[Region]]></title><description><![CDATA[ 
+ <br>Una región es una zona aislada es muy importante saber que región tener el servicio ya que este afectara a la latencia y velocidad del servicio.<br>“Pasted image 20250403132211.png” could not be found.<br>No todos los servicios están disponibles para todas las regiones<br>Una región esta constituido por un centro de datos y centro de transito como la zona de disponibilidad.<br>“Pasted image 20250403132400.png” could not be found.]]></description><link>amazon-cloud\consola-de-administración-aws\region.html</link><guid isPermaLink="false">Amazon Cloud/Consola de Administración AWS/Region.md</guid><pubDate>Thu, 03 Apr 2025 11:24:09 GMT</pubDate></item><item><title><![CDATA[Usuarios  Root y grupo de Usuarios]]></title><description><![CDATA[ 
+ <br><a data-href="Amazon Web Services (AWS)" href="\amazon-cloud\amazon-web-services-(aws).html" class="internal-link" target="_self" rel="noopener nofollow">Amazon Web Services (AWS)</a> permite la creación de usuarios root que permite administrar la cuenta de AWS pero si esta se va la personas que sigan trabajando con esa cuenta no podrán acceder por eso es recomendable crear un grupo de usuarios que les permite a varios usuario interactuar con la misma<br>De esta manera podrá acceder a la consola principal del AWS]]></description><link>amazon-cloud\consola-de-administración-aws\usuarios-root-y-grupo-de-usuarios.html</link><guid isPermaLink="false">Amazon Cloud/Consola de Administración AWS/Usuarios  Root y grupo de Usuarios.md</guid><pubDate>Thu, 03 Apr 2025 10:52:00 GMT</pubDate></item><item><title><![CDATA[Widgets]]></title><description><![CDATA[ 
+ <br>Los widgets de <a data-tooltip-position="top" aria-label="Amazon Web Services (AWS)" data-href="Amazon Web Services (AWS)" href="\amazon-cloud\amazon-web-services-(aws).html" class="internal-link" target="_self" rel="noopener nofollow">AWS</a> permiten crear pantallas que muestren información útil para los <a data-tooltip-position="top" aria-label="Usuarios  Root y grupo de Usuarios" data-href="Usuarios  Root y grupo de Usuarios" href="\amazon-cloud\consola-de-administración-aws\usuarios-root-y-grupo-de-usuarios.html" class="internal-link" target="_self" rel="noopener nofollow">usuarios</a>.<br>Podrá seleccionar el widget que desee:<br>“Pasted image 20250403125413.png” could not be found.<br>Se puede modificar su tamaño y eliminar tantos como queramos:<br>“Pasted image 20250403125509.png” could not be found.<br>Algunos widgets no permiten cambiar su tamaño, tambien se puede restaurar el tamaño del widget.]]></description><link>amazon-cloud\consola-de-administración-aws\widgets.html</link><guid isPermaLink="false">Amazon Cloud/Consola de Administración AWS/Widgets.md</guid><pubDate>Thu, 03 Apr 2025 10:56:04 GMT</pubDate></item><item><title><![CDATA[Algoritmo de entrenamiento]]></title><description><![CDATA[ 
  <br>Se usan algoritmos de entrenamiento que requiere predicciones de un modelo en base de patrones que saca de unos datos. Es decir se usa la inductiva para entrenar un algoritmo para hacer <a data-tooltip-position="top" aria-label="Inferencia" data-href="Inferencia" href="\amazon-cloud\machine-learning\inferencia.html" class="internal-link" target="_self" rel="noopener nofollow">inferencias</a> mas generales. Se usan datos conocidos para sacar patrones que se puedan usar en datos nuevos, ]]></description><link>amazon-cloud\machine-learning\algoritmo-de-entrenamiento.html</link><guid isPermaLink="false">Amazon Cloud/Machine learning/Algoritmo de entrenamiento.md</guid><pubDate>Sun, 23 Mar 2025 11:53:42 GMT</pubDate></item><item><title><![CDATA[Amazon Web Services(AWS)]]></title><description><![CDATA[ 
  ]]></description><link>amazon-cloud\machine-learning\amazon-web-services(aws).html</link><guid isPermaLink="false">Amazon Cloud/Machine learning/Amazon Web Services(AWS).md</guid><pubDate>Wed, 26 Mar 2025 12:43:00 GMT</pubDate></item><item><title><![CDATA[Aprendizaje continuo]]></title><description><![CDATA[ 
  <br>Un subconjunto de machine learning, una computadora aprende sobre la marcha ajustando sus acciones basada en los resultados que mide para maximizar la respuesta a lo esperado.]]></description><link>amazon-cloud\machine-learning\aprendizaje-continuo.html</link><guid isPermaLink="false">Amazon Cloud/Machine learning/Aprendizaje continuo.md</guid><pubDate>Thu, 20 Mar 2025 12:30:32 GMT</pubDate></item><item><title><![CDATA[Aprendizaje por esfuerzo]]></title><description><![CDATA[ 
@@ -14105,7 +14170,57 @@ Puede ampliarse con módulos verticales para cubrir necesidades específicas.
 🔹 Es clave en sectores como alimentación, farmacéutica, automotriz y logística.  ]]></description><link>sistema-gestion-empresarial\trazabilidad.html</link><guid isPermaLink="false">Sistema-Gestion-Empresarial/Trazabilidad.md</guid><pubDate>Sun, 16 Feb 2025 10:19:28 GMT</pubDate></item><item><title><![CDATA[Svelte]]></title><description><![CDATA[ 
  <br>Svelte es un <a data-href="Framework" href="\curso-spring\framework.html" class="internal-link" target="_self" rel="noopener nofollow">Framework</a> y a la vez un compilador directo que NO usa DOM para tras copilar como <a data-href="React" href="\curso_react\react.html" class="internal-link" target="_self" rel="noopener nofollow">React</a>, Vuet.]]></description><link>sveltekitcurso\svelte.html</link><guid isPermaLink="false">SvelteKitCurso/Svelte.md</guid><pubDate>Sun, 02 Mar 2025 11:13:31 GMT</pubDate></item><item><title><![CDATA[Svelte Kit]]></title><description><![CDATA[ 
  <br>Svelte es un <a data-href="Framework" href="\curso-spring\framework.html" class="internal-link" target="_self" rel="noopener nofollow">Framework</a> y a la vez un compilador directo que NO usa DOM para tras copilar como <a data-href="React" href="\curso_react\react.html" class="internal-link" target="_self" rel="noopener nofollow">React</a>, Vuet.]]></description><link>sveltekitcurso\svelte-kit.html</link><guid isPermaLink="false">SvelteKitCurso/Svelte Kit.md</guid><pubDate>Tue, 25 Mar 2025 15:55:03 GMT</pubDate></item><item><title><![CDATA[API Styles]]></title><description><![CDATA[ 
- <br>Las Apy Styles se dividen dos tipos: <a data-href="Options Api" href="\vue\options-api.html" class="internal-link" target="_self" rel="noopener nofollow">Options Api</a> y <a data-href="Composition Api" href="\vue\composition-api.html" class="internal-link" target="_self" rel="noopener nofollow">Composition Api</a><br>Options Api<br><br>Composition Api<br><br><br>Options API esta mas centrado para aquellos que prefieren usar <a data-href="POO" href="\POO" class="internal-link" target="_self" rel="noopener nofollow">POO</a> como paradigma para poder desarrollar<br>Composition API esta mas centrado para aquellos que prefieren mas libertad y control sobre la reactividad.<br>Ambos te permiten desarrollar componentes complejos o <a data-href="Single-File Components" href="\vue\single-file-components.html" class="internal-link" target="_self" rel="noopener nofollow">Single-File Components</a> o SFC.]]></description><link>vue\api-styles.html</link><guid isPermaLink="false">Vue/API Styles.md</guid><pubDate>Thu, 20 Mar 2025 10:59:49 GMT</pubDate></item><item><title><![CDATA[App Configurations]]></title><description><![CDATA[ 
+ <br>Las Apy Styles se dividen dos tipos: <a data-href="Options Api" href="\vue\options-api.html" class="internal-link" target="_self" rel="noopener nofollow">Options Api</a> y <a data-href="Composition Api" href="\vue\composition-api.html" class="internal-link" target="_self" rel="noopener nofollow">Composition Api</a><br>Options Api<br><br>Es un tipo de <a data-href="API Styles" href="\vue\api-styles.html" class="internal-link" target="_self" rel="noopener nofollow">API Styles</a>, nosotros aqui definimos la lógica de nuestro componente,usando un objecto, dentro del mismo  contiene data, methods  y mounted. Propiedades que definimos en un objecto para nuestra función<br>&lt;script&gt;
+export default {
+  // Properties returned from data() become reactive state
+  // and will be exposed on `this`.
+  data() {
+    return {
+      count: 0
+    }
+  },
+
+  // Methods are functions that mutate state and trigger updates.
+  // They can be bound as event handlers in templates.
+  methods: {
+    increment() {
+      this.count++
+    }
+  },
+
+  // Lifecycle hooks are called at different stages
+  // of a component's lifecycle.
+  // This function will be called when the component is mounted.
+  mounted() {
+    console.log(`The initial count is ${this.count}.`)
+  }
+}
+&lt;/script&gt;
+
+&lt;template&gt;
+  &lt;button @click="increment"&gt;Count is: {{ count }}&lt;/button&gt;
+&lt;/template&gt;
+<br>Composition Api<br><br>Es un tipo de <a data-href="API Styles" href="\vue\api-styles.html" class="internal-link" target="_self" rel="noopener nofollow">API Styles</a> que contiene la lógica de nuestro componente usando API funciones. Se usa &lt;script setup&gt;, setup es el atributo que usamos para decirle a Vue que vamos a crear un componente usando las funciones.<br>&lt;script setup&gt;
+import { ref, onMounted } from 'vue'
+
+// reactive state
+const count = ref(0)
+
+// functions that mutate state and trigger updates
+function increment() {
+  count.value++
+}
+
+// lifecycle hooks
+onMounted(() =&gt; {
+  console.log(`The initial count is ${count.value}.`)
+})
+&lt;/script&gt;
+
+&lt;template&gt;
+  &lt;button @click="increment"&gt;Count is: {{ count }}&lt;/button&gt;
+&lt;/template&gt;
+<br><br>Options API esta mas centrado para aquellos que prefieren usar <a data-href="POO" href="\POO" class="internal-link" target="_self" rel="noopener nofollow">POO</a> como paradigma para poder desarrollar<br>Composition API esta mas centrado para aquellos que prefieren mas libertad y control sobre la reactividad.<br>Ambos te permiten desarrollar componentes complejos o <a data-href="Single-File Components" href="\vue\single-file-components.html" class="internal-link" target="_self" rel="noopener nofollow">Single-File Components</a> o SFC.]]></description><link>vue\api-styles.html</link><guid isPermaLink="false">Vue/API Styles.md</guid><pubDate>Thu, 20 Mar 2025 10:59:49 GMT</pubDate></item><item><title><![CDATA[App Configurations]]></title><description><![CDATA[ 
  <br>Son las configuraciones que podemos hacer a <a data-href="CreateApp" href="\vue\createapp.html" class="internal-link" target="_self" rel="noopener nofollow">CreateApp</a>  una vez instanciado y antes de montarlo. Usando .config.<br><br>La aplicación nos permite configurar errores de distintos nivele en este caso a nivel global.<br>app.config.errorHarler = (err) =&gt;{
 	/*Manejo de error*/
 }

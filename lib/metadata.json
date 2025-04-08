@@ -1,6 +1,6 @@
 {
   "vaultName": "FEMPA",
-  "lastExport": 1743505450355,
+  "lastExport": 1744098904831,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -55,6 +55,11 @@
     "ACCESO-A-DATOS/primerTema",
     "ACCESO-A-DATOS/Spring Framework.md",
     "ACCESO-A-DATOS/Stream.md",
+    "Amazon Cloud/Consola de Administración AWS/Comandos y utilidades.md",
+    "Amazon Cloud/Consola de Administración AWS/Pago por uso.md",
+    "Amazon Cloud/Consola de Administración AWS/Region.md",
+    "Amazon Cloud/Consola de Administración AWS/Usuarios  Root y grupo de Usuarios.md",
+    "Amazon Cloud/Consola de Administración AWS/Widgets.md",
     "Amazon Cloud/Machine learning/img/Pasted image 20250320132735.png",
     "Amazon Cloud/Machine learning/img/Pasted image 20250320133223.png",
     "Amazon Cloud/Machine learning/img/Pasted image 20250320145245.png",
@@ -447,8 +452,8 @@
     "PROYECTOS - FEMPA/PROYECTO - FINAL/Arquitectura Limpia.md",
     "PROYECTOS - FEMPA/PROYECTO - FINAL/Comandos para crear proyecto.md",
     "PROYECTOS - FEMPA/PROYECTO - FINAL/Entidad Relación.md",
-    "PROYECTOS - FEMPA/PROYECTO - FINAL/entidad_relacion.drawio",
     "PROYECTOS - FEMPA/PROYECTO - FINAL/entidad_relacion.png",
+    "PROYECTOS - FEMPA/PROYECTO - FINAL/entidad_relacion.drawio",
     "PROYECTOS - FEMPA/PROYECTO - FINAL/Etapas PFC.md",
     "PROYECTOS - FEMPA/PROYECTO - FINAL/Requistos Funcionales.md",
     "PROYECTOS - FEMPA/PROYECTO - FINAL/Untitled.canvas",
@@ -586,511 +591,541 @@
   ],
   "fileInfo": {
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/1 Casos prácticos (elegir uno).md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2538,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/1-casos-prácticos-(elegir-uno).html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2 Aspectos técnicos.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3547,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2-aspectos-técnicos.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.1 Análisis y Planificación de Requerimientos.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2835,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.1-análisis-y-planificación-de-requerimientos.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.2 Diseño de la Arquitectura.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 7309,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.2-diseño-de-la-arquitectura.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.3 Modelo de datos.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3278,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.3-modelo-de-datos.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.4 Seguridad.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3051,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.4-seguridad.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.5 Interfaz de Usuario y Experiencia del Usuario.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3577,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.5-interfaz-de-usuario-y-experiencia-del-usuario.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.6 APIs y Integraciones.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3314,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.6-apis-y-integraciones.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.7  Testing y Aseguramiento de la Calidad.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3576,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.7-testing-y-aseguramiento-de-la-calidad.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.8 Logging y Monitorización.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3033,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.8-logging-y-monitorización.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.9 Manejo de Errores y Excepciones.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3785,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.9-manejo-de-errores-y-excepciones.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.10 Documentación.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3290,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.10-documentación.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.11 Despliegue y Mantenimiento.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3708,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.11-despliegue-y-mantenimiento.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.12 Accesibilidad y Localización.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2713,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.12-accesibilidad-y-localización.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.13 Aspectos Legales y Conformidad.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2978,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.13-aspectos-legales-y-conformidad.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Práctica segunda evaluación/2.14 Gestión de Cambios y Versiones.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3108,
       "exportedPath": "acceso-a-datos/acd-main/práctica-segunda-evaluación/2.14-gestión-de-cambios-y-versiones.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Tema 1 - Archivos/Tema1-Archivos.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 61913,
       "exportedPath": "acceso-a-datos/acd-main/tema-1-archivos/tema1-archivos.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Tema 2 - Bases de Datos Relacionales/JDBC/DAO/Justificación DAO. Alta Cohesión y bajo Acoplamiento..md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2840,
       "exportedPath": "acceso-a-datos/acd-main/tema-2-bases-de-datos-relacionales/jdbc/dao/justificación-dao.-alta-cohesión-y-bajo-acoplamiento..html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Tema 2 - Bases de Datos Relacionales/JDBC/SERVICE/1. Introducción Capa Service.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2747,
       "exportedPath": "acceso-a-datos/acd-main/tema-2-bases-de-datos-relacionales/jdbc/service/1.-introducción-capa-service.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Tema 2 - Bases de Datos Relacionales/JDBC/SERVICE/2. DAO + Service.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 5653,
       "exportedPath": "acceso-a-datos/acd-main/tema-2-bases-de-datos-relacionales/jdbc/service/2.-dao-+-service.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Tema 2 - Bases de Datos Relacionales/JDBC/SERVICE/3. Operaciones en capa Service.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3141,
       "exportedPath": "acceso-a-datos/acd-main/tema-2-bases-de-datos-relacionales/jdbc/service/3.-operaciones-en-capa-service.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Tema 4 - Spring/0. Índice contenidos Framework Spring.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3334,
       "exportedPath": "acceso-a-datos/acd-main/tema-4-spring/0.-índice-contenidos-framework-spring.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Tema 4 - Spring/1. Clase Introducción al Framework Spring.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 11864,
       "exportedPath": "acceso-a-datos/acd-main/tema-4-spring/1.-clase-introducción-al-framework-spring.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Tema 4 - Spring/2 Clase Spring Core y Spring MVC.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 9095,
       "exportedPath": "acceso-a-datos/acd-main/tema-4-spring/2-clase-spring-core-y-spring-mvc.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Tema 4 - Spring/2.1 Introducción Thymleaf.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3276,
       "exportedPath": "acceso-a-datos/acd-main/tema-4-spring/2.1-introducción-thymleaf.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Tema 4 - Spring/3 Clase Acceso a Datos con Spring.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3922,
       "exportedPath": "acceso-a-datos/acd-main/tema-4-spring/3-clase-acceso-a-datos-con-spring.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Tema 4 - Spring/4 Clase Spring Boot y Microservicios.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3121,
       "exportedPath": "acceso-a-datos/acd-main/tema-4-spring/4-clase-spring-boot-y-microservicios.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Tema 4 - Spring/5 Clase Seguridad y Testing en Spring.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 11391,
       "exportedPath": "acceso-a-datos/acd-main/tema-4-spring/5-clase-seguridad-y-testing-en-spring.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main/Tema 4 - Spring/6 Clase Temas Avanzados y Proyecto Final.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 19407,
       "exportedPath": "acceso-a-datos/acd-main/tema-4-spring/6-clase-temas-avanzados-y-proyecto-final.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Acceso a Bases de Datos NoSQL con MongoDB.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 5053,
       "exportedPath": "acceso-a-datos/acceso-a-bases-de-datos-nosql-con-mongodb.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Acceso a Bases de Datos Relacionales.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3017,
       "exportedPath": "acceso-a-datos/acceso-a-bases-de-datos-relacionales.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Acceso a Datos.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 564,
       "exportedPath": "acceso-a-datos/acceso-a-datos.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Acceso a ficheros.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3750,
       "exportedPath": "acceso-a-datos/acceso-a-ficheros.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/ACD-main.zip": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 440047,
       "exportedPath": "acceso-a-datos/acd-main.zip",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Archivo.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2444,
       "exportedPath": "acceso-a-datos/archivo.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Buffer.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1534,
       "exportedPath": "acceso-a-datos/buffer.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Clases para Acceso a Datos.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3828,
       "exportedPath": "acceso-a-datos/clases-para-acceso-a-datos.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Clases para trabajar con ficheros.canvas": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3242,
       "exportedPath": "acceso-a-datos/clases-para-trabajar-con-ficheros.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Creación de servicios web con Spring.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3620,
       "exportedPath": "acceso-a-datos/creación-de-servicios-web-con-spring.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Creación de una API.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3845,
       "exportedPath": "acceso-a-datos/creación-de-una-api.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Despliegue de servicios web.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2906,
       "exportedPath": "acceso-a-datos/despliegue-de-servicios-web.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Dirección Absoluta.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1298,
       "exportedPath": "acceso-a-datos/dirección-absoluta.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Dirección de Base.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1359,
       "exportedPath": "acceso-a-datos/dirección-de-base.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Mapeo Objeto-Relacional  con Hibernate.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 4231,
       "exportedPath": "acceso-a-datos/mapeo-objeto-relacional-con-hibernate.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Objeto.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1790,
       "exportedPath": "acceso-a-datos/objeto.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Offset.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1508,
       "exportedPath": "acceso-a-datos/offset.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/primerTema": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 61913,
       "exportedPath": "acceso-a-datos/primertema/primertema.",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Spring Framework.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1387,
       "exportedPath": "acceso-a-datos/spring-framework.html",
       "dependencies": []
     },
     "ACCESO-A-DATOS/Stream.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1485,
       "exportedPath": "acceso-a-datos/stream.html",
       "dependencies": []
     },
+    "Amazon Cloud/Consola de Administración AWS/Comandos y utilidades.md": {
+      "modifiedTime": 1744098904831,
+      "sourceSize": 1971,
+      "exportedPath": "amazon-cloud/consola-de-administración-aws/comandos-y-utilidades.html",
+      "dependencies": []
+    },
+    "Amazon Cloud/Consola de Administración AWS/Pago por uso.md": {
+      "modifiedTime": 1744098904831,
+      "sourceSize": 205,
+      "exportedPath": "amazon-cloud/consola-de-administración-aws/pago-por-uso.html",
+      "dependencies": []
+    },
+    "Amazon Cloud/Consola de Administración AWS/Region.md": {
+      "modifiedTime": 1744098904831,
+      "sourceSize": 399,
+      "exportedPath": "amazon-cloud/consola-de-administración-aws/region.html",
+      "dependencies": []
+    },
+    "Amazon Cloud/Consola de Administración AWS/Usuarios  Root y grupo de Usuarios.md": {
+      "modifiedTime": 1744098904831,
+      "sourceSize": 366,
+      "exportedPath": "amazon-cloud/consola-de-administración-aws/usuarios-root-y-grupo-de-usuarios.html",
+      "dependencies": []
+    },
+    "Amazon Cloud/Consola de Administración AWS/Widgets.md": {
+      "modifiedTime": 1744098904831,
+      "sourceSize": 453,
+      "exportedPath": "amazon-cloud/consola-de-administración-aws/widgets.html",
+      "dependencies": []
+    },
     "Amazon Cloud/Machine learning/img/Pasted image 20250320132735.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 29861,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250320132735.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250320133223.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 14695,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250320133223.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250320145245.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 14695,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250320145245.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250323130358.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 10254,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250323130358.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250323130540.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 12202,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250323130540.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250323131430.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 13359,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250323131430.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250325092731.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 28564,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250325092731.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250325094243.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 101885,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250325094243.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250325094737.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 137065,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250325094737.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250325095220.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 11557,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250325095220.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250325105212.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 54843,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250325105212.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250325110532.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 25624,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250325110532.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250325111016.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 27014,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250325111016.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250325132002.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 66922,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250325132002.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250325155325.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 36717,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250325155325.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250326130823.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 31476,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250326130823.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250326132938.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 24892,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250326132938.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250326133617.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 20558,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250326133617.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250326133817.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 14649,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250326133817.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250326134031.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 17136,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250326134031.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250326134354.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 30999,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250326134354.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250328124515.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 32826,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250328124515.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250328124836.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 29096,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250328124836.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250328125106.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 63100,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250328125106.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250328131528.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 304282,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250328131528.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250331134151.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 58069,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250331134151.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250331134302.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 88854,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250331134302.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250331134951.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 93232,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250331134951.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250331135427.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 32518,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250331135427.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250331140021.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 38505,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250331140021.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/img/Pasted image 20250331140250.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 29804,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250331140250.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Algoritmo de entrenamiento.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 309,
       "exportedPath": "amazon-cloud/machine-learning/algoritmo-de-entrenamiento.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Amazon Web Services(AWS).md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 0,
       "exportedPath": "amazon-cloud/machine-learning/amazon-web-services(aws).html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Aprendizaje continuo.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 175,
       "exportedPath": "amazon-cloud/machine-learning/aprendizaje-continuo.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Aprendizaje por esfuerzo.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 254,
       "exportedPath": "amazon-cloud/machine-learning/aprendizaje-por-esfuerzo.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Aprendizaje sin supervisar.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 506,
       "exportedPath": "amazon-cloud/machine-learning/aprendizaje-sin-supervisar.html",
       "dependencies": [
@@ -1098,7 +1133,7 @@
       ]
     },
     "Amazon Cloud/Machine learning/Aprendizaje supervisado.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 223,
       "exportedPath": "amazon-cloud/machine-learning/aprendizaje-supervisado.html",
       "dependencies": [
@@ -1106,19 +1141,19 @@
       ]
     },
     "Amazon Cloud/Machine learning/AWS IoT Grenngras.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 153,
       "exportedPath": "amazon-cloud/machine-learning/aws-iot-grenngras.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Búsqueda de datos faltantes.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 363,
       "exportedPath": "amazon-cloud/machine-learning/búsqueda-de-datos-faltantes.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Canalización de machine learning.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 7874,
       "exportedPath": "amazon-cloud/machine-learning/canalización-de-machine-learning.html",
       "dependencies": [
@@ -1135,25 +1170,25 @@
       ]
     },
     "Amazon Cloud/Machine learning/Capa de datos.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 62,
       "exportedPath": "amazon-cloud/machine-learning/capa-de-datos.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Capa de Implementación y monitoreo.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 87,
       "exportedPath": "amazon-cloud/machine-learning/capa-de-implementación-y-monitoreo.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Capa de modelo.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 154,
       "exportedPath": "amazon-cloud/machine-learning/capa-de-modelo.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Características.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 241,
       "exportedPath": "amazon-cloud/machine-learning/características.html",
       "dependencies": [
@@ -1161,7 +1196,7 @@
       ]
     },
     "Amazon Cloud/Machine learning/Clasificaciones binarias.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 245,
       "exportedPath": "amazon-cloud/machine-learning/clasificaciones-binarias.html",
       "dependencies": [
@@ -1169,7 +1204,7 @@
       ]
     },
     "Amazon Cloud/Machine learning/Clasificaciones multiclase.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 335,
       "exportedPath": "amazon-cloud/machine-learning/clasificaciones-multiclase.html",
       "dependencies": [
@@ -1177,37 +1212,37 @@
       ]
     },
     "Amazon Cloud/Machine learning/Codificación de datos.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 314,
       "exportedPath": "amazon-cloud/machine-learning/codificación-de-datos.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Cuando usar machine learning.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 869,
       "exportedPath": "amazon-cloud/machine-learning/cuando-usar-machine-learning.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Datos comerciales.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 113,
       "exportedPath": "amazon-cloud/machine-learning/datos-comerciales.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Datos de código abierto.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 146,
       "exportedPath": "amazon-cloud/machine-learning/datos-de-código-abierto.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Datos privados.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 132,
       "exportedPath": "amazon-cloud/machine-learning/datos-privados.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Enlaces para aprender mas.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 575,
       "exportedPath": "amazon-cloud/machine-learning/enlaces-para-aprender-mas.html",
       "dependencies": [
@@ -1215,7 +1250,7 @@
       ]
     },
     "Amazon Cloud/Machine learning/Equilibrio.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 265,
       "exportedPath": "amazon-cloud/machine-learning/equilibrio.html",
       "dependencies": [
@@ -1223,13 +1258,13 @@
       ]
     },
     "Amazon Cloud/Machine learning/Herramientas brindadas de AWS para ML.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 496,
       "exportedPath": "amazon-cloud/machine-learning/herramientas-brindadas-de-aws-para-ml.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Herramientas de marcos de referencia de ML.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 36,
       "exportedPath": "amazon-cloud/machine-learning/herramientas-de-marcos-de-referencia-de-ml.html",
       "dependencies": [
@@ -1237,13 +1272,13 @@
       ]
     },
     "Amazon Cloud/Machine learning/Inferencia.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 540,
       "exportedPath": "amazon-cloud/machine-learning/inferencia.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Infraajuste.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 220,
       "exportedPath": "amazon-cloud/machine-learning/infraajuste.html",
       "dependencies": [
@@ -1251,49 +1286,49 @@
       ]
     },
     "Amazon Cloud/Machine learning/Instancias de Amazon EC2 C2 y C5N.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 124,
       "exportedPath": "amazon-cloud/machine-learning/instancias-de-amazon-ec2-c2-y-c5n.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Instancias del modelo informático.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 334,
       "exportedPath": "amazon-cloud/machine-learning/instancias-del-modelo-informático.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Instancias EC2 P3.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 266,
       "exportedPath": "amazon-cloud/machine-learning/instancias-ec2-p3.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Inteligencia artificial.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 160,
       "exportedPath": "amazon-cloud/machine-learning/inteligencia-artificial.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Jupyter Lab.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 98,
       "exportedPath": "amazon-cloud/machine-learning/jupyter-lab.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Jupyter Netebook.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 305,
       "exportedPath": "amazon-cloud/machine-learning/jupyter-netebook.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Lambda.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1051,
       "exportedPath": "amazon-cloud/machine-learning/lambda.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Limpieza de datos.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 361,
       "exportedPath": "amazon-cloud/machine-learning/limpieza-de-datos.html",
       "dependencies": [
@@ -1301,7 +1336,7 @@
       ]
     },
     "Amazon Cloud/Machine learning/Machine learning.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 288,
       "exportedPath": "amazon-cloud/machine-learning/machine-learning.html",
       "dependencies": [
@@ -1309,13 +1344,13 @@
       ]
     },
     "Amazon Cloud/Machine learning/Matplotlib.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 119,
       "exportedPath": "amazon-cloud/machine-learning/matplotlib.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Modelo.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 291,
       "exportedPath": "amazon-cloud/machine-learning/modelo.html",
       "dependencies": [
@@ -1323,61 +1358,61 @@
       ]
     },
     "Amazon Cloud/Machine learning/NumPy.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 131,
       "exportedPath": "amazon-cloud/machine-learning/numpy.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Pandas.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 173,
       "exportedPath": "amazon-cloud/machine-learning/pandas.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Pasted image 20250325105212.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 54843,
       "exportedPath": "amazon-cloud/machine-learning/pasted-image-20250325105212.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Pasted image 20250325110532.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 25624,
       "exportedPath": "amazon-cloud/machine-learning/pasted-image-20250325110532.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Pasted image 20250325111016.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 27014,
       "exportedPath": "amazon-cloud/machine-learning/pasted-image-20250325111016.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Pasted image 20250325132002.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 66922,
       "exportedPath": "amazon-cloud/machine-learning/pasted-image-20250325132002.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Pasted image 20250325155325.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 36717,
       "exportedPath": "amazon-cloud/machine-learning/pasted-image-20250325155325.png",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Pila.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 183,
       "exportedPath": "amazon-cloud/machine-learning/pila.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Ponderaciones o peso.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 353,
       "exportedPath": "amazon-cloud/machine-learning/ponderaciones-o-peso.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Programación clásica.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 162,
       "exportedPath": "amazon-cloud/machine-learning/programación-clásica.html",
       "dependencies": [
@@ -1385,7 +1420,7 @@
       ]
     },
     "Amazon Cloud/Machine learning/Programación frente a machine learning.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 266,
       "exportedPath": "amazon-cloud/machine-learning/programación-frente-a-machine-learning.html",
       "dependencies": [
@@ -1393,25 +1428,25 @@
       ]
     },
     "Amazon Cloud/Machine learning/Ramp-Up_Guide_Machine_Learning.pdf": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 190693,
       "exportedPath": "amazon-cloud/machine-learning/ramp-up_guide_machine_learning.pdf",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Redes neuronales artificiales.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 292,
       "exportedPath": "amazon-cloud/machine-learning/redes-neuronales-artificiales.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Regresión.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 227,
       "exportedPath": "amazon-cloud/machine-learning/regresión.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/SageMaker.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1963,
       "exportedPath": "amazon-cloud/machine-learning/sagemaker.html",
       "dependencies": [
@@ -1424,19 +1459,19 @@
       ]
     },
     "Amazon Cloud/Machine learning/Scikit-learn.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 202,
       "exportedPath": "amazon-cloud/machine-learning/scikit-learn.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Seaborn.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 61,
       "exportedPath": "amazon-cloud/machine-learning/seaborn.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Sobreajuste.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 358,
       "exportedPath": "amazon-cloud/machine-learning/sobreajuste.html",
       "dependencies": [
@@ -1444,7 +1479,7 @@
       ]
     },
     "Amazon Cloud/Machine learning/Subconjuntos de inteligencia artificial.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 213,
       "exportedPath": "amazon-cloud/machine-learning/subconjuntos-de-inteligencia-artificial.html",
       "dependencies": [
@@ -1452,163 +1487,163 @@
       ]
     },
     "Amazon Cloud/Machine learning/Terminología de machine learning.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 165,
       "exportedPath": "amazon-cloud/machine-learning/terminología-de-machine-learning.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Tipos de algoritmo.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 322,
       "exportedPath": "amazon-cloud/machine-learning/tipos-de-algoritmo.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Tipos de problemas de clasificacion y regresion.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 104,
       "exportedPath": "amazon-cloud/machine-learning/tipos-de-problemas-de-clasificacion-y-regresion.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Tratamiento de los valores atípicos.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 489,
       "exportedPath": "amazon-cloud/machine-learning/tratamiento-de-los-valores-atípicos.html",
       "dependencies": []
     },
     "Amazon Cloud/Machine learning/Visión artificial.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 133,
       "exportedPath": "amazon-cloud/machine-learning/visión-artificial.html",
       "dependencies": []
     },
     "Amazon Cloud/Amazon Memory DB for Redis.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 374,
       "exportedPath": "amazon-cloud/amazon-memory-db-for-redis.html",
       "dependencies": []
     },
     "Amazon Cloud/Amazon Web Services (AWS).md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1061,
       "exportedPath": "amazon-cloud/amazon-web-services-(aws).html",
       "dependencies": []
     },
     "Amazon Cloud/aws client.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 249,
       "exportedPath": "amazon-cloud/aws-client.html",
       "dependencies": []
     },
     "Amazon Cloud/Bucket.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 227,
       "exportedPath": "amazon-cloud/bucket.html",
       "dependencies": []
     },
     "Amazon Cloud/DocumentDB.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 133,
       "exportedPath": "amazon-cloud/documentdb.html",
       "dependencies": []
     },
     "Amazon Cloud/Dynamod DB.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 187,
       "exportedPath": "amazon-cloud/dynamod-db.html",
       "dependencies": []
     },
     "Amazon Cloud/EC2 (Elastic Compute Cloud).md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1838,
       "exportedPath": "amazon-cloud/ec2-(elastic-compute-cloud).html",
       "dependencies": []
     },
     "Amazon Cloud/RDS (Relational Database Service).md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 675,
       "exportedPath": "amazon-cloud/rds-(relational-database-service).html",
       "dependencies": []
     },
     "Amazon Cloud/S3 (Simple Storage Service).md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 7193,
       "exportedPath": "amazon-cloud/s3-(simple-storage-service).html",
       "dependencies": []
     },
     "Amazon Cloud/Servicio Web.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1266,
       "exportedPath": "amazon-cloud/servicio-web.html",
       "dependencies": []
     },
     "BOOSTRAP - Curso/assets/breakpoints.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 28602,
       "exportedPath": "boostrap-curso/assets/breakpoints.png",
       "dependencies": []
     },
     "BOOSTRAP - Curso/Botones.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 24985,
       "exportedPath": "boostrap-curso/botones.html",
       "dependencies": []
     },
     "BOOSTRAP - Curso/Formulario.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3134,
       "exportedPath": "boostrap-curso/formulario.html",
       "dependencies": []
     },
     "BOOSTRAP - Curso/Grid y Flexbox.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3732,
       "exportedPath": "boostrap-curso/grid-y-flexbox.html",
       "dependencies": []
     },
     "BOOSTRAP - Curso/Modals.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3097,
       "exportedPath": "boostrap-curso/modals.html",
       "dependencies": []
     },
     "Css/Css.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2123,
       "exportedPath": "css/css.html",
       "dependencies": []
     },
     "Css/Indice CSS.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 4300,
       "exportedPath": "css/indice-css.html",
       "dependencies": []
     },
     "Curso - Tenseflow/Accesos a datos de un tensor.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1098,
       "exportedPath": "curso-tenseflow/accesos-a-datos-de-un-tensor.html",
       "dependencies": []
     },
     "Curso - Tenseflow/Ejecutar proyecto TS.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 207,
       "exportedPath": "curso-tenseflow/ejecutar-proyecto-ts.html",
       "dependencies": []
     },
     "Curso - Tenseflow/Estructura-Red-neuronal-Densa-Cuenta-con-la-primera-capa-de-entrada-dos-capas-ocultas.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 135089,
       "exportedPath": "curso-tenseflow/estructura-red-neuronal-densa-cuenta-con-la-primera-capa-de-entrada-dos-capas-ocultas.png",
       "dependencies": []
     },
     "Curso - Tenseflow/Exportacion de modelos.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 151,
       "exportedPath": "curso-tenseflow/exportacion-de-modelos.html",
       "dependencies": []
     },
     "Curso - Tenseflow/Funciones de Activacion.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 396,
       "exportedPath": "curso-tenseflow/funciones-de-activacion.html",
       "dependencies": [
@@ -1616,37 +1651,37 @@
       ]
     },
     "Curso - Tenseflow/FuncionRELU.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 59257,
       "exportedPath": "curso-tenseflow/funcionrelu.png",
       "dependencies": []
     },
     "Curso - Tenseflow/Identificador Imagenes.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 103,
       "exportedPath": "curso-tenseflow/identificador-imagenes.html",
       "dependencies": []
     },
     "Curso - Tenseflow/Layers.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3267,
       "exportedPath": "curso-tenseflow/layers.html",
       "dependencies": []
     },
     "Curso - Tenseflow/Multiplicar tensores.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 251,
       "exportedPath": "curso-tenseflow/multiplicar-tensores.html",
       "dependencies": []
     },
     "Curso - Tenseflow/neural-net.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 55443,
       "exportedPath": "curso-tenseflow/neural-net.png",
       "dependencies": []
     },
     "Curso - Tenseflow/Perceptrones.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1956,
       "exportedPath": "curso-tenseflow/perceptrones.html",
       "dependencies": [
@@ -1655,349 +1690,349 @@
       ]
     },
     "Curso - Tenseflow/Redes neoruronales.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 87,
       "exportedPath": "curso-tenseflow/redes-neoruronales.html",
       "dependencies": []
     },
     "Curso - Tenseflow/Redes Neuronales Convulsionales.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 250,
       "exportedPath": "curso-tenseflow/redes-neuronales-convulsionales.html",
       "dependencies": []
     },
     "Curso - Tenseflow/Tensores.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 283,
       "exportedPath": "curso-tenseflow/tensores.html",
       "dependencies": []
     },
     "Curso - Tenseflow/Tensorflow.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2900,
       "exportedPath": "curso-tenseflow/tensorflow.html",
       "dependencies": []
     },
     "Curso - Tenseflow/tf.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3025,
       "exportedPath": "curso-tenseflow/tf.html",
       "dependencies": []
     },
     "Curso - Tenseflow/Tipos de problemas.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 747,
       "exportedPath": "curso-tenseflow/tipos-de-problemas.html",
       "dependencies": []
     },
     "Curso - Tenseflow/Tipos de Redes Neorunales.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 228,
       "exportedPath": "curso-tenseflow/tipos-de-redes-neorunales.html",
       "dependencies": []
     },
     "Curso - Tenseflow/Uso de memoria.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1875,
       "exportedPath": "curso-tenseflow/uso-de-memoria.html",
       "dependencies": []
     },
     "Curso - Tenseflow/Variables - Imutables.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 589,
       "exportedPath": "curso-tenseflow/variables-imutables.html",
       "dependencies": []
     },
     "Curso_android_studio/Activity.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 5437,
       "exportedPath": "curso_android_studio/activity.html",
       "dependencies": []
     },
     "Curso_android_studio/Android Manifest.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3315,
       "exportedPath": "curso_android_studio/android-manifest.html",
       "dependencies": []
     },
     "Curso_android_studio/AppCompatButton.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1197,
       "exportedPath": "curso_android_studio/appcompatbutton.html",
       "dependencies": []
     },
     "Curso_android_studio/AppCompatEditText.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1231,
       "exportedPath": "curso_android_studio/appcompatedittext.html",
       "dependencies": []
     },
     "Curso_android_studio/Arrays.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1467,
       "exportedPath": "curso_android_studio/arrays.html",
       "dependencies": []
     },
     "Curso_android_studio/Booleanos.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 326,
       "exportedPath": "curso_android_studio/booleanos.html",
       "dependencies": []
     },
     "Curso_android_studio/CardView.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1332,
       "exportedPath": "curso_android_studio/cardview.html",
       "dependencies": []
     },
     "Curso_android_studio/CheckBox.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1071,
       "exportedPath": "curso_android_studio/checkbox.html",
       "dependencies": []
     },
     "Curso_android_studio/CompanionObjecto.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 639,
       "exportedPath": "curso_android_studio/companionobjecto.html",
       "dependencies": []
     },
     "Curso_android_studio/ConstransLayout.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 66,
       "exportedPath": "curso_android_studio/constranslayout.html",
       "dependencies": []
     },
     "Curso_android_studio/Dialog.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 915,
       "exportedPath": "curso_android_studio/dialog.html",
       "dependencies": []
     },
     "Curso_android_studio/editText.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 312,
       "exportedPath": "curso_android_studio/edittext.html",
       "dependencies": []
     },
     "Curso_android_studio/EstructuraDeUnProyecto.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 5677,
       "exportedPath": "curso_android_studio/estructuradeunproyecto.html",
       "dependencies": []
     },
     "Curso_android_studio/FindViewByID.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1020,
       "exportedPath": "curso_android_studio/findviewbyid.html",
       "dependencies": []
     },
     "Curso_android_studio/FloatingActionButon.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1430,
       "exportedPath": "curso_android_studio/floatingactionbuton.html",
       "dependencies": []
     },
     "Curso_android_studio/Fragment.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 4422,
       "exportedPath": "curso_android_studio/fragment.html",
       "dependencies": []
     },
     "Curso_android_studio/Función.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2288,
       "exportedPath": "curso_android_studio/función.html",
       "dependencies": []
     },
     "Curso_android_studio/layout_constraintStart_toStartOf.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1513,
       "exportedPath": "curso_android_studio/layout_constraintstart_tostartof.html",
       "dependencies": []
     },
     "Curso_android_studio/layout_constraintTop_toTopOf.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1424,
       "exportedPath": "curso_android_studio/layout_constrainttop_totopof.html",
       "dependencies": []
     },
     "Curso_android_studio/layout_constraitBottom_toBottomof.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1651,
       "exportedPath": "curso_android_studio/layout_constraitbottom_tobottomof.html",
       "dependencies": []
     },
     "Curso_android_studio/layout_contraitsTop_toTopOf.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1659,
       "exportedPath": "curso_android_studio/layout_contraitstop_totopof.html",
       "dependencies": []
     },
     "Curso_android_studio/LinearLayout.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1802,
       "exportedPath": "curso_android_studio/linearlayout.html",
       "dependencies": []
     },
     "Curso_android_studio/Listas kotlin.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2460,
       "exportedPath": "curso_android_studio/listas-kotlin.html",
       "dependencies": []
     },
     "Curso_android_studio/Navigation Component.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 7814,
       "exportedPath": "curso_android_studio/navigation-component.html",
       "dependencies": []
     },
     "Curso_android_studio/Nulabilidad kotlin.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2150,
       "exportedPath": "curso_android_studio/nulabilidad-kotlin.html",
       "dependencies": []
     },
     "Curso_android_studio/Null.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2358,
       "exportedPath": "curso_android_studio/null.html",
       "dependencies": []
     },
     "Curso_android_studio/Print.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1210,
       "exportedPath": "curso_android_studio/print.html",
       "dependencies": []
     },
     "Curso_android_studio/RadioButton.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2368,
       "exportedPath": "curso_android_studio/radiobutton.html",
       "dependencies": []
     },
     "Curso_android_studio/RangeSlider.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1905,
       "exportedPath": "curso_android_studio/rangeslider.html",
       "dependencies": []
     },
     "Curso_android_studio/Sealed Class.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2192,
       "exportedPath": "curso_android_studio/sealed-class.html",
       "dependencies": []
     },
     "Curso_android_studio/TextView.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3253,
       "exportedPath": "curso_android_studio/textview.html",
       "dependencies": []
     },
     "Curso_android_studio/Theme.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2008,
       "exportedPath": "curso_android_studio/theme.html",
       "dependencies": []
     },
     "Curso_android_studio/Variables Alfanuméricas.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1761,
       "exportedPath": "curso_android_studio/variables-alfanuméricas.html",
       "dependencies": []
     },
     "Curso_android_studio/Variables Kotlin.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1519,
       "exportedPath": "curso_android_studio/variables-kotlin.html",
       "dependencies": []
     },
     "Curso_android_studio/Variables Numericas.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2121,
       "exportedPath": "curso_android_studio/variables-numericas.html",
       "dependencies": []
     },
     "Curso_android_studio/View.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2069,
       "exportedPath": "curso_android_studio/view.html",
       "dependencies": []
     },
     "Curso_android_studio/View Binding.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3596,
       "exportedPath": "curso_android_studio/view-binding.html",
       "dependencies": []
     },
     "Curso_android_studio/When.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 4578,
       "exportedPath": "curso_android_studio/when.html",
       "dependencies": []
     },
     "Curso_android_studio/xml.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1191,
       "exportedPath": "curso_android_studio/xml.html",
       "dependencies": []
     },
     "Curso_React/hoks/useCallBack.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 0,
       "exportedPath": "curso_react/hoks/usecallback.html",
       "dependencies": []
     },
     "Curso_React/hoks/useContext.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 0,
       "exportedPath": "curso_react/hoks/usecontext.html",
       "dependencies": []
     },
     "Curso_React/hoks/useEffect.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2654,
       "exportedPath": "curso_react/hoks/useeffect.html",
       "dependencies": []
     },
     "Curso_React/hoks/useId.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 0,
       "exportedPath": "curso_react/hoks/useid.html",
       "dependencies": []
     },
     "Curso_React/hoks/useMemo.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 0,
       "exportedPath": "curso_react/hoks/usememo.html",
       "dependencies": []
     },
     "Curso_React/hoks/useReductor.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 0,
       "exportedPath": "curso_react/hoks/usereductor.html",
       "dependencies": []
     },
     "Curso_React/hoks/useRef.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 667,
       "exportedPath": "curso_react/hoks/useref.html",
       "dependencies": []
     },
     "Curso_React/hoks/useState.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 0,
       "exportedPath": "curso_react/hoks/usestate.html",
       "dependencies": []
     },
     "Curso_React/Atributos React.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 317,
       "exportedPath": "curso_react/atributos-react.html",
       "dependencies": []
     },
     "Curso_React/Componente de Clase.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 795,
       "exportedPath": "curso_react/componente-de-clase.html",
       "dependencies": [
@@ -2005,7 +2040,7 @@
       ]
     },
     "Curso_React/Componente Funcional.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 599,
       "exportedPath": "curso_react/componente-funcional.html",
       "dependencies": [
@@ -2013,193 +2048,193 @@
       ]
     },
     "Curso_React/Elemento.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1438,
       "exportedPath": "curso_react/elemento.html",
       "dependencies": []
     },
     "Curso_React/Estado.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 523,
       "exportedPath": "curso_react/estado.html",
       "dependencies": []
     },
     "Curso_React/Event listener.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 137,
       "exportedPath": "curso_react/event-listener.html",
       "dependencies": []
     },
     "Curso_React/Hooks.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 655,
       "exportedPath": "curso_react/hooks.html",
       "dependencies": []
     },
     "Curso_React/JSX.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1078,
       "exportedPath": "curso_react/jsx.html",
       "dependencies": []
     },
     "Curso_React/React.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 553,
       "exportedPath": "curso_react/react.html",
       "dependencies": []
     },
     "Curso_React/React DOM.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 377,
       "exportedPath": "curso_react/react-dom.html",
       "dependencies": []
     },
     "Curso_React/Self Cloasing Tag.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 243,
       "exportedPath": "curso_react/self-cloasing-tag.html",
       "dependencies": []
     },
     "Curso_React/State-Estado.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 314,
       "exportedPath": "curso_react/state-estado.html",
       "dependencies": []
     },
     "Curso_React/Style.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 582,
       "exportedPath": "curso_react/style.html",
       "dependencies": []
     },
     "Curso_React/useState.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 366,
       "exportedPath": "curso_react/usestate.html",
       "dependencies": []
     },
     "Curso-RactNative/Cambiar estilos en diferentes plataformas.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 4332,
       "exportedPath": "curso-ractnative/cambiar-estilos-en-diferentes-plataformas.html",
       "dependencies": []
     },
     "Curso-RactNative/Componentes y combatibilidad.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 518,
       "exportedPath": "curso-ractnative/componentes-y-combatibilidad.html",
       "dependencies": []
     },
     "Curso-RactNative/Constatntes Expo.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 375,
       "exportedPath": "curso-ractnative/constatntes-expo.html",
       "dependencies": []
     },
     "Curso-RactNative/Estilos.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3844,
       "exportedPath": "curso-ractnative/estilos.html",
       "dependencies": []
     },
     "Curso-RactNative/FlatList.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1948,
       "exportedPath": "curso-ractnative/flatlist.html",
       "dependencies": []
     },
     "Curso-RactNative/Formik.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2407,
       "exportedPath": "curso-ractnative/formik.html",
       "dependencies": []
     },
     "Curso-RactNative/MapReactNAtiva.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 893,
       "exportedPath": "curso-ractnative/mapreactnativa.html",
       "dependencies": []
     },
     "Curso-RactNative/React Router Native.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1088,
       "exportedPath": "curso-ractnative/react-router-native.html",
       "dependencies": []
     },
     "Curso-RactNative/ScrollView.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 162,
       "exportedPath": "curso-ractnative/scrollview.html",
       "dependencies": []
     },
     "Curso-RactNative/Text.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 72,
       "exportedPath": "curso-ractnative/text.html",
       "dependencies": []
     },
     "Curso-RactNative/TextInput.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 50,
       "exportedPath": "curso-ractnative/textinput.html",
       "dependencies": []
     },
     "Curso-RactNative/Touchable.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 210,
       "exportedPath": "curso-ractnative/touchable.html",
       "dependencies": []
     },
     "Curso-RactNative/ViewReact.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 120,
       "exportedPath": "curso-ractnative/viewreact.html",
       "dependencies": []
     },
     "Curso-spring/Anotaciones.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2172,
       "exportedPath": "curso-spring/anotaciones.html",
       "dependencies": []
     },
     "Curso-spring/Controllers.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2282,
       "exportedPath": "curso-spring/controllers.html",
       "dependencies": []
     },
     "Curso-spring/Framework.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 162,
       "exportedPath": "curso-spring/framework.html",
       "dependencies": []
     },
     "Curso-spring/Json.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 90,
       "exportedPath": "curso-spring/json.html",
       "dependencies": []
     },
     "Curso-spring/Maven or Graveld.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 239,
       "exportedPath": "curso-spring/maven-or-graveld.html",
       "dependencies": []
     },
     "Curso-spring/Métodos HHTTP.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 204,
       "exportedPath": "curso-spring/métodos-hhttp.html",
       "dependencies": []
     },
     "Curso-spring/mVC.jpg": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 49965,
       "exportedPath": "curso-spring/mvc.jpg",
       "dependencies": []
     },
     "Curso-spring/MVC.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 61,
       "exportedPath": "curso-spring/mvc.html",
       "dependencies": [
@@ -2207,7 +2242,7 @@
       ]
     },
     "Curso-spring/MVC con REST.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 753,
       "exportedPath": "curso-spring/mvc-con-rest.html",
       "dependencies": [
@@ -2215,31 +2250,31 @@
       ]
     },
     "Curso-spring/mvc-rest.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 356937,
       "exportedPath": "curso-spring/mvc-rest.png",
       "dependencies": []
     },
     "Curso-spring/ogx43rq.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 21893,
       "exportedPath": "curso-spring/ogx43rq.png",
       "dependencies": []
     },
     "Curso-spring/original.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 163458,
       "exportedPath": "curso-spring/original.png",
       "dependencies": []
     },
     "Curso-spring/Spring.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3018,
       "exportedPath": "curso-spring/spring.html",
       "dependencies": []
     },
     "Curso-spring/URL.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 352,
       "exportedPath": "curso-spring/url.html",
       "dependencies": [
@@ -2248,115 +2283,115 @@
       ]
     },
     "Curso-spring/XML.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 230,
       "exportedPath": "curso-spring/xml.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/testNotas/Testing Automatizado.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3131,
       "exportedPath": "desarrollo-de-interfacez/testnotas/testing-automatizado.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/testNotas/Testing de Aceptación.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3207,
       "exportedPath": "desarrollo-de-interfacez/testnotas/testing-de-aceptación.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/testNotas/Testing de Caja Blanca.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2694,
       "exportedPath": "desarrollo-de-interfacez/testnotas/testing-de-caja-blanca.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/testNotas/Testing de Caja Gris.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3282,
       "exportedPath": "desarrollo-de-interfacez/testnotas/testing-de-caja-gris.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/testNotas/Testing de Caja Negra.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3272,
       "exportedPath": "desarrollo-de-interfacez/testnotas/testing-de-caja-negra.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/testNotas/Testing de Compatibilidad.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3824,
       "exportedPath": "desarrollo-de-interfacez/testnotas/testing-de-compatibilidad.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/testNotas/Testing de Integración.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3289,
       "exportedPath": "desarrollo-de-interfacez/testnotas/testing-de-integración.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/testNotas/Testing de Regresión.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3185,
       "exportedPath": "desarrollo-de-interfacez/testnotas/testing-de-regresión.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/testNotas/Testing de Rendimiento.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3240,
       "exportedPath": "desarrollo-de-interfacez/testnotas/testing-de-rendimiento.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/testNotas/Testing de Seguridad.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3250,
       "exportedPath": "desarrollo-de-interfacez/testnotas/testing-de-seguridad.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/testNotas/Testing de Sistema.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3482,
       "exportedPath": "desarrollo-de-interfacez/testnotas/testing-de-sistema.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/testNotas/Testing de Usabilidad.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3327,
       "exportedPath": "desarrollo-de-interfacez/testnotas/testing-de-usabilidad.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/testNotas/Testing Manual.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2701,
       "exportedPath": "desarrollo-de-interfacez/testnotas/testing-manual.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/testNotas/Testing Unitario.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2058,
       "exportedPath": "desarrollo-de-interfacez/testnotas/testing-unitario.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Arquitectura MVC.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2272,
       "exportedPath": "desarrollo-de-interfacez/arquitectura-mvc.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Código gratuito.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1804,
       "exportedPath": "desarrollo-de-interfacez/código-gratuito.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/código libre.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2142,
       "exportedPath": "desarrollo-de-interfacez/código-libre.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Comandos - FLujo de Trabajo.canvas": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 5444,
       "exportedPath": "desarrollo-de-interfacez/comandos-flujo-de-trabajo.html",
       "dependencies": [
@@ -2364,1821 +2399,1821 @@
       ]
     },
     "DESARROLLO-DE-INTERFACEZ/Commit.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1466,
       "exportedPath": "desarrollo-de-interfacez/commit.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/componente_declase.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 96887,
       "exportedPath": "desarrollo-de-interfacez/componente_declase.png",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/componente_funcional.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 6967,
       "exportedPath": "desarrollo-de-interfacez/componente_funcional.png",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Conflicto.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1943,
       "exportedPath": "desarrollo-de-interfacez/conflicto.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Desarrollo De Interfaces.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 844,
       "exportedPath": "desarrollo-de-interfacez/desarrollo-de-interfaces.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Diseño de interfaces.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1434,
       "exportedPath": "desarrollo-de-interfacez/diseño-de-interfaces.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/fetch.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1831,
       "exportedPath": "desarrollo-de-interfacez/fetch.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Figma.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2101,
       "exportedPath": "desarrollo-de-interfacez/figma.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Flujo de  trabajo de Git.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3073,
       "exportedPath": "desarrollo-de-interfacez/flujo-de-trabajo-de-git.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Frameworks e Interfaces.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2117,
       "exportedPath": "desarrollo-de-interfacez/frameworks-e-interfaces.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Git.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1258,
       "exportedPath": "desarrollo-de-interfacez/git.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Git Emoji.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 201,
       "exportedPath": "desarrollo-de-interfacez/git-emoji.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Git Hub - Sistema de Control de Versiones.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1335,
       "exportedPath": "desarrollo-de-interfacez/git-hub-sistema-de-control-de-versiones.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/GitHub.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2149,
       "exportedPath": "desarrollo-de-interfacez/github.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/GitLab.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2083,
       "exportedPath": "desarrollo-de-interfacez/gitlab.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Imagen1.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 67372,
       "exportedPath": "desarrollo-de-interfacez/imagen1.png",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Interface de usuario (UI).md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1496,
       "exportedPath": "desarrollo-de-interfacez/interface-de-usuario-(ui).html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Interfaces avanzadas Android.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2319,
       "exportedPath": "desarrollo-de-interfacez/interfaces-avanzadas-android.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Interfaz Gráfica de Usuario (GUI).md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1869,
       "exportedPath": "desarrollo-de-interfacez/interfaz-gráfica-de-usuario-(gui).html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/merge.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2318,
       "exportedPath": "desarrollo-de-interfacez/merge.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Merge Request.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2356,
       "exportedPath": "desarrollo-de-interfacez/merge-request.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Mockup.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1861,
       "exportedPath": "desarrollo-de-interfacez/mockup.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/No me hagas pensar.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2010,
       "exportedPath": "desarrollo-de-interfacez/no-me-hagas-pensar.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/PhoneGap - Cordova.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2311,
       "exportedPath": "desarrollo-de-interfacez/phonegap-cordova.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Prototipo.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2146,
       "exportedPath": "desarrollo-de-interfacez/prototipo.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/pull.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2456,
       "exportedPath": "desarrollo-de-interfacez/pull.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Pull Requests.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2294,
       "exportedPath": "desarrollo-de-interfacez/pull-requests.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/push.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2062,
       "exportedPath": "desarrollo-de-interfacez/push.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Ramas.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2016,
       "exportedPath": "desarrollo-de-interfacez/ramas.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Realidad Virtual Aumentada.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2848,
       "exportedPath": "desarrollo-de-interfacez/realidad-virtual-aumentada.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/rebase.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2118,
       "exportedPath": "desarrollo-de-interfacez/rebase.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Repositiorio Local.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2492,
       "exportedPath": "desarrollo-de-interfacez/repositiorio-local.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Repositorio Servidor.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1755,
       "exportedPath": "desarrollo-de-interfacez/repositorio-servidor.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Testing.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2415,
       "exportedPath": "desarrollo-de-interfacez/testing.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Usabilidad ISO.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1900,
       "exportedPath": "desarrollo-de-interfacez/usabilidad-iso.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Usabilidad y accesibilidad.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 263,
       "exportedPath": "desarrollo-de-interfacez/usabilidad-y-accesibilidad.html",
       "dependencies": []
     },
     "DESARROLLO-DE-INTERFACEZ/Wireframes.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1259,
       "exportedPath": "desarrollo-de-interfacez/wireframes.html",
       "dependencies": []
     },
     "DockerCurso/Comandos de Contenedores.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2111,
       "exportedPath": "dockercurso/comandos-de-contenedores.html",
       "dependencies": []
     },
     "DockerCurso/Comandos de imagenes.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 863,
       "exportedPath": "dockercurso/comandos-de-imagenes.html",
       "dependencies": []
     },
     "DockerCurso/Conectar un contenedor a nuestra app.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 870,
       "exportedPath": "dockercurso/conectar-un-contenedor-a-nuestra-app.html",
       "dependencies": []
     },
     "DockerCurso/Contenedores.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 0,
       "exportedPath": "dockercurso/contenedores.html",
       "dependencies": []
     },
     "DockerCurso/Docker Compose.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1430,
       "exportedPath": "dockercurso/docker-compose.html",
       "dependencies": []
     },
     "DockerCurso/Docker Network.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 272,
       "exportedPath": "dockercurso/docker-network.html",
       "dependencies": []
     },
     "DockerCurso/Imagenes.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 0,
       "exportedPath": "dockercurso/imagenes.html",
       "dependencies": []
     },
     "DockerCurso/Port Mapping.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 346,
       "exportedPath": "dockercurso/port-mapping.html",
       "dependencies": []
     },
     "DockerCurso/Virtualizacion SO y aplicaciones.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 0,
       "exportedPath": "dockercurso/virtualizacion-so-y-aplicaciones.html",
       "dependencies": []
     },
     "DockerCurso/Volumes.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 440,
       "exportedPath": "dockercurso/volumes.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Aspectos Fiscales.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 451,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/aspectos-fiscales.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Complejidad de la constitución y de la gestión.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 450,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/complejidad-de-la-constitución-y-de-la-gestión.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Criterios Fiscalia.canvas": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2987,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/criterios-fiscalia.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/El concepto de forma juridica.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 180,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/el-concepto-de-forma-juridica.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/El emprendedor de responsabilidad limitada.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2821,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/el-emprendedor-de-responsabilidad-limitada.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/El numero de socios.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 779,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/el-numero-de-socios.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/El trabajador autónomo.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2968,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/el-trabajador-autónomo.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Empresario Individual.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 302,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/empresario-individual.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/La comunidad de bienes.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2870,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/la-comunidad-de-bienes.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/La fiscalia de las sociedades. El IS.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 4369,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/la-fiscalia-de-las-sociedades.-el-is.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/La Fiscalidad de las Empresas Individuales. El IRPF.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3420,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/la-fiscalidad-de-las-empresas-individuales.-el-irpf.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/La forma jurídicas individuales y las colectividades sin personalidades jurídica propia.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 123,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/la-forma-jurídicas-individuales-y-las-colectividades-sin-personalidades-jurídica-propia.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/La responsabilidad patrimonial de los promotores.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 961,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/la-responsabilidad-patrimonial-de-los-promotores.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/La sociedad civil.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2660,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/la-sociedad-civil.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Las necesidades económicas de un proyecto.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 837,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/las-necesidades-económicas-de-un-proyecto.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Las Sociedades.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 5825,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/las-sociedades.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Los criterios para elegir la forma jurídica.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 84,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/los-criterios-para-elegir-la-forma-jurídica.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Otros Impuestos.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 4491,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/otros-impuestos.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Temario.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 751,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/temario.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/SegundoTriemtres/Tramites según su forma jurídica.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 896,
       "exportedPath": "empresa-e-iniciativa-empredora/segundotriemtres/tramites-según-su-forma-jurídica.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/Elección Electiva.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1648,
       "exportedPath": "empresa-e-iniciativa-empredora/elección-electiva.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/Empresas de forma jurídica.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2304,
       "exportedPath": "empresa-e-iniciativa-empredora/empresas-de-forma-jurídica.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/Empresas e Iniciativa Emprendedora.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 256,
       "exportedPath": "empresa-e-iniciativa-empredora/empresas-e-iniciativa-emprendedora.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/Guía para la Constitución de una Empresa - Pasos y Requisitos.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2459,
       "exportedPath": "empresa-e-iniciativa-empredora/guía-para-la-constitución-de-una-empresa-pasos-y-requisitos.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/Político Cambios en una escuela.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2228,
       "exportedPath": "empresa-e-iniciativa-empredora/político-cambios-en-una-escuela.html",
       "dependencies": []
     },
     "Empresa-e-Iniciativa-Empredora/Tipos de Empresas y su Fiscalidad.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3174,
       "exportedPath": "empresa-e-iniciativa-empredora/tipos-de-empresas-y-su-fiscalidad.html",
       "dependencies": []
     },
     "Flex/Flex.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3761,
       "exportedPath": "flex/flex.html",
       "dependencies": []
     },
     "Flex/Índice (Flexbox).md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2040,
       "exportedPath": "flex/índice-(flexbox).html",
       "dependencies": []
     },
     "Grid/Grid.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2794,
       "exportedPath": "grid/grid.html",
       "dependencies": []
     },
     "Html/Html indice.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2413,
       "exportedPath": "html/html-indice.html",
       "dependencies": []
     },
     "Ingles/Ingles.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 115,
       "exportedPath": "ingles/ingles.html",
       "dependencies": []
     },
     "Ingles/Tema 1.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3037,
       "exportedPath": "ingles/tema-1.html",
       "dependencies": []
     },
     "Ingles/Tema 2.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 4237,
       "exportedPath": "ingles/tema-2.html",
       "dependencies": []
     },
     "JavaScript/JavaScript indice.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1123,
       "exportedPath": "javascript/javascript-indice.html",
       "dependencies": []
     },
     "Next.js/Casos de uso de Next.js.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 482,
       "exportedPath": "next.js/casos-de-uso-de-next.js.html",
       "dependencies": []
     },
     "Next.js/Casos de uso y mejores prácticas en Next.js.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 0,
       "exportedPath": "next.js/casos-de-uso-y-mejores-prácticas-en-next.js.html",
       "dependencies": []
     },
     "Next.js/Comparación entre Next.js 14 y 15.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 254,
       "exportedPath": "next.js/comparación-entre-next.js-14-y-15.html",
       "dependencies": []
     },
     "Next.js/Comparación entre Next.js y React puro.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 726,
       "exportedPath": "next.js/comparación-entre-next.js-y-react-puro.html",
       "dependencies": []
     },
     "Next.js/Indice.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 588,
       "exportedPath": "next.js/indice.html",
       "dependencies": []
     },
     "Next.js/Introducción a Next.js.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 347,
       "exportedPath": "next.js/introducción-a-next.js.html",
       "dependencies": []
     },
     "Next.js/Novedades en Next.js 14.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 363,
       "exportedPath": "next.js/novedades-en-next.js-14.html",
       "dependencies": []
     },
     "Next.js/Novedades en Next.js 15.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 276,
       "exportedPath": "next.js/novedades-en-next.js-15.html",
       "dependencies": []
     },
     "Next.js/Recursos y documentación adicional.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 219,
       "exportedPath": "next.js/recursos-y-documentación-adicional.html",
       "dependencies": []
     },
     "Next.js/Ventajas de Next.js sobre React.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 984,
       "exportedPath": "next.js/ventajas-de-next.js-sobre-react.html",
       "dependencies": []
     },
     "Principios Solid/Principios Solid.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 147,
       "exportedPath": "principios-solid/principios-solid.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Activiti.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2246,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/activiti.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Adapter.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1859,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/adapter.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Aplicación Básica.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1803,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/aplicación-básica.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Arquitectura Limpia.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2988,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/arquitectura-limpia.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/CamelCase.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1557,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/camelcase.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Clase.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1556,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/clase.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Component.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1483,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/component.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/ConstraintLayout.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2587,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/constraintlayout.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/constructores.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2039,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/constructores.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Corrutinas (hilos kotlin).md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2963,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/corrutinas-(hilos-kotlin).html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/DataClass.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1575,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/dataclass.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/dp.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2414,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/dp.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Flow.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3114,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/flow.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/holder.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 512,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/holder.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/ImgView.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2049,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/imgview.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Init.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2519,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/init.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/inner Clase.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1890,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/inner-clase.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Java vs Kotlin.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3614,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/java-vs-kotlin.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Jerarquía De Carpetas.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1421,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/jerarquía-de-carpetas.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/JetPack Compose.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1841,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/jetpack-compose.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Kotlin.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1612,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/kotlin.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Lista API.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1073,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/lista-api.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Listas.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1630,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/listas.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Llamado a base de datos.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3594,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/llamado-a-base-de-datos.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Llamado de api kotlin.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3010,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/llamado-de-api-kotlin.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Material Design.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2722,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/material-design.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Métodos.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1817,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/métodos.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/PMDM.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 473,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/pmdm.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/primitivo.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1852,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/primitivo.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/RecyclerView.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3339,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/recyclerview.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Sets.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2119,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/sets.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/simple class.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2102,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/simple-class.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/SP.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1159,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/sp.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/String.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2160,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/string.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Temas  de segundo trimestre.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 191,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/temas-de-segundo-trimestre.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/tipo de clase.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2372,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/tipo-de-clase.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Variables kotlin.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3481,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/variables-kotlin.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-MULTIMEDIA-Y-DISPOSITIVOS-MOVILES/Vistas - View.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1965,
       "exportedPath": "programacion-de-multimedia-y-dispositivos-moviles/vistas-view.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-SERVICIOS-Y-PROCESOS/Android - Java.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 4431,
       "exportedPath": "programacion-de-servicios-y-procesos/android-java.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-SERVICIOS-Y-PROCESOS/API - REST.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2647,
       "exportedPath": "programacion-de-servicios-y-procesos/api-rest.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-SERVICIOS-Y-PROCESOS/Cifrados clasico.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2563,
       "exportedPath": "programacion-de-servicios-y-procesos/cifrados-clasico.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-SERVICIOS-Y-PROCESOS/Conexiones de Servicios.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3800,
       "exportedPath": "programacion-de-servicios-y-procesos/conexiones-de-servicios.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-SERVICIOS-Y-PROCESOS/Criptografía Simétrica y Asimétrica.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3815,
       "exportedPath": "programacion-de-servicios-y-procesos/criptografía-simétrica-y-asimétrica.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-SERVICIOS-Y-PROCESOS/Cross-site.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2995,
       "exportedPath": "programacion-de-servicios-y-procesos/cross-site.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-SERVICIOS-Y-PROCESOS/DNS Spoofing e inyeccion.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3484,
       "exportedPath": "programacion-de-servicios-y-procesos/dns-spoofing-e-inyeccion.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-SERVICIOS-Y-PROCESOS/FTP.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 4480,
       "exportedPath": "programacion-de-servicios-y-procesos/ftp.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-SERVICIOS-Y-PROCESOS/Hash.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2935,
       "exportedPath": "programacion-de-servicios-y-procesos/hash.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-SERVICIOS-Y-PROCESOS/Hilos - Java.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 4162,
       "exportedPath": "programacion-de-servicios-y-procesos/hilos-java.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-SERVICIOS-Y-PROCESOS/Phishing.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3185,
       "exportedPath": "programacion-de-servicios-y-procesos/phishing.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-SERVICIOS-Y-PROCESOS/Pixel - Tracking.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2864,
       "exportedPath": "programacion-de-servicios-y-procesos/pixel-tracking.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-SERVICIOS-Y-PROCESOS/Procesos C.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2068,
       "exportedPath": "programacion-de-servicios-y-procesos/procesos-c.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-SERVICIOS-Y-PROCESOS/Proxies.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3437,
       "exportedPath": "programacion-de-servicios-y-procesos/proxies.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-SERVICIOS-Y-PROCESOS/PSP.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1347,
       "exportedPath": "programacion-de-servicios-y-procesos/psp.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-SERVICIOS-Y-PROCESOS/Red TOR - Onion.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2702,
       "exportedPath": "programacion-de-servicios-y-procesos/red-tor-onion.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-SERVICIOS-Y-PROCESOS/Seguridad.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2936,
       "exportedPath": "programacion-de-servicios-y-procesos/seguridad.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-SERVICIOS-Y-PROCESOS/Servicios.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3421,
       "exportedPath": "programacion-de-servicios-y-procesos/servicios.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-SERVICIOS-Y-PROCESOS/Sockets.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1776,
       "exportedPath": "programacion-de-servicios-y-procesos/sockets.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-SERVICIOS-Y-PROCESOS/Sockets - Java.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3247,
       "exportedPath": "programacion-de-servicios-y-procesos/sockets-java.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-SERVICIOS-Y-PROCESOS/Swing - Java.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2917,
       "exportedPath": "programacion-de-servicios-y-procesos/swing-java.html",
       "dependencies": []
     },
     "PROGRAMACION-DE-SERVICIOS-Y-PROCESOS/VPN.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3475,
       "exportedPath": "programacion-de-servicios-y-procesos/vpn.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/API.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3547,
       "exportedPath": "proyectos-fempa/proyecto-final/api.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/Arquitectura Limpia.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1135,
       "exportedPath": "proyectos-fempa/proyecto-final/arquitectura-limpia.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/Comandos para crear proyecto.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 103,
       "exportedPath": "proyectos-fempa/proyecto-final/comandos-para-crear-proyecto.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/Entidad Relación.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 5767,
       "exportedPath": "proyectos-fempa/proyecto-final/entidad-relación.html",
       "dependencies": [
         "proyectos-fempa/proyecto-final/entidad_relacion.png"
       ]
     },
-    "PROYECTOS - FEMPA/PROYECTO - FINAL/entidad_relacion.drawio": {
-      "modifiedTime": 1743505450355,
-      "sourceSize": 72394,
-      "exportedPath": "proyectos-fempa/proyecto-final/entidad_relacion.drawio",
-      "dependencies": []
-    },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/entidad_relacion.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 288302,
       "exportedPath": "proyectos-fempa/proyecto-final/entidad_relacion.png",
       "dependencies": []
     },
+    "PROYECTOS - FEMPA/PROYECTO - FINAL/entidad_relacion.drawio": {
+      "modifiedTime": 1744098904831,
+      "sourceSize": 72394,
+      "exportedPath": "proyectos-fempa/proyecto-final/entidad_relacion.drawio",
+      "dependencies": []
+    },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/Etapas PFC.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 344,
       "exportedPath": "proyectos-fempa/proyecto-final/etapas-pfc.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/Requistos Funcionales.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1002,
       "exportedPath": "proyectos-fempa/proyecto-final/requistos-funcionales.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - FINAL/Untitled.canvas": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 855,
       "exportedPath": "proyectos-fempa/proyecto-final/untitled.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - VIA CREADON/Clientes - Compradores.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1241,
       "exportedPath": "proyectos-fempa/proyecto-via-creadon/clientes-compradores.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - VIA CREADON/Competidores.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 363,
       "exportedPath": "proyectos-fempa/proyecto-via-creadon/competidores.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - VIA CREADON/Listas de propuestas.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1731,
       "exportedPath": "proyectos-fempa/proyecto-via-creadon/listas-de-propuestas.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - VIA CREADON/Ofertas Sustitutivas.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 163,
       "exportedPath": "proyectos-fempa/proyecto-via-creadon/ofertas-sustitutivas.html",
       "dependencies": []
     },
     "PROYECTOS - FEMPA/PROYECTO - VIA CREADON/Potenciales.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 226,
       "exportedPath": "proyectos-fempa/proyecto-via-creadon/potenciales.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Block Chain.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3023,
       "exportedPath": "sistema-gestion-empresarial/block-chain.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Bruto.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1180,
       "exportedPath": "sistema-gestion-empresarial/bruto.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Caja ciega.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1016,
       "exportedPath": "sistema-gestion-empresarial/caja-ciega.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Cajas.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1122,
       "exportedPath": "sistema-gestion-empresarial/cajas.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/CFDP.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 704,
       "exportedPath": "sistema-gestion-empresarial/cfdp.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Comercial.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 797,
       "exportedPath": "sistema-gestion-empresarial/comercial.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Compras.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 831,
       "exportedPath": "sistema-gestion-empresarial/compras.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/CRM.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 584,
       "exportedPath": "sistema-gestion-empresarial/crm.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/CRP.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1223,
       "exportedPath": "sistema-gestion-empresarial/crp.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Datos.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1394,
       "exportedPath": "sistema-gestion-empresarial/datos.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Departamento de una Empresa.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1406,
       "exportedPath": "sistema-gestion-empresarial/departamento-de-una-empresa.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/EAN13.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 984,
       "exportedPath": "sistema-gestion-empresarial/ean13.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Empresa.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1029,
       "exportedPath": "sistema-gestion-empresarial/empresa.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Empresas Privadas.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2271,
       "exportedPath": "sistema-gestion-empresarial/empresas-privadas.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Empresas Publicas.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2867,
       "exportedPath": "sistema-gestion-empresarial/empresas-publicas.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/ERP.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1794,
       "exportedPath": "sistema-gestion-empresarial/erp.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/ERP vs SAAS.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1797,
       "exportedPath": "sistema-gestion-empresarial/erp-vs-saas.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Estrategia.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1740,
       "exportedPath": "sistema-gestion-empresarial/estrategia.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Financiero.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 600,
       "exportedPath": "sistema-gestion-empresarial/financiero.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Finanzas y Contabilidad.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 617,
       "exportedPath": "sistema-gestion-empresarial/finanzas-y-contabilidad.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Innovación.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 670,
       "exportedPath": "sistema-gestion-empresarial/innovación.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/IT.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 711,
       "exportedPath": "sistema-gestion-empresarial/it.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Jurídico.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 581,
       "exportedPath": "sistema-gestion-empresarial/jurídico.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Logística.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 864,
       "exportedPath": "sistema-gestion-empresarial/logística.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Logística y Almacenes.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 589,
       "exportedPath": "sistema-gestion-empresarial/logística-y-almacenes.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Marketing.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1043,
       "exportedPath": "sistema-gestion-empresarial/marketing.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/módulo.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2285,
       "exportedPath": "sistema-gestion-empresarial/módulo.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Neto.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1241,
       "exportedPath": "sistema-gestion-empresarial/neto.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Objetivo.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1403,
       "exportedPath": "sistema-gestion-empresarial/objetivo.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Procedimiento.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1242,
       "exportedPath": "sistema-gestion-empresarial/procedimiento.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Proceso.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1265,
       "exportedPath": "sistema-gestion-empresarial/proceso.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Programa Z.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1306,
       "exportedPath": "sistema-gestion-empresarial/programa-z.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Programación a Medida.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1896,
       "exportedPath": "sistema-gestion-empresarial/programación-a-medida.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Puertos Virtuales.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2508,
       "exportedPath": "sistema-gestion-empresarial/puertos-virtuales.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/QR.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1117,
       "exportedPath": "sistema-gestion-empresarial/qr.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Recursos Humanos.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 529,
       "exportedPath": "sistema-gestion-empresarial/recursos-humanos.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/RFID.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1493,
       "exportedPath": "sistema-gestion-empresarial/rfid.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/RPA.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1891,
       "exportedPath": "sistema-gestion-empresarial/rpa.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/RRHH.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 627,
       "exportedPath": "sistema-gestion-empresarial/rrhh.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/SAAS.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1561,
       "exportedPath": "sistema-gestion-empresarial/saas.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/SAP.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 590,
       "exportedPath": "sistema-gestion-empresarial/sap.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Scraping.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2518,
       "exportedPath": "sistema-gestion-empresarial/scraping.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Sistema de Gestión Empresarial.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 3205,
       "exportedPath": "sistema-gestion-empresarial/sistema-de-gestión-empresarial.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Software Estándar.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 2028,
       "exportedPath": "sistema-gestion-empresarial/software-estándar.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Software Horizontal.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 668,
       "exportedPath": "sistema-gestion-empresarial/software-horizontal.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Software vertical.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1840,
       "exportedPath": "sistema-gestion-empresarial/software-vertical.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Sueldo.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1141,
       "exportedPath": "sistema-gestion-empresarial/sueldo.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Sueldo Fijo.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1780,
       "exportedPath": "sistema-gestion-empresarial/sueldo-fijo.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Sueldo Mixto.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 907,
       "exportedPath": "sistema-gestion-empresarial/sueldo-mixto.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Sueldo por Horas.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 930,
       "exportedPath": "sistema-gestion-empresarial/sueldo-por-horas.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Sueldo Variable.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 956,
       "exportedPath": "sistema-gestion-empresarial/sueldo-variable.html",
       "dependencies": []
     },
     "Sistema-Gestion-Empresarial/Trazabilidad.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1245,
       "exportedPath": "sistema-gestion-empresarial/trazabilidad.html",
       "dependencies": []
     },
     "SvelteKitCurso/Svelte.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 114,
       "exportedPath": "sveltekitcurso/svelte.html",
       "dependencies": []
     },
     "SvelteKitCurso/Svelte Kit.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 114,
       "exportedPath": "sveltekitcurso/svelte-kit.html",
       "dependencies": []
     },
     "Vue/API Styles.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 446,
       "exportedPath": "vue/api-styles.html",
       "dependencies": []
     },
     "Vue/App Configurations.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 966,
       "exportedPath": "vue/app-configurations.html",
       "dependencies": []
     },
     "Vue/Composition Api.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 612,
       "exportedPath": "vue/composition-api.html",
       "dependencies": []
     },
     "Vue/CreateApp.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1030,
       "exportedPath": "vue/createapp.html",
       "dependencies": []
     },
     "Vue/Options Api.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 925,
       "exportedPath": "vue/options-api.html",
       "dependencies": []
     },
     "Vue/Plantillas Raiz DOM sin compilacion.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 455,
       "exportedPath": "vue/plantillas-raiz-dom-sin-compilacion.html",
       "dependencies": []
     },
     "Vue/Que es Vue.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 168,
       "exportedPath": "vue/que-es-vue.html",
       "dependencies": []
     },
     "Vue/ref.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 345,
       "exportedPath": "vue/ref.html",
       "dependencies": []
     },
     "Vue/Single-File Components.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 522,
       "exportedPath": "vue/single-file-components.html",
       "dependencies": []
     },
     "Vue/Style Scoped.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 266,
       "exportedPath": "vue/style-scoped.html",
       "dependencies": []
     },
     "Vue/Vue X.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1603,
       "exportedPath": "vue/vue-x.html",
       "dependencies": []
     },
     "Indice.md": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1102,
       "exportedPath": "indice.html",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/img/pasted-image-20250325094737.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 137065,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250325094737.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/img/pasted-image-20250325094243.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 101885,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250325094243.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/pasted-image-20250325105212.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 54843,
       "exportedPath": "amazon-cloud/machine-learning/pasted-image-20250325105212.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/pasted-image-20250325110532.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 25624,
       "exportedPath": "amazon-cloud/machine-learning/pasted-image-20250325110532.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/pasted-image-20250325111016.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 27014,
       "exportedPath": "amazon-cloud/machine-learning/pasted-image-20250325111016.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/pasted-image-20250325132002.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 66922,
       "exportedPath": "amazon-cloud/machine-learning/pasted-image-20250325132002.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/pasted-image-20250325155325.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 36717,
       "exportedPath": "amazon-cloud/machine-learning/pasted-image-20250325155325.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/img/pasted-image-20250326132938.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 24892,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250326132938.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/img/pasted-image-20250326134354.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 30999,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250326134354.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/img/pasted-image-20250328124515.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 32826,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250328124515.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/img/pasted-image-20250328124836.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 29096,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250328124836.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/img/pasted-image-20250328125106.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 63100,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250328125106.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/img/pasted-image-20250325095220.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 11557,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250325095220.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/img/pasted-image-20250323130358.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 10254,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250323130358.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/img/pasted-image-20250323130540.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 12202,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250323130540.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/ramp-up_guide_machine_learning.pdf": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 190693,
       "exportedPath": "amazon-cloud/machine-learning/ramp-up_guide_machine_learning.pdf",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/img/pasted-image-20250326134031.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 17136,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250326134031.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/img/pasted-image-20250328131528.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 304282,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250328131528.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/img/pasted-image-20250326133817.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 14649,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250326133817.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/img/pasted-image-20250326130823.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 31476,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250326130823.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/img/pasted-image-20250320133223.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 14695,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250320133223.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/img/pasted-image-20250320145245.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 14695,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250320145245.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/img/pasted-image-20250323131430.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 13359,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250323131430.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/img/pasted-image-20250325092731.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 28564,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250325092731.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/img/pasted-image-20250331134151.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 58069,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250331134151.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/img/pasted-image-20250331134302.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 88854,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250331134302.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/img/pasted-image-20250331134951.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 93232,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250331134951.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/img/pasted-image-20250331135427.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 32518,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250331135427.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/img/pasted-image-20250331140021.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 38505,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250331140021.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/img/pasted-image-20250331140250.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 29804,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250331140250.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/img/pasted-image-20250326133617.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 20558,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250326133617.png",
       "dependencies": []
     },
     "amazon-cloud/machine-learning/img/pasted-image-20250320132735.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 29861,
       "exportedPath": "amazon-cloud/machine-learning/img/pasted-image-20250320132735.png",
       "dependencies": []
     },
     "curso-tenseflow/funcionrelu.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 59257,
       "exportedPath": "curso-tenseflow/funcionrelu.png",
       "dependencies": []
     },
     "curso-tenseflow/estructura-red-neuronal-densa-cuenta-con-la-primera-capa-de-entrada-dos-capas-ocultas.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 135089,
       "exportedPath": "curso-tenseflow/estructura-red-neuronal-densa-cuenta-con-la-primera-capa-de-entrada-dos-capas-ocultas.png",
       "dependencies": []
     },
     "curso-tenseflow/neural-net.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 55443,
       "exportedPath": "curso-tenseflow/neural-net.png",
       "dependencies": []
     },
     "lib/media/componente_declase.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 96887,
       "exportedPath": "lib/media/componente_declase.png",
       "dependencies": []
     },
     "lib/media/componente_funcional.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 6967,
       "exportedPath": "lib/media/componente_funcional.png",
       "dependencies": []
     },
     "curso-spring/mvc.jpg": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 49965,
       "exportedPath": "curso-spring/mvc.jpg",
       "dependencies": []
     },
     "curso-spring/mvc-rest.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 356937,
       "exportedPath": "curso-spring/mvc-rest.png",
       "dependencies": []
     },
     "curso-spring/original.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 163458,
       "exportedPath": "curso-spring/original.png",
       "dependencies": []
     },
     "curso-spring/ogx43rq.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 21893,
       "exportedPath": "curso-spring/ogx43rq.png",
       "dependencies": []
     },
     "desarrollo-de-interfacez/imagen1.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 67372,
       "exportedPath": "desarrollo-de-interfacez/imagen1.png",
       "dependencies": []
     },
     "proyectos-fempa/proyecto-final/entidad_relacion.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 288302,
       "exportedPath": "proyectos-fempa/proyecto-final/entidad_relacion.png",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1743505450355,
-      "sourceSize": 212179,
+      "modifiedTime": 1744098904831,
+      "sourceSize": 214670,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1743505450355,
-      "sourceSize": 44914,
+      "modifiedTime": 1744098904831,
+      "sourceSize": 45438,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 137467,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 262,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1743505450355,
+      "modifiedTime": 1744098904831,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
