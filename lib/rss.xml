@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[FEMPA]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>FEMPA</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 27 Apr 2025 11:14:55 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 27 Apr 2025 11:13:35 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[1 Casos prácticos (elegir uno)]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Programacion]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Programacion</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 09 May 2025 16:50:21 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 09 May 2025 16:49:20 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[1 Casos prácticos (elegir uno)]]></title><description><![CDATA[ 
  <br>Ejemplos de proyectos que incluirán elementos de persistencia, servicios, controladores, relaciones entre entidades, APIs, e interfaces web. <br>
 <br>
 Sistema de Reservas para un Hotel (ejemplo, no elegir): Gestiona reservas de habitaciones, clientes y servicios del hotel. Las habitaciones pueden tener múltiples reservas (OneToMany) y los clientes pueden tener múltiples reservas (OneToMany).
@@ -10807,7 +10807,93 @@ Constantes:<br>
 <br>Propiedades Dinamicas Objectos
 
 
-]]></description><link>javascript\javascript-indice.html</link><guid isPermaLink="false">JavaScript/JavaScript indice.md</guid><pubDate>Wed, 19 Mar 2025 12:17:03 GMT</pubDate></item><item><title><![CDATA[Casos de uso de Next.js]]></title><description><![CDATA[ 
+]]></description><link>javascript\javascript-indice.html</link><guid isPermaLink="false">JavaScript/JavaScript indice.md</guid><pubDate>Wed, 19 Mar 2025 12:17:03 GMT</pubDate></item><item><title><![CDATA[CRM]]></title><description><![CDATA[ 
+ <br>Gestor de relaciones con los clientes  o llamado tambien customer relationship management (CRM) se refiere a las estrategias y herramientas de negocio que se usan para interactuar con los clientes, ayudando a mejorar las relaciones y hacer un seguimiento del compromiso a largo plazo.]]></description><link>marketing-digital\crm.html</link><guid isPermaLink="false">Marketing Digital/CRM.md</guid><pubDate>Fri, 09 May 2025 10:28:01 GMT</pubDate></item><item><title><![CDATA[Digital Marketing estrategia]]></title><description><![CDATA[ 
+ <br>Es un plan de acción diseñado  para lograr un objetivo a largo plazo. El mismo plan explica como deben usarse los medios sociales o redes sociales]]></description><link>marketing-digital\digital-marketing-estrategia.html</link><guid isPermaLink="false">Marketing Digital/Digital Marketing estrategia.md</guid><pubDate>Fri, 09 May 2025 08:36:51 GMT</pubDate></item><item><title><![CDATA[Google Alerts]]></title><description><![CDATA[ 
+ <br>Monitor online menciona lo principales de tu marca o las tendencias de la industria en tiempo real.]]></description><link>marketing-digital\google-alerts.html</link><guid isPermaLink="false">Marketing Digital/Google Alerts.md</guid><pubDate>Fri, 09 May 2025 10:25:14 GMT</pubDate></item><item><title><![CDATA[Marketing Digital]]></title><description><![CDATA[ 
+ <br>Conjunto de estrategias y acciones de mercadotecnia que se realizan a través de medios y canales digitales con el objetivo de promocionar productos, servicios o marcas.<br>A diferencia del marketing tradicional, el marketing digital se basa en el uso de internet y tecnologías digitales, como:<br>
+<br>Redes sociales (Instagram, Facebook, TikTok, etc.)
+<br>Sitios web
+<br>Motores de búsqueda (Google)
+<br>Email marketing
+<br>Publicidad online (Google Ads, Facebook Ads)
+<br>Marketing de contenidos (blogs, videos, ebooks, etc.)
+<br>SEO y SEM (posicionamiento orgánico y pagado en buscadores)
+<br>Análisis de datos y métricas en tiempo real
+<br>Su ventaja principal es que permite medir resultados fácilmente]]></description><link>marketing-digital\marketing-digital.html</link><guid isPermaLink="false">Marketing Digital/Marketing Digital.md</guid><pubDate>Thu, 08 May 2025 16:26:33 GMT</pubDate></item><item><title><![CDATA[Marketing tools o herramientas de trabajo.]]></title><description><![CDATA[ 
+ <br>Herramientas esenciales para medir y optimizar . Algunas ayudan a monitorizar la presncia online y mejorar la visibilidad en las búsquedas.<br><br>El proceso que incrementa la visibilidad de los sitios web en los motores de busqueda.]]></description><link>marketing-digital\marketing-tools-o-herramientas-de-trabajo..html</link><guid isPermaLink="false">Marketing Digital/Marketing tools o herramientas de trabajo..md</guid><pubDate>Fri, 09 May 2025 10:21:22 GMT</pubDate></item><item><title><![CDATA[Measuremnt and Perfomance o Medición y Desempeño]]></title><description><![CDATA[ 
+ <br>Medir sus esfuerzos y comprender los factores internos y externos son esenciales para construir y perfeccionar su estrategia.<br><br>Una medida utilizada para determinar el éxito de una empresa en su esfuerzo por alcanzar un objetivo comercial o de marketing.<br><br>Una audición que identifica los fuertes de la campañas, debilidades, oportunidades y amenazas]]></description><link>marketing-digital\measuremnt-and-perfomance-o-medición-y-desempeño.html</link><guid isPermaLink="false">Marketing Digital/Measuremnt and Perfomance o Medición y Desempeño.md</guid><pubDate>Fri, 09 May 2025 08:57:06 GMT</pubDate></item><item><title><![CDATA[Medir tu progreso]]></title><description><![CDATA[ 
+ <br>Una vez sabiendo los <a data-href="Tipos de objetivos" href="\marketing-digital\tipos-de-objetivos.html" class="internal-link" target="_self" rel="noopener nofollow">Tipos de objetivos</a> y haber <a data-tooltip-position="top" aria-label="Pautas para establecer metas" data-href="Pautas para establecer metas" href="\marketing-digital\pautas-para-establecer-metas.html" class="internal-link" target="_self" rel="noopener nofollow">definido bien los objetivos</a>. Se puede seguir con el siguiente paso.<br><br>Son los indicadores clave de rendimientos, son métricas específicas y medibles que ayudan a seguir el progreso, hacia el logro de los objetivos.]]></description><link>marketing-digital\medir-tu-progreso.html</link><guid isPermaLink="false">Marketing Digital/Medir tu progreso.md</guid><pubDate>Fri, 09 May 2025 16:16:58 GMT</pubDate></item><item><title><![CDATA[Misión o declaración de objetivo]]></title><description><![CDATA[ 
+ <br>El objetivo de un negocio y la diferencia en la industria.]]></description><link>marketing-digital\misión-o-declaración-de-objetivo.html</link><guid isPermaLink="false">Marketing Digital/Misión o declaración de objetivo.md</guid><pubDate>Fri, 09 May 2025 08:38:45 GMT</pubDate></item><item><title><![CDATA[Palabras Claves (KPIs)]]></title><description><![CDATA[ 
+ <br>Aplicar palabras es el concepto que te ayudara a mejorar en tus objectivos.]]></description><link>marketing-digital\palabras-claves-(kpis).html</link><guid isPermaLink="false">Marketing Digital/Palabras Claves (KPIs).md</guid><pubDate>Thu, 08 May 2025 12:10:06 GMT</pubDate></item><item><title><![CDATA[Pautas para establecer metas]]></title><description><![CDATA[ 
+ <br><br>Alguna de las pautas que hay que tener para llevar a cabo metas inteligentes:<br>
+<br>Especificos: No dejes en duda lo que quieres, tus objetivos deben estar definidos claramente y ser limpios o fácil de entender. Ejemplo, no especifico "Incrementar el trafico del sitio web", un objetivo especifico es "incrementar el trafico de una pagina web un 15% en 3 meses".
+<br>Medibles: Se deben poder medir o al menos encontrar la forma de comprobar si se esta cumpliendo o no. 
+<br>Alcanzables: los objetivos deben ser realistas y que se puedan cumplir en plazos establecidos.
+<br>Relevantes:Tu objetivo debe alinearse con los objetivos de tu negocio. 
+<br>Plazos de tiempos limite: se debe establecer plazos para los objetivos.
+]]></description><link>marketing-digital\pautas-para-establecer-metas.html</link><guid isPermaLink="false">Marketing Digital/Pautas para establecer metas.md</guid><pubDate>Fri, 09 May 2025 11:03:19 GMT</pubDate></item><item><title><![CDATA[Roles en el marketing digital]]></title><description><![CDATA[ 
+ <br>Existen una serie de roles que han ido variando con los cambios tecnológicos.<br>
+<br>Digital Marketing Coordinator:
+
+<br>Coordina las actividades del marketing y las iniciativas.
+<br>Identifica lo que buscan las audiencias
+<br>Ejecuta Campañas
+<br>Monitorea métricas y evalúa las tendencias
+
+
+<br>Digital Marketing Manager
+
+<br>Genera y ejecuta un plan de <a data-tooltip-position="top" aria-label="Marketing Digital" data-href="Marketing Digital" href="\marketing-digital\marketing-digital.html" class="internal-link" target="_self" rel="noopener nofollow">marketing digital</a>. 
+<br>Medir e informar el rendimiento y el retorno de la inversión (ROI) del marketing digital
+<br>Planifica, ejecuta, y evalúa los resultados de los test y experimentos.
+<br>Evalúa y mejora el end-to-end de la experiencia del cliente atreves de los múltiples canales
+
+
+<br>Social Media Specialist
+
+<br>Desarrolla, implementa, y maneja las medios sociales.
+<br>Colabora con las ventas y grupos de campañas de marketing en las redes sociales.
+<br>Crea contenido y construye conexiones con los clientes y incrementa el reconocimiento de la marca
+<br>Monitorea las métricas de las campañas de las redes sociales para optimizar sus contenidos para sus clientes
+
+
+<br>Search Engine Optimisation (SEO) Specialist
+
+<br>Desarrolla estrategias de optimización que mejoran la posición de las búsquedas de las paginas
+<br>Monitorea métricas para entender el SEO
+<br>Actualiza y optimiza la búsqueda en los buscadores
+
+
+<br>E-commerce Analyst
+
+<br>Implementa estrategias para el comercio electrónico, para alcanzar los objetivos
+<br>Establecer objetivos de comercio electrónico e indicadores clave de rendimiento (KPIs) para atributos clave como audiencia, adquisición, comportamiento y conversiones.
+<br>Monitorea y analiza las métricas del comercio electrónico.
+<br>Aprovechas los datos de comercio electrónico para obtener información imperativa
+
+
+<br>Email Marketing Speacialist
+
+<br>Crea campañas de marketing para los email,  y promocionar los productos o servicios.
+<br>Crea un archivo de correos electrónicos para la generación de clientes potenciales
+<br>Elimina los clientes que se descubrieron o abandonaron.
+<br>Usa metricas para evaluar el impacto de las campañas que usan en emails
+
+
+<br>AI Marketing Speacilist
+
+<br>Implementa  y maneja los servicios de IA para el marketing y herramientas.
+<br>Diseña estrategias de marketing basadas en datos utilizando información de IA.
+<br>Personaliza las experiencias de los clientes con contenido personaliza, recomendaciones de productos y precios dinámicos.
+<br>Medir e informar sobre el éxito de las iniciativas de marketing impulsadas por IA
+<br>Garantizar el cumplimiento de las normas de privacidad de datos al manejar datos de clientes y utilizar herramientas de IA.
+
+
+]]></description><link>marketing-digital\roles-en-el-marketing-digital.html</link><guid isPermaLink="false">Marketing Digital/Roles en el marketing digital.md</guid><pubDate>Fri, 09 May 2025 08:33:26 GMT</pubDate></item><item><title><![CDATA[smart goals o objetivos inteligentes]]></title><description><![CDATA[ 
+ <br>Un método para establecer objetivos , ayuda  definir y medir el éxito de los objetivos de la campaña. Siendo especifico, medible, alcanzable, relevante, y con plazos definidos.]]></description><link>marketing-digital\smart-goals-o-objetivos-inteligentes.html</link><guid isPermaLink="false">Marketing Digital/smart goals o objetivos inteligentes.md</guid><pubDate>Fri, 09 May 2025 08:49:56 GMT</pubDate></item><item><title><![CDATA[Tipos de objetivos]]></title><description><![CDATA[ 
+ <br>Definir los objetivos es fundamental para hacer una estrategia de <a data-tooltip-position="top" aria-label="Marketing Digital" data-href="Marketing Digital" href="\marketing-digital\marketing-digital.html" class="internal-link" target="_self" rel="noopener nofollow">marketing</a>.<br><br>Su principal diferencia es el marco de tiempo y el alcance del mismo.<br>Los objectivos a corto plazo son rapidos de efectuar o cumplir, y suelen mostrar resultados los proximos meses.<br>Ejemplo: Un sitio web de botas quiere aumentar su  trafico un 10% en 3 meses.<br>En cambios los objetivos a largo plazo requiere mas concentración y esfuerzo para abordarlo. brindando resultados en un año o mas incluso.<br>Ejemplo: incrementar customer lifetime value (CVL) un 20% para el final del siguiente año.<br><br>Es esencial entender la diferencia, cualitativo, medición de ambos, y contribución a largo plazo si se cumplen.<br><br>Aquellos cualitativos objetivos que mejorar aspectos que causan sentimientos al cliente. Realizar estas objetivos permite ayudar a mejorar la idea del cliente de la marca y imagen.<br><br>Aquellos que son medibles y son específicos.<br><br>Los objetivos blandos y fuertes pueden alinearse a menudo. te permite explorar algunos objetivos para contribuir tu estrategia.<br>Los objetivos de percepción de marca se centran en como ven la marca los clientes. A menudo estos objetivos se pueden mezclar con objetivos fuertes como aumentar la precepción de la gente usando una forma de medición.<br>Los objetivos para adquirir mas clientes, se centran e atraer mas clientes o manejar las conversaciones, es mas fácil de medir, realizarlos es crucial para mejorar los negocios]]></description><link>marketing-digital\tipos-de-objetivos.html</link><guid isPermaLink="false">Marketing Digital/Tipos de objetivos.md</guid><pubDate>Fri, 09 May 2025 11:00:31 GMT</pubDate></item><item><title><![CDATA[Unique Selling Point o propuesta de venta única]]></title><description><![CDATA[ 
+ <br>la explicación de porque tu producto o service es mejor que el de tu compañia]]></description><link>marketing-digital\unique-selling-point-o-propuesta-de-venta-única.html</link><guid isPermaLink="false">Marketing Digital/Unique Selling Point o propuesta de venta única.md</guid><pubDate>Fri, 09 May 2025 08:50:57 GMT</pubDate></item><item><title><![CDATA[Casos de uso de Next.js]]></title><description><![CDATA[ 
  <br>
 <br>Aplicaciones con SEO optimizado: Blogs, ecommerce, sitios de noticias.
 <br>Dashboards y aplicaciones internas: Donde la rapidez es clave y se puede combinar SSR y CSR.
@@ -13430,395 +13516,7 @@ print("IP antes de VPN:", requests.get("https://api64.ipify.org").text)
 # Aquí se activaría la VPN manualmente en el sistema
 
 print("IP después de VPN:", requests.get("https://api64.ipify.org").text)
-<br><br>Las VPNs son herramientas esenciales para garantizar privacidad, seguridad y acceso a contenido restringido en Internet. Es importante elegir un proveedor confiable y un protocolo adecuado según las necesidades del usuario.]]></description><link>programacion-de-servicios-y-procesos\vpn.html</link><guid isPermaLink="false">PROGRAMACION-DE-SERVICIOS-Y-PROCESOS/VPN.md</guid><pubDate>Sun, 16 Feb 2025 11:53:35 GMT</pubDate></item><item><title><![CDATA[API]]></title><description><![CDATA[ 
- <br><a data-href="Entidad Relación" href="\proyectos-fempa\proyecto-final\entidad-relación.html" class="internal-link" target="_self" rel="noopener nofollow">Entidad Relación</a><br>Necesitamos consultar información de especies y razas tanto para entrenar la IA como para contener las posibles enfermedades y especies y razas que puede tener una Mascota <br>Para acceder a información sobre enfermedades y sus posibles tratamientos, existen varias opciones de APIs y servicios que podrías considerar:<br>
-<br>
-MedlinePlus API: MedlinePlus es un servicio de la Biblioteca Nacional de Medicina de Estados Unidos que proporciona información sobre enfermedades, condiciones de salud y tratamientos. Su API te permite acceder a una amplia gama de datos médicos.
-
-<br>
-Disease Ontology API: Disease Ontology es una base de datos que proporciona información estructurada sobre enfermedades humanas. Su API permite acceder a datos sobre enfermedades y sus relaciones.
-
-<br>
-RXNav API: RXNav es un servicio proporcionado por la Biblioteca Nacional de Medicina de Estados Unidos que ofrece información sobre medicamentos, incluidos detalles sobre su uso en el tratamiento de diversas enfermedades.
-
-<br>
-OpenFDA API: Aunque está más centrado en datos relacionados con la Administración de Alimentos y Medicamentos (FDA) de EE. UU., OpenFDA proporciona acceso a información sobre medicamentos, dispositivos médicos y productos alimenticios, lo que puede incluir detalles sobre su uso en el tratamiento de enfermedades.
-
-<br>
-ClinicalTrials.gov API: Este API proporciona acceso a información sobre ensayos clínicos en curso, que pueden incluir información sobre tratamientos para diversas enfermedades.
-
-<br>Antes de utilizar cualquiera de estos servicios, asegúrate de revisar sus políticas de uso, ya que algunos pueden requerir registro o tener restricciones de acceso. Además, ten en cuenta las regulaciones de privacidad y seguridad de datos al trabajar con información médica.<br>Sí, hay varias opciones de APIs gratuitas que puedes utilizar para traducir texto de un idioma a otro. Aquí tienes algunas de las opciones más populares:<br>
-<br>
-Google Cloud Translation API: Este API proporciona traducción automática de texto entre miles de pares de idiomas. Ofrece una cantidad generosa de traducciones gratuitas por mes. Puedes consultar la documentación en <a data-tooltip-position="top" aria-label="https://cloud.google.com/translate/docs" rel="noopener nofollow" class="external-link" href="https://cloud.google.com/translate/docs" target="_blank">Google Cloud Translation API</a>.
-
-<br>
-Microsoft Translator Text API: Ofrece traducción automática entre más de 70 idiomas. Microsoft proporciona una cantidad limitada de traducciones gratuitas al mes. Puedes encontrar más información en <a data-tooltip-position="top" aria-label="https://www.microsoft.com/en-us/translator/translatorapi.aspx" rel="noopener nofollow" class="external-link" href="https://www.microsoft.com/en-us/translator/translatorapi.aspx" target="_blank">Microsoft Translator Text API</a>.
-
-<br>
-DeepL API: DeepL es conocido por su precisión en la traducción automática. Ofrece un API que permite la traducción entre varios idiomas. Ofrecen una opción gratuita con un límite de uso, y planes de pago para necesidades más exigentes. Puedes encontrar más información en <a data-tooltip-position="top" aria-label="https://www.deepl.com/pro-api" rel="noopener nofollow" class="external-link" href="https://www.deepl.com/pro-api" target="_blank">DeepL API</a>.
-
-<br>
-IBM Watson Language Translator: Este API permite la traducción automática de texto entre varios idiomas y ofrece una cantidad gratuita de traducciones al mes. Puedes obtener más información en <a data-tooltip-position="top" aria-label="https://www.ibm.com/cloud/watson-language-translator" rel="noopener nofollow" class="external-link" href="https://www.ibm.com/cloud/watson-language-translator" target="_blank">IBM Watson Language Translator</a>.
-
-<br>Recuerda revisar los términos de servicio y las restricciones de uso de cada API antes de implementarlas en tu proyecto. Además, ten en cuenta que algunas de estas APIs pueden requerir que te registres para obtener una clave de API y proporcionar detalles de facturación para uso más allá de los límites gratuitos.]]></description><link>proyectos-fempa\proyecto-final\api.html</link><guid isPermaLink="false">PROYECTOS - FEMPA/PROYECTO - FINAL/API.md</guid><pubDate>Tue, 19 Mar 2024 20:23:56 GMT</pubDate></item><item><title><![CDATA[Arquitectura Limpia]]></title><description><![CDATA[ 
- <br>En general es mejor aplicar la arquitectura limpia en el backend pero en fronted tenemos framework que nos obligan a trabajen de una forma o otra<br>Pero en front end podemos usa:<br>
-<br>core: Núcleo o lógica de nuestro front y tenemos toda la funcionaliadad sin depender de otras carpteas
-<br>ui: capa que contiene todo lo relacionado al framework y la interfaz
-<br><br>Contiene el:<br>
-<br>model: contiene entidadd(clases) y los objectos de nuestra aplcaicsion y que no esten ligados al 100% a las API
-<br>services: Clases que brindadn funcionaldiad a nuestra aplicacion
-<br>usecases: refleja las funionalidad de la aplicacion con un metodo llamado execute()  o run()
-<br>repositories: Todas las clases encargadas de la conexion con las APIs externas de servidor. 
-<br>blocs: clases que unen la capa de ui y el core prubea las funciones sin usar el ui
-<br><br>Contiene el:<br>
-<br>Pages: Componentes que esten relacionado con el router de nuestra aplicacion
-<br>smarts: usa el blocs para conectar con el core
-<br>dumbs: Componentes que se apoyan los smarts para crear la interfaz grafica adecuada a nuestra aplicacion
-]]></description><link>proyectos-fempa\proyecto-final\arquitectura-limpia.html</link><guid isPermaLink="false">PROYECTOS - FEMPA/PROYECTO - FINAL/Arquitectura Limpia.md</guid><pubDate>Thu, 13 Feb 2025 11:17:42 GMT</pubDate></item><item><title><![CDATA[Comandos para crear proyecto]]></title><description><![CDATA[ 
- <br>mvn compile jib:build: crea imagen del proyecto de jhister<br>
-docker-compose -f src/main/docker/app.yml up]]></description><link>proyectos-fempa\proyecto-final\comandos-para-crear-proyecto.html</link><guid isPermaLink="false">PROYECTOS - FEMPA/PROYECTO - FINAL/Comandos para crear proyecto.md</guid><pubDate>Sat, 13 Apr 2024 16:01:51 GMT</pubDate></item><item><title><![CDATA[Entidad Relación]]></title><description><![CDATA[ 
- <br>Acorde a los <a data-href="Requistos Funcionales" href="\proyectos-fempa\proyecto-final\requistos-funcionales.html" class="internal-link" target="_self" rel="noopener nofollow">Requistos Funcionales</a> se a hehco lo siguiente con su respectivamen cjsutificacion:<br>Entidades:<br>
-<br>
-Terapia: Id_terapia, descripcion, nombre, id_emfermedad
-
-<br>
-Factor:id_Factor, causa (Que lo provoca generalmente), nombre, tipo(ambiental, quimica,etc).
-
-<br>
-Cuidadaro / Hotel de perro:ID de cuidador/hotel (clave primaria), nombre, dirección, teléfono, servicios ofrecidos, etc.
-
-<br>
-Dueño de mascotas: ID de dueño (clave primaria), nombre, dirección, teléfono, etc.
-
-<br>
-Cita: Atributos: ID de cita (clave primaria), fecha, hora, motivo (estética o veterinario), etc.
-
-<br>
-Mascota(ID_mascota, nombre_mascota, fecha_nacimiento, ID_especie, ID_raza, ID_dueño)
-
-<br>
-Especie(ID_especie, nombre_especie)
-
-<br>
-Raza(ID_raza, nombre_raza, ID_especie)
-
-<br>
-Enfermedad(ID_enfermedad, nombre_enfermedad, descripción, tratamiento_recomendado)
-
-<br>
-Historial(ID_historial, ID_animal, fecha_consulta, diagnóstico, ID_enfermedad, )
-
-<br>
-Medicamento(ID_medicamento, nombre_medicamento, descripción)
-
-<br>
-Tratamiento(ID_tratamiento, ID_historial, fecha_inicio, fecha_fin, notas,)
-
-<br>
-Estética: ID de estética (clave primaria), nombre del esteticista, dirección, teléfono, especialidad (p. ej., peluquería, baño, corte de uñas, etc.), certificaciones o estudios en estética, etc.
-
-<br>
-Veterinario: ID de veterinario (clave primaria), nombre del veterinario, dirección, teléfono, especialidad (p. ej., medicina interna, cirugía, odontología, etc.), certificaciones o estudios en veterinaria, etc.
-Relaciones:<br>
-
-
-<br>
-Mascota(ID_mascota) es de Especie(ID_especie)  1-N
-
-<br>
-Mascota(ID_mascota) es de Raza(ID_raza) 1-N
-
-<br>
-Enfermedad(ID_enfermedad) es común en Raza(ID_raza) N - N
-
-<br>
-Enfermedad(ID_enfermedad) es común en Especie(ID_raza) N - N
-
-<br>
-Enfermedad es generado por un factor o mas(n - n)
-
-<br>
-Historial(ID_historial) es de Mascota(ID_animal) 1 - N
-
-<br>
-Historial(ID_historial) tiene Enfermedad(ID_enfermedad) N - N
-
-<br>
-Historial(ID_historial) incluye Medicamento(ID_medicamento) N - N
-
-<br>
-Tratamiento(ID_tratamiento) pertenece a Historial(ID_historial) 1 -N
-
-<br>
-Dueño puede tener muchas Mascota 1 -N
-
-<br>
-Mascota puede tener citas 1 -N
-
-<br>
-Cuidador / Hotel - Mascota N -N
-
-<br>
-Cita puede ser programada con un esteticista o veterinario 1 - N
-
-<br>
-Tratamiento - enfermedad n - n
-
-<br>
-Persona: Nombre, Apellido, DNI, Edad,ID_Persona
-
-<br>
-Dueños: ID_Persona, id_perro, id_gato, Locacion, nombre, apellido, edad
-
-<br>
-Veterinarios: id_veterinario, nombre, apellido, especialidad, horarioDeTrabajo
-
-<br>
-Hoteles: id_hotel, tipo, 
-
-<br>
-Citas: id_cita, persona_id, id_animal, estetica, tratamiento.
-
-<br>
-Medicamentos: id_medicamento, 
-
-<br>
-Enfermedades
-
-<br>
-Empleado
-
-<br>
-Dueño de mascotas: ID de dueño (clave primaria), nombre, dirección, teléfono, etc.
-
-<br>
-Mascota: Atributos: ID de mascota (clave primaria), nombre, especie, raza, etc.
-
-<br>
-Cita: Atributos: ID de cita (clave primaria), fecha, hora, motivo (estética o veterinario), etc.
-
-<br>Relaciones:<br>
-<br>Relación entre Dueño de mascotas y Mascota:
-
-<br>Un dueño puede tener varias mascotas.
-<br>Una mascota pertenece a un único dueño.
-<br>Relación de uno a muchos.
-
-
-<br>Relación entre Mascota y Cita:
-
-<br>Una mascota puede tener varias citas.
-<br>Una cita está asociada a una única mascota.
-<br>Relación de uno a muchos.
-
-
-<br>Relación entre Cita y Tipo de Servicio (Estética o Veterinario):
-
-<br>Una cita puede tener un tipo de servicio.
-<br>Un tipo de servicio puede estar asociado a varias citas.
-<br>Relación de uno a muchos.
-
-
-<br>Justificación:<br>
-<br>
-Dueño - Mascota:
-
-<br>La cardinalidad de esta relación sería "1:N", lo que significa que un dueño puede tener muchas mascotas, pero cada mascota pertenece a un único dueño.
-
-
-<br>
-Mascota - Especie:
-
-<br>La cardinalidad aquí también sería "1:N", donde una especie puede tener muchas mascotas, pero cada mascota pertenece a una única especie.
-
-
-<br>
-Mascota - Raza:
-
-<br>Similarmente, la cardinalidad sería "1:N". Una raza puede tener muchas mascotas, pero cada mascota pertenece a una única raza.
-
-
-<br>
-Enfermedad - Raza:
-
-<br>La cardinalidad aquí sería "M:N", ya que una enfermedad puede ser común en varias razas, y una raza puede estar asociada con varias enfermedades.
-
-
-<br>
-Historial - Mascota:
-
-<br>La cardinalidad sería "1:N", ya que un historial médico pertenece a una única mascota, pero una mascota puede tener varios historiales médicos (por ejemplo, consultas previas).
-
-
-<br>
-Historial - Enfermedad:
-
-<br>Se puede diagnosticar varias enfermedades en un historial y una enfermada puede estar en mas de un historial
-
-
-<br>
-Historial - Medicamento:
-
-<br>Igualmente, la cardinalidad sería "1:N". Cada historial médico puede incluir varios medicamentos, pero cada medicamento está asociado a un único historial médico.
-
-
-<br>
-Tratamiento - Historial:
-
-<br>La cardinalidad sería "1:N". Cada tratamiento pertenece a un único historial médico, pero un historial médico puede tener varios tratamientos asociados.
-
-
-<br>
-Relación entre Dueño de mascotas y Mascota:
-
-<br>Un dueño puede tener varias mascotas (1 a muchos).
-<br>Una mascota pertenece a un único dueño (1 a 1).
-
-
-<br>
-Relación entre Mascota y Cita:
-
-<br>Una mascota puede tener varias citas (1 a muchos).
-<br>Una cita está asociada a una única mascota (1 a 1).
-
-
-<br>
-Relación entre Mascota y Cuidador/Hotel:
-
-<br>Una mascota puede ser cuidada por varios cuidadores o alojada en diferentes hoteles (muchos a muchos).
-<br>Un cuidador/hotel puede tener varias mascotas bajo su cuidado (muchos a muchos).
-
-
-<br>
-Relación entre Cita y Estética/Veterinario:
-
-<br>Una cita puede ser programada con un esteticista o un veterinario (1 a 1).
-<br>Un esteticista o un veterinario puede tener varias citas programadas (1 a muchos).
-
-
-<br><img alt="entidad_relacion.png" src="\proyectos-fempa\proyecto-final\entidad_relacion.png"><br>Con esto pasamos a que <a data-href="API" href="\proyectos-fempa\proyecto-final\api.html" class="internal-link" target="_self" rel="noopener nofollow">API</a>]]></description><link>proyectos-fempa\proyecto-final\entidad-relación.html</link><guid isPermaLink="false">PROYECTOS - FEMPA/PROYECTO - FINAL/Entidad Relación.md</guid><pubDate>Tue, 19 Mar 2024 23:29:29 GMT</pubDate><enclosure url="proyectos-fempa\proyecto-final\entidad_relacion.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;proyectos-fempa\proyecto-final\entidad_relacion.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Etapas PFC]]></title><description><![CDATA[ 
- <br>Tecnologías:<br>
-React, Spring , Java, IA identicadora de Animales(gatos, perros),  React, Python, React Native<br>Listado:<br>
-<br>Requistos Funcionales
-<br>Diseño de base de datos
-<br>Uso de la herramienta que te hace todo el proyecto de apring
-<br>Python IA
-<br>Datos de animales
-<br>Crear Interfaz
-<br>Unir funcionalidades con todo
-<br>mvn compile jib:build ]]></description><link>proyectos-fempa\proyecto-final\etapas-pfc.html</link><guid isPermaLink="false">PROYECTOS - FEMPA/PROYECTO - FINAL/Etapas PFC.md</guid><pubDate>Mon, 15 Apr 2024 17:41:33 GMT</pubDate></item><item><title><![CDATA[Requisitos Funcionales]]></title><description><![CDATA[ 
- <br><a data-href="Etapas PFC" href="\proyectos-fempa\proyecto-final\etapas-pfc.html" class="internal-link" target="_self" rel="noopener nofollow">Etapas PFC</a><br><br>
-<br>Sistema de gestión (CRUD) de reporte de animales
-<br>Sistema de gestión (CRUD) de animales
-<br>Sistema de gestión (CRUD) de hoteles de perros
-<br>Sistema de gestión (CRUD) de citas a Veterinario
-<br>Sistema de gestión (CRUD) de Farmacia de animales
-<br>Cámara que identifica si es un gato o perro
-<br>Cámara que identifica algunas especies de perros, y de ahi saca toda las posibles enfermedades del mismo 
-<br>Camara que identifica los gatos y algunas especies y de ahi saca sus posibles problemas o enfermedades 
-<br>Aplicacion movil que se pueda conseguir cita veterinario
-<br>Aplicacion movil que se pude sacar turno de hotel de veterinario
-<br>Aplicación móvil para sacar turno para corte de pelo y bañado de animal
-<br>Guardas grandes cantidades de datos
-<br>Notifcaciones
-<br>Gurdar fotos de estados inicial de mascota y mejorar
-<br><br>
-<br>React
-<br>Spring boot
-<br>Spring Segurity
-<br>Python
-<br>MySQL
-<br>Con esto justificamos:<br><a data-href="Entidad Relación" href="\proyectos-fempa\proyecto-final\entidad-relación.html" class="internal-link" target="_self" rel="noopener nofollow">Entidad Relación</a>]]></description><link>proyectos-fempa\proyecto-final\requistos-funcionales.html</link><guid isPermaLink="false">PROYECTOS - FEMPA/PROYECTO - FINAL/Requistos Funcionales.md</guid><pubDate>Sun, 19 May 2024 23:20:02 GMT</pubDate></item><item><title><![CDATA[Clientes - Compradores]]></title><description><![CDATA[ 
- <br><br>Aquellas personas que no tienen tiempo y a la vez una persona que adopto o compro una mascota en este caso con perros y necesita sacar cita rápidamente, entonces registramos rápidamente, con una foto de la mascota le mostraremos las posibles característica y en base de algunas preguntas formular ya una ficha de la misma mascota y prepara una cita para el misma, si la mascota cuenta con un problema se puede conseguir cita, o que aparezca un veterinario a domicilio o con la formulación de algunas preguntas del síntoma y fotos de herida o demás poder realizar un diagnostico no oficial.<br>Cliente:<br>Edad: 20 - 40<br>
-Que cuenta con propiedades propias ya sea campo o chale y lejos de la ciudad contando con 20 a 1hs para llegar a una veterinaria<br>
-Solteros.<br>
-Que viven solos<br>
-Recientemente adoptaron a una mascota<br>
-O buscan una cita con un veterinario<br>
-Necesitan un diagnostico rápido pero no oficial para saber la gravedad de la salud de su mascota<br>Hombre o Mujer<br>
-Amantes de perros<br>
-que adopto a un perro o uno nuevo y cuenta con una mascota<br>
-Que cuenta con una o dos propiedades<br>
-Clase media<br>
-Distancia lejana a la ciudad tardan dado entre 20 a 1hr para llegar a una veterinaria<br>
-30 años<br>
-Soltero/a<br>
-Casi sin tiempo libre]]></description><link>proyectos-fempa\proyecto-via-creadon\clientes-compradores.html</link><guid isPermaLink="false">PROYECTOS - FEMPA/PROYECTO - VIA CREADON/Clientes - Compradores.md</guid><pubDate>Wed, 04 Oct 2023 09:19:42 GMT</pubDate></item><item><title><![CDATA[Competidores:]]></title><description><![CDATA[ 
- <br><br>
-<br>qvet
-<br>MyVete
-<br>Smart Vet
-<br>IDEXX Laboratories
-<br>AVImark (APP)
-<br>ezyVet (APP)
-<br>Vetstar (APP)
-<br>ImproMed
-<br>Intravet
-<br>VIA Information Systems (APP)
-<br>DVMAX (APP)
-<br>Vetter Software (APP)
-<br>Animal Intelligence Software (APP)
-<br>Cornerstone (APP)
-<br>ARK
-<br>Gestor Vet
-<br>Iverter
-<br>WinVet
-<br>ZooVet
-<br>System Animal (APP)
-<br>Okvet (gratuitio)
-<br>System Pet
-]]></description><link>proyectos-fempa\proyecto-via-creadon\competidores.html</link><guid isPermaLink="false">PROYECTOS - FEMPA/PROYECTO - VIA CREADON/Competidores.md</guid><pubDate>Wed, 04 Oct 2023 09:19:42 GMT</pubDate></item><item><title><![CDATA[Listas de Propuestas:]]></title><description><![CDATA[ 
- <br><br>
-<br>Sistema de librería junto con evaluación de empleados y supervisores
-
-<br>Mejoras: Comparación entre horas y cantidad de prestamos. Algún sistema de productividad<a data-tooltip-position="top" aria-label="https://medium.com/front-end-weekly/detecci%C3%B3n-de-objetos-en-tiempo-real-en-10-l%C3%ADneas-de-c%C3%B3digo-con-tensorflow-js-a0ea199a1d12" rel="noopener nofollow" class="external-link" href="https://medium.com/front-end-weekly/detecci%C3%B3n-de-objetos-en-tiempo-real-en-10-l%C3%ADneas-de-c%C3%B3digo-con-tensorflow-js-a0ea199a1d12" target="_blank">Detección de objetos en tiempo real en 10 líneas de código con TensorFlow.js | by Francisco Suarez | Frontend Weekly | Medium</a> 
-
-
-<br>Videojuego: 
-
-<br>Juego 3D que cuente algo algún mensaje o  genera una mecánica no usada que este basado en algún truco psicológico (entrevistar un psicólogo para saber más).
-
-
-<br>Aplicación de tareas
-
-<br>Divide una tarea en partes y con fechas definas que pueden cambiar y que se pueden sincronizar entre dispositivos como un plugin de productividad en Google Chrome o Firefox.
-
-
-<br>Aplicación de organización (Solo para computadoras)
-<br>Mascara detector de movimiento y seguridad:
-
-<br>Se puede combinar con tecnologías que conozco y poder detectar aquellas personas comunes.
-
-
-<br>Lista de comandos a voz mejorado ya que son muy malos
-<br>Sistema de veterinario:
-
-<br>Detecta el tipo de animal , características  del mismo posibles enfermedades y demás
-<br>Aplicación que se puede usar inteligencia artificial para sacar la ficha de del animal y demás y ahorrar tiempo de productividad a través de la cámara podemos sacar un fichado de manera rápida, programando con la veterinario mas cercana o llamar al veterinario mas cercano que podamos usar.
-<br>Puedo usar un ERP ya conocido y atreves de una API podemos entre comunicar la información.
-<br><a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=UxGzzBg9YDM" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=UxGzzBg9YDM" target="_blank">02 Hola Mundo SISTEMA VETERINARIO (PHP y MySql) FullStack - YouTube</a>
-<br>
-
-
-]]></description><link>proyectos-fempa\proyecto-via-creadon\listas-de-propuestas.html</link><guid isPermaLink="false">PROYECTOS - FEMPA/PROYECTO - VIA CREADON/Listas de propuestas.md</guid><pubDate>Wed, 04 Oct 2023 09:19:42 GMT</pubDate></item><item><title><![CDATA[Ofertas Sustitutivas]]></title><description><![CDATA[ 
- <br><br>
-<br>Systema Animal
-<br>AVI Mark mobile
-<br>ezyVet Mobile
-<br>IDEX Vet Connect PLUS
-<br>VIA mobile
-<br>DVMAX
-<br>Vetstoria
-<br>Vetter Software
-<br>VisionVPM Mobile
-]]></description><link>proyectos-fempa\proyecto-via-creadon\ofertas-sustitutivas.html</link><guid isPermaLink="false">PROYECTOS - FEMPA/PROYECTO - VIA CREADON/Ofertas Sustitutivas.md</guid><pubDate>Wed, 04 Oct 2023 09:19:42 GMT</pubDate></item><item><title><![CDATA[Potenciales]]></title><description><![CDATA[ 
- <br>Persona Mayor 60<br>
-Solitaria/o<br>
-Con una o dos mascotas<br>
-No recibe ayuda de algún familiar<br>
-Que vive en el campo o chale<br>
-Perros ya cercana a la edad limite de tiempo de vida conocido<br>
-No cuenta tiempo zpara llevar a veterinario]]></description><link>proyectos-fempa\proyecto-via-creadon\potenciales.html</link><guid isPermaLink="false">PROYECTOS - FEMPA/PROYECTO - VIA CREADON/Potenciales.md</guid><pubDate>Wed, 04 Oct 2023 09:19:42 GMT</pubDate></item><item><title><![CDATA[<strong>Blockchain: Concepto y Funcionamiento</strong>]]></title><description><![CDATA[ 
+<br><br>Las VPNs son herramientas esenciales para garantizar privacidad, seguridad y acceso a contenido restringido en Internet. Es importante elegir un proveedor confiable y un protocolo adecuado según las necesidades del usuario.]]></description><link>programacion-de-servicios-y-procesos\vpn.html</link><guid isPermaLink="false">PROGRAMACION-DE-SERVICIOS-Y-PROCESOS/VPN.md</guid><pubDate>Sun, 16 Feb 2025 11:53:35 GMT</pubDate></item><item><title><![CDATA[<strong>Blockchain: Concepto y Funcionamiento</strong>]]></title><description><![CDATA[ 
  <br><br><br>El Blockchain es una tecnología de almacenamiento y transmisión de información que funciona como un registro digital descentralizado. Se caracteriza por ser seguro, inmutable y transparente, lo que permite realizar transacciones sin intermediarios.<br><br>Un blockchain se compone de bloques de datos conectados de forma secuencial, formando una cadena de bloques. Cada bloque contiene:<br>
 <br>Datos de la transacción.
 <br>Hash (una firma digital única del bloque).
@@ -14487,7 +14185,57 @@ Puede ampliarse con módulos verticales para cubrir necesidades específicas.
 🔹 Es clave en sectores como alimentación, farmacéutica, automotriz y logística.  ]]></description><link>sistema-gestion-empresarial\trazabilidad.html</link><guid isPermaLink="false">Sistema-Gestion-Empresarial/Trazabilidad.md</guid><pubDate>Sun, 16 Feb 2025 10:19:28 GMT</pubDate></item><item><title><![CDATA[Svelte]]></title><description><![CDATA[ 
  <br>Svelte es un <a data-href="Framework" href="\curso-spring\framework.html" class="internal-link" target="_self" rel="noopener nofollow">Framework</a> y a la vez un compilador directo que NO usa DOM para tras copilar como <a data-href="React" href="\curso_react\react.html" class="internal-link" target="_self" rel="noopener nofollow">React</a>, Vuet.]]></description><link>sveltekitcurso\svelte.html</link><guid isPermaLink="false">SvelteKitCurso/Svelte.md</guid><pubDate>Sun, 02 Mar 2025 11:13:31 GMT</pubDate></item><item><title><![CDATA[Svelte Kit]]></title><description><![CDATA[ 
  <br>Svelte es un <a data-href="Framework" href="\curso-spring\framework.html" class="internal-link" target="_self" rel="noopener nofollow">Framework</a> y a la vez un compilador directo que NO usa DOM para tras copilar como <a data-href="React" href="\curso_react\react.html" class="internal-link" target="_self" rel="noopener nofollow">React</a>, Vuet.]]></description><link>sveltekitcurso\svelte-kit.html</link><guid isPermaLink="false">SvelteKitCurso/Svelte Kit.md</guid><pubDate>Tue, 25 Mar 2025 15:55:03 GMT</pubDate></item><item><title><![CDATA[API Styles]]></title><description><![CDATA[ 
- <br>Las Apy Styles se dividen dos tipos: <a data-href="Options Api" href="\vue\options-api.html" class="internal-link" target="_self" rel="noopener nofollow">Options Api</a> y <a data-href="Composition Api" href="\vue\composition-api.html" class="internal-link" target="_self" rel="noopener nofollow">Composition Api</a><br>Options Api<br><br>Composition Api<br><br><br>Options API esta mas centrado para aquellos que prefieren usar <a data-href="POO" href="\POO" class="internal-link" target="_self" rel="noopener nofollow">POO</a> como paradigma para poder desarrollar<br>Composition API esta mas centrado para aquellos que prefieren mas libertad y control sobre la reactividad.<br>Ambos te permiten desarrollar componentes complejos o <a data-href="Single-File Components" href="\vue\single-file-components.html" class="internal-link" target="_self" rel="noopener nofollow">Single-File Components</a> o SFC.]]></description><link>vue\api-styles.html</link><guid isPermaLink="false">Vue/API Styles.md</guid><pubDate>Thu, 20 Mar 2025 10:59:49 GMT</pubDate></item><item><title><![CDATA[App Configurations]]></title><description><![CDATA[ 
+ <br>Las Apy Styles se dividen dos tipos: <a data-href="Options Api" href="\vue\options-api.html" class="internal-link" target="_self" rel="noopener nofollow">Options Api</a> y <a data-href="Composition Api" href="\vue\composition-api.html" class="internal-link" target="_self" rel="noopener nofollow">Composition Api</a><br>Options Api<br><br>Es un tipo de <a data-href="API Styles" href="\vue\api-styles.html" class="internal-link" target="_self" rel="noopener nofollow">API Styles</a>, nosotros aqui definimos la lógica de nuestro componente,usando un objecto, dentro del mismo  contiene data, methods  y mounted. Propiedades que definimos en un objecto para nuestra función<br>&lt;script&gt;
+export default {
+  // Properties returned from data() become reactive state
+  // and will be exposed on `this`.
+  data() {
+    return {
+      count: 0
+    }
+  },
+
+  // Methods are functions that mutate state and trigger updates.
+  // They can be bound as event handlers in templates.
+  methods: {
+    increment() {
+      this.count++
+    }
+  },
+
+  // Lifecycle hooks are called at different stages
+  // of a component's lifecycle.
+  // This function will be called when the component is mounted.
+  mounted() {
+    console.log(`The initial count is ${this.count}.`)
+  }
+}
+&lt;/script&gt;
+
+&lt;template&gt;
+  &lt;button @click="increment"&gt;Count is: {{ count }}&lt;/button&gt;
+&lt;/template&gt;
+<br>Composition Api<br><br>Es un tipo de <a data-href="API Styles" href="\vue\api-styles.html" class="internal-link" target="_self" rel="noopener nofollow">API Styles</a> que contiene la lógica de nuestro componente usando API funciones. Se usa &lt;script setup&gt;, setup es el atributo que usamos para decirle a Vue que vamos a crear un componente usando las funciones.<br>&lt;script setup&gt;
+import { ref, onMounted } from 'vue'
+
+// reactive state
+const count = ref(0)
+
+// functions that mutate state and trigger updates
+function increment() {
+  count.value++
+}
+
+// lifecycle hooks
+onMounted(() =&gt; {
+  console.log(`The initial count is ${count.value}.`)
+})
+&lt;/script&gt;
+
+&lt;template&gt;
+  &lt;button @click="increment"&gt;Count is: {{ count }}&lt;/button&gt;
+&lt;/template&gt;
+<br><br>Options API esta mas centrado para aquellos que prefieren usar <a data-href="POO" href="\POO" class="internal-link" target="_self" rel="noopener nofollow">POO</a> como paradigma para poder desarrollar<br>Composition API esta mas centrado para aquellos que prefieren mas libertad y control sobre la reactividad.<br>Ambos te permiten desarrollar componentes complejos o <a data-href="Single-File Components" href="\vue\single-file-components.html" class="internal-link" target="_self" rel="noopener nofollow">Single-File Components</a> o SFC.]]></description><link>vue\api-styles.html</link><guid isPermaLink="false">Vue/API Styles.md</guid><pubDate>Thu, 20 Mar 2025 10:59:49 GMT</pubDate></item><item><title><![CDATA[App Configurations]]></title><description><![CDATA[ 
  <br>Son las configuraciones que podemos hacer a <a data-href="CreateApp" href="\vue\createapp.html" class="internal-link" target="_self" rel="noopener nofollow">CreateApp</a>  una vez instanciado y antes de montarlo. Usando .config.<br><br>La aplicación nos permite configurar errores de distintos nivele en este caso a nivel global.<br>app.config.errorHarler = (err) =&gt;{
 	/*Manejo de error*/
 }
@@ -14731,6 +14479,7 @@ export default {
 <br><a data-href="Arquitecturas" href="\Arquitecturas" class="internal-link" target="_self" rel="noopener nofollow">Arquitecturas</a> (Trabajando)
 <br><a data-tooltip-position="top" aria-label="Amazon Web Services (AWS)" data-href="Amazon Web Services (AWS)" href="\amazon-cloud\amazon-web-services-(aws).html" class="internal-link" target="_self" rel="noopener nofollow">Amazon Cloud</a>
 <br><a data-tooltip-position="top" aria-label="JavaScript indice" data-href="JavaScript indice" href="\javascript\javascript-indice.html" class="internal-link" target="_self" rel="noopener nofollow">JavaScript</a> (Trabajando, notas no completas y no correcta redacción)
+<br><a data-href="Marketing Digital" href="\marketing-digital\marketing-digital.html" class="internal-link" target="_self" rel="noopener nofollow">Marketing Digital</a> (Google)
 
 
-]]></description><link>indice.html</link><guid isPermaLink="false">Indice.md</guid><pubDate>Tue, 25 Mar 2025 16:01:22 GMT</pubDate></item></channel></rss>
+]]></description><link>indice.html</link><guid isPermaLink="false">Indice.md</guid><pubDate>Fri, 09 May 2025 16:40:35 GMT</pubDate></item></channel></rss>
