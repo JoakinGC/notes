@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Programacion]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Programacion</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 09 May 2025 16:50:21 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 09 May 2025 16:49:20 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[1 Casos prácticos (elegir uno)]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Programacion]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Programacion</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 12 May 2025 15:54:50 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 12 May 2025 15:53:36 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[1 Casos prácticos (elegir uno)]]></title><description><![CDATA[ 
  <br>Ejemplos de proyectos que incluirán elementos de persistencia, servicios, controladores, relaciones entre entidades, APIs, e interfaces web. <br>
 <br>
 Sistema de Reservas para un Hotel (ejemplo, no elegir): Gestiona reservas de habitaciones, clientes y servicios del hotel. Las habitaciones pueden tener múltiples reservas (OneToMany) y los clientes pueden tener múltiples reservas (OneToMany).
@@ -4063,7 +4063,81 @@ Si no sabes con certeza cuándo accederás a los datos y quieres optimizar costo
 
 <br>Tambien se pueden agregar condiciones .<br><br>Se pueden activar para que S3 sea un servicio web de paginas estáticas, le mencionas cual es el índex y configurar si queires el error tambien puedes configurar el redireccionamiento de la pagina]]></description><link>amazon-cloud\s3-(simple-storage-service).html</link><guid isPermaLink="false">Amazon Cloud/S3 (Simple Storage Service).md</guid><pubDate>Wed, 19 Mar 2025 17:43:54 GMT</pubDate></item><item><title><![CDATA[Servicio Web]]></title><description><![CDATA[ 
  <br>Brindar un servicio a través de una pagina. <a data-tooltip-position="top" aria-label="Amazon Web Services(AWS)" data-href="Amazon Web Services(AWS)" href="\amazon-cloud\machine-learning\amazon-web-services(aws).html" class="internal-link" target="_self" rel="noopener nofollow">AWS</a> brinda una gama  de servicios para crear tu servicio Web. <br>Un servicio web podría necesitar de muchos servicios y al haber un necesidad o aumento repentino de las peticiones del servicio se realiza un escalamiento de diferentes tipos.<br><br>En caso de necesitar aumentar el hardware del servidor se hace un <a data-tooltip-position="top" aria-label="Escalamiento Vertical" data-href="Escalamiento Vertical" href="\Escalamiento Vertical" class="internal-link" target="_self" rel="noopener nofollow">escalamiento vertical</a><br>
-Tambien se puede hacer manera inversa ya sea aumentar o rebajar los recursos del servidor<br>Otra forma de escalar nuestro servicio es el <a data-tooltip-position="top" aria-label="Escalamiento Horizontal" data-href="Escalamiento Horizontal" href="\Escalamiento Horizontal" class="internal-link" target="_self" rel="noopener nofollow">escalamiento horizontal</a>, que permite distribuir las cargas del servidor central en otros servidores.<br><br>Cada una tiene sus ventajas y inconvenientes, el escalamiento vertical tiene un momento en donde se pierde la conectividad llamado el "dowmtime". En cambio al distribuir la tarea en varios server esta seria mas difícil de perder. <br>Sin embargo al tener una servidor es mucho más sencillo realizar su escalamiento. Pero en cambio al contar con varios ordenadores tendrás que ir viendo uno por uno que carga distribuirle.<br>Otra ventaja es el coste que tiene un escalamiento vertical de uno horizontal, un vertical es mas barato.]]></description><link>amazon-cloud\servicio-web.html</link><guid isPermaLink="false">Amazon Cloud/Servicio Web.md</guid><pubDate>Wed, 05 Mar 2025 10:32:47 GMT</pubDate></item><item><title><![CDATA[<strong>Botones en Bootstrap</strong>]]></title><description><![CDATA[ 
+Tambien se puede hacer manera inversa ya sea aumentar o rebajar los recursos del servidor<br>Otra forma de escalar nuestro servicio es el <a data-tooltip-position="top" aria-label="Escalamiento Horizontal" data-href="Escalamiento Horizontal" href="\Escalamiento Horizontal" class="internal-link" target="_self" rel="noopener nofollow">escalamiento horizontal</a>, que permite distribuir las cargas del servidor central en otros servidores.<br><br>Cada una tiene sus ventajas y inconvenientes, el escalamiento vertical tiene un momento en donde se pierde la conectividad llamado el "dowmtime". En cambio al distribuir la tarea en varios server esta seria mas difícil de perder. <br>Sin embargo al tener una servidor es mucho más sencillo realizar su escalamiento. Pero en cambio al contar con varios ordenadores tendrás que ir viendo uno por uno que carga distribuirle.<br>Otra ventaja es el coste que tiene un escalamiento vertical de uno horizontal, un vertical es mas barato.]]></description><link>amazon-cloud\servicio-web.html</link><guid isPermaLink="false">Amazon Cloud/Servicio Web.md</guid><pubDate>Wed, 05 Mar 2025 10:32:47 GMT</pubDate></item><item><title><![CDATA[Clean Architecture (Arquitectura Limpia)]]></title><description><![CDATA[ 
+ <br>Propuesta de Robert C. Martin. para organizar el código y hacerlo independiente cada parte del mismo. Separa la lógica de negocio de los detalles técnicos. <br>[ Círculo Interno ]    -&gt; mayor importancia, menor dependencia
+[ Círculo Externo ]    -&gt; detalles que pueden cambiar con facilidad
+<br>┌───────────────────────────────────────────────┐<br>
+│          Frameworks &amp; Drivers│ ← UI, DB, APIs externas<br>
+┌───────────────────────────────────────────────┤<br>
+│        Interface Adapters     │ ← Controllers, Presenters, Gateways<br>
+┌───────────────────────────────────────────────┤<br>
+│        Application Business   │ ← Casos de uso (interactors)<br>
+┌───────────────────────────────────────────────┤<br>
+│        Enterprise Business    │ ← Entidades del dominio<br>
+┌───────────────────────────────────────────────┘<br>
+<br><a data-href="Entities (Enterprise Businees Rules)" href="\Entities (Enterprise Businees Rules)" class="internal-link" target="_self" rel="noopener nofollow">Entities (Enterprise Businees Rules)</a>
+
+<br>Reglas de negocio mas generales.
+<br>Son independientes
+<br>Clases como User, Invoice, Order
+
+
+<br><a data-href="Uses Cases (Application Business Rules)" href="\Uses Cases (Application Business Rules)" class="internal-link" target="_self" rel="noopener nofollow">Uses Cases (Application Business Rules)</a>
+
+<br>Lógica del negocio, que hace el sistema cuando ocurre un caso de uso.
+<br>Controlan las entidades
+<br>Ej: RegisterUser
+
+
+<br><a data-href="Interface Adapters" href="\Interface Adapters" class="internal-link" target="_self" rel="noopener nofollow">Interface Adapters</a><br>
+- Adaptan los datos de entrada / salida para que se puedan usarse en los casos de uso y entidades<br>
+- Estan los controllers(MVC), Presenters (para formatear la salida), Gateways (implementaciones de interfaces de acceso a datos.)<br>
+4.<a data-href="Frameworks y Drivers" href="\arquicteturas\frameworks-y-drivers.html" class="internal-link" target="_self" rel="noopener nofollow">Frameworks y Drivers</a>:
+<br>
+<br>Frameworks, UI, DB, AP's
+<br><img alt="Clean-Architecture-img.png" src="\arquicteturas\clean-architecture-img.png">]]></description><link>arquicteturas\clean-architecture-(arquitectura-limpia).html</link><guid isPermaLink="false">Arquicteturas/Clean Architecture (Arquitectura Limpia).md</guid><pubDate>Mon, 12 May 2025 15:18:47 GMT</pubDate><enclosure url="arquicteturas\clean-architecture-img.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;arquicteturas\clean-architecture-img.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Frameworks y Drivers]]></title><description><![CDATA[ 
+ <br>Existen muchas tecnologías y en cada una han cambiado o han adaptado la propuesta de <a data-tooltip-position="top" aria-label="Clean Architecture (Arquitectura Limpia)" data-href="Clean Architecture (Arquitectura Limpia)" href="\arquicteturas\clean-architecture-(arquitectura-limpia).html" class="internal-link" target="_self" rel="noopener nofollow">arquitectura limpia</a> de una manera que difiere de lo normal.<br>En java / spring, al ser un lenguaje de programación orientado a objectos el usar esta forma de organización brinda una grana ventaja de mantenibilidad y robutez.<br>src/
+└── main/
+    └── java/
+        └── com/tuempresa/tuapp/
+            ├── domain/
+            │   ├── model/             ← Entidades (reglas del negocio)
+            │   └── repository/        ← Interfaces de acceso a datos
+            │
+            ├── application/
+            │   └── usecase/           ← Casos de uso (lógica de aplicación)
+            │
+            ├── infrastructure/
+            │   ├── repository/        ← Implementaciones de repositorios (JPA, etc.)
+            │   └── config/            ← Configuraciones, Beans, etc.
+            │
+            └── interface/
+                ├── controller/        ← Controladores REST
+                └── dto/               ← DTOs, mapeos de entrada/salida
+
+<br>En caso como Node / Express tambien se puede aplicar estos conceptos y serian mas o menos de esta forma:<br>project-root/
+├── src/
+│   ├── domain/
+│   │   ├── models/           ← Entidades del negocio
+│   │   └── repositories/     ← Interfaces (abstractas)
+│   │
+│   ├── application/
+│   │   └── use-cases/        ← Lógica de aplicación, casos de uso
+│   │
+│   ├── infrastructure/
+│   │   └── db/
+│   │       ├── models/       ← Esquemas reales de DB (ej: Mongoose, Sequelize)
+│   │       └── implementations/ ← Repositorios concretos
+│   │
+│   └── interface/
+│       ├── routes/           ← Definiciones de rutas HTTP
+│       ├── controllers/      ← Lógica HTTP (req/res)
+│       └── dto/              ← Objetos de entrada/salida
+│
+├── app.js                    ← Entry point
+└── package.json
+
+]]></description><link>arquicteturas\frameworks-y-drivers.html</link><guid isPermaLink="false">Arquicteturas/Frameworks y Drivers.md</guid><pubDate>Mon, 12 May 2025 15:15:36 GMT</pubDate></item><item><title><![CDATA[<strong>Botones en Bootstrap</strong>]]></title><description><![CDATA[ 
  <br><br>Bootstrap proporciona una variedad de estilos y tamaños para los botones, permitiendo una personalización rápida y sencilla.<br><br><br>Los botones en Bootstrap se crean utilizando la clase .btn junto con una clase de color:<br>&lt;button class="btn btn-primary"&gt;Primario&lt;/button&gt;
 &lt;button class="btn btn-secondary"&gt;Secundario&lt;/button&gt;
 &lt;button class="btn btn-success"&gt;Éxito&lt;/button&gt;
@@ -6361,8 +6435,92 @@ Si no estás seguro de tu versión de Android Studio, revisa <a data-href="Estru
 <br><a data-href="LinearLayout" href="\curso_android_studio\linearlayout.html" class="internal-link" target="_self" rel="noopener nofollow">LinearLayout</a>
 <br><a data-href="ConstransLayout" href="\curso_android_studio\constranslayout.html" class="internal-link" target="_self" rel="noopener nofollow">ConstransLayout</a>
 <br>Se puede colcoar id a cada componente<br>con: android:id="@+id/nombreDeID"<br>Sirve para engachar con [[]]<br>Igual la propiedad text de nuestro text view no debe ser suado sino que debe referenciar a un string que tengamos en nuestro string de la carpata de recursos]]></description><link>curso_android_studio\xml.html</link><guid isPermaLink="false">Curso_android_studio/xml.md</guid><pubDate>Fri, 12 Jan 2024 17:53:35 GMT</pubDate></item><item><title><![CDATA[useCallBack]]></title><description><![CDATA[ 
- ]]></description><link>curso_react\hoks\usecallback.html</link><guid isPermaLink="false">Curso_React/hoks/useCallBack.md</guid><pubDate>Tue, 22 Oct 2024 14:59:11 GMT</pubDate></item><item><title><![CDATA[useContext]]></title><description><![CDATA[ 
- ]]></description><link>curso_react\hoks\usecontext.html</link><guid isPermaLink="false">Curso_React/hoks/useContext.md</guid><pubDate>Tue, 22 Oct 2024 14:59:20 GMT</pubDate></item><item><title><![CDATA[useEffect]]></title><description><![CDATA[ 
+ <br><br><br>useCallback es un <a data-tooltip-position="top" aria-label="Hooks" data-href="Hooks" href="\curso_react\hooks.html" class="internal-link" target="_self" rel="noopener nofollow">hook</a> de <a data-tooltip-position="top" aria-label="React" data-href="React" href="\curso_react\react.html" class="internal-link" target="_self" rel="noopener nofollow">React</a> que te permite memorizar una función para que no se vuelva a crear en cada renderizado, a menos que sus dependencias cambien.<br>const memoizedCallback = useCallback(() =&gt; {
+  // lógica de la función
+}, [dependencias]);
+<br><br><br>Cuando pasas funciones como props a componentes hijos o las usas en efectos (useEffect), cada vez que el componente padre se renderiza, esas funciones se recrean. Esto puede causar:<br>
+<br>Renderizados innecesarios en componentes hijos que dependen de esa función.<br>
+
+<br>Reejecución de efectos que dependen de esa función.<br>
+
+<br>useCallback previene eso, reutilizando la misma instancia de la función siempre que sus dependencias no cambien.<br><br><br>import { useCallback, useState } from "react";
+
+function Padre() {
+  const [contador, setContador] = useState(0);
+
+  const incrementar = useCallback(() =&gt; {
+    setContador((c) =&gt; c + 1);
+  }, []);
+
+  return (
+    &lt;div&gt;
+      &lt;Hijo onClick={incrementar} /&gt;
+      &lt;p&gt;{contador}&lt;/p&gt;
+    &lt;/div&gt;
+  );
+}
+
+function Hijo({ onClick }) {
+  console.log("Hijo renderizado");
+  return &lt;button onClick={onClick}&gt;Incrementar&lt;/button&gt;;
+}
+<br>🔍 En este ejemplo, el componente Hijo solo se renderiza si onClick cambia. Gracias a useCallback, incrementar se mantiene igual entre renders (salvo que cambien las dependencias), evitando renderizados innecesarios.<br><br><br>
+<br>Si no pasás funciones a hijos o no las usás en dependencias, no lo necesitas.<br>
+
+<br>Usarlo indiscriminadamente puede empeorar el rendimiento, ya que mantener referencias también tiene costo.<br>
+
+<br><br><br><br><br><br>
+<br>useCallback(fn, deps) guarda una función fn y solo la cambia si deps cambia.<br>
+
+<br>Evita renders o efectos innecesarios.<br>
+
+<br>No es magia, úsalo solo si hay una razón clara.<br>
+
+]]></description><link>curso_react\hoks\usecallback.html</link><guid isPermaLink="false">Curso_React/hoks/useCallBack.md</guid><pubDate>Sun, 11 May 2025 09:55:58 GMT</pubDate></item><item><title><![CDATA[useContext]]></title><description><![CDATA[ 
+ <br><br><br>useContext es un <a data-tooltip-position="top" aria-label="Hooks" data-href="Hooks" href="\curso_react\hooks.html" class="internal-link" target="_self" rel="noopener nofollow">hook</a> de <a data-href="React" href="\curso_react\react.html" class="internal-link" target="_self" rel="noopener nofollow">React</a> que te permite acceder al valor de un contexto dentro de un componente funcional, sin necesidad de usar un &lt;Context.Consumer&gt;.<br>const valor = useContext(MiContexto);
+<br><br><br>En una aplicación React, los datos como el tema visual, idioma, autenticación, usuario, etc., pueden ser compartidos entre muchos componentes. Usar useContext junto con React.createContext permite:<br>
+<br>Evitar el prop drilling (pasar props innecesarias a través de muchos niveles).<br>
+
+<br>Centralizar información global que puede cambiar.<br>
+
+<br><br><br><br>import { createContext } from "react";
+
+export const TemaContext = createContext("claro");
+<br><br>import { TemaContext } from "./TemaContext";
+
+function App() {
+  return (
+    &lt;TemaContext.Provider value="oscuro"&gt;
+      &lt;MiComponente /&gt;
+    &lt;/TemaContext.Provider&gt;
+  );
+}
+<br><br>import { useContext } from "react";
+import { TemaContext } from "./TemaContext";
+
+function MiComponente() {
+  const tema = useContext(TemaContext);
+
+  return &lt;div className={tema}&gt;Modo actual: {tema}&lt;/div&gt;;
+}
+<br><br><br>Si el value del Provider cambia, todos los componentes que usen useContext se vuelven a renderizar automáticamente.<br><br><br>
+<br>useContext solo funciona con contextos creados con React.createContext.<br>
+
+<br>Si el contexto cambia muy seguido o contiene objetos o funciones sin memorizar, puede causar renderizados innecesarios.<br>
+
+<br>Para valores complejos (objetos, funciones), considera usar useMemo o useCallback junto al Provider.<br>
+
+<br><br><br>// authContext.js
+export const AuthContext = createContext(null);
+
+// App.jsx
+&lt;AuthContext.Provider value={{ user: "joaquin", loggedIn: true }}&gt;
+  &lt;Dashboard /&gt;
+&lt;/AuthContext.Provider&gt;
+
+// Dashboard.jsx
+const { user, loggedIn } = useContext(AuthContext);
+]]></description><link>curso_react\hoks\usecontext.html</link><guid isPermaLink="false">Curso_React/hoks/useContext.md</guid><pubDate>Sun, 11 May 2025 09:56:57 GMT</pubDate></item><item><title><![CDATA[useEffect]]></title><description><![CDATA[ 
  <br>useEffect(() =&gt; ,[/*dependecies*/])
 <br>Se la pasa una dependencia, hook común, si no se coloca ninguna dependencia solo se ejecuta cuando se renderiza el componente<br><br>
 <br>
@@ -6390,8 +6548,79 @@ Incluso si su efecto fue causado por una interacción (como un clic), React pued
 Los efectos solo se ejecutan en el cliente. No se ejecutan durante la representación del servidor.
 
 ]]></description><link>curso_react\hoks\useeffect.html</link><guid isPermaLink="false">Curso_React/hoks/useEffect.md</guid><pubDate>Tue, 22 Oct 2024 14:58:59 GMT</pubDate></item><item><title><![CDATA[useId]]></title><description><![CDATA[ 
- ]]></description><link>curso_react\hoks\useid.html</link><guid isPermaLink="false">Curso_React/hoks/useId.md</guid><pubDate>Tue, 22 Oct 2024 14:59:48 GMT</pubDate></item><item><title><![CDATA[useMemo]]></title><description><![CDATA[ 
- ]]></description><link>curso_react\hoks\usememo.html</link><guid isPermaLink="false">Curso_React/hoks/useMemo.md</guid><pubDate>Tue, 22 Oct 2024 15:00:07 GMT</pubDate></item><item><title><![CDATA[useReductor]]></title><description><![CDATA[ 
+ <br><br><br>useId es un <a data-tooltip-position="top" aria-label="Hooks" data-href="Hooks" href="\curso_react\hooks.html" class="internal-link" target="_self" rel="noopener nofollow">hook</a> introducido en <a data-href="React" href="\curso_react\react.html" class="internal-link" target="_self" rel="noopener nofollow">React</a> 18 que genera un ID único y estable por componente, incluso entre renders. Es útil para asociar elementos del DOM como inputs y labels, especialmente cuando el componente puede montarse más de una vez.<br>const id = useId();
+<br><br><br>useId es ideal cuando necesitas:<br>
+<br>Generar un identificador único pero predecible.
+<br>Relacionar elementos accesibles como &lt;label&gt; y &lt;input&gt; sin colisiones.
+<br>Evitar conflictos entre múltiples instancias del mismo componente.
+<br>Funcionar bien tanto en cliente como en servidor (SSR).<br>
+
+<br><br><br>import { useId } from "react";
+
+function CampoFormulario() {
+  const id = useId();
+
+  return (
+    &lt;div&gt;
+      &lt;label htmlFor={id}&gt;Nombre:&lt;/label&gt;
+      &lt;input id={id} type="text" /&gt;
+    &lt;/div&gt;
+  );
+}
+<br>🔎 El id será algo como "react-aria123", único en cada instancia del componente.<br><br><br>function Formulario() {
+  const id = useId();
+
+  return (
+    &lt;&gt;
+      &lt;label htmlFor={`${id}-email`}&gt;Email&lt;/label&gt;
+      &lt;input id={`${id}-email`} type="email" /&gt;
+
+      &lt;label htmlFor={`${id}-password`}&gt;Password&lt;/label&gt;
+      &lt;input id={`${id}-password`} type="password" /&gt;
+    &lt;/&gt;
+  );
+}
+<br>✅ Aquí usamos el mismo id base y lo extendemos para múltiples campos, manteniendo unicidad.<br><br><br>
+<br>Math.random() o uuid() generan un nuevo valor cada vez, lo que puede romper la consistencia en renderizados del servidor y del cliente (hydration).<br>
+
+<br>useId garantiza que el ID sea igual entre servidor y cliente, evitando errores y rehidratación incorrecta.<br>
+
+<br><br><br>
+<br>Si los IDs no necesitan ser únicos entre instancias del componente.
+<br>Si ya tienes un sistema propio de generación de IDs.
+<br>Si el ID depende de datos externos (usa useMemo o props en ese caso).<br>
+
+]]></description><link>curso_react\hoks\useid.html</link><guid isPermaLink="false">Curso_React/hoks/useId.md</guid><pubDate>Sun, 11 May 2025 09:59:00 GMT</pubDate></item><item><title><![CDATA[useMemo]]></title><description><![CDATA[ 
+ <br><br><br>useMemo es un <a data-tooltip-position="top" aria-label="hooks" data-href="hooks" href="\curso_react\hooks.html" class="internal-link" target="_self" rel="noopener nofollow">hook</a> de <a data-href="React" href="\curso_react\react.html" class="internal-link" target="_self" rel="noopener nofollow">React</a> que memoriza (cachea) el resultado de una función. Solo vuelve a calcularlo si las dependencias cambian.<br>const valorMemorizado = useMemo(() =&gt; {
+  return funcionCostosa();
+}, [dependencias]);
+<br><br><br>useMemo se usa principalmente para:<br>
+<br>Evitar recalcular operaciones costosas en cada render.
+<br>Prevenir renderizados innecesarios causados por valores derivados que no han cambiado.
+<br>Mejorar el rendimiento en componentes grandes o complejos.<br>
+
+<br><br><br>import { useMemo, useState } from "react";
+
+function CalculoLento({ numero }) {
+  const resultado = useMemo(() =&gt; {
+    console.log("Ejecutando cálculo lento...");
+    let total = 0;
+    for (let i = 0; i &lt; 1e7; i++) {
+      total += numero;
+    }
+    return total;
+  }, [numero]);
+
+  return &lt;div&gt;Resultado: {resultado}&lt;/div&gt;;
+}
+<br> Si el numero no cambia, resultado no se recalcula aunque el componente se vuelva a renderizar.<br><br><br>const productosOrdenados = useMemo(() =&gt; {
+  return [...productos].sort((a, b) =&gt; a.precio - b.precio);
+}, [productos]);
+<br>✅ Útil si el array productos es grande. Solo se ordenará si cambia.<br><br><br>
+<br>No uses useMemo para todo. Memorizar también tiene costo.
+<br>Úsalo solo cuando el cálculo es pesado o afecta al rendimiento.
+<br>No memoriza funciones (para eso está useCallback).
+<br><br><br><br><br><br>]]></description><link>curso_react\hoks\usememo.html</link><guid isPermaLink="false">Curso_React/hoks/useMemo.md</guid><pubDate>Sun, 11 May 2025 10:01:18 GMT</pubDate></item><item><title><![CDATA[useReductor]]></title><description><![CDATA[ 
  ]]></description><link>curso_react\hoks\usereductor.html</link><guid isPermaLink="false">Curso_React/hoks/useReductor.md</guid><pubDate>Tue, 22 Oct 2024 15:00:31 GMT</pubDate></item><item><title><![CDATA[useRef]]></title><description><![CDATA[ 
  <br>Es un hook que a diferencia de <a data-href="useState" href="\curso_react\hoks\usestate.html" class="internal-link" target="_self" rel="noopener nofollow">useState</a> permite guardar el estado de una <a data-href="variable" href="\variable" class="internal-link" target="_self" rel="noopener nofollow">variable</a> independiente de la renderización de <a data-href="Componente Funcional" href="\curso_react\componente-funcional.html" class="internal-link" target="_self" rel="noopener nofollow">Componente Funcional</a> por lo que el componente puede renderizarse una vez y se mantiene independiente de la renderización<br>Normalmente se usa para controlar el estado de <a data-href="DOM" href="\DOM" class="internal-link" target="_self" rel="noopener nofollow">DOM</a>.<br>import { useRef } from 'react';
 
@@ -6410,7 +6639,98 @@ export default function Counter() {
   );
 }
 <br>Ejemplo de control de estado sin usar ]]></description><link>curso_react\hoks\useref.html</link><guid isPermaLink="false">Curso_React/hoks/useRef.md</guid><pubDate>Thu, 07 Nov 2024 15:17:32 GMT</pubDate></item><item><title><![CDATA[useState]]></title><description><![CDATA[ 
- ]]></description><link>curso_react\hoks\usestate.html</link><guid isPermaLink="false">Curso_React/hoks/useState.md</guid><pubDate>Tue, 22 Oct 2024 14:59:02 GMT</pubDate></item><item><title><![CDATA[Atributos React]]></title><description><![CDATA[ 
+ ]]></description><link>curso_react\hoks\usestate.html</link><guid isPermaLink="false">Curso_React/hoks/useState.md</guid><pubDate>Tue, 22 Oct 2024 14:59:02 GMT</pubDate></item><item><title><![CDATA[Actions]]></title><description><![CDATA[ 
+ <br>Cada vez que quieras hacer una mutación(insertar, actualizar datos, eliminar) de datos.<br>Las acciones dentro del ecosistema de <a data-href="React" href="\curso_react\react.html" class="internal-link" target="_self" rel="noopener nofollow">React</a> son cualquier función que es asíncrona y utiliza dentro lo que son transiciones, las transiciones son una series de acciones como la actualización de estados, llamados de API 's y debe actualizarse la UI]]></description><link>curso_react\react_19\actions.html</link><guid isPermaLink="false">Curso_React/React_19/Actions.md</guid><pubDate>Mon, 12 May 2025 13:33:43 GMT</pubDate></item><item><title><![CDATA[Novedades de React 19]]></title><description><![CDATA[ 
+ <br>
+<br><a data-href="Actions" href="\curso_react\react_19\actions.html" class="internal-link" target="_self" rel="noopener nofollow">Actions</a>
+<br><a data-href="useOptimistic" href="\curso_react\react_19\useoptimistic.html" class="internal-link" target="_self" rel="noopener nofollow">useOptimistic</a>
+<br><a data-href="useActionState" href="\curso_react\react_19\useactionstate.html" class="internal-link" target="_self" rel="noopener nofollow">useActionState</a>
+<br><a data-href="form Props action" href="\form Props action" class="internal-link" target="_self" rel="noopener nofollow">form Props action</a>
+<br><a data-href="useFormStatus" href="\curso_react\react_19\useformstatus.html" class="internal-link" target="_self" rel="noopener nofollow">useFormStatus</a>
+<br><a data-href="new API use" href="\new API use" class="internal-link" target="_self" rel="noopener nofollow">new API use</a>
+<br><a data-href="ref as a prop" href="\ref as a prop" class="internal-link" target="_self" rel="noopener nofollow">ref as a prop</a>
+<br><a data-href="Support for Document Metadata" href="\Support for Document Metadata" class="internal-link" target="_self" rel="noopener nofollow">Support for Document Metadata</a>
+<br><a data-href="Preloading resources" href="\Preloading resources" class="internal-link" target="_self" rel="noopener nofollow">Preloading resources</a>
+<br>
+]]></description><link>curso_react\react_19\novedades-de-react-19.html</link><guid isPermaLink="false">Curso_React/React_19/Novedades de React 19.md</guid><pubDate>Mon, 12 May 2025 13:39:44 GMT</pubDate></item><item><title><![CDATA[useActionState]]></title><description><![CDATA[ 
+ <br>Es un <a data-tooltip-position="top" aria-label="Hooks" data-href="Hooks" href="\curso_react\hooks.html" class="internal-link" target="_self" rel="noopener nofollow">hook</a>  que permite actualizar el estado con el resultado del  form action.<br>const [state, formAction, isPending] = useActionState(fn, initialState, permalink?);
+<br><br>
+<br>fn: Funcion o action que cambia el estado y ejecuta.
+<br>initialState: estado inicial o valor inicial deseado.
+<br>permalink: Una cadena que contiene la URL de página única que modifica este formulario. Para su uso en páginas con contenido dinámico (por ejemplo, feeds) junto con la mejora progresiva
+<br><br>
+<br>state: Estado actual del primer renderizado. Hasta que se realiza fn.
+<br>formAction: Devuelve el action o función que se puede pasar por props a los componentes hijos.
+<br>isPending: indica si hay una transición.
+<br>Tu puedes useActionState desde un componente de alto nivel y actualizar su estado cuando la action del formulario ya sea invocado.<br>import { useActionState } from "react";  
+
+async function increment(previousState, formData) {  
+	return previousState + 1;  
+}  
+
+function StatefulForm({}) {  
+	const [state, formAction] = useActionState(increment, 0);  
+	return (  
+		&lt;form&gt;  
+			{state}  
+			&lt;button formAction={formAction}&gt;Increment&lt;/button&gt;  
+		&lt;/form&gt;  
+	)  
+}
+<br><br>Tambien se le puede pasar al form el action para que realice el cambio de estado.<br>import { useActionState } from 'react';  
+import { action } from './actions.js';  
+
+  
+
+function MyComponent() {  
+	const [state, formAction] = useActionState(action, null);  
+	// ...  
+	return (  
+	&lt;form action={formAction}&gt;  
+		{/* ... */}  
+	&lt;/form&gt;  
+	);  
+}
+<br><a data-tooltip-position="top" aria-label="[useActionState – React](https://react.dev/reference/react/useActionState)" data-href="[useActionState – React](https://react.dev/reference/react/useActionState)" href="\[useActionState – React](https:\\react.dev\reference\react\useActionState)" class="internal-link" target="_self" rel="noopener nofollow">official documentation</a>]]></description><link>curso_react\react_19\useactionstate.html</link><guid isPermaLink="false">Curso_React/React_19/useActionState.md</guid><pubDate>Mon, 12 May 2025 14:13:59 GMT</pubDate></item><item><title><![CDATA[useFormStatus]]></title><description><![CDATA[ 
+ <br>Es un <a data-tooltip-position="top" aria-label="Hooks" data-href="Hooks" href="\curso_react\hooks.html" class="internal-link" target="_self" rel="noopener nofollow">hook</a> que te brinda la información de la ultima vez que se envió información atreves de un formulario.<br>const { pending, data, method, action } = useFormStatus();
+<br><br>
+<br>pending: Un booleano que devuelve true si ya se termino el envio o falso lo contrario.
+<br>data: Un objecto que implementa <a data-href="FormData interface" href="\FormData interface" class="internal-link" target="_self" rel="noopener nofollow">FormData interface</a> que contiene los datos del padre &lt;form&gt; enviado. 
+<br>method: un valor de string entre "get" o "post". Te dice en que método http lo esta enviando.
+<br>import { useFormStatus } from "react-dom";  
+import action from './actions';  
+
+  
+function Submit() {  
+	const status = useFormStatus();  
+	return &lt;button disabled={status.pending}&gt;Submit&lt;/button&gt;  
+}  
+
+  
+
+export default function App() {  
+	return (  
+		&lt;form action={action}&gt;  
+			&lt;Submit /&gt;  
+		&lt;/form&gt;  
+	);  
+}
+<br>La información que brinda de pending o pendiente le permite controlar el estado del botón y desactivarlo y activarlo cuando sea necesario<br>Si los componentes hijos no esta dentro del componente del form is pending devolverá false siempre.<br><a data-tooltip-position="top" aria-label="https://react.dev/reference/react-dom/hooks/useFormStatus" rel="noopener nofollow" class="external-link" href="https://react.dev/reference/react-dom/hooks/useFormStatus" target="_blank">Oficial Documentation</a>]]></description><link>curso_react\react_19\useformstatus.html</link><guid isPermaLink="false">Curso_React/React_19/useFormStatus.md</guid><pubDate>Mon, 12 May 2025 14:50:11 GMT</pubDate></item><item><title><![CDATA[useOptimistic]]></title><description><![CDATA[ 
+ <br><a data-tooltip-position="top" aria-label="Hooks" data-href="Hooks" href="\curso_react\hooks.html" class="internal-link" target="_self" rel="noopener nofollow">Hook</a> de <a data-href="React" href="\curso_react\react.html" class="internal-link" target="_self" rel="noopener nofollow">React</a> que permite mostrar un estado mientras se realiza un <a data-tooltip-position="top" aria-label="Actions" data-href="Actions" href="\curso_react\react_19\actions.html" class="internal-link" target="_self" rel="noopener nofollow">action</a> para la actualización del estado. Cunado termina la actulización el estado cambia a la vez devolviendo una copia.<br>import { useOptimistic } from 'react';  
+
+
+function AppContainer() {  
+const [optimisticState, addOptimistic] = useOptimistic(  
+		state,  
+		// updateFn  
+		(currentState, optimisticValue) =&gt; {  
+			// merge and return new state  
+			// with optimistic value  
+		}  
+	);  
+}
+<br>state: devuelve el valor inicial siempre que no haya un action pendiente.<br>
+updateFn(currentState, optimisticValue): la función que realiza el cambio.]]></description><link>curso_react\react_19\useoptimistic.html</link><guid isPermaLink="false">Curso_React/React_19/useOptimistic.md</guid><pubDate>Mon, 12 May 2025 13:55:05 GMT</pubDate></item><item><title><![CDATA[Atributos React]]></title><description><![CDATA[ 
  <br>Son una lista de palabras clave que forman parte de <a data-href="JSX" href="\curso_react\jsx.html" class="internal-link" target="_self" rel="noopener nofollow">JSX</a> para poder usarlas en <a data-href="Elemento" href="\curso_react\elemento.html" class="internal-link" target="_self" rel="noopener nofollow">Elemento</a> o <a data-href="Componente Funcional" href="\curso_react\componente-funcional.html" class="internal-link" target="_self" rel="noopener nofollow">Componente Funcional</a><br>Como el atributo <a data-href="Style" href="\curso_react\style.html" class="internal-link" target="_self" rel="noopener nofollow">Style</a> entre otros tenemos accept, acepptCharset, accessKey, etc.<br>Para poder los otros atributos tenemos a la pagina [fuente(https://reactjs.org/docs/dom-elements.html)].]]></description><link>curso_react\atributos-react.html</link><guid isPermaLink="false">Curso_React/Atributos React.md</guid><pubDate>Mon, 25 Dec 2023 22:57:05 GMT</pubDate></item><item><title><![CDATA[Componente de Clase]]></title><description><![CDATA[ 
  <br>Clase de ES6 que retorna un elemento JSX<br><img alt="componente_declase.png" src="\lib\media\componente_declase.png"><br>Se debe definir una función llamada render()<br><br>
 <br>Debe extender o heredar Reac.Component
@@ -10809,7 +11129,18 @@ Constantes:<br>
 
 ]]></description><link>javascript\javascript-indice.html</link><guid isPermaLink="false">JavaScript/JavaScript indice.md</guid><pubDate>Wed, 19 Mar 2025 12:17:03 GMT</pubDate></item><item><title><![CDATA[CRM]]></title><description><![CDATA[ 
  <br>Gestor de relaciones con los clientes  o llamado tambien customer relationship management (CRM) se refiere a las estrategias y herramientas de negocio que se usan para interactuar con los clientes, ayudando a mejorar las relaciones y hacer un seguimiento del compromiso a largo plazo.]]></description><link>marketing-digital\crm.html</link><guid isPermaLink="false">Marketing Digital/CRM.md</guid><pubDate>Fri, 09 May 2025 10:28:01 GMT</pubDate></item><item><title><![CDATA[Digital Marketing estrategia]]></title><description><![CDATA[ 
- <br>Es un plan de acción diseñado  para lograr un objetivo a largo plazo. El mismo plan explica como deben usarse los medios sociales o redes sociales]]></description><link>marketing-digital\digital-marketing-estrategia.html</link><guid isPermaLink="false">Marketing Digital/Digital Marketing estrategia.md</guid><pubDate>Fri, 09 May 2025 08:36:51 GMT</pubDate></item><item><title><![CDATA[Google Alerts]]></title><description><![CDATA[ 
+ <br>Es un plan de acción diseñado  para lograr un objetivo a largo plazo. El mismo plan explica como deben usarse los medios sociales o redes sociales]]></description><link>marketing-digital\digital-marketing-estrategia.html</link><guid isPermaLink="false">Marketing Digital/Digital Marketing estrategia.md</guid><pubDate>Fri, 09 May 2025 08:36:51 GMT</pubDate></item><item><title><![CDATA[estrategia de marketing digital]]></title><description><![CDATA[ 
+ <br>Es un plan estructurado que te brinda información de lo que se hará en los canales digitales para cumplir diferentes <a data-tooltip-position="top" aria-label="Misión o declaración de objetivo" data-href="Misión o declaración de objetivo" href="\marketing-digital\misión-o-declaración-de-objetivo.html" class="internal-link" target="_self" rel="noopener nofollow">objetivos</a>, informa de las decisiones que se tomaran<br>Una buena definición de la estrategia ayuda clarificar los objetivos. <br>
+<br>Te permite tener claro que hacer y no dispersarte en otros aspectos que no ayudaran directamente con los objetivos
+<br><br>Céntrate en dirigir el tráfico a tus principales canales de venta. Esto puede incluir su sitio web, plataformas de redes sociales, mercados en línea y aplicaciones.<br>
+<br>Publicidad pagada: Invierta en anuncios dirigidos para llegar rápidamente a los clientes potenciales.
+<br>Optimización de motores de búsqueda(SEO): Optimiza tu sitio web con palabras clave relevantes, contenido de alta calidad y un diseño fácil de usar para mejorar tu visibilidad en los resultados de los motores de búsqueda.
+<br>Marketing de contenidos:Crea contenido valioso que aborde las necesidades e intereses de tu audiencia.
+<br><br>Para aumentar el conocimiento de su negocio o marca, aproveche los canales digitales como las redes sociales, el marketing por correo electrónico y las plataformas de publicidad en línea.<br>Crea contenido que se alinee con los valorados de la marca. Genera confianza respondiendo a los comentario y opiniones, provocando que se sientan valorados. Comparte historias sobre tu marca y tus clientes para crear conexiones emocionales.<br>Cree una sensación de exclusividad proporcionando a los miembros acceso anticipado a noticias, lanzamientos de productos o eventos. Este enfoque fomenta un sentimiento de pertenencia y mantiene a los suscriptores comprometidos.<br>Utilice promociones atractivas, como descuentos o obsequios, como incentivos para las inscripciones<br>En los correos electrónicos, incluye llamadas a la acción (CTA) fuertes y claras, como "Reclama tu descuento", para fomentar la interacción.<br>Incluye testimonios del uso o compra de tu producto o servicio, añade valor.<br><br>Primero establece <a data-tooltip-position="top" aria-label="smart goals o objetivos inteligentes" data-href="smart goals o objetivos inteligentes" href="\marketing-digital\smart-goals-o-objetivos-inteligentes.html" class="internal-link" target="_self" rel="noopener nofollow">objetivos</a> claros, la identificación de su punto de venta único (USP)<br>
+<br>Articula el propósito de tu negocio a través de una declaración de misión. Esta simple oración podría ser algo como "para inspirar comunidades más saludables" o "para proporcionar espacios divertidos para el ejercicio diario". Tenemos una actividad sobre cómo hacer esto más adelante en la capacitación. 
+<br>Identifique su punto de venta único (USP): esto es lo que lo hace destacar de su competencia. Analice negocios similares y determine qué lo diferencia
+<br>Analiza siempre usando las herramientas y cambia y mejora.
+]]></description><link>marketing-digital\estrategia-de-marketing-digital.html</link><guid isPermaLink="false">Marketing Digital/estrategia de marketing digital.md</guid><pubDate>Mon, 12 May 2025 15:49:21 GMT</pubDate></item><item><title><![CDATA[Google Alerts]]></title><description><![CDATA[ 
  <br>Monitor online menciona lo principales de tu marca o las tendencias de la industria en tiempo real.]]></description><link>marketing-digital\google-alerts.html</link><guid isPermaLink="false">Marketing Digital/Google Alerts.md</guid><pubDate>Fri, 09 May 2025 10:25:14 GMT</pubDate></item><item><title><![CDATA[Marketing Digital]]></title><description><![CDATA[ 
  <br>Conjunto de estrategias y acciones de mercadotecnia que se realizan a través de medios y canales digitales con el objetivo de promocionar productos, servicios o marcas.<br>A diferencia del marketing tradicional, el marketing digital se basa en el uso de internet y tecnologías digitales, como:<br>
 <br>Redes sociales (Instagram, Facebook, TikTok, etc.)
@@ -10892,7 +11223,7 @@ Constantes:<br>
 
 ]]></description><link>marketing-digital\roles-en-el-marketing-digital.html</link><guid isPermaLink="false">Marketing Digital/Roles en el marketing digital.md</guid><pubDate>Fri, 09 May 2025 08:33:26 GMT</pubDate></item><item><title><![CDATA[smart goals o objetivos inteligentes]]></title><description><![CDATA[ 
  <br>Un método para establecer objetivos , ayuda  definir y medir el éxito de los objetivos de la campaña. Siendo especifico, medible, alcanzable, relevante, y con plazos definidos.]]></description><link>marketing-digital\smart-goals-o-objetivos-inteligentes.html</link><guid isPermaLink="false">Marketing Digital/smart goals o objetivos inteligentes.md</guid><pubDate>Fri, 09 May 2025 08:49:56 GMT</pubDate></item><item><title><![CDATA[Tipos de objetivos]]></title><description><![CDATA[ 
- <br>Definir los objetivos es fundamental para hacer una estrategia de <a data-tooltip-position="top" aria-label="Marketing Digital" data-href="Marketing Digital" href="\marketing-digital\marketing-digital.html" class="internal-link" target="_self" rel="noopener nofollow">marketing</a>.<br><br>Su principal diferencia es el marco de tiempo y el alcance del mismo.<br>Los objectivos a corto plazo son rapidos de efectuar o cumplir, y suelen mostrar resultados los proximos meses.<br>Ejemplo: Un sitio web de botas quiere aumentar su  trafico un 10% en 3 meses.<br>En cambios los objetivos a largo plazo requiere mas concentración y esfuerzo para abordarlo. brindando resultados en un año o mas incluso.<br>Ejemplo: incrementar customer lifetime value (CVL) un 20% para el final del siguiente año.<br><br>Es esencial entender la diferencia, cualitativo, medición de ambos, y contribución a largo plazo si se cumplen.<br><br>Aquellos cualitativos objetivos que mejorar aspectos que causan sentimientos al cliente. Realizar estas objetivos permite ayudar a mejorar la idea del cliente de la marca y imagen.<br><br>Aquellos que son medibles y son específicos.<br><br>Los objetivos blandos y fuertes pueden alinearse a menudo. te permite explorar algunos objetivos para contribuir tu estrategia.<br>Los objetivos de percepción de marca se centran en como ven la marca los clientes. A menudo estos objetivos se pueden mezclar con objetivos fuertes como aumentar la precepción de la gente usando una forma de medición.<br>Los objetivos para adquirir mas clientes, se centran e atraer mas clientes o manejar las conversaciones, es mas fácil de medir, realizarlos es crucial para mejorar los negocios]]></description><link>marketing-digital\tipos-de-objetivos.html</link><guid isPermaLink="false">Marketing Digital/Tipos de objetivos.md</guid><pubDate>Fri, 09 May 2025 11:00:31 GMT</pubDate></item><item><title><![CDATA[Unique Selling Point o propuesta de venta única]]></title><description><![CDATA[ 
+ <br>Definir los objetivos es fundamental para hacer una estrategia de <a data-tooltip-position="top" aria-label="Marketing Digital" data-href="Marketing Digital" href="\marketing-digital\marketing-digital.html" class="internal-link" target="_self" rel="noopener nofollow">marketing</a>.<br><br>Su principal diferencia es el marco de tiempo y el alcance del mismo.<br>Los objetivos a corto plazo son rápidos de efectuar o cumplir, y suelen mostrar resultados los próximos meses.<br>Ejemplo: Un sitio web de botas quiere aumentar su  trafico un 10% en 3 meses.<br>En cambios los objetivos a largo plazo requiere mas concentración y esfuerzo para abordarlo. brindando resultados en un año o mas incluso.<br>Ejemplo: incrementar customer lifetime value (CVL) un 20% para el final del siguiente año.<br><br>Es esencial entender la diferencia, cualitativo, medición de ambos, y contribución a largo plazo si se cumplen.<br><br>Aquellos cualitativos objetivos que mejorar aspectos que causan sentimientos al cliente. Realizar estas objetivos permite ayudar a mejorar la idea del cliente de la marca y imagen.<br><br>Aquellos que son medibles y son específicos.<br><br>Los objetivos blandos y fuertes pueden alinearse a menudo. te permite explorar algunos objetivos para contribuir tu estrategia.<br>Los objetivos de percepción de marca se centran en como ven la marca los clientes. A menudo estos objetivos se pueden mezclar con objetivos fuertes como aumentar la precepción de la gente usando una forma de medición.<br>Los objetivos para adquirir mas clientes, se centran e atraer mas clientes o manejar las conversaciones, es mas fácil de medir, realizarlos es crucial para mejorar los negocios]]></description><link>marketing-digital\tipos-de-objetivos.html</link><guid isPermaLink="false">Marketing Digital/Tipos de objetivos.md</guid><pubDate>Sun, 11 May 2025 08:12:41 GMT</pubDate></item><item><title><![CDATA[Unique Selling Point o propuesta de venta única]]></title><description><![CDATA[ 
  <br>la explicación de porque tu producto o service es mejor que el de tu compañia]]></description><link>marketing-digital\unique-selling-point-o-propuesta-de-venta-única.html</link><guid isPermaLink="false">Marketing Digital/Unique Selling Point o propuesta de venta única.md</guid><pubDate>Fri, 09 May 2025 08:50:57 GMT</pubDate></item><item><title><![CDATA[Casos de uso de Next.js]]></title><description><![CDATA[ 
  <br>
 <br>Aplicaciones con SEO optimizado: Blogs, ecommerce, sitios de noticias.
@@ -14185,57 +14516,7 @@ Puede ampliarse con módulos verticales para cubrir necesidades específicas.
 🔹 Es clave en sectores como alimentación, farmacéutica, automotriz y logística.  ]]></description><link>sistema-gestion-empresarial\trazabilidad.html</link><guid isPermaLink="false">Sistema-Gestion-Empresarial/Trazabilidad.md</guid><pubDate>Sun, 16 Feb 2025 10:19:28 GMT</pubDate></item><item><title><![CDATA[Svelte]]></title><description><![CDATA[ 
  <br>Svelte es un <a data-href="Framework" href="\curso-spring\framework.html" class="internal-link" target="_self" rel="noopener nofollow">Framework</a> y a la vez un compilador directo que NO usa DOM para tras copilar como <a data-href="React" href="\curso_react\react.html" class="internal-link" target="_self" rel="noopener nofollow">React</a>, Vuet.]]></description><link>sveltekitcurso\svelte.html</link><guid isPermaLink="false">SvelteKitCurso/Svelte.md</guid><pubDate>Sun, 02 Mar 2025 11:13:31 GMT</pubDate></item><item><title><![CDATA[Svelte Kit]]></title><description><![CDATA[ 
  <br>Svelte es un <a data-href="Framework" href="\curso-spring\framework.html" class="internal-link" target="_self" rel="noopener nofollow">Framework</a> y a la vez un compilador directo que NO usa DOM para tras copilar como <a data-href="React" href="\curso_react\react.html" class="internal-link" target="_self" rel="noopener nofollow">React</a>, Vuet.]]></description><link>sveltekitcurso\svelte-kit.html</link><guid isPermaLink="false">SvelteKitCurso/Svelte Kit.md</guid><pubDate>Tue, 25 Mar 2025 15:55:03 GMT</pubDate></item><item><title><![CDATA[API Styles]]></title><description><![CDATA[ 
- <br>Las Apy Styles se dividen dos tipos: <a data-href="Options Api" href="\vue\options-api.html" class="internal-link" target="_self" rel="noopener nofollow">Options Api</a> y <a data-href="Composition Api" href="\vue\composition-api.html" class="internal-link" target="_self" rel="noopener nofollow">Composition Api</a><br>Options Api<br><br>Es un tipo de <a data-href="API Styles" href="\vue\api-styles.html" class="internal-link" target="_self" rel="noopener nofollow">API Styles</a>, nosotros aqui definimos la lógica de nuestro componente,usando un objecto, dentro del mismo  contiene data, methods  y mounted. Propiedades que definimos en un objecto para nuestra función<br>&lt;script&gt;
-export default {
-  // Properties returned from data() become reactive state
-  // and will be exposed on `this`.
-  data() {
-    return {
-      count: 0
-    }
-  },
-
-  // Methods are functions that mutate state and trigger updates.
-  // They can be bound as event handlers in templates.
-  methods: {
-    increment() {
-      this.count++
-    }
-  },
-
-  // Lifecycle hooks are called at different stages
-  // of a component's lifecycle.
-  // This function will be called when the component is mounted.
-  mounted() {
-    console.log(`The initial count is ${this.count}.`)
-  }
-}
-&lt;/script&gt;
-
-&lt;template&gt;
-  &lt;button @click="increment"&gt;Count is: {{ count }}&lt;/button&gt;
-&lt;/template&gt;
-<br>Composition Api<br><br>Es un tipo de <a data-href="API Styles" href="\vue\api-styles.html" class="internal-link" target="_self" rel="noopener nofollow">API Styles</a> que contiene la lógica de nuestro componente usando API funciones. Se usa &lt;script setup&gt;, setup es el atributo que usamos para decirle a Vue que vamos a crear un componente usando las funciones.<br>&lt;script setup&gt;
-import { ref, onMounted } from 'vue'
-
-// reactive state
-const count = ref(0)
-
-// functions that mutate state and trigger updates
-function increment() {
-  count.value++
-}
-
-// lifecycle hooks
-onMounted(() =&gt; {
-  console.log(`The initial count is ${count.value}.`)
-})
-&lt;/script&gt;
-
-&lt;template&gt;
-  &lt;button @click="increment"&gt;Count is: {{ count }}&lt;/button&gt;
-&lt;/template&gt;
-<br><br>Options API esta mas centrado para aquellos que prefieren usar <a data-href="POO" href="\POO" class="internal-link" target="_self" rel="noopener nofollow">POO</a> como paradigma para poder desarrollar<br>Composition API esta mas centrado para aquellos que prefieren mas libertad y control sobre la reactividad.<br>Ambos te permiten desarrollar componentes complejos o <a data-href="Single-File Components" href="\vue\single-file-components.html" class="internal-link" target="_self" rel="noopener nofollow">Single-File Components</a> o SFC.]]></description><link>vue\api-styles.html</link><guid isPermaLink="false">Vue/API Styles.md</guid><pubDate>Thu, 20 Mar 2025 10:59:49 GMT</pubDate></item><item><title><![CDATA[App Configurations]]></title><description><![CDATA[ 
+ <br>Las Apy Styles se dividen dos tipos: <a data-href="Options Api" href="\vue\options-api.html" class="internal-link" target="_self" rel="noopener nofollow">Options Api</a> y <a data-href="Composition Api" href="\vue\composition-api.html" class="internal-link" target="_self" rel="noopener nofollow">Composition Api</a><br>Options Api<br><br>Composition Api<br><br><br>Options API esta mas centrado para aquellos que prefieren usar <a data-href="POO" href="\POO" class="internal-link" target="_self" rel="noopener nofollow">POO</a> como paradigma para poder desarrollar<br>Composition API esta mas centrado para aquellos que prefieren mas libertad y control sobre la reactividad.<br>Ambos te permiten desarrollar componentes complejos o <a data-href="Single-File Components" href="\vue\single-file-components.html" class="internal-link" target="_self" rel="noopener nofollow">Single-File Components</a> o SFC.]]></description><link>vue\api-styles.html</link><guid isPermaLink="false">Vue/API Styles.md</guid><pubDate>Thu, 20 Mar 2025 10:59:49 GMT</pubDate></item><item><title><![CDATA[App Configurations]]></title><description><![CDATA[ 
  <br>Son las configuraciones que podemos hacer a <a data-href="CreateApp" href="\vue\createapp.html" class="internal-link" target="_self" rel="noopener nofollow">CreateApp</a>  una vez instanciado y antes de montarlo. Usando .config.<br><br>La aplicación nos permite configurar errores de distintos nivele en este caso a nivel global.<br>app.config.errorHarler = (err) =&gt;{
 	/*Manejo de error*/
 }
@@ -14480,6 +14761,7 @@ export default {
 <br><a data-tooltip-position="top" aria-label="Amazon Web Services (AWS)" data-href="Amazon Web Services (AWS)" href="\amazon-cloud\amazon-web-services-(aws).html" class="internal-link" target="_self" rel="noopener nofollow">Amazon Cloud</a>
 <br><a data-tooltip-position="top" aria-label="JavaScript indice" data-href="JavaScript indice" href="\javascript\javascript-indice.html" class="internal-link" target="_self" rel="noopener nofollow">JavaScript</a> (Trabajando, notas no completas y no correcta redacción)
 <br><a data-href="Marketing Digital" href="\marketing-digital\marketing-digital.html" class="internal-link" target="_self" rel="noopener nofollow">Marketing Digital</a> (Google)
+<br><a data-href="Clean Architecture (Arquitectura Limpia)" href="\arquicteturas\clean-architecture-(arquitectura-limpia).html" class="internal-link" target="_self" rel="noopener nofollow">Clean Architecture (Arquitectura Limpia)</a>
 
 
-]]></description><link>indice.html</link><guid isPermaLink="false">Indice.md</guid><pubDate>Fri, 09 May 2025 16:40:35 GMT</pubDate></item></channel></rss>
+]]></description><link>indice.html</link><guid isPermaLink="false">Indice.md</guid><pubDate>Mon, 12 May 2025 15:52:56 GMT</pubDate></item></channel></rss>
