@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Programacion]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Programacion</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 12 May 2025 15:54:50 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 12 May 2025 15:53:36 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[1 Casos prácticos (elegir uno)]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Programacion]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Programacion</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 06 Jun 2025 15:35:11 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 06 Jun 2025 15:33:43 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[1 Casos prácticos (elegir uno)]]></title><description><![CDATA[ 
  <br>Ejemplos de proyectos que incluirán elementos de persistencia, servicios, controladores, relaciones entre entidades, APIs, e interfaces web. <br>
 <br>
 Sistema de Reservas para un Hotel (ejemplo, no elegir): Gestiona reservas de habitaciones, clientes y servicios del hotel. Las habitaciones pueden tener múltiples reservas (OneToMany) y los clientes pueden tener múltiples reservas (OneToMany).
@@ -6640,19 +6640,154 @@ export default function Counter() {
 }
 <br>Ejemplo de control de estado sin usar ]]></description><link>curso_react\hoks\useref.html</link><guid isPermaLink="false">Curso_React/hoks/useRef.md</guid><pubDate>Thu, 07 Nov 2024 15:17:32 GMT</pubDate></item><item><title><![CDATA[useState]]></title><description><![CDATA[ 
  ]]></description><link>curso_react\hoks\usestate.html</link><guid isPermaLink="false">Curso_React/hoks/useState.md</guid><pubDate>Tue, 22 Oct 2024 14:59:02 GMT</pubDate></item><item><title><![CDATA[Actions]]></title><description><![CDATA[ 
- <br>Cada vez que quieras hacer una mutación(insertar, actualizar datos, eliminar) de datos.<br>Las acciones dentro del ecosistema de <a data-href="React" href="\curso_react\react.html" class="internal-link" target="_self" rel="noopener nofollow">React</a> son cualquier función que es asíncrona y utiliza dentro lo que son transiciones, las transiciones son una series de acciones como la actualización de estados, llamados de API 's y debe actualizarse la UI]]></description><link>curso_react\react_19\actions.html</link><guid isPermaLink="false">Curso_React/React_19/Actions.md</guid><pubDate>Mon, 12 May 2025 13:33:43 GMT</pubDate></item><item><title><![CDATA[Novedades de React 19]]></title><description><![CDATA[ 
+ <br>Cada vez que quieras hacer una mutación(insertar, actualizar datos, eliminar) de datos.<br>Las acciones dentro del ecosistema de <a data-href="React" href="\curso_react\react.html" class="internal-link" target="_self" rel="noopener nofollow">React</a> son cualquier función que es asíncrona y utiliza dentro lo que son transiciones, las transiciones son una series de acciones como la actualización de estados, llamados de API 's y debe actualizarse la UI]]></description><link>curso_react\react_19\actions.html</link><guid isPermaLink="false">Curso_React/React_19/Actions.md</guid><pubDate>Mon, 12 May 2025 13:33:43 GMT</pubDate></item><item><title><![CDATA[API use]]></title><description><![CDATA[ 
+ <br>Es una <a data-href="React API" href="\React API" class="internal-link" target="_self" rel="noopener nofollow">React API</a> que te permite leer un valor de un recurso de una promesa o contexto.<br>const value = use(resource);
+<br><br>Si bien te permite cargar promesas si las usas directamente tardaras un tiempo en que carga el recursos por ello React te pide que lo coloques dentro de un Suspense para decir que una vez que cargue el recurso muestre lo que hay dentro.<br>export function useFetchExample () {
+	const [name, setName]  = useState('');
+
+
+	const fetchData = () =&gt;{
+		if(!name) return Promise.resolve()
+		return fetch('API')
+			.then(res =&gt;{
+				if(res.ok) return res.json()
+						return {error: true, massage:'No se pudo encontrar pokemon'}
+						
+			})
+	}
+	return (
+		&lt;div&gt;
+			&lt;Suspense fallback={&lt;div&gt;Cargando...&lt;/div&gt;}&gt;
+				&lt;ShowFetch dataPromise={fetchData()} /&gt;
+			&lt;/Suspense&gt;
+		&lt;/div&gt;
+	)
+}
+
+function ShowData ({dataPromise}){
+	const data = use(dataPromise)
+
+	if(data?.error) return &lt;div&gt; Error&lt;/div&gt;
+
+	if(!data) return null
+
+	return(&lt;div&gt;data...&lt;/div&gt;)
+}
+
+<br><br>
+import {createContext,useState,useCallback} from 'react'
+
+
+export const UserContext = createContext({name: null, isLogged:false})
+
+export function UserContextProvider({children}){
+	const [name,setName] =useState(null)
+
+	const [isLogged,setisLogged] = useState(false)
+	const updateUser = useCallback(({name,isLogged}) =&gt;{
+		setName(name)
+		setIsLogged(isLogged)
+	},[])
+
+	return (
+		&lt;UserContext value={{name,isLogged,updateUser}}
+			{children}
+		&lt;/UserContext&gt;
+	)
+}
+
+
+//App
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+	&lt;UserContext&gt;
+		&lt;App/&gt;
+	&lt;/UserContext&gt;
+)
+//Ya no es necesario usar Provider o consumer.
+//Consumo del estado global
+export funtion UseContextExample(){
+	const {name,isLogged,updateUser} = use(UserContext)
+	...
+}
+
+//Cuando llamamos a nuestro estado global ya es 
+<br>Recomendable usar un custom hook mas que usar use, el uso de uso permite usarlo sin estar obligado a cumplir las reglas de un <a data-href="Hooks" href="\curso_react\hooks.html" class="internal-link" target="_self" rel="noopener nofollow">Hooks</a> como sucedia con useContext.]]></description><link>curso_react\react_19\api-use.html</link><guid isPermaLink="false">Curso_React/React_19/API use.md</guid><pubDate>Thu, 05 Jun 2025 14:55:53 GMT</pubDate></item><item><title><![CDATA[metadata]]></title><description><![CDATA[ 
+ <br>A partir de <a data-href="React" href="\curso_react\react.html" class="internal-link" target="_self" rel="noopener nofollow">React</a> 19 nosotros podremos pasar metadatos en nuestros componentes sin hacerlo de manera compleja antes si se buscaba hacer que title cambiara de forma dinámica tenias varias formas, usando <a data-href="useEffect" href="\curso_react\hoks\useeffect.html" class="internal-link" target="_self" rel="noopener nofollow">useEffect</a> que permitía cambiar dependiendo de las dependencias que le pasáramos.<br>//antes
+
+function App() =&gt;{
+	const [count, SetCount] = useState(19);
+	useEffect(() =&gt;{
+		document.title(`Versión de React ${count}`);
+	},[count])
+
+	return(
+		&lt;&gt;
+			&lt;button onClick={() =&gt; setCount(count+1)}&gt;&lt;/button&gt;
+		&lt;/&gt;
+		);
+}
+
+
+//Ahora
+//No podemos usar {} dentro de los meta para hacerlos dinamicos debemos usar ``
+
+function App() =&gt;{
+	return(
+		&lt;&gt;
+			&lt;title&gt;{`Hola, React ${version}`}&lt;/title&gt;
+		&lt;/&gt;
+		);
+}
+
+<br>Tambien otra característica principal que hay que tener en cuenta es que si usamos el componente Seo este cambiara cada vez que lo rendericemos en cada componente por lo que una buena practica es usar todo lo que tenga que ver con metadatos en un solo componente para evitar repetición o cambios del mismo]]></description><link>curso_react\react_19\metadata.html</link><guid isPermaLink="false">Curso_React/React_19/metadata.md</guid><pubDate>Mon, 02 Jun 2025 14:48:23 GMT</pubDate></item><item><title><![CDATA[Novedades de React 19]]></title><description><![CDATA[ 
  <br>
 <br><a data-href="Actions" href="\curso_react\react_19\actions.html" class="internal-link" target="_self" rel="noopener nofollow">Actions</a>
 <br><a data-href="useOptimistic" href="\curso_react\react_19\useoptimistic.html" class="internal-link" target="_self" rel="noopener nofollow">useOptimistic</a>
 <br><a data-href="useActionState" href="\curso_react\react_19\useactionstate.html" class="internal-link" target="_self" rel="noopener nofollow">useActionState</a>
 <br><a data-href="form Props action" href="\form Props action" class="internal-link" target="_self" rel="noopener nofollow">form Props action</a>
 <br><a data-href="useFormStatus" href="\curso_react\react_19\useformstatus.html" class="internal-link" target="_self" rel="noopener nofollow">useFormStatus</a>
-<br><a data-href="new API use" href="\new API use" class="internal-link" target="_self" rel="noopener nofollow">new API use</a>
-<br><a data-href="ref as a prop" href="\ref as a prop" class="internal-link" target="_self" rel="noopener nofollow">ref as a prop</a>
-<br><a data-href="Support for Document Metadata" href="\Support for Document Metadata" class="internal-link" target="_self" rel="noopener nofollow">Support for Document Metadata</a>
-<br><a data-href="Preloading resources" href="\Preloading resources" class="internal-link" target="_self" rel="noopener nofollow">Preloading resources</a>
-<br>
-]]></description><link>curso_react\react_19\novedades-de-react-19.html</link><guid isPermaLink="false">Curso_React/React_19/Novedades de React 19.md</guid><pubDate>Mon, 12 May 2025 13:39:44 GMT</pubDate></item><item><title><![CDATA[useActionState]]></title><description><![CDATA[ 
+<br><a data-tooltip-position="top" aria-label="API use" data-href="API use" href="\curso_react\react_19\api-use.html" class="internal-link" target="_self" rel="noopener nofollow">new API use</a>
+<br><a data-href="ref as a props" href="\curso_react\react_19\ref-as-a-props.html" class="internal-link" target="_self" rel="noopener nofollow">ref as a props</a>
+<br><a data-tooltip-position="top" aria-label="metadata" data-href="metadata" href="\curso_react\react_19\metadata.html" class="internal-link" target="_self" rel="noopener nofollow">Support for Document Metadata</a>
+<br><a data-href="Preloading resources" href="\curso_react\react_19\preloading-resources.html" class="internal-link" target="_self" rel="noopener nofollow">Preloading resources</a>
+]]></description><link>curso_react\react_19\novedades-de-react-19.html</link><guid isPermaLink="false">Curso_React/React_19/Novedades de React 19.md</guid><pubDate>Tue, 13 May 2025 13:08:20 GMT</pubDate></item><item><title><![CDATA[Preloading resources]]></title><description><![CDATA[ 
+ <br><a data-href="React" href="\curso_react\react.html" class="internal-link" target="_self" rel="noopener nofollow">React</a> 19 permite cargar recursos antes, usando preload por lo que carga los recursos antes de renderizar un componente en la lista de prioridades carga primero el JS y deja listo o cargado lo que coloquemos en proload, debido a que ahora se puede usar <a data-href="metadata" href="\curso_react\react_19\metadata.html" class="internal-link" target="_self" rel="noopener nofollow">metadata</a> en react 19 los recursos que se usen como Link de CSS lo puedes tener recargados los estilos y evitar que se carguen primero los componentes sin los estilos. Igual una buena practica es evitar el abuso de recursos recargados. Todos esto se recargan una vez.<br><img alt="Pasted image 20250602170222.png" src="\lib\media\pasted-image-20250602170222.png"><br>El recurso de pico.min.css se carga después del JavaScript es importante tener esto en cuenta ya que si colocas directamente en head de index.html entonces este cargara primero el recurso css y después el JS pero usando preload nosotros le decimos a react que mantenga ese recurso preparado para usar después de cargar el JS.<br>Ejemplo:<br>
+...
+import {preload} from 'react-dom'
+function App() =&gt;{
+	const [show, setShow] = useState(false)
+	preload('recurso',{
+		as:'style',
+		priority:'slow'
+	})
+	...
+}
+<br>Para más información la documentación oficial: <br>Tambien otras características útiles son <a data-href="prefetchDNS" href="\prefetchDNS" class="internal-link" target="_self" rel="noopener nofollow">prefetchDNS</a> para cargar de antemano un llamado Fetch y no cargue mucho tiempo en ello.<br><a data-href="preinit" href="\preinit" class="internal-link" target="_self" rel="noopener nofollow">preinit</a> para cargar con mas prioridad<br>Y <a data-href="preconnet" href="\preconnet" class="internal-link" target="_self" rel="noopener nofollow">preconnet</a> es parecido pero con menos prioridad]]></description><link>curso_react\react_19\preloading-resources.html</link><guid isPermaLink="false">Curso_React/React_19/Preloading resources.md</guid><pubDate>Mon, 02 Jun 2025 15:14:54 GMT</pubDate><enclosure url="lib\media\pasted-image-20250602170222.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\pasted-image-20250602170222.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[ref as a props]]></title><description><![CDATA[ 
+ <br>Antiguamente se usaba <a data-href="useRef" href="\curso_react\hoks\useref.html" class="internal-link" target="_self" rel="noopener nofollow">useRef</a> pasando la referencia pero usando forwarRef y era un poco mas complejo pasarle la referencia pero ahora <a data-href="React" href="\curso_react\react.html" class="internal-link" target="_self" rel="noopener nofollow">React</a> 19.1 tiene compatibilidad para pasar la referencia por props sin necesidad de usar forwarRef como antes.<br>Pasar la referencia directamente:<br>const Input = ({ref}) =&gt;{
+	return &lt;input ref{ref} placeholder'Ej.' type 'text' /&gt;
+}
+
+
+export function Form () {
+	const inputRef = useRef()
+
+	const focusInput = () =&gt;{
+		if(inputRef.current){
+			inputRef.current.focus();
+		}
+	}
+	return (
+		&lt;div&gt;
+			&lt;form&gt;
+				&lt;Input ref={inputRef}/&gt; {
+					//Se pasa directamente sin usar forwardRef
+				}
+			&lt;/form&gt;
+		&lt;/div&gt;
+	)
+}
+]]></description><link>curso_react\react_19\ref-as-a-props.html</link><guid isPermaLink="false">Curso_React/React_19/ref as a props.md</guid><pubDate>Mon, 02 Jun 2025 15:23:36 GMT</pubDate></item><item><title><![CDATA[useActionState]]></title><description><![CDATA[ 
  <br>Es un <a data-tooltip-position="top" aria-label="Hooks" data-href="Hooks" href="\curso_react\hooks.html" class="internal-link" target="_self" rel="noopener nofollow">hook</a>  que permite actualizar el estado con el resultado del  form action.<br>const [state, formAction, isPending] = useActionState(fn, initialState, permalink?);
 <br><br>
 <br>fn: Funcion o action que cambia el estado y ejecuta.
@@ -6730,7 +6865,62 @@ const [optimisticState, addOptimistic] = useOptimistic(
 	);  
 }
 <br>state: devuelve el valor inicial siempre que no haya un action pendiente.<br>
-updateFn(currentState, optimisticValue): la función que realiza el cambio.]]></description><link>curso_react\react_19\useoptimistic.html</link><guid isPermaLink="false">Curso_React/React_19/useOptimistic.md</guid><pubDate>Mon, 12 May 2025 13:55:05 GMT</pubDate></item><item><title><![CDATA[Atributos React]]></title><description><![CDATA[ 
+updateFn(currentState, optimisticValue): la función que realiza el cambio.<br>El state se usa para gaurdar el estado inicial en caso de fallar el llamado de una API este devolvera el estado inicial sin cambiar, por lo que visualmente el usuario no lo nota.<br>const [messages,setMessagges] = useState({
+	{text:'Hola mundo',sending:false,key:1}
+})
+
+const [optimisticMessages, addOptimisticMessage] = useOptimistic(massages, (state,newMessage) =&gt;[
+	...state,
+	{
+		text:newMessage,
+		sending:true
+	}
+])
+
+
+async function formAction (formData) {
+	formRef.current.reset()
+	addOptimisticMessage(formData.get('message'))//Usamos antes
+
+	try{
+		const sentMessage = await deliverMessage(formData.get('message'))
+		setMessages((messages) =&gt; [...messages,{text:sentMessage}])
+	}catch(e) {
+		setMessages(messages)
+	}
+}
+
+
+return (&lt;&gt;
+	{optimisticMessages.map((message,index) =&gt; (
+		&lt;div key={index}&gt;
+			{message.text}
+			{!!message.sending &amp;&amp; &lt;small&gt; (Enviando...) &lt;/small&gt;}
+		&lt;/div&gt;
+	))}
+&lt;/&gt;)
+]]></description><link>curso_react\react_19\useoptimistic.html</link><guid isPermaLink="false">Curso_React/React_19/useOptimistic.md</guid><pubDate>Fri, 06 Jun 2025 15:32:58 GMT</pubDate></item><item><title><![CDATA[useTransition]]></title><description><![CDATA[ 
+ <br><a data-href="Hooks" href="\curso_react\hooks.html" class="internal-link" target="_self" rel="noopener nofollow">Hooks</a> para controlar las transciones solo renderizarlo una vez y dejar que el control lo lleve useTransition<br>Este permite delegar el estado y cambiando solo. Podemos usarlo para cargar transiciones de la UI sin estar procupando del estado.<br>const [name,setName] = useState('')
+const [isPending,startTransition] = useTransition();
+
+
+const handleSubmit = async (e) =&gt;{
+
+	e.preventDefault()
+
+	startTransition(async() =&gt;{//Comienza isPending
+		const error = await updateName(name)
+
+		if(error){
+			setError(error)
+			setResult('')
+		}else{
+			setResult(name)
+			setError(null)
+		}
+	})
+}
+]]></description><link>curso_react\react_19\usetransition.html</link><guid isPermaLink="false">Curso_React/React_19/useTransition.md</guid><pubDate>Thu, 05 Jun 2025 15:06:02 GMT</pubDate></item><item><title><![CDATA[Atributos React]]></title><description><![CDATA[ 
  <br>Son una lista de palabras clave que forman parte de <a data-href="JSX" href="\curso_react\jsx.html" class="internal-link" target="_self" rel="noopener nofollow">JSX</a> para poder usarlas en <a data-href="Elemento" href="\curso_react\elemento.html" class="internal-link" target="_self" rel="noopener nofollow">Elemento</a> o <a data-href="Componente Funcional" href="\curso_react\componente-funcional.html" class="internal-link" target="_self" rel="noopener nofollow">Componente Funcional</a><br>Como el atributo <a data-href="Style" href="\curso_react\style.html" class="internal-link" target="_self" rel="noopener nofollow">Style</a> entre otros tenemos accept, acepptCharset, accessKey, etc.<br>Para poder los otros atributos tenemos a la pagina [fuente(https://reactjs.org/docs/dom-elements.html)].]]></description><link>curso_react\atributos-react.html</link><guid isPermaLink="false">Curso_React/Atributos React.md</guid><pubDate>Mon, 25 Dec 2023 22:57:05 GMT</pubDate></item><item><title><![CDATA[Componente de Clase]]></title><description><![CDATA[ 
  <br>Clase de ES6 que retorna un elemento JSX<br><img alt="componente_declase.png" src="\lib\media\componente_declase.png"><br>Se debe definir una función llamada render()<br><br>
 <br>Debe extender o heredar Reac.Component
@@ -14656,7 +14846,7 @@ button {
 &lt;/style&gt;
 
 ]]></description><link>vue\style-scoped.html</link><guid isPermaLink="false">Vue/Style Scoped.md</guid><pubDate>Sun, 19 Jan 2025 08:10:36 GMT</pubDate></item><item><title><![CDATA[Vue X]]></title><description><![CDATA[ 
- <br>Es una librería compatible con <a data-href="Vue 3" href="\Vue 3" class="internal-link" target="_self" rel="noopener nofollow">Vue 3</a> para controlar el estado global de nuestra aplicación.<br><br>Usando <a data-href="ref" href="\vue\ref.html" class="internal-link" target="_self" rel="noopener nofollow">ref</a> :<br>&lt;template&gt;
+ <br>Es una librería compatible con <a data-href="Vue 3" href="\Vue 3" class="internal-link" target="_self" rel="noopener nofollow">Vue 3</a> para controlar el estado global de nuestra aplicación.<br><br>Usando <a data-href="Vue/ref" href="\vue\ref.html" class="internal-link" target="_self" rel="noopener nofollow">Vue/ref</a> :<br>&lt;template&gt;
   &lt;div&gt;
     &lt;h1&gt;Contador Local&lt;/h1&gt;
     &lt;p&gt;Valor: {{ count }}&lt;/p&gt;
@@ -14727,7 +14917,7 @@ export default {
   },
 };
 &lt;/script&gt;
-]]></description><link>vue\vue-x.html</link><guid isPermaLink="false">Vue/Vue X.md</guid><pubDate>Sun, 19 Jan 2025 09:02:16 GMT</pubDate></item><item><title><![CDATA[Indice]]></title><description><![CDATA[ 
+]]></description><link>vue\vue-x.html</link><guid isPermaLink="false">Vue/Vue X.md</guid><pubDate>Tue, 13 May 2025 12:57:38 GMT</pubDate></item><item><title><![CDATA[Indice]]></title><description><![CDATA[ 
  <br>
 <br><a data-href="PSP" href="\programacion-de-servicios-y-procesos\psp.html" class="internal-link" target="_self" rel="noopener nofollow">PSP</a>&nbsp;(Programación de servicios y procesos)
 <br><a data-href="PMDM" href="\programacion-de-multimedia-y-dispositivos-moviles\pmdm.html" class="internal-link" target="_self" rel="noopener nofollow">PMDM</a>&nbsp;(Programación de multimedia y dispositivos móviles)
