@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Programacion]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Programacion</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 06 Jun 2025 15:35:11 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 06 Jun 2025 15:33:43 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[1 Casos prácticos (elegir uno)]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Programacion]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Programacion</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 03 Aug 2025 16:24:23 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 03 Aug 2025 16:23:11 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[1 Casos prácticos (elegir uno)]]></title><description><![CDATA[ 
  <br>Ejemplos de proyectos que incluirán elementos de persistencia, servicios, controladores, relaciones entre entidades, APIs, e interfaces web. <br>
 <br>
 Sistema de Reservas para un Hotel (ejemplo, no elegir): Gestiona reservas de habitaciones, clientes y servicios del hotel. Las habitaciones pueden tener múltiples reservas (OneToMany) y los clientes pueden tener múltiples reservas (OneToMany).
@@ -4605,7 +4605,59 @@ miModal.addEventListener('shown.bs.modal', function () {
   let modal = new bootstrap.Modal(document.getElementById('miModal'));
   modal.hide();
 }, 5000); // Se cierra después de 5 segundos
-<br><br>Con estas configuraciones, los modales en Bootstrap pueden adaptarse a diferentes necesidades y mejorar la experiencia de usuario.]]></description><link>boostrap-curso\modals.html</link><guid isPermaLink="false">BOOSTRAP - Curso/Modals.md</guid><pubDate>Thu, 20 Feb 2025 10:17:36 GMT</pubDate></item><item><title><![CDATA[Introducción a CSS]]></title><description><![CDATA[ 
+<br><br>Con estas configuraciones, los modales en Bootstrap pueden adaptarse a diferentes necesidades y mejorar la experiencia de usuario.]]></description><link>boostrap-curso\modals.html</link><guid isPermaLink="false">BOOSTRAP - Curso/Modals.md</guid><pubDate>Thu, 20 Feb 2025 10:17:36 GMT</pubDate></item><item><title><![CDATA[@keyframe y Animaciones]]></title><description><![CDATA[ 
+ <br>Regla de <a data-href="Css" href="\css\css.html" class="internal-link" target="_self" rel="noopener nofollow">Css</a> que nosotros definimos en un @keyframe y cuanta con un nombre, que podemos usar en conjunto con otras propiedades. Para hacer una animación<br>/* The animation code */  
+@keyframes example {  
+  from {background-color: red;}  
+  to {background-color: yellow;}
+ }  
+  
+/* The element to apply the animation to */  
+div {  
+  width: 100px;  
+  height: 100px;  
+  background-color: red;  
+  animation-name: example;  
+  animation-duration: 4s;
+  }
+<br>Llama a div y la animación se ejecuta con el div, con duration controlamos el tiempo del mismo. Dentro de las reglas @keyframe podemos ser mas específicos usando porcentaje:<br>/* The animation code */  
+@keyframes example {  0%   {background-color: red;}  
+  25%  {background-color: yellow;}  
+  50%  {background-color: blue;}  
+  100% {background-color: green;}}  
+  
+/* The element to apply the animation to */  
+div {  
+  width: 100px;  
+  height: 100px;  
+  background-color: red;  
+  animation-name: example;  
+  animation-duration: 4s;
+  }
+<br><br>Contamos con animation-delay  que define el diley en la animación.<br>div {  
+  width: 100px;  
+  height: 100px;  
+  position: relative;  
+  background-color: red;  
+  animation-name: example;  
+  animation-duration: 4s;  
+  animation-delay: 2s; /*si usamos negativos empezara desde el tiempo que coencida (-2 segundo empezara por la mitad)*/
+ }
+<br>La animation-iteration-count es la propiedad que permite controla la cantidad de iteraciones o veces que se ejecute la animación.<br>Podemos definir un numero o hacerlo de manera infinita con el valor infinite<br><br>Tenemos una serie de propiedades que permiten controlar el orden, la propiedad que hace ello es animation-direction, sus valores son, normal,reverse ejecuta en el orden contrario,alternate primero hacia adelante y luego hacia atrás,alternate-reverse se reproduce primero hacia atrás, y luego hacia adelante.<br><br>La propiedad se llama animation-timing-funtion, tiene los siguientes valores:<br>
+<br>ease: Empieza lento, rápido para terminar lento.
+<br>linear:  Misma velocidad.
+<br>ease-in: Inicio lento.
+<br>ease-out : Final lento
+<br>cubic-bezier(n,n,n,n): Nosotros definimos la velocidad.
+<br><a data-tooltip-position="top" aria-label="https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation_speed" rel="noopener nofollow" class="external-link" href="https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation_speed" target="_blank">Ejemplo practico</a>]]></description><link>css\@keyframe-y-animaciones.html</link><guid isPermaLink="false">Css/@keyframe y Animaciones.md</guid><pubDate>Mon, 14 Jul 2025 09:24:41 GMT</pubDate></item><item><title><![CDATA[Box shadow]]></title><description><![CDATA[ 
+ <br>Propiedad de <a data-tooltip-position="top" aria-label="Css" data-href="Css" href="\css\css.html" class="internal-link" target="_self" rel="noopener nofollow">CSS</a> que permite brindar sombra a los contenedores de nuestra página. <br>.neon-basico{
+	box-shadow:3px -2pc 7px 1px #FF1493
+}
+/*No hace falta colocar los cuatros valores pero es para indicar el tamaño de la sombra en cada eje, si no se coloca se aplicaran el mismo tamaño en todos los lados*/
+<br><img alt="neon-boton.png" src="\css\neon-boton.png"><br>Los primeros dos valores son para indicar que tan desplazado estará cada sombra de los dos ejes vertical y horizontal. El tercer valor permite decidir que tan difuminoso queremos que este nuestra sombra. El ultimo valor nos permite expandir tanto la difuminación como la sombra como tal.<br><br>Se puede suporponer varias sombras sobre otra brindando.<br>.neon-basico-potenciado{
+	box-shadow: 0 0 7px 1px #FF1493, 0 0 7px 1px #FF1493;
+}
+<br><img alt="neon-boton-potenciado.png" src="\css\neon-boton-potenciado.png">]]></description><link>css\box-shadow.html</link><guid isPermaLink="false">Css/Box shadow.md</guid><pubDate>Sat, 12 Jul 2025 23:00:21 GMT</pubDate><enclosure url="css\neon-boton.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;css\neon-boton.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Introducción a CSS]]></title><description><![CDATA[ 
  <br><br><br>CSS (Cascading Style Sheets) es un lenguaje de estilos utilizado para definir la presentación de documentos HTML. Permite controlar la apariencia de las páginas web de manera estructurada y eficiente.<br><br><br>Es recomendable enlazar los estilos CSS mediante un archivo externo en lugar de escribirlos directamente en el HTML.<br>&lt;link rel="stylesheet" href="styles.css"&gt;
 <br>Esto facilita la mantenibilidad y reutilización del código.<br><br>No se recomienda definir estilos directamente en las etiquetas HTML, ya que dificulta la separación de la estructura y el diseño.<br>❌ Mala práctica:<br>&lt;p style="color: red; font-size: 20px;"&gt;Texto rojo&lt;/p&gt;
 <br>✔ Buena práctica:<br>p {
@@ -4632,16 +4684,14 @@ miModal.addEventListener('shown.bs.modal', function () {
 <br><a data-tooltip-position="top" aria-label="https://joakingc.github.io/notes-JS/CSS%20(Jon%20Mircha).html" rel="noopener nofollow" class="external-link" href="https://joakingc.github.io/notes-JS/CSS%20(Jon%20Mircha).html" target="_blank">Antiguas Notas de CSS</a>
 ]]></description><link>css\css.html</link><guid isPermaLink="false">Css/Css.md</guid><pubDate>Wed, 19 Mar 2025 11:28:32 GMT</pubDate></item><item><title><![CDATA[Introducción a CSS]]></title><description><![CDATA[ 
  <br><br><br>
-<br>
-Fundamentos de CSS
+<br>Fundamentos de <a data-tooltip-position="top" aria-label="Css" data-href="Css" href="\css\css.html" class="internal-link" target="_self" rel="noopener nofollow">CSS</a>
 
 <br>¿Qué es CSS?
 <br>Sintaxis básica
 <br>Diferentes formas de aplicar CSS (en línea, interno, externo)
 
 
-<br>
-Selectores en CSS
+<br><a data-href="Selectores" href="\Selectores" class="internal-link" target="_self" rel="noopener nofollow">Selectores</a> en CSS
 
 <br>Selectores básicos (p, div, span)
 <br>Selectores de clases (.clase)
@@ -4650,20 +4700,18 @@ Selectores en CSS
 <br>Selectores combinadores (&gt;, +, ~)
 
 
-<br>
-Modelo de Caja en CSS
+<br>Modelo de Caja en CSS
 
-<br>Margen (margin)
-<br>Relleno (padding)
-<br>Borde (border)
-<br>Tamaño de contenido (width, height)
-<br>Propiedad box-sizing
+<br><a data-href="Margen" href="\Margen" class="internal-link" target="_self" rel="noopener nofollow">Margen</a> (margin)
+<br><a data-href="Relleno" href="\Relleno" class="internal-link" target="_self" rel="noopener nofollow">Relleno</a> (padding)
+<br><a data-href="Borde" href="\Borde" class="internal-link" target="_self" rel="noopener nofollow">Borde</a> (border)
+<br><a data-href="Tamaño de contenido" href="\Tamaño de contenido" class="internal-link" target="_self" rel="noopener nofollow">Tamaño de contenido</a> (width, height)
+<br>Propiedad <a data-href="box-sizing" href="\box-sizing" class="internal-link" target="_self" rel="noopener nofollow">box-sizing</a>
 
 
-<br>
-Diseño y Maquetación
+<br>Diseño y Maquetación
 
-<br>Flexbox
+<br><a data-tooltip-position="top" aria-label="Flex" data-href="Flex" href="\flex\flex.html" class="internal-link" target="_self" rel="noopener nofollow">Flexbox</a>
 
 <br>display: flex
 <br>justify-content
@@ -4672,30 +4720,28 @@ Diseño y Maquetación
 <br>flex-wrap
 
 
-<br>Grid Layout
+<br><a data-tooltip-position="top" aria-label="Grid" data-href="Grid" href="\grid\grid.html" class="internal-link" target="_self" rel="noopener nofollow">Grid Layout</a>
 
 <br>display: grid
 <br>grid-template-columns y grid-template-rows
 <br>gap, justify-items, align-items
 
 
-<br>Positioning
+<br><a data-href="Positioning" href="\Positioning" class="internal-link" target="_self" rel="noopener nofollow">Positioning</a>
 
 <br>static, relative, absolute, fixed, sticky
 
 
 
 
-<br>
-Colores y Fondos
+<br><a data-href="Colores y Fondos" href="\Colores y Fondos" class="internal-link" target="_self" rel="noopener nofollow">Colores y Fondos</a>
 
 <br>Propiedades color, background-color, opacity
 <br>Degradados (linear-gradient, radial-gradient)
 <br>Imágenes de fondo (background-image, background-size, background-position)
 
 
-<br>
-Tipografía y Texto
+<br><a data-href="Tipografía y Texto" href="\Tipografía y Texto" class="internal-link" target="_self" rel="noopener nofollow">Tipografía y Texto</a>
 
 <br>Propiedad font-family
 <br>Tamaño de fuente (font-size)
@@ -4703,24 +4749,21 @@ Tipografía y Texto
 <br>Estilos (text-align, text-decoration, letter-spacing, line-height)
 
 
-<br>
-Animaciones y Transiciones
+<br><a data-tooltip-position="top" aria-label="@keyframe y Animaciones" data-href="@keyframe y Animaciones" href="\css\@keyframe-y-animaciones.html" class="internal-link" target="_self" rel="noopener nofollow">Animaciones y Transiciones</a>
 
 <br>transition
 <br>transform
 <br>animation y @keyframes
 
 
-<br>
-Variables y Personalización en CSS
+<br><a data-tooltip-position="top" aria-label="variables de css" data-href="variables de css" href="\variables de css" class="internal-link" target="_self" rel="noopener nofollow">Variables</a> y Personalización en CSS
 
 <br>Variables CSS (--nombre-variable)
 <br>Uso de var()
 <br>Tema claro y oscuro con CSS
 
 
-<br>
-Buenas Prácticas en CSS
+<br><a data-href="Buenas Prácticas en CSS" href="\Buenas Prácticas en CSS" class="internal-link" target="_self" rel="noopener nofollow">Buenas Prácticas en CSS</a>
 
 <br>Uso de archivos externos
 <br>Organización del código CSS
@@ -4728,8 +4771,7 @@ Buenas Prácticas en CSS
 <br>Uso de clases en lugar de IDs
 
 
-<br>
-Recursos y Herramientas Útiles
+<br>Recursos y Herramientas Útiles
 
 <br><a data-tooltip-position="top" aria-label="https://codeguide.co/" rel="noopener nofollow" class="external-link" href="https://codeguide.co/" target="_blank">Guía de buenas prácticas en CSS</a>
 <br><a data-tooltip-position="top" aria-label="https://cssreference.io/" rel="noopener nofollow" class="external-link" href="https://cssreference.io/" target="_blank">Referencia completa de CSS</a>
@@ -4759,7 +4801,7 @@ Recursos y Herramientas Útiles
 <br><br>
 <br><a data-tooltip-position="top" aria-label="https://codeguide.co/" rel="noopener nofollow" class="external-link" href="https://codeguide.co/" target="_blank">Guía de buenas prácticas en CSS</a>
 <br><a data-tooltip-position="top" aria-label="https://cssreference.io/" rel="noopener nofollow" class="external-link" href="https://cssreference.io/" target="_blank">Referencia completa de CSS</a>
-<br>Siguiendo estas recomendaciones, podrás escribir código CSS más limpio, mantenible y eficiente.]]></description><link>css\indice-css.html</link><guid isPermaLink="false">Css/Indice CSS.md</guid><pubDate>Wed, 19 Mar 2025 11:31:19 GMT</pubDate></item><item><title><![CDATA[Accesos a datos de un tensor]]></title><description><![CDATA[ 
+<br>Siguiendo estas recomendaciones, podrás escribir código CSS más limpio, mantenible y eficiente.]]></description><link>css\indice-css.html</link><guid isPermaLink="false">Css/Indice CSS.md</guid><pubDate>Mon, 14 Jul 2025 09:30:26 GMT</pubDate></item><item><title><![CDATA[Accesos a datos de un tensor]]></title><description><![CDATA[ 
  <br>Para acceder a un tensor creado por el módulo de <a data-href="tf" href="\curso-tenseflow\tf.html" class="internal-link" target="_self" rel="noopener nofollow">tf</a>, tenemos el método:<br>
 <br>.data(): Este devuelve una promesa, por lo que debemos usar los métodos de asincronía de JavaScript para obtener los datos.  
 <br><br>const val = [];
@@ -6690,7 +6732,7 @@ export function UserContextProvider({children}){
 	},[])
 
 	return (
-		&lt;UserContext value={{name,isLogged,updateUser}}
+		&lt;UserContext value={{name,isLogged,updateUser}}/&gt;
 			{children}
 		&lt;/UserContext&gt;
 	)
@@ -6712,7 +6754,7 @@ export funtion UseContextExample(){
 }
 
 //Cuando llamamos a nuestro estado global ya es 
-<br>Recomendable usar un custom hook mas que usar use, el uso de uso permite usarlo sin estar obligado a cumplir las reglas de un <a data-href="Hooks" href="\curso_react\hooks.html" class="internal-link" target="_self" rel="noopener nofollow">Hooks</a> como sucedia con useContext.]]></description><link>curso_react\react_19\api-use.html</link><guid isPermaLink="false">Curso_React/React_19/API use.md</guid><pubDate>Thu, 05 Jun 2025 14:55:53 GMT</pubDate></item><item><title><![CDATA[metadata]]></title><description><![CDATA[ 
+<br>Recomendable usar un custom hook mas que usar use, el uso de uso permite usarlo sin estar obligado a cumplir las reglas de un <a data-href="Hooks" href="\curso_react\hooks.html" class="internal-link" target="_self" rel="noopener nofollow">Hooks</a> como sucedia con useContext.]]></description><link>curso_react\react_19\api-use.html</link><guid isPermaLink="false">Curso_React/React_19/API use.md</guid><pubDate>Tue, 01 Jul 2025 11:23:59 GMT</pubDate></item><item><title><![CDATA[metadata]]></title><description><![CDATA[ 
  <br>A partir de <a data-href="React" href="\curso_react\react.html" class="internal-link" target="_self" rel="noopener nofollow">React</a> 19 nosotros podremos pasar metadatos en nuestros componentes sin hacerlo de manera compleja antes si se buscaba hacer que title cambiara de forma dinámica tenias varias formas, usando <a data-href="useEffect" href="\curso_react\hoks\useeffect.html" class="internal-link" target="_self" rel="noopener nofollow">useEffect</a> que permitía cambiar dependiendo de las dependencias que le pasáramos.<br>//antes
 
 function App() =&gt;{
@@ -6745,7 +6787,7 @@ function App() =&gt;{
 <br><a data-href="Actions" href="\curso_react\react_19\actions.html" class="internal-link" target="_self" rel="noopener nofollow">Actions</a>
 <br><a data-href="useOptimistic" href="\curso_react\react_19\useoptimistic.html" class="internal-link" target="_self" rel="noopener nofollow">useOptimistic</a>
 <br><a data-href="useActionState" href="\curso_react\react_19\useactionstate.html" class="internal-link" target="_self" rel="noopener nofollow">useActionState</a>
-<br><a data-href="form Props action" href="\form Props action" class="internal-link" target="_self" rel="noopener nofollow">form Props action</a>
+<br><a data-href="form Props action" href="\form-props-action.html" class="internal-link" target="_self" rel="noopener nofollow">form Props action</a>
 <br><a data-href="useFormStatus" href="\curso_react\react_19\useformstatus.html" class="internal-link" target="_self" rel="noopener nofollow">useFormStatus</a>
 <br><a data-tooltip-position="top" aria-label="API use" data-href="API use" href="\curso_react\react_19\api-use.html" class="internal-link" target="_self" rel="noopener nofollow">new API use</a>
 <br><a data-href="ref as a props" href="\curso_react\react_19\ref-as-a-props.html" class="internal-link" target="_self" rel="noopener nofollow">ref as a props</a>
@@ -6850,7 +6892,7 @@ export default function App() {
 		&lt;/form&gt;  
 	);  
 }
-<br>La información que brinda de pending o pendiente le permite controlar el estado del botón y desactivarlo y activarlo cuando sea necesario<br>Si los componentes hijos no esta dentro del componente del form is pending devolverá false siempre.<br><a data-tooltip-position="top" aria-label="https://react.dev/reference/react-dom/hooks/useFormStatus" rel="noopener nofollow" class="external-link" href="https://react.dev/reference/react-dom/hooks/useFormStatus" target="_blank">Oficial Documentation</a>]]></description><link>curso_react\react_19\useformstatus.html</link><guid isPermaLink="false">Curso_React/React_19/useFormStatus.md</guid><pubDate>Mon, 12 May 2025 14:50:11 GMT</pubDate></item><item><title><![CDATA[useOptimistic]]></title><description><![CDATA[ 
+<br>La información que brinda de pending o pendiente le permite controlar el estado del botón y desactivarlo y activarlo cuando sea necesario<br>Si los componentes hijos no esta dentro del componente del form is pending devolverá false siempre.<br><a data-tooltip-position="top" aria-label="https://react.dev/reference/react-dom/hooks/useFormStatus" rel="noopener nofollow" class="external-link" href="https://react.dev/reference/react-dom/hooks/useFormStatus" target="_blank">Oficial Documentation</a>]]></description><link>curso_react\react_19\useformstatus.html</link><guid isPermaLink="false">Curso_React/React_19/useFormStatus.md</guid><pubDate>Wed, 09 Jul 2025 09:04:54 GMT</pubDate></item><item><title><![CDATA[useOptimistic]]></title><description><![CDATA[ 
  <br><a data-tooltip-position="top" aria-label="Hooks" data-href="Hooks" href="\curso_react\hooks.html" class="internal-link" target="_self" rel="noopener nofollow">Hook</a> de <a data-href="React" href="\curso_react\react.html" class="internal-link" target="_self" rel="noopener nofollow">React</a> que permite mostrar un estado mientras se realiza un <a data-tooltip-position="top" aria-label="Actions" data-href="Actions" href="\curso_react\react_19\actions.html" class="internal-link" target="_self" rel="noopener nofollow">action</a> para la actualización del estado. Cunado termina la actulización el estado cambia a la vez devolviendo una copia.<br>import { useOptimistic } from 'react';  
 
 
@@ -6869,7 +6911,7 @@ updateFn(currentState, optimisticValue): la función que realiza el cambio.<br>E
 	{text:'Hola mundo',sending:false,key:1}
 })
 
-const [optimisticMessages, addOptimisticMessage] = useOptimistic(massages, (state,newMessage) =&gt;[
+const [optimisticMessages, addOptimisticMessage] = useOptimistic(massages, (state,newMessage) =&gt;[m
 	...state,
 	{
 		text:newMessage,
@@ -6899,7 +6941,7 @@ return (&lt;&gt;
 		&lt;/div&gt;
 	))}
 &lt;/&gt;)
-]]></description><link>curso_react\react_19\useoptimistic.html</link><guid isPermaLink="false">Curso_React/React_19/useOptimistic.md</guid><pubDate>Fri, 06 Jun 2025 15:32:58 GMT</pubDate></item><item><title><![CDATA[useTransition]]></title><description><![CDATA[ 
+]]></description><link>curso_react\react_19\useoptimistic.html</link><guid isPermaLink="false">Curso_React/React_19/useOptimistic.md</guid><pubDate>Fri, 06 Jun 2025 15:36:56 GMT</pubDate></item><item><title><![CDATA[useTransition]]></title><description><![CDATA[ 
  <br><a data-href="Hooks" href="\curso_react\hooks.html" class="internal-link" target="_self" rel="noopener nofollow">Hooks</a> para controlar las transciones solo renderizarlo una vez y dejar que el control lo lleve useTransition<br>Este permite delegar el estado y cambiando solo. Podemos usarlo para cargar transiciones de la UI sin estar procupando del estado.<br>const [name,setName] = useState('')
 const [isPending,startTransition] = useTransition();
 
@@ -11452,7 +11494,7 @@ Constantes:<br>
 <br><a data-href="Comparación entre Next.js y React puro" href="\next.js\comparación-entre-next.js-y-react-puro.html" class="internal-link" target="_self" rel="noopener nofollow">Comparación entre Next.js y React puro</a>
 <br><a data-href="Recursos y documentación adicional" href="\next.js\recursos-y-documentación-adicional.html" class="internal-link" target="_self" rel="noopener nofollow">Recursos y documentación adicional</a>
 ]]></description><link>next.js\indice.html</link><guid isPermaLink="false">Next.js/Indice.md</guid><pubDate>Thu, 13 Feb 2025 11:54:05 GMT</pubDate></item><item><title><![CDATA[Introducción a Next.js]]></title><description><![CDATA[ 
- <br>Next.js es un framework de React creado por Vercel que ofrece características avanzadas para construir aplicaciones modernas. Su mayor ventaja es la posibilidad de elegir entre diferentes estrategias de renderización: Server-Side Rendering (SSR), Static Site Generation (SSG), Client-Side Rendering (CSR) e Incremental Static Regeneration (ISR).]]></description><link>next.js\introducción-a-next.js.html</link><guid isPermaLink="false">Next.js/Introducción a Next.js.md</guid><pubDate>Thu, 13 Feb 2025 11:28:33 GMT</pubDate></item><item><title><![CDATA[Novedades en Next.js 14]]></title><description><![CDATA[ 
+ <br>Next.js es un framework de React creado por Vercel que ofrece características avanzadas para construir aplicaciones modernas. Su mayor ventaja es la posibilidad de elegir entre diferentes estrategias de renderización: Server-Side Rendering (SSR), Static Site Generation (SSG), Client-Side Rendering (CSR) e Incremental Static Regeneration (ISR).<br>Te permite crear paginas estáticas]]></description><link>next.js\introducción-a-next.js.html</link><guid isPermaLink="false">Next.js/Introducción a Next.js.md</guid><pubDate>Fri, 27 Jun 2025 08:22:43 GMT</pubDate></item><item><title><![CDATA[Novedades en Next.js 14]]></title><description><![CDATA[ 
  <br>
 <br>App Router: Introduce mejoras en la gestión de rutas con el sistema de app/.
 <br>Server Actions: Se integran nuevas funcionalidades para mejorar la interactividad en el servidor sin necesidad de API Routes.
@@ -14706,7 +14748,57 @@ Puede ampliarse con módulos verticales para cubrir necesidades específicas.
 🔹 Es clave en sectores como alimentación, farmacéutica, automotriz y logística.  ]]></description><link>sistema-gestion-empresarial\trazabilidad.html</link><guid isPermaLink="false">Sistema-Gestion-Empresarial/Trazabilidad.md</guid><pubDate>Sun, 16 Feb 2025 10:19:28 GMT</pubDate></item><item><title><![CDATA[Svelte]]></title><description><![CDATA[ 
  <br>Svelte es un <a data-href="Framework" href="\curso-spring\framework.html" class="internal-link" target="_self" rel="noopener nofollow">Framework</a> y a la vez un compilador directo que NO usa DOM para tras copilar como <a data-href="React" href="\curso_react\react.html" class="internal-link" target="_self" rel="noopener nofollow">React</a>, Vuet.]]></description><link>sveltekitcurso\svelte.html</link><guid isPermaLink="false">SvelteKitCurso/Svelte.md</guid><pubDate>Sun, 02 Mar 2025 11:13:31 GMT</pubDate></item><item><title><![CDATA[Svelte Kit]]></title><description><![CDATA[ 
  <br>Svelte es un <a data-href="Framework" href="\curso-spring\framework.html" class="internal-link" target="_self" rel="noopener nofollow">Framework</a> y a la vez un compilador directo que NO usa DOM para tras copilar como <a data-href="React" href="\curso_react\react.html" class="internal-link" target="_self" rel="noopener nofollow">React</a>, Vuet.]]></description><link>sveltekitcurso\svelte-kit.html</link><guid isPermaLink="false">SvelteKitCurso/Svelte Kit.md</guid><pubDate>Tue, 25 Mar 2025 15:55:03 GMT</pubDate></item><item><title><![CDATA[API Styles]]></title><description><![CDATA[ 
- <br>Las Apy Styles se dividen dos tipos: <a data-href="Options Api" href="\vue\options-api.html" class="internal-link" target="_self" rel="noopener nofollow">Options Api</a> y <a data-href="Composition Api" href="\vue\composition-api.html" class="internal-link" target="_self" rel="noopener nofollow">Composition Api</a><br>Options Api<br><br>Composition Api<br><br><br>Options API esta mas centrado para aquellos que prefieren usar <a data-href="POO" href="\POO" class="internal-link" target="_self" rel="noopener nofollow">POO</a> como paradigma para poder desarrollar<br>Composition API esta mas centrado para aquellos que prefieren mas libertad y control sobre la reactividad.<br>Ambos te permiten desarrollar componentes complejos o <a data-href="Single-File Components" href="\vue\single-file-components.html" class="internal-link" target="_self" rel="noopener nofollow">Single-File Components</a> o SFC.]]></description><link>vue\api-styles.html</link><guid isPermaLink="false">Vue/API Styles.md</guid><pubDate>Thu, 20 Mar 2025 10:59:49 GMT</pubDate></item><item><title><![CDATA[App Configurations]]></title><description><![CDATA[ 
+ <br>Las Apy Styles se dividen dos tipos: <a data-href="Options Api" href="\vue\options-api.html" class="internal-link" target="_self" rel="noopener nofollow">Options Api</a> y <a data-href="Composition Api" href="\vue\composition-api.html" class="internal-link" target="_self" rel="noopener nofollow">Composition Api</a><br>Options Api<br><br>Es un tipo de <a data-href="API Styles" href="\vue\api-styles.html" class="internal-link" target="_self" rel="noopener nofollow">API Styles</a>, nosotros aqui definimos la lógica de nuestro componente,usando un objecto, dentro del mismo  contiene data, methods  y mounted. Propiedades que definimos en un objecto para nuestra función<br>&lt;script&gt;
+export default {
+  // Properties returned from data() become reactive state
+  // and will be exposed on `this`.
+  data() {
+    return {
+      count: 0
+    }
+  },
+
+  // Methods are functions that mutate state and trigger updates.
+  // They can be bound as event handlers in templates.
+  methods: {
+    increment() {
+      this.count++
+    }
+  },
+
+  // Lifecycle hooks are called at different stages
+  // of a component's lifecycle.
+  // This function will be called when the component is mounted.
+  mounted() {
+    console.log(`The initial count is ${this.count}.`)
+  }
+}
+&lt;/script&gt;
+
+&lt;template&gt;
+  &lt;button @click="increment"&gt;Count is: {{ count }}&lt;/button&gt;
+&lt;/template&gt;
+<br>Composition Api<br><br>Es un tipo de <a data-href="API Styles" href="\vue\api-styles.html" class="internal-link" target="_self" rel="noopener nofollow">API Styles</a> que contiene la lógica de nuestro componente usando API funciones. Se usa &lt;script setup&gt;, setup es el atributo que usamos para decirle a Vue que vamos a crear un componente usando las funciones.<br>&lt;script setup&gt;
+import { ref, onMounted } from 'vue'
+
+// reactive state
+const count = ref(0)
+
+// functions that mutate state and trigger updates
+function increment() {
+  count.value++
+}
+
+// lifecycle hooks
+onMounted(() =&gt; {
+  console.log(`The initial count is ${count.value}.`)
+})
+&lt;/script&gt;
+
+&lt;template&gt;
+  &lt;button @click="increment"&gt;Count is: {{ count }}&lt;/button&gt;
+&lt;/template&gt;
+<br><br>Options API esta mas centrado para aquellos que prefieren usar <a data-href="POO" href="\POO" class="internal-link" target="_self" rel="noopener nofollow">POO</a> como paradigma para poder desarrollar<br>Composition API esta mas centrado para aquellos que prefieren mas libertad y control sobre la reactividad.<br>Ambos te permiten desarrollar componentes complejos o <a data-href="Single-File Components" href="\vue\single-file-components.html" class="internal-link" target="_self" rel="noopener nofollow">Single-File Components</a> o SFC.]]></description><link>vue\api-styles.html</link><guid isPermaLink="false">Vue/API Styles.md</guid><pubDate>Thu, 20 Mar 2025 10:59:49 GMT</pubDate></item><item><title><![CDATA[App Configurations]]></title><description><![CDATA[ 
  <br>Son las configuraciones que podemos hacer a <a data-href="CreateApp" href="\vue\createapp.html" class="internal-link" target="_self" rel="noopener nofollow">CreateApp</a>  una vez instanciado y antes de montarlo. Usando .config.<br><br>La aplicación nos permite configurar errores de distintos nivele en este caso a nivel global.<br>app.config.errorHarler = (err) =&gt;{
 	/*Manejo de error*/
 }
@@ -14917,7 +15009,8 @@ export default {
   },
 };
 &lt;/script&gt;
-]]></description><link>vue\vue-x.html</link><guid isPermaLink="false">Vue/Vue X.md</guid><pubDate>Tue, 13 May 2025 12:57:38 GMT</pubDate></item><item><title><![CDATA[Indice]]></title><description><![CDATA[ 
+]]></description><link>vue\vue-x.html</link><guid isPermaLink="false">Vue/Vue X.md</guid><pubDate>Tue, 13 May 2025 12:57:38 GMT</pubDate></item><item><title><![CDATA[form Props action]]></title><description><![CDATA[ 
+ ]]></description><link>form-props-action.html</link><guid isPermaLink="false">form Props action.md</guid><pubDate>Tue, 01 Jul 2025 09:41:01 GMT</pubDate></item><item><title><![CDATA[Indice]]></title><description><![CDATA[ 
  <br>
 <br><a data-href="PSP" href="\programacion-de-servicios-y-procesos\psp.html" class="internal-link" target="_self" rel="noopener nofollow">PSP</a>&nbsp;(Programación de servicios y procesos)
 <br><a data-href="PMDM" href="\programacion-de-multimedia-y-dispositivos-moviles\pmdm.html" class="internal-link" target="_self" rel="noopener nofollow">PMDM</a>&nbsp;(Programación de multimedia y dispositivos móviles)
